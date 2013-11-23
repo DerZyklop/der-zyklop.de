@@ -1,0 +1,27 @@
+﻿Title: MacBook, RSS und Instagram
+
+----
+
+Date: 09.03.2012
+
+----
+
+Kategory: nerdstuff
+
+----
+
+Text: Drei Neuerungen...
+<h3>MacBook Relunch</h3> Nein - ich meine nicht einen "Neustart". Ich habe  die Gestaltung meines MacBook mal wieder aufgeräumt. Was da bisher drauf war, war mittlerweile etwas abgenutzt. Ich empfehle Jedem, sich mal 1-2 Stunden Zeit zu nehmen um sein Haupt-Arbeitsgerät schick zu machen. Das steigert den Spass an der Arbeit. Zumindest ist das bei mir der Fall.
+
+(image: image.png class:addshadow)
+
+<h3>Blog überarbeitet</h3> Ich habe dafür gesorgt, dass der Directors Cut des RSS-Feed im Reader landet. Ich hasse gekürzte Feeds. Jeder soll selbst die Möglichkeit haben zu entscheiden, wie er seine Medien  futtern will.
+<h3>Bilder</h3> Ich habe einen neuen (link: bilder text: Bilder-Bereich). Alles was dort passiert ist, dass die aktuellsten Bilder per API von meinem Instagram-Stream gezogen werden. Sieht noch etwas rudimentär aus. Funktioniert aber - und das reicht erstmal.
+
+----
+
+Tag: rss,instagram,macbook,design
+
+----
+
+Language: 

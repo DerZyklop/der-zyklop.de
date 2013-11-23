@@ -1,0 +1,21 @@
+﻿Title: Hello World
+
+----
+
+Date: 03.03.2012
+
+----
+
+Kategory: personalstuff, nerdstuff
+
+----
+
+Text: Wie wahrscheinlich jeder zweite, der so einen "Internet-Job" hat, habe ich schon immer den Wunsch irgendwann mal einen Blog zu starten. Here it is.
+
+----
+
+Tag: blog
+
+----
+
+Language: 

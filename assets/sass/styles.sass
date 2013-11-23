@@ -1,0 +1,994 @@
+@font-face
+    font-family: 'Amaranth'
+    src: url('../fonts/Amaranth-webfont.ttf') format('truetype')
+    font-weight: normal
+    font-style: normal
+
+@font-face
+    font-family: 'Amaranth'
+    src: url('../fonts/Amaranth-Bold-webfont.ttf') format('truetype')
+    font-weight: bold
+    font-style: normal
+
+@font-face
+    font-family: 'Droid Serif'
+    src: url('../fonts/DroidSerif.ttf')
+    src: url('../fonts/DroidSerif.ttf') format('truetype')
+    font-weight: normal
+    font-style: normal
+
+@font-face
+    font-family: 'Droid Serif'
+    src: url('../fonts/DroidSerif-Bold.ttf')
+    src: url('../fonts/DroidSerif-Bold.ttf') format('truetype')
+    font-weight: bold
+    font-style: normal
+
+@font-face
+    font-family: 'Droid Serif'
+    src: url('../fonts/DroidSerif-Italic.ttf')
+    src: url('../fonts/DroidSerif-Italic.ttf') format('truetype')
+    font-weight: normal
+    font-style: italic
+
+
+
+@import 'config'
+
+@import 'compass'
+
+@import 'mixins/all'
+
+
++reset
++core
++multi-col
++clearit
++clearfix
++page-width
++typography
++button
++input
++blockquote
++pre
++table
+
++nav
++box
++range
+
++all-responsive
+
+// standard typography elements
+
+body
+    font-size: $font-size
+    line-height: 1.8em
+    line-height: 2em
+    font-family: $font-highlight
+    //padding: 1em 0 6em 0
+    padding: 0
+
+h1, h2, h3, h4, h5, h6
+    font-family: $font-highlight
+    line-height: 1.4em
+
+h1
+    margin: 0
+
+h2, h3, h4, h5, h6
+    margin: 0.3em 0
+
+h1, h2
+    color: $primary
+
+h1
+    font-size: 2.5em
+h2
+    font-size: 2.12em
+h3
+    font-size: 1.88em
+h4
+    font-size: 1.5em
+h5
+    font-size: 1.2em
+h6
+    font-size: 1em
+
+p
+    img
+        margin-top: 0.5em
+p, ul, ol
+    a
+        text-decoration: none
+        &:hover
+            text-decoration: underline
+
+legend
+    color: $border-color - #444
+    font-weight: bold
+
+// NN UI [END]
+
+@import 'icons.sass'
+
+hr
+    height: 1px
+    border: none
+    background: $border-color
+    margin: $space-t-b 0
+
+p
+    margin: $space-t-b 0
+
+iframe.video
+    width: 100%
+    height: 500px
+    @media screen and (max-width: 320px)
+        height: 120px
+    @media screen and (max-width: $breakpoint)
+        height: 400px
+
+#beispiel:target
+    background: #fff
+    border: 4px solid #aa0000
+    padding: 4px
+
+.right
+    float: right
+
+.left
+    float: left
+
+.content
+    margin-top: 2em
+    .article-text
+        font-family: $font-main
+        font-size: 1.2em
+
+.content,
+.footer
+    li, p, blockquote, table
+        a
+            text-decoration: none
+            border:
+                width: 0 0 1px 0
+                style: solid
+                color: $border-color
+                bottom-color: $border-color
+            color: $primary
+            color: $secondary
+        a:hover
+            border:
+                bottom-color: $primary - #333
+            color: $primary
+
+
+
+.img-outer-wrap
+    margin: 1em 0
+    .img-inner-wrap
+        display: block
+        +border-radius(4px)
+        border: 1px solid $border-color
+    a
+        padding: 1em
+        +border-radius(4px)
+        display: block
+        text-decoration: none
+        position: relative
+        +transition(background 0.4s, border-color 0.3s)
+        img
+            +transition(opacity 0.4s)
+            opacity: 1
+        &:hover .description
+            color: $primary
+        &:hover
+            background-position: center center
+            border-color: $border-color - #333
+            img
+                opacity: 0.3
+                background: $quadrary
+
+    .description,
+    .image-likes
+        color: rgba(255,255,255,0.6)
+        border-style: solid
+        border-width: 0
+        border-color: rgba(255,255,255,0.6)
+        background: rgba(255,255,255,0.3)
+        padding: 0.3em 1em
+        line-height: 1.2em
+        +transition(color 0.5s, background 0.5s)
+        right: 0
+        left: 0
+        span
+            font-size: 14px
+    .image-likes
+        +border-radius(4px 4px 0 0)
+        position: absolute
+        top: 0
+        font-weight: bold
+        border-bottom-width: 1px
+    .description
+        +border-radius(0 0 4px 4px)
+        position: absolute
+        text-align: center
+        bottom: 0
+        border-top-width: 1px
+    &:hover a .description,
+    &:hover .image-likes
+        opacity: 1
+        color: #fff
+
+.entry-date
+    +transition(color 0.3s)
+
+blockquote
+    margin: $space-t-b 0
+    background: #F4F4F4
+    padding:
+        left: 30px
+        right: 30px
+        top: 1px
+        bottom: 1px
+    border-left: 4px solid $primary
+    p
+        margin: 0.5em 0
+
+.inner-width-wrap
+    background: $width-wrap-background
+    //border: 1px solid $border-color
+    padding: $space-t-b $space-l-r
+
+h1, h2, h3, h4, h5, h6
+    font-weight: normal
+
+h1, h2
+    color: $tertiary
+
+h3, h4
+    color: $primary - #222
+
+h2, h4
+    border:
+        top: $border-width $border-style $border-color
+        bottom: $border-width $border-style $border-color
+    padding: 0.2em 0.4em
+    margin: 0.8em 0
+    background: $width-wrap-background - #030303
+
+h4
+    font-size: 130%
+
+h5
+    background: $primary - #222
+    color: $primary
+    a, a:hover
+        color: $quadrary
+        text-decoration: none
+    font-size: 120%
+    padding: 0.2em 0.4em
+
+h6
+    text-align: center
+    background: url('../images/ccc.png') center center repeat-x
+    span
+        background: $quadrary
+        padding: 0 1em
+
+@media screen and (max-width: $breakpoint)
+    .inner-width-wrap
+        padding: $space-t-b/2 8%
+    h1, h2, h3, h4, h5, h6
+        line-height: 1.2em
+    h1
+        font-size: 2.0em
+    h2
+        font-size: 1.72em
+    h3
+        font-size: 1.58em
+    h4
+        font-size: 1.3em
+    h5
+        font-size: 1.1em
+    h6
+        font-size: 1em
+
+.flattr-wrap
+    margin: 6px
+
+.no-mobile
+    @media screen and (max-width: $breakpoint)
+        display: none
+
+.taglist
+    margin: $space-t-b 0
+
+.taglist
+    color: $border-color - #222
+    line-height: 2em
+    +transition(0.5s)
+    ul
+        list-style: none
+        padding: 0
+        margin-top: 0
+        display: inline
+        li
+            display: inline
+            a
+                border: none
+                padding: 0.3em 0.5em
+                color: $quadrary
+                background: $border-color
+                +transition(0.5s)
+                &:hover
+                    border: none
+                    background: $primary
+                    color: $quadrary
+
+#disqus_thread iframe #thread-votes
+    display: none
+#disqus_thread
+    margin-top: $space-t-b
+    .main-nav li
+        display: none
+        &.user-menu
+            display: block
+    h4, h5, h6
+        background: transparent
+    .dsq-comment-header
+        @extend h4
+        color: $quadrary
+        a
+            color: $quadrary
+            &:hover
+                border-color: transparent
+        background: $border-color
+        border: none
+        .dsq-commenter-name
+            font-weight: normal
+
+#disqus_thread #dsq-content
+    #dsq-subscribe
+        display: none
+
+#disqus_thread .dsq-comment-meta a, #disqus_thread .dsq-comment-actions a
+    color: $primary - #222
+    opacity: 1
+    +transition(color 0.7s ease)
+    &:hover
+        color: $primary + #191919
+        text-decoration: none
+
+body
+    //background: $body-background
+    background: transparent
+    @media screen and (max-width: $page-width)
+        padding: 0
+        .width-wrap
+            margin-top: 0px
+            margin-bottom: 0px
+
+/* Icons [BEGIN] */
+
+#nav ul li a
+    [class^="icon-"]::before,
+    [class*=" icon-"]::before
+        font-weight: normal
+
+.icon-pxwrk:before
+    font-weight: normal
+    content: "\31"
+.icon-musik:before
+    content: "\36"
+.icon-design:before
+    content: "\64"
+    content: "\44"
+.icon-snapshots:before
+    content: "\32"
+    content: "\69"
+.icon-cult-of-less:before
+    content: "\37"
+.icon-about:before
+    content: "\35"
+.icon-photos:before
+    content: "\32"
+.icon-chevron-up:before
+    content: "\75"
+.icon-chevron-down:before
+    content: "\64"
+    content: "\21"
+
+.icon-podcast:before
+    background:
+        image: url('../images/icon-podcast.png')
+        repeat: no-repeat
+
+/* Icons [END] */
+
+/* Kirby-nav [BEGIN] */
+
+.icon-chevron-up, .icon-chevron-down, #show-nav
+    font-size: 1.8rem
+    text-decoration: none
+
+#nav
+    font-family: $font-highlight
+    font-size: 1.2em
+    display: block
+    overflow: hidden
+    border:
+        color: $quadrary - #111
+        style: $border-style
+        width: $border-width 0 $border-width 0
+    +transition(border-color 0.5s)
+    background: $quadrary - #050505
+    position: relative
+    #close-nav
+        display: none
+    &:hover
+        border-color: $primary
+    ul
+        margin: 0
+        padding: 0
+        display: table
+        width: 100%
+        li:nth-child(2) a
+            &:after
+                content: 'neu!'
+                font-size: 0.8em
+                color: $secondary + #333
+                position: absolute
+                bottom: 0
+                left: 31%
+                @include rotate(-15deg)
+            &:hover:after,
+            &.active:after
+                color: $quadrary
+        li
+            display: table-cell
+            padding-top: 0
+
+            //width: 16.6%
+
+            text-align: center
+
+            list-style: none
+            //font-weight: bold
+            float: none
+            &:first-child
+                border-left: 0px
+            a
+                display: block
+                padding: 10px 0px
+                margin: 0 auto
+                text-decoration: none
+                +transition(background 0.3s, color 0.3s)
+                color: $tertiary
+                &.active,
+                &:hover
+                    color: $quadrary
+                &.active
+                    background: $primary - #222
+                    +box-shadow(0px 2px 20px rgba(0,0,0,0.5) inset)
+                &:hover
+                    background: $primary
+                .icon
+                    display: block
+                    text-align: center
+                    font-size: 1.4rem
+                    vertical-align: middle
+                    line-height: 2rem
+                    padding-right: 0
+                .title
+                    vertical-align: middle
+                    line-height: 2rem
+        #close-nav
+            clear: both
+            float: none !important
+    @media screen and (max-width: $breakpoint)
+        ul
+            display: block
+            li
+                display: block
+                text-align: left
+                a
+                    .icon
+                        display: inline
+                        padding-right: 0.4em
+                        text-align: left
+    @media screen and (min-width: $page-width)
+        ul li a .icon
+            display: inline
+            padding-right: 0.4em
+
+nav.submenu
+    border-top: none
+    margin-bottom: 20px
+    a
+        font-weight: normal
+
+.article-nav, #pagination-nav
+    margin: $space-t-b 0
+    white-space: nowrap
+    a.btn
+        line-height: 60px
+    .prev-btn
+        &.active
+            +transition(margin 0.3s)
+            &:hover
+                margin-left: -1%
+                margin-right: 3%
+        float: left
+        margin-right: 2%
+    .overview-btn
+        width: 40%
+    .next-btn
+        float: right
+        margin-left: 2%
+        &.active
+            +transition(margin 0.3s)
+            &:hover
+                margin-right: -1%
+                margin-left: 3%
+
+#pagination-nav
+    .prev-btn
+        width: 48%
+    .next-btn
+        width: 48%
+
+.article-nav
+    .prev-btn
+        width: 28%
+    .next-btn
+        width: 28%
+    @media screen and (max-width: $breakpoint)
+        .prev-btn
+            width: 48%
+            margin-right: 2%
+        .overview-btn
+            display: none
+        .next-btn
+            width: 48%
+            margin-left: 2%
+
+$options-bar-space: 10px
+
+.options-bar
+    background: $border-color + #222
+    color: $quadrary
+    margin: $space-t-b 0
+    border-top: 1px solid $quadrary
+    border-bottom: 1px solid $quadrary
+    a
+        display: block
+        color: $quadrary
+        text-decoration: none
+    .label,
+    .autorinfo,
+    .supporters-btn
+        display: block
+        box-sizing: border-box
+        padding: $options-bar-space $options-bar-space*3
+        line-height: 40px
+    &.flat
+        .label,
+        .autorinfo,
+        .supporters-btn
+            line-height: 26px
+    .autorinfo,
+    .supporters-btn
+        cursor: pointer
+        border: 1px solid transparent
+        background: $border-color
+        border: 1px solid transparent
+        +transition(background 0.3s, border 0.3s)
+        min-width: $options-bar-space*4+10px
+        border-top-color: $quadrary
+        border-bottom-color: $quadrary
+        margin-top: -1px
+        margin-bottom: -1px
+        &:hover
+            background: $primary
+            border: 1px solid $primary - #222
+    .autorinfo
+        float: left
+        border-right-color: $quadrary
+    .label
+        color: $border-color - #222
+    .label,
+    .supporters-btn
+        float: left
+    .supporters-btn
+        text-align: center
+        position: relative
+        border-left-color: $quadrary
+        &.facebook,
+        &.twitter,
+        &.flattr,
+        &.pinterest
+            font-size: 0
+        &:after
+            position: absolute
+            left: 0
+            right: 0
+            top: $options-bar-space
+            margin: 0 auto
+            display: block
+            content: ' '
+            height: 40px
+            width: 40px
+        &.twitter:after,
+        &.pinterest:after,
+        &.flattr:after,
+        &.facebook:after
+            background:
+                image: url('../images/supporter-icons.png')
+        &.twitter:after
+            background:
+                position: -80px 0
+        &.pinterest:after
+            background:
+                position: -120px 0
+        &.flattr:after
+            background:
+                position: -40px 0
+        &.facebook:after
+            background:
+                position: 0 0
+
+/* Kirby-nav [END] */
+
+/* Header [BEGIN] */
+
+.header
+    margin-bottom: 16px
+    a
+        display: block
+        margin: 8px auto
+    h1
+        padding: 0
+        @media screen and (max-width: $page-width)
+            float: none
+            width: 100%
+        img
+            @media screen and (max-width: 320px)
+                margin: 40px auto 0px
+
+/* Header [END] */
+
+/* Blog [BEGIN] */
+
+.entry-date
+    display: block
+    white-space: nowrap
+    display: inline
+    padding:
+        left: 0.8em
+
+.blog
+    position: relative
+    article
+        padding-top: 0
+        padding-bottom: 5em
+        @media screen and (min-width: $breakpoint)
+            width: 42%
+            margin: 0 4%
+            float: left
+        p
+            margin-bottom: 0.5em
+
+        h2,
+        h2 a,
+        .entry-date
+            +transition(0.2s)
+
+        h2
+            background: $quadrary
+            border: 1px solid $quadrary - #222
+            margin-top: 0
+            padding:
+                left: 0
+                right: 0
+            @media screen and (max-width: $breakpoint)
+                line-height: 1.4em
+                width: 100%
+                margin: 0
+            @media screen and (min-width: $breakpoint)
+                min-height: 74px
+                font-size: 1.5em
+            a
+                padding: 0 0.4em
+                display: block
+                text-decoration: none
+                color: $tertiary
+
+        &.first
+            margin: 0
+            width: auto
+            float: none
+            h2
+                font-size: 2em
+                min-height: 0
+
+        &:hover .entry-date,
+        &:hover h2,
+        &:hover h2 a
+            color: $font-color
+            border-color: $border-color - #333
+        .entry-date
+            float: left
+            padding: 0em 0.8em
+            color: $border-color
+            border:
+                width: 1px 1px 0 1px
+                style: solid
+                color: $width-wrap-background - #111
+            background: $width-wrap-background - #050505
+            @media screen and (max-width: $breakpoint)
+                display: inline
+                position: static
+    .img-outer-wrap
+        margin-top: 1em
+
+.blogarticle
+    .entry-date
+        font-size: 0.5em
+        margin-top: 0.8em
+        line-height: 1em
+    h2
+        +transition(background 0.3s, border-color 0.3s, color 0.3s)
+        &:hover
+            border-color: $border-color - #333
+        &:hover,
+        &:hover .entry-date
+            color: $font-color
+        .entry-date
+            float: right
+            color: $border-color
+            +transition(color 0.3s)
+    .intro
+        margin: 1.6em 0
+        color: $font-color + #222
+        font-weight: bold
+
+/* Blog [END] */
+
+/* Dribbble [BEGIN] */
+
+.dribbble-shot
+    +box-sizing( border-box )
+    width: 42%
+    max-width: 400px
+    margin: 4%
+    float: left
+    .img-outer-wrap
+        max-width: 442px
+        max-width: 100%
+        margin-top: 0
+        margin-bottom: 0
+        a
+            padding: 0
+            background: #000
+    @media screen and (max-width: 700px)
+        width: 100%
+        float: none
+        margin: 0
+        margin-bottom: 2em
+        .img-outer-wrap
+            margin: 0 auto
+            max-width: 442px
+            width: 442px
+
+/* Dribbble [END] */
+
+/* Instagram [BEGIN] */
+
+.instagram
+    margin-bottom: 1em
+    .instagram-photo
+        width: 31%
+        margin: 1%
+        float: left
+        a
+            padding: 0
+            background: #000
+        .img-outer-wrap
+            margin-bottom: 0
+            margin-top: 0
+        @media screen and (max-width: $breakpoint)
+            width: 48%
+            margin: 1%
+        @media screen and (max-width: 390px)
+            width: 100%
+            float: none
+            margin: 0
+
+.instagram-detail img
+    max-width: 100%
+
+.instagram-detail .img-outer-wrap,
+.blogarticle .instagram-photo
+    margin: 0 auto
+    width: 654px
+    max-width: 100%
+
+/* Instagram [END] */
+
+/* Misc [BEGIN] */
+
+.edit
+    padding: 1em 1.6em
+    margin: 30px 0
+    border: 3px solid $primary
+    +box-shadow(0 0 30px rgba(0,0,0,0.3))
+    h4
+        font-size: 140%
+
+.addshadow
+    //+box-shadow(0px 0px 18px #999)
+    //border: 1px solid $primary
+
+.width-wrap
+    max-width: $page-width
+    position: relative
+    margin: 0 auto
+    img
+        max-width: 100%
+        margin: 0 auto
+        +border-radius(4px)
+
+//.img-border
+    //img
+        //border: 1px solid $primary
+
+
+#readingmode
+    max-width: $page-width - 3px - 3px
+    margin: 0 auto
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    z-index: 200
+    display: none
+    +background-image(linear-gradient(#f5f5f5,#eee))
+    text-align: center
+    padding: 0 3px 3px
+    +box-shadow(0px 2px 2px $border-color - #222)
+    .inner
+        color: $border-color - #222
+        border:
+            color: $border-color
+            style: dashed
+            width: 0 0 1px 0
+
+.snippet
+    padding: 3px 3px 0
+    background-color: $secondary
+    background-image: url(../images/ui/noise.png)
+    +border-radius(0 0 $radius $radius)
+    +transition(0.5s)
+    .inner
+        +transition(0.5s)
+        display: block
+        text-decoration: none
+        color: $quadrary
+        text-decoration: none
+        padding: 0.4em 1em
+        border:
+            color: $quadrary
+            style: dashed
+            width: 1px 1px 0 1px
+
+.rss-button
+    position: absolute
+    top: 0
+    right: $space-l-r
+    display: none
+    .snippet
+        position: fixed
+        bottom: 0
+        @media screen and (max-width: $breakpoint)
+            display: none
+        z-index: 100
+        &:hover
+            border:
+                color: $quadrary
+            background: complement($primary) - #222
+            color: $quadrary
+    &.fixed
+        display: block
+
+// #likebtn
+//     $likebtn-size: 10em
+//     background: $primary
+//     +transition(background 0.5s)
+//     color: $quadrary
+//     display: block
+//     margin: $likebtn-size / 2 auto
+//     text-align: center
+//     height: $likebtn-size / 6 * 4
+//     width: $likebtn-size / 6 * 4
+//     +border-radius($likebtn-size)
+//     padding: $likebtn-size / 6
+//     text-decoration: none
+//     span
+//         font-size: 2em
+//         display: block
+//         line-height: $likebtn-size / 6
+//         span
+//             font-size: 1em
+//     &:hover
+//         background: $primary - #333
+//     &.clicked
+//         background: $secondary
+//         &:hover
+//             background: $secondary
+
+
+
+/* Misc [END] */
+
+// Buttons
+
+button, .btn
+    margin: 0
+    cursor: pointer
+    display: block
+    +border-radius($radius)
+    text-align: center
+    color: $quadrary
+    font:
+        weight: bold
+        size: 1rem
+    text-decoration: none
+    line-height: 2.6rem
+    border: 1px
+    border:
+        width: 1px
+        style: solid
+        color: $primary - #222
+    background: $primary
+    +transition(background 0.3s)
+    &:hover
+        background: $primary - #222
+        border-color: $primary - #444
+
+.back-btn
+    float: left
+
+a.passiv-btn, a.passiv-btn:hover
+    border:
+        width: 1px
+        style: solid
+        color: $width-wrap-background - #111
+    background: $width-wrap-background - #050505
+    color: $border-color
+    cursor: default
+
+// Mailchimp
+
+#mc_embed_signup
+    .indicates-required
+        color: $border-color
+        font-size: 14px
+    &:hover .indicates-required
+        color: $primary
+        font-size: 14px
+    input[type="email"]
+        display: block
+    .mc-field-group, .clear
+        margin: $space-t-b 0
+
+#mc_embed_signup ul
+    list-style: none
+    padding: 0
+    margin-top: 0
+
+// Twitter integration
+
+iframe.twitter-tweet-rendered
+    margin: 7px auto !important

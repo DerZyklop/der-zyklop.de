@@ -1,0 +1,120 @@
+﻿Title: Podcast Love #2 - Empfehlungen
+
+----
+
+Date: 04.10.2012
+
+----
+
+Kategory: personalstuff, nerdstuff
+
+----
+
+Text: In meinem vorherigen Blogpost "Podcast Love #2 - Was ist ein Podcast?" habe ich euch erklärt worum es geht. Diesmal folgen also die angekündigten Podcast-Empfehlungen in den Kategorien **Allgemeine Themen**, **Internet-Themen**, **Musik** und **Arbeit**. Viel Spaß beim auschecken.
+
+###### <span>Allgemeine Themen</span>
+
+- (link: http://www.br-online.de/podcast/mp3-download/bayern2/mp3-download-podcast-zuendfunk-generator.shtml text: Zündfunk Generator)
+Beschreibung: Der Zündfunk Generator ist eine Produktion des BR, und damit eigentlich kein "richtiger" Podcast, sondern eine Radiosendung die eben auch im Netz veröffentlicht wird. Sie gehört meiner (und auch (twitter: elishes text: @elishes)) Meinung nach zum besten, was man sich im UKW-Radio so geben kann. Es werden aktuelle Themen ausführlich auseinandergenommen. Journalistisch hochwertig.
+Dauer: 45-60 Minuten
+
+- (link: http://www.tagesschau.de/tagesschau24/ text: Tagesschau in 100 Sekunden)
+Beschreibung: Nö.
+Dauer: 100 Sekunden
+
+- (link: http://www.wir-muessen-twittern.de/dueckantwortet/folge-2-liebe-dich/ text: Die Welt fragt, Dueck antwortet)
+Beschreibung: Wie Welt stellt Fragen über verschiedenste Kommunikations-Wege, und Gunter Dueck, ehemaliger IBM-Manager antwortet. Sehr beeindruckender Kerl, der sich in der Netz-Welt mit seinem Vortrag (link: http://www.youtube.com/watch?v=woA4R3KrACg&feature=related text: "Das internet als Gesellschaftsbetriebssystem") einen Namen gemacht hat.
+Dauer: ~ 60 Minuten
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F58700198&show_artwork=true&show_artwork=true&callback=reqwest_0&_=1349379415272"></iframe>
+
+- (link: http://medienradio.org/mr/mr053-medien-guerilla/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Medienradio_Podcast_RSS+%28Medienradio.org+»+Podcast+%28RSS%29%29 text: Medienradio)
+Beschreibung: Queerbeet-Podcast eines freiberuflichen Berliner Journalisten.
+Verlinkte Folge: Über Medien-Guerilla
+Dauer: ~ 60 Minuten
+
+- (link: http://soziopod.de/2011/12/soziopod-005-religion-sehnsucht-nach-dem-letzten-oder-einfach-nur-budenzauber/ text: Soziopod)
+Beschreibung: Soziologie-Podcast. Gespräch zwischen (twitter: breitenbach text: Herr Breitenbach), ("Medienarchitekt und Markengestalter") und Dr. Nils Köbel (Dozent am Institut für Erziehungswissenschaft der Johannes Gutenberg Universität in Mainz). Die ersten 5-6 Folgen sind äußerst hörenswert, dann wurde es für mich leider uninteressant. Über die aktuelleren kann ich also nichts sagen.
+Verlinkte Folge: Über Religion.
+Dauer: 60-80 Minuten
+
+###### <span>Internet-Themen</span>
+
+- (link: http://logbuch-netzpolitik.de/ text: Logbuch Netzpolitik)
+Beschreibung: Wöchentlicher Podcast von (link: http://netzpolitik.org/author/linus/ text: Linus Neumann) und (link: http://de.wikipedia.org/wiki/Tim_Pritlove text: Tim Pritlove) zu Aktuellen Netzpolitischen Themen. Wem das zu sehr in die Tiefe geht, der schaue sich die nächste Empfehlung "Trackback" an.
+Dauer: ~ 60 Minuten
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F52768635&show_artwork=true&show_artwork=true&callback=reqwest_0&_=1348141543942"></iframe>
+
+- (link: http://chaosradio.ccc.de/chaosradio.html text: Chaosradio)
+Beschreibung: Gesprächsrunde mit Mitgliedern des Chaos Computer Club zu aktuellen Hacker-Themen.
+Dauer: 120 Minuten
+
+- (link: http://trackback.fritz.de/ text: Trackback)
+Beschreibung: Ein Podcast des RBB zu aktuellen "Netz-Themen" von Marcus Richter, Haus-Nerd des RBB, der auch der Moderator von "Chaosradio" ist. So aufbereitet, dass es jeder versteht.
+Dauer: ~ 60 Minuten
+
+- (link: http://wissen.dradio.de/datenschutz-kontrollverlust-im-netz.126.de.html?dram:article_id=220313 text: Dradio Wissen - Online-Talk)
+Beschreibung: Gesprächsrunden über Netz-Themen.
+Verlinkte Folge: Mit und über (twitter: mspro) (Podcaster von "Wir Muessen Reden").
+Dauer: ~ 60 Minuten
+
+- (link: http://mobilemacs.de/ text: Mobile Macs)
+Beschreibung: Ein Haufen Nerds sitzt zusammen und unterhält sich ausgiebig über jede noch so kleine Info, die von, oder über Apple in die Welt gelassen wurde (und hin und wieder auch artverwandte Themen).
+Dauer: Ein paar Stunden
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F56545383&show_artwork=true&show_artwork=true&callback=reqwest_0&_=1348139943666"></iframe>
+
+- (link: http://wir.muessenreden.de/ text: Wir Müssen Reden)
+Beschreibung: Zwei Berliner unterhalten sich über Internet, Welt, Gesellschaft, Publikationen, Politik, Produkte. Manchmal mit Gast, manchmal ohne Gast. Wie Mobile Macs ist auch das einer der sehr ausgiebigen "Laber-Podcasts".
+Dauer: Ein paar Stunden
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F48093367&show_artwork=true&show_artwork=true&callback=reqwest_0&_=1348141119077"></iframe>
+
+###### <span>Musik</span>
+
+- (link: http://mondayjazz.com/MJ167 text: Mondayjazz)
+Beschreibung: Downtempo-/HipHop-/Beats-/Jazz-Podcast. Wechselnde DJ's, und damit abwechslungsreiche Sets.
+Dauer: ~ 60 Minuten
+
+- <a href="http://www.lamplighterblog.com/podcasts" id="lamplighter" >Lamplighter Podcast</a>
+Beschreibung: Psychedelic, Folk, Soul u.a. Hier hauen ein paar Beatbastler (Michum, Harold, Orkid und Kollegen) das raus, was sie auf der Suche nach Samples aus den virtuellen staubigen Plattenkisten kramen. Gute Musik - zu wertvoll für's "zerhackt werden" und erst recht für's "in Vergessenheit geraten". Leider zum jetzigen Zeitpunkt noch nicht in Podcast-fähigen Programmen abonnierbar, aber daran wird gearbeitet.
+Dauer: ~ 60 Minuten
+
+- (link: http://www.deepindub.org/maurizio-miceli-dub-transmission/ text: Deepindub)
+Beschreibung: Dubstep/Dub-Podcast. Sehr angenehm zum Arbeiten. Hintergrundmusik. Geht immer.
+Dauer: 60-100 Minuten
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F55298355&show_artwork=true"></iframe>
+
+- (link: http://soundcloud.com/wickedbad-net/jld-168-nickel-b text: J'aime Le Dubstep #168)
+Beschreibung: Dubstep-Podcast. Manchmal ruhig, manchmal party, manchmal nervig, manchmal überragend.
+Dauer: 30-60 Minuten
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F42877752&show_artwork=true"></iframe>
+
+- (link: http://abstractions-bristol.tumblr.com/post/22433587781?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+AbstractionsBristol+%28Abstractions+Bristol+Mix+Series%29 text: Abstractions Bristol Mix Series)
+Beschreibung: Von Drum'n'Bass habe ich lange nichts neues mehr gehört. Irgendwie schien die Musik verbraucht. Hier habe ich neue Hoffnung gefunden. Drum'n'Bass-Podcast aus Bristol.
+Dauer: ~ 60 Minuten
+
+###### <span>Arbeit</span>
+
+- (link: http://workingdraft.de/ text: Working Draft)
+Beschreibung: Meinungsaustausch über neue Technologien und Techniken in der Web-Entwicklung.
+Dauer: 30-60 Minuten
+
+- (link: http://www.uxcafe.de/2012/04/weiterbildung/ text: UX Cafe)
+Beschreibung: Gesprächsrunden zu UX-/UI-/Konzepter-Themen.
+Dauer: 20-60 Minuten
+
+---
+
+Wenn ihr meint, dass da ein gaaanz wichtiger Podcast fehlt, dann her damit ;)
+
+----
+
+Tag: podcast,work,music
+
+----
+
+Language: 

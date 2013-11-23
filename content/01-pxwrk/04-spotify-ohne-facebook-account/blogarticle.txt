@@ -1,0 +1,35 @@
+﻿Title: Wie man Spotify ohne Facebook-Account nutzen kann [gelöst]
+
+----
+
+Date: 16.03.2012
+
+----
+
+Kategory: personalstuff, nerdstuff
+
+----
+
+Text: <div class="edit" id="edit1"><h4>EDIT (12.06.2012): Spotify hat sich vom Facebook-Zwang gelöst!</h4>
+<p>Mehr Informationen darüber erfahrt ihr im heutigen (link: http://www.der-zyklop.de/pxwrk/spotify-ohne-facebook text: Blogartikel)<br />Danke für den Tipp an (twitter:elishes)</p></div>
+
+Aus aktuellem Anlass: Der Musik-Streaming-Service (link: http://www.spotify.com/de/ text:Spotify), den der gefühlte Rest der Welt schon lange nutzen darf, ist nun auch in Deutschland gestartet. Der Haken an der Sache: Man ist an die Bedingung gebunden, sich mit einem Facebook-Account anzumelden. Zumindest höre ich dass immer wieder - zuletzt bei (link: http://breitband.dradio.de/ text: Breitband), einem erstaunlich brauchbaren Podcast von Deutschlandradio. Ich habe keinen mit Facebook verbundenen Spotify-Account und kann den Service trotzdem nutzen.
+
+(image: image.png class:addshadow title: Spotify ohne Facebook-Account alt: Spotify ohne Facebook-Account)
+
+<h3>Die Vorgeschichte</h3>
+Da ich mich schon lange über "Sorry, Spotify is not available in your Country" geärgert habe, habe ich damals alles daran gesetzt die Schranken zu umgehen. Es gab (und gibt wahrscheinlich immer noch) viele Erklärungen dazu im Netz, die auch einige Zeit gut gingen, aber nach und nach alle unwirksam wurden. Was sie alle gemein haben ist, dass man sich bspw. über einen (link: http://www.youtube.com/watch?v=KgWV7rSCK-s&context=C4f15801ADvjVQa1PpcFM9hVNFuGU_dw0O5Qk0brrf1hBqhrKw1zw= text: Proxy) einen ausländischen Account anlegt. So auch meiner.
+
+<h3>Wie umgehe ich also Facebook?</h3>
+Die Lösung wäre also, dass man sich einen bspw. UK-Account über einen UK-Proxy anlegt (wozu man noch irgend eine frei gewählte UK-Postleitzahl benötigt). Hat man den Account angelegt, so kann man auf der Webseite in den eigenen Einstellungen die Nationalität auf Deutsch umstellen. Hier wird man nach einer Zahlmetode gefragt. Wählt man z.B. "Paypal" muss man sich mit seinem (deutschen) Paypal-Account anmelden. Dabei geht es nicht darum zu bezahlen, der Login dient nur der Authentifizierung. Und schon kann man seinen Account für die Spotify-App auf dem Rechner verwenden. 
+
+<h4>Nicht geprüft..</h4>
+Im vorherigen Absatz schreibe ich "Die Lösung wäre..." statt "Die Lösung ist...". Der Grund dafür ist, dass ich es nicht noch einmal nachträglich mit einem neuen Account ausprobiert habe. Ich drücke also die Daumen und hoffe das keine neuen Schranken aufgetaucht sind. Sagt mir in den Kommentaren bitte bescheid falls es nicht funktioniert, damit ich diesen Blog-Eintrag für die Nachwelt entsprechend markieren kann.
+
+----
+
+Tag: spotify,facebook
+
+----
+
+Language: 

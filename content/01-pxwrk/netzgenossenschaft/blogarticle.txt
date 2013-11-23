@@ -1,0 +1,57 @@
+Title: NetzGenossenschaft
+
+----
+
+Date: 2013-10-05
+
+----
+
+Kategory: nerdstuff
+
+----
+
+Text: Ein Unternehmen braucht Geld um handeln zu können, und Leute die entscheiden wie gehandelt wird. 
+
+Das Geld bei den jetzigen Telekommunikations-Anbietern kommt von ein paar <del>mächtigen</del> mächtig dummen Menschen, die Entscheidungen fällen, die mir… sagen wir mal… nicht so zusagen. 
+
+Das Netz wird 
+
+- gefiltert
+- überwacht
+- gedrosselt
+- missbraucht
+
+Das Netz wird verwendet und benötigt wie fließend Strom und trinkbares Wasser, aber vermarktet und verkauft wie ein reines Entertainment-Produkt.
+
+(image: wasserdrossel.png link: wasserdrossel.png)
+
+Nun gibt es allerdings eine ganze menge Menschen, die das stört. Zwar nicht genug um eine Gesellschaft aufzuklären, damit die nicht aus Unwissenheit ihr (link: http://der-zyklop.de/pxwrk/btw13 text: Kreuz an der falschen Stelle) macht, aber mit Sicherheit genug um so viel Geld zusammen zu bekommen, dass man einen eigenen Telekommunikations-Anbieter daraus gründen kann. Und damit das nicht in die selbe Richtung abrutscht wie die jetzigen Anbieter, gibt man jedem kleinen Investor ein bisschen Mitbestimmungsrecht.
+
+Kurz: Man gründet eine (link: http://www.netzgenossenschaft.org/ text: Netzgenossenschaft)!
+
+Klingt verrückt? Nö, dass das eine realistische und gute Idee ist, wurde schon oft genug bewiesen, durch
+
+- (link: http://www.greenpeace-energy.de/ text: Geenpeace Energie)
+- (link: https://www.gls.de/privatkunden/ text: GLS-Bank)
+- (link: http://www.startnext.de/c3s text: 3CS) (die faire GEMA-Alternative)
+- (link: http://www.taz.de/ text: TAZ)
+
+Eine Genossenschaft funktioniert ungefähr so: 
+
+- Mitglieder kaufen Anteile am Unternehmen (ein Anteil wird wohl irgendwo unter 250€ liegen)
+- Jeder der einen Anteil hat, hat ein Mitbestimmungsrecht
+- Im Gegensatz zu einer Aktiengesellschaft hat jeder genau eine Stimme, egal wie viele Anteile man am Unternehmen hat
+- Gewinnausschüttung gibt's nicht, oder zumindest nicht in einem Maße, dass Menschen auf die Idee kommen könnten mit Genossenschaften zu spekulieren
+- Wer das Projekt irgendwann nicht mehr unterstützen will, meldet sich ab, und bekommt nach einer anfangs festgelegten Frist seine investierte Kohle wieder zurück
+
+Wer genaueres über Genossenschaften wissen will, kann mal beim (link: http://www.kuechenstud.io/medienradio/podcast/mr067-journalismus-als-genssenschaft/ text: Medienradio) reinhören  – da geht's zwar um die Frage ob "Journalismus als Genssenschaft" taugt, aber zu beginn wird recht ausführlich über Genossenschaften allgemein gesprochen.
+
+Wer genaueres über die Netzgenossenschaft wissen will, der schaut sich mal (link: https://www.youtube.com/watch?feature=player_embedded&v=CpiYDPSJWzQ text: die Präsentation eines Mitgründers) an. Wer nicht mitmachen will, ließt sich meine vergangenen Blogartikel noch mal genau durch und überlegt sich's dann doch noch mal anders.
+
+----
+
+Tag: politik
+
+----
+
+Language: firstValue

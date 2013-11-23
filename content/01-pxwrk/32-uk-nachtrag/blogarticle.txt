@@ -1,0 +1,37 @@
+﻿Title: UK, Deutschland und das Internet
+
+----
+
+Date: 2013-02-05
+
+----
+
+Kategory: nerdstuff
+
+----
+
+Text: Es folgt eine Hand voll Statistiken, die ich mal recherchiert habe, aber nirgends verwendet. Bevor sie im Drafts-Ordner vergammeln...
+
+### Online-Nutzung Deutschland vs. UK
+
+In Deutschland sind in 2011 ca. (link:http://www.initiatived21.de/portfolio/nonliner-atlas text: 75% der Einwohner online rel: tooltip title: Quelle: Initiative D21 ). 
+In UK sind es (link: http://www.ons.gov.uk/ons/rel/rdit2/internet-access-quarterly-update/2012-q1/stb-internet-access-quarterly-update-2012-q1.html text: ca. 84% rel: tooltip title: Quelle: Office for National Statistics UK ).
+
+#### Mobiles Internet
+
+In UK Nutzen (link: http://www.comscore.com/ger/Press_Events/Presentations_Whitepapers/2012/2012_Mobile_Future_in_Focus text: ca. 51% title: Quelle: comScore rel: tooltip) das Internet auch Mobil.
+In Deutschland sind es 37%.
+
+#### Twitter
+
+In Deutschland gibt es knapp (link: http://webevangelisten.de/knapp-600-000-aktive-deutsche-twitteraccounts/ text: 600.000 aktive deutsche Twitteraccounts title: Quelle: web evangelisten rel: tooltip ).
+In UK sind es (link: http://www.guardian.co.uk/technology/2012/may/15/twitter-uk-users-10m?CMP=twt_gu text: 10 Millionen aktive Nutzer rel: tooltip title: Quelle: The Guardian ).
+80% der UK-Nutzer nutzen Twitter dabei von mobilen Geräten aus, in Deutschland sind es (link: http://de.wikipedia.org/wiki/Twitter text: 55% title: Quelle: Wikipedia rel: tooltip).
+
+----
+
+Tag: uk,germany,twitter
+
+----
+
+Language: firstValue

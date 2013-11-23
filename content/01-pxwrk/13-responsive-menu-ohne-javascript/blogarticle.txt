@@ -1,0 +1,63 @@
+﻿Title: Responsive Menu ohne JavaScript
+
+----
+
+Date: 28.06.2012
+
+----
+
+Kategory: nerdstuff
+
+----
+
+Text: (twitter: ellenbauer) von (link: http://www.elmastudio.de/ text: Elmastudio title: Webdesign-Blog rel: tooltip ) hat (link: http://m.netmagazine.com/tutorials/build-smart-mobile-navigation-without-hacks text: einen Blogartikel title: Aaron Gustafson's Lösungsansatz für Responsive-Menu's rel: tooltip ) empfohlen, in dem jemand eine sehr gute Idee beschreibt, wie man eine Webseiten-Navigation für kleinere Bildschirme (wie z.B. Smartphones) umsetzt. 
+
+(image: responsive-menu.png title: Responsive-Menu ohne JavaScript class: addshadow )
+
+### Das Problem
+
+(link: http://bradfrostweb.com/blog/web/responsive-nav-patterns/ text: Ideen wie so etwas aussehen kann ) gibt es viele. Eine der bekanntesten, wohlmöglich beliebtesten und was die Usability angeht, auch sehr guten Lösung ist (link: http://mattkersley.com/ text: Matt Kersley's title: Homepage von Matt Kersley rel: tooltip ) (link: https://github.com/mattkersley/Responsive-Menu text: Responsive-Menu title: Responsive-Menu auf Github rel: tooltip ). Er baut für kleinere Bildschirme ein `'ul>li>a'` Menü in ein `'select>option'`-Dropdown um.
+
+Das Problem dieser, wie auch der meisten anderen Lösungen ist, dass dafür JavaScript Vorraussetzung ist. Menüs die bei `:hover` ausklappen sind auch problematisch, da verschiedene Touch-Geräte mit `:hover` unterschiedlich umgehen.
+
+### Lösungsansatz via :target
+
+Der im Blogartikel vorgeschlagene Lösungsansatz ist folgender:
+Wenn man auf einer Webseite auf einen Anker-Link klickt, kann man das verlinkte Ziel in CSS mit der Pesudoklasse `:target` ansprechen. 
+
+### Ein Beispiel
+
+Spricht man ein Element mit der id 'beispiel' über `:target` an, sieht das folgendermaßen aus:
+
+```
+#beispiel:target {
+	background: #fff;
+	border: 4px solid #aa0000;
+}
+```
+
+Klickt man auf den Link weiter unten, so bekommt `<div id="#beispiel">` die entsprechenden CSS-Anweisungen:
+
+<hr />
+
+<p><div id="beispiel">#beispiel</div></p>
+
+(link: pxwrk/responsive-menu-ohne-javascript#beispiel text: Link auf #beispiel)
+
+(link: pxwrk/responsive-menu-ohne-javascript# text: Link auf #)
+
+<hr />
+
+Nun kann man innerhalb von `<div id="beispiel">` ein komplettes Menü bauen, welches via `display: none;` verborgen wird, und bei `:target` auf `display: block;` gesetzt wird.
+
+#### Fazit
+
+Das ganze scheint super zu funktionieren. Einziges Problem auf das ich gestoßen bin und für das ich keine Lösung (ohne JavaScript) finde ist, dass es im Opera Mini nicht funktioniert. Abgesehen davon ist es bisher die beste Lösung die ich kenne.
+
+----
+
+Tag: responsive,js,work,ux-ui
+
+----
+
+Language: 

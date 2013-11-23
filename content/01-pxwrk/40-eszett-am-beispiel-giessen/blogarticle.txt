@@ -1,0 +1,72 @@
+﻿Title: Immer diese Scheisse.. Pardon.. Scheiße mit dem Eszett
+
+----
+
+Date: 2013-04-25
+
+----
+
+Kategory: personalstuff, nerdstuff
+
+----
+
+Text: (image: giessen.jpg link: giessen.jpg)
+
+Gießen, Giessen, GIEßEN, GIESSEN und sogar GIESZEN.
+
+All diese Schreibweisen gibt es für diese Stadt in Mittelhessen. **Aber wie ist es richtig?** Und wie sollte man mit "ß" im Web und sonstigen digitalen Welten umgehen? Wo's international zugeht, da kennt man das Eszett oft gar nicht, und das bringt immer wieder Probleme mit sich.
+
+(image: photoshop-eszett.png link: photoshop-eszett.png)
+
+Ich nehme schon mal vorweg: Ich habe keine eindeutige Antwort darauf. Aber ein Haufen an Pro's, Contra's und Erkenntnissen.
+
+### Das ß als Großbuchstabe
+
+Am Anfang eines Wortes kommt dieser Buchstabe nie vor. Was viele aber dennoch nicht wissen: Der Buchstabe ß ist der einzige Buchstabe im deutschen Alphabet, der nur als Kleinbuchstabe existiert. 
+
+Der Duden hatte ursprünglich vorgesehen ß mit "SZ" und in bestimmten Ausnahmefällen mit "SS" zu ersetzen. Die Rechtschreibreform 1996 hat das "SZ" dann ganz abgeschafft. Seit dem gilt also "Gießen" und "GIESSEN".
+
+Erst seit Ende des 19. Jahrhunderts wird das große ẞ diskutiert. (Falls du dir diesen Artikel gerade mit einem Touchscreen-Gerät von Apple anschaust, bekommst du hier nur ein Platzhalter-Viereck angezeigt. iOS kennt diesen Buchstaben offensichtlich nicht nicht.) Der "Rat für deutsche Rechtschreibung" zerbricht sich über diese "seit Jahrzehnten ungeklärte Frage" den Kopf, ist aber nicht berechtigt neue Schriftzeichen zu erfinden. Der einzige Weg für eine solche Einführung wäre Fakten zu schaffen indem man es einfach einsetzt, bis der Rat gezwungen ist es in einer neuen Reform aufzunehmen. Ein Anfang in diese Richtung wurde schon eingeleitet – dazu mehr im Absatz "Der Unicode".
+
+### Das Problem mit der Digitalisierung
+
+Der Buchstabe wird nur im Deutschsprachigen Raum eingesetzt – und selbst dort nicht flächendeckend (nicht in der Schweiz und nicht in Lichtenstein). Oft spart man sich dessen Berücksichtigung im Internet und sonstigen digitalen Welten. So kommt es, dass viele digitale Datenbanken, wie auch einige digitale Schriften keine Buchstaben wie ü, ä, ö und eben auch ß enthalten.
+
+Im digitalen ist man mit "Giessen" und "GIESSEN" also auf der sicheren Seite. 
+
+Es gab zwar schon 1986 Computer, die wussten, was ein ß ist. Gebrauchen konnte man es aber dennoch nicht, solange sich verschiedene Server und Programme verschiedener Zeichensätze bedienten. In dem einem Programm ist das ß also vorhanden, in dem anderen nicht. 
+
+Heute ist es schon besser geworden. Nahezu alle heutigen Server auf denen Webseiten betrieben werden, haben kein Problem mehr mit dem ß. Andererseits kann es vor allem bei Amerikanischen Diensten durchaus dauern bis die deutschsprachige "User-Base" groß genug ist, sich mit dem Thema zu beschäftigen. Der Kurznachrichtendienst Twitter hat beispielsweise erst irgendwann nach 2009 gelernt mit dem "scharfen s" umzugehen. 
+
+### Der Unicode (aka. UTF-8)
+
+Und als wäre das nicht schon durcheinander genug, wurde das große ß im Jahr 2008 hoch offiziell in den Unicode Standard (umfassendste und verbreitetste Zeichentabelle für digitale Systeme) aufgenommen, obwohl er eigentlich noch gar nicht existiert. Vom Tisch ist das Problem dadurch aber trotzdem nicht, da ein Standard eben nur ein Standard und kein Gesetz ist. 
+
+### Fazit
+
+Lokalpatriotismus, Tradition und Verstand sagen: 
+ß! So war's gedacht. So war's die letzten 1000 Jahre. Das internet gibt's seit nicht mal 5% dieser Zeitspanne. Und ausserdem sind die Maschinen da um zu lernen. Wo kommen wir hin, wenn wir uns nach den Maschinen richten? 
+
+Meine Vorliebe für Einsen, Nullen, Vereinfachung und mein Realitätsbewusstsein sagen: 
+ss! Das ß ist noch nicht vollständig in der heutigen, digitalen Realität angekommen. Und es wird auch zukünftig so sein, dass wenn sich ausserhalb des deutschsprachigen Raumes ein Dienst wie Twitter aus dem Boden stampft, er sich zuerst die Welt und erst später diese Randgruppe mit ihrem ä, ü, ö und ß vornimmt. 
+
+So und jetzt interessiert mich
+1: wie ihr damit umgeht
+und 
+2: wie ihr denkt, wie man damit umgehen sollte.
+
+…nein, das ist nicht zwangsläufig das selbe ;)
+
+#### [UPDATE:]
+
+Hier ging es ausnahmsweise nicht um's Eszett :)
+
+(image: scheisse.png)
+
+----
+
+Tag: typography,gießenlove,twitter,gießen,code,digitalisation
+
+----
+
+Language: firstValue

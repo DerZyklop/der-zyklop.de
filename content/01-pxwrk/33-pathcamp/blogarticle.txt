@@ -1,0 +1,56 @@
+﻿Title: GetLifeDone @ Pathcamp
+
+----
+
+Date: 2013-02-19
+
+----
+
+Kategory: personalstuff, nerdstuff
+
+----
+
+Text: Ich war vergangenes Wochenende auf dem (link: https://twitter.com/search?q=pathcamp text: #pathcamp) bei Offenburg. Das ist so etwas ähnliches wie ein Barcamp. Und da ich weiß, dass einige meiner Leser nichts mit dem Begriff Barcamp anfangen können, hier erstmal eine kurze Beschreibung, bevor ich euch von diesem path-dings erzähle.
+
+#### Das Barcamp
+
+Ein Barcamp ist eine Art Konferenz. Barcamps werden auch Un-Konferenzen genannt, um klar zu machen, dass es ein paar grundlegende Unterschiede gibt. Auf den üblichen Konferenzen werden Speaker eingeladen und für ihre Vorträge bezahlt. Besucher sind reine Informations-Konsumenten, die Eintritt bezahlen, um sich die Vorträge anzuschauen. 
+
+Auf dem Barcamp gibt es keine festen Sprecher. Man trifft sich mit einer Gruppe von Leuten in einer Location, die üblicherweise von Sponsoren gestellt wird und verabredet zu Beginn des Barcamps wer eine Session halten will. 
+*Session = Präsentation / Diskussionsrunde / Workshop. 
+
+> Each one teach one
+
+Alle Teilnehmer sind dazu angehalten, einen Teil zum Barcamp beizutragen. Ob in Organisation, Essensausgabe, Sponsoring, Session oder welcher Form auch immer. Was ich daran am Besten finde: Es ist völlig egal welchen Status und wie viel Geld man hat. Man braucht nur eine Unterkunft und man muss sich um Hin- und Rückfahrt kümmern.
+
+Barcamps gibt es in der Regel zu einem bestimmten Thema. Manchmal offener, manchmal präziser definiert. Beispiel-Themen: Design, Programmierung, Politik, Bücher, Marketing, Hacken, Musik u.v.m.
+
+#### Pathcamp
+
+Das Pathcamp war eine Weiterentwicklung des Barcamps. Es trafen sich ein Haufen Leute aus verschiedensten Bereichen (Medienproduktion, Marketing, IT, Design, Buchhandel u.a.). Die scheinbar einzige Verbindung, die zwischen allen herrschte war, dass alle Anwesenden irgendwie mit dem Internet zutun haben. Getroffen wurde sich allerdings auf einer Hütte im Schwarzwald, deren einzige Verbindung zur Aussenwelt ein Drehscheiben-Telefon war. Dort oben gab es nicht den geringsten Empfang von Einsen und Nullen. Auch das reine Handynetz (für diese Sprachübertrags-App, die immer noch auf erstaunlich vielen Smartphones genutzt wird) war nicht vorhanden.
+
+(image: blackforest.jpg)
+
+Diese Internetlosigkeit war meiner Meinung nach das Beste an diesem Konzept. So kam selbst jemand wie ich, der bei solchen Veranstaltungen die Tendenz hat sich im Hintergrund zu halten, kaum um intensiven Kontakt mit den anderen Anwesenden herum. Einen ganzen Haufen netter, herzlicher und entspannter Menschen habe ich kennengelernt. Freue mich jetzt schon auf künftige Begegnungen.
+
+Mehr infos gibt's auf (link: http://www.pathcamp.de/ text: pathcamp.de). Wem die Webseite gefällt — ich bin käuflich ;)
+
+#### GetLifeDone Session
+
+Eine noch größere Bedeutung bekam das Ganze für mich durch die Entscheidung dort eine Session (in Form von Vortrag und Diskussionsrunde) zum Thema "Reduziert Leben" zu halten. Ich, der Typ dessen Körper immer ziemlich seltsame Sachen anstellt, wenn er im Mittelpunkt steht. Der erste Vortrag vor weitgehend fremden Publikum. 
+
+Mit allen möglichen Bedenken ausgestattet, mit Mangel an ruhigem Schlaf, mit Unsicherheit ob sie auf das Thema anspringen, aber einem sicheren Gefühl, dass die Leute dort bestimmt nett seien, fuhr ich also in den Schwarzwald. Im Zug habe ich noch schnell den letzten Feinschliff an den Notizen und den zu 100% auf dem (link: http://www.fiftythree.com/ text: iPad gemalten) Präsentations-Folien machen können. 
+
+Und dann schien das Thema genau in's Schwarze getroffen zu haben. Ich sprach darüber, welche Erfahrungen ich bisher gemacht habe, bei dem Versuch so viel wie möglich Besitz los zu werden. Davon was ich denke, wie man das angehen sollte, und darüber warum ich das alles mache. Daraus entwickelten sich immer wieder sehr spannende, angeregte, auch anstrengende, aber nie überflüssige Diskussionen. Nach der Session gab es in verschiedener Form sehr wertvolles Feedback für mich. Ich bin über all das sehr dankbar.
+
+#### Pathcampmix
+
+Ich wurde von (twitter: dotdean) gefragt, ob ich auf dem Pathcamp nicht auch als DJ einen Beitrag leisten will. Es kann sogar sein, dass es (trotz weitgehend unbekannter Musik, die ich auflege und bunt gemischten Teilnehmern) sogar gepasst hätte, aber ich habe mich dagegen entschieden. Das hatte verschiedene Gründe, aber hier eine Nachricht an euch (twitter: @pathcamper): Ich hole das in meinem nächsten Blogpost nach - ist alles schon vorbereitet ;)
+
+----
+
+Tag: barcamp,pathcamp,work,ipad,possession
+
+----
+
+Language: firstValue

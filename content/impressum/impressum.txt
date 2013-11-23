@@ -1,0 +1,73 @@
+Title: Contact
+----
+Text: 
+Nils Neumann
+Holzweg 11
+35447 Reiskirchen
+
+(email:mail@der-zyklop.de text:mail@der-zyklop.de )
+
+### Lizenz für alle Inhalte (sofern nicht anders angegeben) 
+
+(link:http://creativecommons.org/licenses/by-sa/2.0/de/ text: CC-BY-SA 2.0) by Nils Neumann (date: Year)
+
+### OpenPGP-Key für Verschlüsselte Emails
+
+```
+\-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG/MacGPG2 v2.0.20 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+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
+=aYQT
+\-----END PGP PUBLIC KEY BLOCK-----
+```
+
+### CMS
+
+Diese Webseite basiert auf dem CMS (link: http://getkirby.com/ text: "Kirby"). 
+
+### Hosting
+
+(image: uberspace.png alt: der-zyklop.de is hosted on asteroids title: der-zyklop.de is hosted on asteroids link: https://uberspace.de/)
+
+### Statistische Auswertungen mit PIWIK
+
+Diese Website benutzt Piwik, eine Open-Source-Software zur statistischen Auswertung der Besucherzugriffe. Piwik verwendet sog. “Cookies”, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieses Internetangebotes werden auf dem Server des Anbieters in Deutschland gespeichert. Die IP-Adresse wird sofort nach der Verarbeitung und vor deren Speicherung anonymisiert. Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser Software verhindern. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich nutzen können.

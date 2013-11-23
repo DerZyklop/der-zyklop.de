@@ -1,0 +1,17 @@
+﻿Title: DerZyklop
+
+----
+
+Author: DerZyklop
+
+----
+
+Description: DerZyklop
+
+----
+
+Keywords: DerZyklop, pxwrk, Nils Neumann, Webworker, kirby cms
+
+----
+
+Copyright: (link: impressum/ text: Impressum & Lizenz)

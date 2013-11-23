@@ -1,0 +1,42 @@
+﻿Title: Ich habe geschummelt
+
+----
+
+Date: 2013-05-27
+
+----
+
+Kategory: personalstuff, nerdstuff
+
+----
+
+Text: Jap, ich habe HeizdeckenRadio-Hörer (siehe (link: http://der-zyklop.de/pxwrk/heizdeckenradio text: vorheriger Artikel)) angeschummelt. Aber das ist nicht weiter schlimm, denn jetzt gibt es einen Web-Dienst der das alles wieder gut macht. Aber fangen wir vorne an:
+
+### Das digitale Bücherregal
+
+Gerade habe ich drüben in meinem Podcast eine Folge zum Thema (link: http://heizdeckenradio.pxwrk.de/hdr001/ text: «Totes Holz vs. lieblose Einsen und Nullen») oder eben zur frage «Lieber Papier-Bücher, oder lieber eBooks?» veröffentlicht. Unter anderem sprach (twitter: Lecker_Lakritze text: Betti) davon, wie toll es doch sei bei anderen Leuten das Bücherregal im Wohnzimmer durchzustöbern.
+
+(image: das-buecherregal.jpg title: Bücherregal link: das-buecherregal.jpg)
+
+Zugegeben, Betti, ist schon ne super Sache. Und ja, das Bücherregal sagt was was darüber aus, was man für ein Mensch ist. Zumindest darüber, was man für interessen hat. Aber ich finde es noch besser auch Bücherregale von Menschen durchzuschauen, die ich gerade nicht physisch sehen kann.
+
+So hab ich's auch im HeizdeckenRadio gesagt. Was ich verschwiegen habe ist, dass sich die mir bekannten, zur Verfügung stehenden Dienste alle im Bereich zwischen «Mist» und «Pfff... naja, ich weiß ja nich..» bewegen. Und nicht ein Tag später höre ich mir einen (link: http://konferenz28.de/ text: anderen Podcast) an, in dem (twitter: danjel) davon spricht, dass er eine neue Version von seinem Digitales-Bücherregal-Projekt (link: http://lesetagebu.ch/ text: lesetagebu.ch) veröffentlich hat. 
+
+(image: lesetagebuch.png title: lesetagebuch link: lesetagebuch.png)
+
+Ich beobachte das schon seit einer Weile. Der Vorgänger war echt nicht so der Bringer. Aber Version zwei ist so verdammt gut umgesetzt, dass das eintragen der gelesenen Bücher wirklich nur sekunden dauert. Probiert das mal aus. Klickt euch durch. Es ist mein Beruf an solchen Bedien-Oberflächen herumzunörgeln. Aber hier ist einfach nichts (naja okay.. kaum etwas) was ich ankreiden kann.
+Ich ziehe meinen hut.
+
+PS: Und selbst das lesen des (link: http://lesetagebu.ch/impressum text: Impressums) macht spaß :)
+
+### Zukunft
+
+Das Ideal wäre natürlich, dass mein digitales Bücherregal (egal ob lesetagebu.ch oder irgend ein anderer Dienst) selbst mitbekommt, wann ich ein Buch fertig gelesen habe. Es gibt auch (link: http://de.wikipedia.org/wiki/E-Book-Reader text: E-Reader), die für so etwas eine sehr aufgeräumte (link: http://developers.readmill.com/ text: Schnittstelle für Programmierer) anbieten. Ich bin gespannt was die Zukunft bringt.
+
+----
+
+Tag: books,app,heizdeckenradio
+
+----
+
+Language: firstValue

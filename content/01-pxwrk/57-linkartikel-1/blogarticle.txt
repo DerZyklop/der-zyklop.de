@@ -1,0 +1,64 @@
+Title: Linkartikel #1
+
+----
+
+Date: 2013-11-01
+
+----
+
+Text: Es gibt so vieles was mich beschäftigt. So vieles wovon ich euch umbedingt erzählen will, weil ich es für wichtig halte. Und es gibt so viele bemerkenswerte Artikel, die ich entdecke. Und bei sehr vielen Themen davon denke ich mir: Darüber könnte man mal einen eigenen Blogartikel schreiben. Aber so viel Zeit hab ich garnicht, dass ich euch alles erklären könnte, was ich gerne erklären würde. Das Leben besteht nicht nur aus Bloggen, Arbeiten und Schlafen – irgendwann muss ich ja auch ich mal Weltretten.
+
+An dieser Stelle entstehen in anderen Blogs die Linklisten. Aber die mag ich nicht. Da muss man als Leser dann entweder schon genug vorwissen haben, oder man kapiert halt nix. Nee, sowas mach ich nich. Ich werde irgendwas dazwischen machen.
+
+Darf ich vorstellen? Hier ist nummer eins meiner Linklisten-Blogartikel-Mischmasch-Dinger. Ich nenne das mal Linkartikel. Klar, meine anderen Artikel enthalten auch Links... 
+Aber da habe ich erst den Text und dann die Links. 
+Hier habe ich erst die Links und dann den Text.
+
+Los gehts...
+
+(image: linkartikel.png link: linkartikel.png)
+
+Das (link: http://rdd.me/vfqlu6my text: Landgericht Köln hat gesagt), dass es nicht okay ist das Internet zu Filtern. Also soll die Telekom aufhören bestimmte Konzerne bevorzugt zu behandeln, und andere zu Drosseln. Find ich super.
+
+Der Chanpory Rith (der zum Beispiel die gmail-App für's iPhone designt hat) hat in Form von Poesie ein Kernproblem zwischen Designer und Kunde beschrieben und begründet (link: http://rdd.me/m0mzc6ih text: warum Design politisch ist).
+
+Der Herr Snowden kann das durchaus auch ganz gut mit der Poesie, und sagt im Europäischen Parlament, welches gerade ab und zu zum Thema NSA tagt: 
+
+> "creativity is the product of curiosity, which in turn is the product of privacy" - (link: http://rdd.me/l8imprh7 text: Edward Snowden)
+
+Der (twitter: maltekrohn) (Bahn-Enthusiast aus Gießen) hat (link: http://rdd.me/szg2y9fx text: 10 Tipps für Gelegenheits-Bahnfahrer) niedergeschrieben. Da kann man echt was lernen! Und es lohnt sich auch die Kommentare durchzulesen. 
+
+Der Internet-Vordenker, Podcaster und Publizist (twitter: @mspro) sagt, dass es (link: http://rdd.me/fty5ja5q text: ein Schritt in die falsche Richtung) ist wenn man versucht Daten/Privatsphäre mittels Politik zu schützen, und dass wir die Welle mitnehmen und in genau die andere Richtung gehen sollten. Ich stimme ihm sicherlich nicht in allem zu, aber der Artikel zerbricht mir den Kopf, und das sind die besten Artikel.
+
+Was auch Kopfzerbrechen verursacht, aber diesmal in einem rein negativen Sinne, sind (link: https://netzpolitik.org/2013/wie-das-bundesinnenministerium-den-e-perso-mit-einer-pr-strategie-schoenredet-und-dabei-netzpolitik-org-und-den-ccc-fuerchtet/ text: Bestrebungen des Staates Kooperationen mit der Presse einzugehen), um dem Volk kaputte Technik präventiv als etwas gutes zu verkaufen.
+
+Der im Artikel behandelte Elektronische Personalausweis hat vor allem das Problem dass sich damit Super Leute überwachen lassen. Welche Technik zur überwachung sonst noch angewendet wird und wurde, (link: http://www.mfk-frankfurt.de/nc/ausstellung/aktuell/details/events/2328/p1/detail.html text: gibt's im Moment im Kommunikations-Museum in FFM zu sehen). Kommt jemand mit?
+
+Der Informatiker und Netzjournalist Bruce Schneier sagt dazu übrigens, dass die System-Administratoren, Techniker und Ingenieure, also (link: http://rdd.me/bkcjqpqo text: diejenigen die das Netz mit aufgebaut haben), es zurückerobern sollen.
+
+Auf diese Idee kamen auch schon andere. So bildet sich in Berlin gerade ein neuer (link: http://www.netzgenossenschaft.org/ text: Telekommunikations-Anbieter), der nicht aus einem Wirtschafts-Unternehmen sondern aus einer Menge verärgerter Nutzer entsteht, die keine Lust mehr auf ein zensiertes, abgehörtes, gedrosseltes (...) Internet hat. Der Mailingliste nach zu urteilen wird es wohl in Richtung Genossenschaft gehen. Ihr seit alle herzlich eingeladen mitzumachen.
+
+Gut dann hätten wir das mit dem Anbieter erledigt. Wenn wir jetzt einen anderen Anbieter haben, der keine Standleitung zu verschiedenen Staaten unterhält, dann haben wir immernoch das Problem, dass unsere Kalender bei Google, unsere Emails bei GMX, unsere Dateien bei Dropbox, unsere Instant Messages bei WhatsApp, unsere netzfundstücke bei Twitter und der Rest unseres Lebens bei Facebook auf den Servern liegen. Einen eigenen Server einrichten der das alles übernimmt, scheint für die meisten Menschen unmöglich. Stimmt auch. Weil es viel zu kompliziert ist. Aber das (link: http://thenittygritty.co/the-future-of-the-web-a-draft text: Problem lässt sich auch lösen), sagte der Entwickler und Designer (twitter: bastianallgeier) schon Anfang des Jahres. 
+
+Es findet sich übrigens gerade auch ein Team zusammen, das etwas in diese Richtung bauen will, wie der @bastianallgeier sie beschrieben hat. Eine neue art Server-Betriebssystem. (link: http://decentralize.it/ text: So leicht und verständlich, wie eine App auf einem Smartphone zu installieren). Auch hier sind Programmierer, Sys-Admins und Designer herzlich eingeladen mitzuwirken. Noch befindet es sich in der Konzeptions-Phase.
+
+Dass man das Internet nochmal neu denken und neu entwickeln kann, daran glaubt auch der Gründer von Lavabit, und (link: https://netzpolitik.org/2013/dark-mail-alliance-ngo-und-offenes-protokoll-von-lavabit-und-silent-circle-fuer-sicheres-mailen/ text: erfindet die Technik hinter der Email neu) (für diesen Artikel braucht man ein bisschen technisches Grundwissen).
+
+Lavabit ist der Email-Anbieter, wo u.a. Snowden einen Account hatte. Als Amerika dann an der Tür geklopft hat, hat der Lavabit-Gründer gesagt: Lieber schließe ich meine Firma als das ich euren Forderungen Nachkomme. Welche Forderungen das sind, das ist geheim. Klar, sind ja Forderungen von Geheimdiensten...
+
+#### Fazit
+
+Es hat lange gedauert und mich ziemlich zum verzweifeln gebracht, aber so langsam tut sich was. Auf beiden Seiten. Auf der Seite derer, die nichts zu verbergen hatten, die so langsam doch noch beginnen das Ausmaß greifen zu können. Ist halt schade, dass das erst nach der (link: http://der-zyklop.de/pxwrk/btw13/ text: Bundestagswahl) ankommt. Ich (link: https://twitter.com/DerZyklop/status/394951917035880449 text: frage mich), was wohl heute anders wäre, wenn (link: http://tagboard.com/merkelphone text: #merkelphone) zwei wochen früher passiert wäre.
+
+
+Und die andere Seite ist die Seite der Entwickler, die die alten Konzepte in den Papierkorb geworfen und sich ein neues Reißbrett gekauft haben.
+
+Der Postillon sagt: (link: http://www.der-postillon.com/2013/10/im-sand-spielende-kinder-finden.html text: eigentlich alles ganz Einfach).
+
+----
+
+Tag: digitalisation, politik, links
+
+----
+
+Language: firstValue

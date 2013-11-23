@@ -1,0 +1,55 @@
+﻿Title: Was das Bedingungslose Grundeinkommen mit Hacken und den Römern zutun hat
+
+----
+
+Date: 07.07.2012
+
+----
+
+Kategory: personalstuff, nerdstuff
+
+----
+
+Text: Wenn man sich mal ausgiebiger mit dem (link:http://de.wikipedia.org/wiki/Bedingungsloses_Grundeinkommen text: BGE rel: tooltip title: Wikipedia: Bedingungsloses Grundeinkommen ) befasst hat, bringt schnell (link: http://grundeinkommen.tv/?p=1093 text: keine Diskussionsrunde title: Enno Schmidt: Was ist Wirtschaft? Was ist Einkommen? rel: tooltip), (link:https://vimeo.com/16856630#at=0 text: kein Vortrag title: Vortrag von Sascha Liebermann von "Freiheit statt Vollbeschäftigung" rel: tooltip ), (link:http://grundeinkommen.tv/?p=626 text: keine Anhörung title: Susanne Wiest zur Anhörung im Pettitionsausschuss des Deutschen Bundestages rel: tooltip), kein Blog-Post einen neuen Ansatz / eine neue Perspektive mehr in die Gesellschaftsdebatte. 
+
+Lange Zeit konnte man sich nun mittlerweile wöchentlich mehrere Veröffentlichungen anhören, durchlesen und anschauen, in denen "Leute die's verstanden haben" den noch nicht verstehenden erklären, wie sich das mit den Anreizen, den Finanzierungsmodellen, der aktuellen Fehldefinition von Arbeit und der nervigen, immer wiederkehrenden Metapher der "Hängematte" verhält.
+
+Nun habe ich das Gefühl es geht endlich eine Runde weiter. Grund für dieses Gefühl sind (unter anderem) die Folgenden drei Veröffentlichungen.
+
+### Das Arbeitsamt und seine Arbeitsweise
+
+(image: arbeitsamt-in-giessen.jpg link: http://www.flickr.com/photos/moe/8322628/ title: Arbeitsamt in Gießen [CC-BY _moe] alt: CC-BY _moe )
+
+In der ersten Veröffentlichung, die in den vergangenen Tagen für sehr viel Wirbel und einen (link:http://blog.windfluechter.net/content/blog/2012/07/05/1485-mitl%C3%A4ufer-wenn-das-arbeitsamt-gehackt-wird text: Arbeitsamt-Hack title: Blogpost: "Mitläufer - wenn das Arbeitsamt gehackt wird" rel: tooltip) gesorgt hat, wird nur in einem einzigen Satz das Grundeinkommen erwähnt. Der sehr lesenswerte Artikel des Bundesgeschäftsführers der Piraten (twitter: JohannesPonader text: Johannes Ponader ) im Feuilleton der FAZ mit dem geschickt gewählten Titel (link: http://www.faz.net/aktuell/feuilleton/ein-pirat-zieht-sich-zurueck-ich-gehe-mein-ruecktritt-vom-amt-11809930.html text: "Ich gehe: Mein Rücktritt vom Amt") handelt von dessen Erfahrung im Umgang mit der sogenannten Bundesagentur für Arbeit. 
+
+Er kommt darin zum Entschluss, dass es besser ist, Freunde um Unterstützung zu bitten, statt sich von der Agentur ficken zu lassen. Vielleicht sind mein Bekanntenkreis und ich eine Ausnahme, aber wahrscheinlicher ist, dass Johannes mit seiner Entscheidung nicht alleine im Raum steht. Gut für die FTP und andere Vertreter der Vollbeschäftigungs-Idee, denn wir sorgen dafür, dass die Arbeitslosen-Statistiken besser aussehen. 
+
+Wenn ich den "Fall Ponader" richtig verstehe, verwehrt die Agentur ihm die Unterstützung, da er unzulässigerweise über 15 Stunden wöchentlich seiner ehrenamtlichen Tätigkeit als GF nachgeht. Falls ich mit der Annahme falsch liege, freu ich mich über Kommentare. Falls ich damit richtig liege: WTF?!?!!1!einself
+
+Offensichtlich für das BGE zu plädieren, wäre in seinem Artikel nicht nötig gewesen. Dafür liegt es als Lösungsvorschlag für die Umstände die er beschreibt zu nah.
+
+### Betreuungsgeld und Grundeinkommen
+
+Dann hat (twitter: martinhaase text: Martin Haase ) sehr zu meiner Freude (twitter: susannewiest text: Susanne Wiest ) zum Gespräch in seinem Podcast (twitter: Klabautercast text: Klabautercast ) eingeladen, um mit ihr über (link: http://klabautercast.de/2012/07/06/folge-94-betreuungsgeld-und-grundeinkommen/ text: Betreuungsgeld & Grundeinkommen rel: tooltip title: Link zum Klabauterkast "Folge 94: Betreuungsgeld und Grundeinkommen" ) zu sprechen. 
+
+(image: klabautermaha.jpg link: http://www.flickr.com/people/pixelmurder title: Martin Haase [CC-BY Christopher] )
+
+Susanne Wiest hatte vor nun schon mehr als zwei Jahren eine (link:https://epetitionen.bundestag.de/index.php?action=petition;sa=details;petition=1422 text: Online-Petition auf der Webseite des Deutschen Bundestages ) gestartet und mit 52973 Mitzeichnern eine Einladung zu einer (link: http://grundeinkommen.tv/?p=626 text: Anhörung im Petitionsausschuss) bekommen. Die Petition scheint nun seit Ewigkeiten irgendwo in den rostigen Zahnrädern des Bundestages (link: http://grundeinkommenimbundestag.blogspot.de/2011/07/brief-vom-petitionsausschuss.html title: Statusbericht auf Susannes Blog rel: tooltip text: festzustecken).
+
+### Ein Grundeinkommen als Präventivmaßnahme gegen hohe Kosten für Aufstände
+
+Zu guter letzt landete ich heute durch einen (link: https://twitter.com/timpritlove/status/221554568033615873 text: Hinweis von Tim Pritlove) auf einem sehr ausführlichen Blogpost mit dem Titel (link: http://www.heise.de/tp/artikel/36/36947/1.html text: Überlegungen zum bedingungslosen Grundeinkommen), der tatsächlich einige neue Perspektiven reingebracht hat.
+
+Hier ein kleiner Ausschnitt:
+
+> Ein "bedingungsloses Grundeinkommen" ließe sich einfach so begründen, wie es offenbar schon die alten Römer gehandhabt hatten: als Investition in die Verhinderung von Aufständen und Revolutionen. Da Revolutionen regelmäßig die Umverteilung von Vermögen und Einkommen zum Ziel haben und auch im Misserfolgsfall hohe Kosten verursachen, könnten sie von den Vermögensbesitzern als sinnvolle Versicherungsprämie verstanden werden, die schlicht dazu dient, ihnen diese Vermögen zu erhalten (…)
+
+So. Das war's nun mit dem ersten Blogpost, den ich an einem Stück runtergeschrieben habe, und in die Öffentlichkeit lasse, ohne noch mal Korrektur zu lesen. Kommentare immer erwünscht.
+
+----
+
+Tag: bge
+
+----
+
+Language: 

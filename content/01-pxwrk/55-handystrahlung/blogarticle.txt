@@ -1,0 +1,51 @@
+Title: Empfangsprobleme
+
+----
+
+Date: 2013-10-05
+
+----
+
+Kategory: personalstuff, nerdstuff
+
+----
+
+Text: Leute denken sich: 
+> Wenn mein Handy-Empfang schlecht ist, ist das blöd.
+
+Soweit so richtig. 
+
+Manche Leute denken sich: 
+> … hat aber auch den positiven Nebeneffekt, dass ich hier nicht so viele Strahlen abbekomme.
+
+Soweit so fatal falsch.
+
+Eure funkenden Geräte wollen Netz. D.h. sie rufen immer mal wieder in die Welt "Hallo! Netz!? Bist du irgendwo da draussen?!?". Wenn irgendwo in den umliegenden Kilometern ein Mast steht, antwortet der "Jep. Hier bin ich". Und dann bequatschen die beiden in Zimmerlautstärke, was es so neues gibt.
+
+Wenn dein Gerät allerdings keine Antwort bekommt, dann verwendet es umso mehr Energie darauf Netz zu bekommen. Das bedeutet es plärrt immer lauter "NETZ!! KANNST DU MICH HÖREN?!?!" in immer kürzeren Abständen. Das ist nicht nur schlecht für die Akku-Laufzeit. Das ist schlecht für Lebewesen, noch schlechter für Babys und vor allem Spermien mögen das Geschrei nicht.
+
+Das einzig positive ist, dass ihr wenig Strahlung von den Masten abbekommt. Aber wie viel das im Vergleich ausmacht, kann man sich denken.
+
+Ach und noch was: Wenn ihr in Zügen, Autos, Bussen etc. unterwegs seit, kann es zwar sein, dass ihr guten empfang habt. Was ihr aber in der Regel nicht mitbekommt, ist dass sich das Gerät nicht ausruhen kann, da es immer wieder die Verbindung zu einem Mast verliert und nach einem neuen suchen muss. Häufiger nach Masten suchen = Mehr Strahlung.
+
+(image: handystrahlung.png link: handystrahlung.png)
+
+So. Und jetzt denkt bitte noch mal über folgende Situationen nach:
+
+- Schlechter empfang Zuhause.
+- Unterwegs das Handy immer in der Hosentasche.
+- Strahlungs-isolierte Schulgebäude.
+- Viele Menschen in einem Zug.
+- Gemeinsam im Fahrstuhl.
+
+Ich nutze meine Geräte auch mal im Zug und im Auto. Selbst wenn andere mit drin sitzen. Manchmal braucht man ja auch den Blick auf die Landkarte. Aber wenn ich es gerade nicht brauche, oder z.B. einen längeren Text lese, dann schalte ich den sogenannten Flugmodus ein. Flugmodus heißt, dass das gerät keine Kommunikation nach aussen und damit auch keine Strahlung mehr zulässt. Das ist neben der (link: http://der-zyklop.de/pxwrk/informationsjonglage/ text: Informationsjonglage) der andere Grund, warum ihr mich nicht erreicht.
+
+Ich bin euch dankbar, wenn ihr euren Mitmenschen zu liebe auch ab und zu mal den Flugmodus nutzt oder die Geräte ganz ausschaltet.
+
+----
+
+Tag: digitalisation
+
+----
+
+Language: firstValue

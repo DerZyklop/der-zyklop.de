@@ -1,0 +1,46 @@
+Title: Blogs abonnieren (ohne Google Reader)
+
+----
+
+Date: 2013-09-21
+
+----
+
+Kategory: nerdstuff
+
+----
+
+Text: Blogs kann man abonnieren. Das ist gut, weil dann muss ich nicht immer das gesamte Internet durchforsten, ob's irgendwo was relevantes neues gibt. Wäre ja auch verrückt, wenn man das nicht automatisieren könnte. Also lasse ich ein Programm für mich suchen, und das sagt dann bescheid auf welchen Webseiten sich etwas getan hat. Das Programm weiß welche Webseiten mich interessieren und weiß auch welche Artikel ich schon gelesen habe. …aber das habe ich ja schon mal (link: http://der-zyklop.de/pxwrk/wie-kann-ich-blogs-abonnieren/ text: ausführlich erklärt). 
+
+(image: digg-app.png link: digg-app.png)
+
+Damals hat der **Google Reader** für mich alle Abonnements zwischen den verschiedenen Geräten und Programmen synchronisiert. Den gibt es aber seit diesem Sommer nicht mehr.
+
+#### Feedly und Flipbord
+
+Viele haben mir zu der Alternative (link: http://feedly.com/ text: Feedly) geraten. Einige sind damit jetzt viel glücklicher als vorher. Manch andere haben sich mit (link: https://flipboard.com/ text: Flipboard) arrangiert. Ich nicht. Warum kann ich nicht recht begründen. Ich mochte es einfach nicht. Dass ich nichts anderes gescheites gefunden habe, führte dazu, dass ich einfach kaum mehr Blogs gelesen habe. Zumindest nicht über einen Reader (Gibt ja immer noch genug Input via (link: https://twitter.com/ text: Twitter)). Aber diesen direkten Kanal nicht mehr zu haben, das ist schade. Vor kurzem habe ich endlich was neues gefunden. Es heißt digg.com.
+
+#### Digg
+
+Digg gibt es schon länger. Bis vor einer weile hat es aber nur das gemacht was heute auf der Startseite passiert: News präsentiert, deren Sortierung die Masse durch Daumen-Hoch- und Share-Button beeinflussen kann.
+
+Aber vor drei Monaten wurde alles noch mal überarbeitet, schöner gemacht und mit neuen Features versehen. Vor zwei Monaten kam dann das entscheidende Feature: Digg ist nun ein richtiger Blog-Reader. Und er ist super! Er macht genau das was er soll. Er hat eine iPad, eine iPhone und eine Android-App und lässt sich mit Tastenkombinationen steuern.
+
+- **j** > nächster Artikel
+- **k** > vorheriger Artikel
+- **m** > Artikel als ungelesen markieren
+- …
+
+Und das wichtigste: Er lenkt mich in keinster Weise vom Inhalt ab. (link: http://heizdeckenradio.pxwrk.de/hdr002/ text: Wie gesagt), eines der wichtigsten Features für meine Generation. Dieses Tool ist völlig frei von fancyness. Das mag ich!
+
+(image: digg-capture.png link: digg-capture.png)
+
+So. Und jetzt lese ich schöne Artikel. Bis denne!
+
+----
+
+Tag: blog, rss
+
+----
+
+Language: firstValue

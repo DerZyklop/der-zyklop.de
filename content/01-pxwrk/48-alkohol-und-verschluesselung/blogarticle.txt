@@ -1,0 +1,52 @@
+Title: Alkohol und Verschlüsselung sind auch keine Lösung
+
+----
+
+Date: 2013-07-25
+
+----
+
+Kategory: personalstuff, nerdstuff
+
+----
+
+Text: Mein vorheriger Blogpost über (link: http://der-zyklop.de/pxwrk/adolfs-auferstehung/ text: Adolfs Auferstehung) wurde u.a. folgendermaßen kommentiert: 
+
+> Das Schlimme bei solchen Aktionen ist immer, dass diejenigen, nach denen gesucht wird, sich leicht unter dem Radar bewegen können. Minimum jeder, der sich ein wenig mit Datensicherheit beschäftigt, kann problemlos jede Kommunikation so verschlüsseln und verschleiern, dass niemals jemand auch nur auf die Idee kommen würde, dass derjenige etwas zu verbergen hätte."
+
+Total wichtiger Ansatz. Da ergibt sich das gleiche Problem wie damals bei der Kinder-Pornografie-Debatte. Als Ursula Ursula von der Leyen (CDU) auf die Idee kam: Lasst uns doch einfach das Internet Zensieren. 
+Es gibt immer wege diese sperren zu umgehen. Und wer sie finden will, findet sie.
+
+Zurück zu Prism: Jeder sollte wissen wie man verschlüsselt. Aber der Kommentar ist nicht ganz korrekt. Es gibt zwei Haken.
+
+#### Haken Nr. 1
+
+Man kann zwar so verschlüsseln, dass heute keiner an die Inhalte rankommt. Aber irgendwann gibt es Rechner die auch (link: http://de.wikipedia.org/wiki/Pretty_Good_Privacy text: PGP)-Verschlüsselung in weniger als einem Leben entschlüsseln. Wer weiß, vielleicht haben wir ja irgendwann (link: http://de.wikipedia.org/wiki/Quantencomputer text: Quantencomputer) in normalen haushalten  stehen.
+
+Man kann zwar davon ausgehen, dass es bis dahin wiederum bessere verschlüsselungsverfahren gibt, aber dass hilft uns dann nicht mehr. Vielleicht habt ihr es ja mitbekommen: Auch verschlüsselte Kommunikation wird auf den NSA-Servern gespeichert. Nur kann der Geheimdienst da im Moment noch nicht reinschauen.
+
+<h4 id="nutzer-profile">Haken Nr. 2</h4>
+
+Und selbst wenn man das überkrasseste Verschlüsselungs-Verfahren anwendet. Ein Verfahren, welches mit den Rechnern geknackt werden kann, die erst in 500 Jahren entwickelt werden. Es nützt uns nichts. Das Prinzip der pauschalen, verdachtslosen Überwachung liegt darin, Profile von normalverhalten zu erstellen und davon Abweichende Profile heraus zu filtern.
+
+Man kann Profile von deinem Online-Traffic erstellen. Vergleicht man das Profil des Normal-Menschen mit den Werten eines Datensicherheits-Bewussten Nerds, stellt man folgendes fest: Der Nerd hat einen viel höheren Anteil an verschlüsselter Kommunikation. Wenn das so ist, hat er aus Perspektive des Geheimdienstes offensichtlich etwas zu verbergen. Den sollte man also mal genauer beobachten.
+
+### Fazit
+
+Vielleicht wird dadurch klarer was für ein fataler Unsinn es ist, wenn unser Innenminister Friedrich (CSU) uns sagt, dass das mit der Überwachung schon so seine Richtigkeit hat und wir unsere private Kommunikation doch bitte selbst verschlüsseln sollen.
+
+### Lösung
+
+(image: alk_und_verschluesselung.png link: alk_und_verschluesselung.png)
+
+Hab es mit Alkohol versucht… hat nicht funktioniert – ich konnte meine eigenen Nachrichten nicht mehr entschlüsseln.
+
+Wie man's dreht und wendet, man kommt aus der Nummer nur raus, indem man verhindert, dass überhaupt eine Überwachung auf Vorrat stattfindet. Die Gesetze bzw. Grundrechte sind schon vor langer Zeit geschrieben worden. Jetzt müssen sie nur noch eingehalten werden…
+
+----
+
+Tag: politik
+
+----
+
+Language: firstValue

@@ -1,0 +1,96 @@
+﻿Title: Umgang mit CSS-Einheiten, kurz erklärt.
+
+----
+
+Date: 13.08.2012
+
+----
+
+Kategory: nerdstuff
+
+----
+
+Text: Heute gibt's einen kleinen Überblick über die verschiedenen CSS-Einheiten (incl. dem Neuling ``rem``), eine Liste der physikalischen Größen und ein paar Worte zum Workflow mit Blick zurück und nach vorn.
+
+(image: css-einheiten.png title: CSS-Einheiten [CC-BY DerZyklop] )
+
+### Einheiten
+
+#### Pixel
+Gibt man etwas in px an, so ist diese Angabe absolut. Sie orientiert sich also nicht etwa an Größenangaben der Elternelemente. 
+
+#### Prozent
+Gibt man größen in % an, so orientiert sich diese Angabe an den Elternelementen.
+
+###### <span>Beispielrechnung</span>
+Ist die Standard-Schriftgröße einer Webseite also z.B. ``16px``, so wird ein Kindelement - z.B. ein ``<p>`` mit ``font-size: 80%;`` in der Schriftgröße ``12px`` dargestellt. Sollte nun das ``<p>`` innerhalb von einem Element mit der klasse ``sidebar`` liegen mit der Anweisung ``.sidebar { font-size: 50%; }``, dann ist das Ergebnis ``6px`` - also 
+
+**``50%`` von ``80%`` von ``16px``**
+
+#### EM
+Das ``em`` ist ein Faktor, der sich an der Breite eines (link: http://de.wikipedia.org/wiki/Geviert_(Typografie) text: Gevierts rel: tooltip title: wikipedia: Geviert) orientiert, und ist damit der Prozentualen Angabe sehr ähnlich. 
+
+Der Entscheidende unterschied zu ``%`` liegt darin, dass ``em`` eine Einheit ist, die ihren Urschprung in der Typographie hat und sich immer an der, dem betreffenden Element zugeordneten Schriftgröße orientiert.
+
+###### <span>Beispielrechnung</span>
+Hat das Elternelement also ``font-size: 16px`` so kann man die Schriftgröße mit ``0.8em`` auf ``12px`` setzen. Auch diese Angabe vererbt sich, wie ``%`` auf seine Kindelemente. 
+
+Lege ich also in ein ``<div>``, welches die Eigenschaften ``font-size: 16px;`` und ``width: 600px;`` besitzt, ein weiteres ``<div>`` mit einer Breite von ``5%``, wird das Kindelement eine Breite von ``30px`` haben. Gebe ich dem Kindelement eine Breite von ``5em`` ergibt sich eine Breite von 
+
+**5 * ``16px`` = ``80px``**
+
+#### rem
+Das rem ist die jüngste Maßeinheit. rem steht für root-em. Diese Einheit ist also wie das em zu verwenden, mit dem unterschied, dass es sich nicht an den Elternelementen sondern immer an der Angabe für das root-Element (body/html) orientiert. Das rem wird von aktuellen Browsern unterstützt. Nur der IE8 und Ältere brauchen ein Fallback. Das sieht dann so aus:
+
+```
+
+h2 {
+	font-size: 4em; /* Für < IE9 */
+	font-size: 4rem;
+}
+
+```
+
+Sobald es zu mehrfacher Verschachtelung von ``font-size``-Angaben kommt muss man hier natürlich aufpassen, da sich aus ``4em`` möglicherweise ein anderer px-Wert errechnet als aus den ``4rem``. Weitere Informationen dazu gibt's bei (link: http://www.elmastudio.de/programmierung/css/css-tipp-rem-als-einheit-fur-schriftgrose-nutzen/ text: Emlastudio). 
+
+#### Physikalische Größen
+Die weiteren Einheiten beziehen sich auf physikalische Größen. Sie sind also für Print-Stylesheets interessant, jedoch für die Darstellung am Bildschirm ungeeignet:
+
+- `` cm `` (Zentimeter)
+- `` mm `` (Millimeter)
+- `` in `` (Inch)
+- `` pt `` (Point - entspricht 1/72 Inch)
+- `` pc `` (Picas - entspricht 12pt)
+
+### Damals™ & Meine Meinung
+Früher war die unübersichtliche Vererbeng des ``em`` (bei mehrfacher Verschachtelung) ein Hauptargument, warum viele zum px griffen. Abgesehen davon, dass ich der Meinung bin, dass das bisschen "verschalet denken" einem Frontend-Dev zuzutrauen sein müsste, dürfte sich dieses Argument mit dem rem nun erledigt haben.
+
+Ich nutze je nach Anwendungsfall weitestgehend `` rem `` oder `` em `` für `` font-size `` , `` line-height `` etc. Arbeite ich mit ``em``, ist es mir sehr einfach die Schriftgröße der kompletten Seite für kleine Bildschirme anzupassen. Hierzu gebe ich dem jeweiligen Elternelement einfach über ein Media-Query eine neue ``font-size``. Sofern ich auch bei Button-Größen, ``padding``'s, ``margin``'s, ``line-height``'s usw. auch auf Dynamische großen geachtet habe, passen diese sich entsprechend an, sodass die Proportionen weitestgehend passen.
+
+### Blick in die Zukunft / Bildschirmauflösungen
+Bisher konnte man sich zumindest in der Entwicklung für Desktop-Rechner darauf verlassen, dass fast alle Bildschirme eine Auflösung von 72dpi aufweisen. Bei Mobile Devices war das schon immer etwas vielfältiger. Spätestens seit der Einführung von Apples Retina-Displays ist klar, dass in Zukunft ein weiterer Faktor in den CSS-Größen-Angaben eine rolle speilen wird.
+
+Auflösungen im Vergleich:
+Standard-Monitor - 72dpi
+MacBook - zwischen 110dpi und 128dpi
+iPad - 132dpi
+iPhone - 163dpi
+MacBook Pro (Retina) - 220dpi
+iPad (Retina) - 264dpi
+iPhone (Retina), iPod Touch (Retina) - 326dpi
+
+Es gibt zwar ein paar working drafts z.B. zum Umgang mit Bildern für die verschiedenen Auflösungen, aber so wie es im Moment aussieht, wird sich da erst noch irgend ein Weg etablieren müssen. 
+
+Im Bezug auf die Typographische Gestaltung, gibt's hier jetzt keine Empfehlung, sondern ein Befehl(!): Den Artikel (link: http://informationarchitects.net/blog/responsive-typography-the-basics/ text: "Responsive Typography: The Basics") von (twitter: iA title: Oliver Reichenstein) sollte jeder Web-/UI-Designer mal gelesen haben.
+
+---
+
+Anmerkung, Kritik, Nörgelei, Zuspruch… ab in die Kommentare.
+
+----
+
+Tag: css,code,work
+
+----
+
+Language: 

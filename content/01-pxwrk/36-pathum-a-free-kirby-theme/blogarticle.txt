@@ -1,0 +1,39 @@
+﻿Title: Pathum - A free Kirby theme
+
+----
+
+Date: 2013-03-14
+
+----
+
+Kategory: nerdstuff
+
+----
+
+Text: (image: kirby-pathum-0.png)
+
+**Kirby** is a great, file-based CMS, specially for small clean pages like portfolios and stuff.
+
+**I** am a web-developer, screen-designer, ux-blabla... you name it.
+
+**Pathum** is a carefully handwritten, responsive Kirby theme by (twitter: DerZyklop) aka. me. It's easy to install and completely free!
+
+I made the design and code for a little (link: http://www.pathcamp.de text: event-website). Now you can have this very basic but solid theme. You are absolutely free to edit the whole theme as you need it.
+
+You can find the demo and download-link here:
+<http://pathum.pxwrk.de/>
+
+And there you have the documentation:
+<http://pathum.pxwrk.de/documentation>
+
+Have fun with it!
+
+PS: I'd love to see where this goes. So if you decide to use it, please let me know! thx!
+
+----
+
+Tag: kirby,theme,code
+
+----
+
+Language: secondValue

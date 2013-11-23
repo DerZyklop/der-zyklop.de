@@ -1,0 +1,39 @@
+﻿Title: iTunes-Button in der iOS Music-App deaktivieren
+
+----
+
+Date: 21.04.2012
+
+----
+
+Kategory: nerdstuff
+
+----
+
+Text: <h3>Das Problem</h3>
+Ich hasse Apple dafür, dass sie in die iOS Music-App diesen dämlichen Button reingepackt haben der einen zum iTunes-Store führt. Als ob man diesen ständig griffbereit brächte, weil man mit seinem Schmalspur-Internet-Device so gerne Alben saugt. Und dann sind sie sich so dumm und platzieren ihn, entgegen ihrer eigenen User-Interface-Guidelines für iOS-Apps, oben links (wo man zumindest in der Music-App nur den Zurück-Button vermutet)! Und ich bin wohl nicht der Einzige, der beim zurück navigieren in der App immer wieder auf den Store-Button Tappt, ohne das gewollt zu haben.
+
+(image: ios-store-button.png class:addshadow)
+
+Was folgt ist, dass man aus der App rausgeschmissen wird, und wieder in nervigen sieben Schritten zurück zum Ursprung navigieren muss. 
+*Die sieben Schritte beziehen sich dabei auf den Weg bei dem man unterwegs noch die überflüssige iTunes-Store-App beendet, da die sonst nur unnötig Strom frisst.
+
+<h3>Die Lösung</h3>
+Ist ganz einfach, trotzdem bin ich erst vor kurzem darauf gekommen. Das geht folgendermaßen:
+
+iOS bringt in den Einstellungen die Möglichkeit mit, dass man dem jeweiligen Nutzer bestimmte Rechte verwehren kann, wie z.B. den Kauf von Apps oder Musik, oder das laden von Podcasts mit bestimmter Altersbeschränkung. Eingesetzt werden solche Einschränkungen z.B. bei den Devices die in den Geschäften ausliegen, und in Schulen. Was man auch machen kann ist komplette Apps verschwinden lassen, wie Youtube, Kamera oder … ja, genau: die iTunes-Store-App. 
+
+Was dann passiert ist, dass die App in der Übersicht entfernt wird und - an dieser Stelle noch ein kleiner Arschtritt an Apple - der Store-Button in der Musik-App zwar nicht ausgeblendet, aber zumindest funktionslos wird.
+
+Folgendes müsst ihr also in euren Einstellungen deaktivieren: 
+Allgemein >> Einschränkungen >> (jetzt ein Passwort eingeben oder Wählen) >> Erlauben: iTunes
+
+Viel Spaß und wenn euch das was geholfen hat, freue ich mich über Feedback in den Kommentaren.
+
+----
+
+Tag: apple,ios,ux-ui
+
+----
+
+Language: 

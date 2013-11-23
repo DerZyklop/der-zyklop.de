@@ -1,0 +1,34 @@
+﻿Title: Bilder klein machen
+
+----
+
+Date: 
+
+----
+
+Text: Du lädst deine Bilder eh immer dreimal so groß hoch wie es maximal angezeigt werden kann. Also um ladezeit und serverplatz zu sparen mach das besser so:
+
+Lad dir das herunter:
+http://image-tool.softonic.de/mac
+
+Und dann mach folgendes:
+
+ 
+
+0: zieh das quell-bild per drag'n'drop in das "source-image"-feld.
+
+1: Stell ein, dass das Bild was rauskommen soll jpg ist.
+
+2: stell die gewnschte breite auf 1000.
+
+3: speicher's auf dem despktop.
+
+dann hast du eine schön kleine Datei und die ist dann auch richtig herum.
+
+----
+
+Tag: 
+
+----
+
+Language: 

@@ -1,0 +1,87 @@
+﻿Title: SASS - Wie CSS-Dateien, nur mehr awesome.
+
+----
+
+Date: 06.06.2012
+
+----
+
+Kategory: nerdstuff
+
+----
+
+Text: Es erweitert die Funktionalität von CSS. Zu wenige kennen es, zu wenige nutzen es. Ich <3 es, und empfehle es jedem Pixelworker!
+
+Es heißt SASS oder auch "Syntactically Awesome Stylesheets" und ist neben Zen Coding eines der schönsten Tools, seit Responsive Webdesign in den Köpfen angekommen ist. Ich erkläre an einem Beispiel mal was das so kann und später wie man das einsetzt.
+
+### Grundlegende Funktionsweise
+Man schreibt seine Styles in eine Datei mit dem Namen "beispiel.sass". Wie diese im inneren aussehen kann, erkläre ich weiter unten. Diese wird beim Abspeichern vorkompiliert. D.h. ein Programm ließt das SASS und generiert daraus eine Datei namens "beispiel.css".
+
+### Was nützt mir SASS
+SASS bringt einem zum einen eine vereinfachte Schreibweise von CSS und einen Haufen neuer Features. Ein SASS-Code den ich in den letzten Tagen geschrieben habe sieht z.B. so aus:
+
+```
+$border-radius: 4px
+
+.col2
+    padding: 20px + $border-radius
+    +border-radius( $border-radius )
+    img
+        width: 100%
+```
+
+Das schreckt dich ab? Such dir einen anderen Job. 
+Das macht sich skeptisch? Les' weiter - dann erkläre ich dir noch die abgeschwächten Schreibweisen SCSS und LESS.
+
+### Was es zur Syntax zu sagen gibt
+**Zeile 1:** Eine Variable wird mit Inhalt befüllt. Der Name ist hier frei gewählt. Diese Variable kann dann später an verschiedensten Stellen im Code verwendet werden, wie man es von PHP, JS usw. gewohnt ist. So kann man beispielsweise später den Border aller Button der Webseite auf einen schlag ändern.
+**Zeile 3:** Geschweifte klammern kann man sich sparen
+**Zeile 4:** Semikolon fällt auch weg. Die Zuordnung die normalerweise über geschweifte klammern erfolgt, wird hier durch die Einrückung (hier: 4 whitespaces) markiert. Das nennt man dann Whitespace-Sensitive Programmiersprache. Kennt man ggf. von Python und/oder Ruby. Wie man sieht sind in SASS auch Berechnungen möglich.
+**Zeile 5:** Das + steht für ein sogenanntes mixin, was an dieser Stelle eingefügt wird. Das kann man sich ähnlich vorstellen wie eine Funktion die an dieser stelle aufgerufen wird. Man übergibt dem Mixin namens "border-radius" den Wert 4px und dieses sorgt dafür, dass man später an dieser Stelle alle nötigen Vendor-Prefixe der verschiedenen Browser stehen hat (siehe unten).
+**Zeile 6+7:** Möchte ich nun das img innerhalb von .col2 ansprechen, so müsste ich mich in CSS wiederholen. Bei SASS reicht die Einrückung. Das sorgt für weniger Redundanz im Workflow und macht den Code übersichtlich.
+
+Und hier der daraus generierte CSS-Code:
+
+```
+.col2 {
+    padding: 24px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.col2 img {
+    width: 100%;
+}
+```
+
+Beim meinem Workflow kann ich dann auch noch wählen ob ich den Code mit Kommentaren versehen, in reduzierter Schreibweise oder alles in einer einzigen Zeile haben möchte.
+
+### Weitere schreibweisen
+Neben SASS ist noch SCSS und LESS zu erwähnen. Beide werden mit geschwungenen klammern und Semikolons geschrieben. Sie sind somit leichter zu erlernen, haben dafür aber auch einen kleineren Funktionsumfang.
+
+<div class="edit" id="edit1"><h4>EDIT (23.06.2012): Kleiner Nachtrag zu den verschiedenen Schreibweisen</h4>
+<p>Mehr Informationen darüber erfahrt ihr im heutigen (link: http://www.der-zyklop.de/pxwrk/scss-sass-less text: Blogartikel)</p></div>
+
+### "Ja, ich will!"
+Falls du, wie wohl die meisten Pixelworker, **Mac-User** bist und mit (link: http://www.mamp.info/de/ text: MAMP) auf deinem eigenen Rechner entwickelst, empfehle ich dir (link: http://incident57.com/codekit/ text: CodeKit). Du sagst diesem Programm einmal auf welchen Ordner es ein Auge werfen soll und es kompiliert in der selben Sekunde in der du irgendeine darin befindliche .sass-Datei abspeicherst. Nach diesem Vorgang wird automatisch dein Browser-Fenster neu geladen. Neben einer Reihe weiterer nützlicher Hilfen werden damit auch deine .js-Dateien auf korrekte Syntax gecheckt und minifiziert. Die etwas weniger umfangreiche aber auch günstigere Alternative dazu nennt sich (link: http://livereload.com/ text: LiveReload).
+
+Wenn **Linux-User** bist, dann bist du vermutlich sowieso eher Informatiker und weißt wie man das Ruby-Tool auf einem Apache installiert, sodass die SASS-Dateien direkt auf dem Entwicklungs-Server geparst werden können.
+
+Wenn du **Windows-User** bist, dann kann ich dir auch nicht weiterhelfen. Versuchs vielleicht mal mit der Pre-Alpha von (link: http://livereload.com/ text: LiveReload), oder schau halt was du für Möglichkeiten hast und schreib diese in die Kommentare.
+
+### Fazit
+Wenn man am Anfang des Versuches steht neue Browser-Technologien in den eigenen Projekten einzusetzen, kommt man schnell an den Punkt, an dem man sich fragt, ob der Aufwand sich lohnt immer die komplette Palette an Vendor-Prefixen runter zu schreiben. Entweder hat man dann Ehrgeiz und will Technologie vorantreiben, oder man scheisst auf eine Palette an Browsern und bedient beispielsweise nur noch moz und webkit. ..ooooder man schreibt SASS. Hier hat man die Möglichkeit eigene mixins zu schreiben, oder sich an frei verfügbaren liraries wie (link: http://compass-style.org/ text: compass) zu bedienen.
+Ein weiterer Punkt ist, dass die SASS- wie auch die generierte CSS-Datei sehr aufgeräumt und übersichtlich daher kommt.
+
+Wenn man mal die Augen offen hält findet man viele Plugins und Temples die mittlerweile die SASS-, SCSS- oder LESS-Dateien mitliefern (Beispiel: (link: http://twitter.github.com/bootstrap/ text: Twitter Bootstrap)). Ich habe mittlerweile eine angenehme Sammlung an SASS-Dateien mit Default-Styles, die ich je nach bedarf einbinde - am ende wird mir eine einzige CSS-Datei generiert, um die Anzahl der Pings und damit die Ladezeiten klein zu halten. Ich empfehle (link: http://sass-lang.com/ text: SASS) vor allem denjenigen, die mit neueren Browser-Technologienen arbeiten und denen, die ein Level weiter kommen wollen.
+
+----
+
+Tag: sass,css,code
+
+----
+
+Language: 

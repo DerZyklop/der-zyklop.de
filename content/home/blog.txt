@@ -1,0 +1,4 @@
+Title: Blog
+----
+Author: <a href="/about" class="autorlink">Autor: DerZyklop | UX-Designer</a>
+----

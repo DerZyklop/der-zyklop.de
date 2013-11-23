@@ -1,0 +1,51 @@
+@mixin typography
+    // standard typography elements
+    
+    body
+        font-size: $font-size
+        line-height: 1.8em
+        font-family: $font-main
+        color: $tertiary
+    
+    h1, h2, h3, h4, h5, h6
+        font-family: $font-highlight
+        padding: 0.3em 0
+        margin: 0
+        line-height: 1.4em
+    
+    h1, h2
+        color: $primary
+    
+    h3, h4, h5, h6
+        font-weight: normal
+    
+    h1
+        font-size: 2.5em
+    h2
+        font-size: 2.12em
+    h3
+        font-size: 1.88em
+    h4
+        font-size: 1.5em
+    h5
+        font-size: 1.2em
+    h6
+        font-size: 1em
+
+    a
+        color: $primary
+        &:hover
+            color: $secondary
+
+    p
+        img
+            margin-top: 0.5em
+    p, ul, ol
+        a
+            text-decoration: none
+            &:hover
+                text-decoration: underline
+
+    legend 
+        color: $border-color - #444
+        font-weight: bold

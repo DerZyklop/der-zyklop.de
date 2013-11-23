@@ -1,0 +1,35 @@
+﻿Title: Das HeizdeckenRadio und neue Funktion im Blog
+
+----
+
+Date: 2013-05-19
+
+----
+
+Kategory: personalstuff, nerdstuff
+
+----
+
+Text: Da ist was neues im Internet... 
+
+(image: heizdeckenradio.jpg link: heizdeckenradio.jpg title: HeizdeckenRadio)
+
+Meine gute Freundin (twitter: @Lecker_Lakritze text: Betti) und ich, wir haben vor ein paar Tagen ein neues Projekt gestartet. Es nennt sich HeizdeckenPodcast. Es ist ein Cyberspace-Radio ...oder so was. Vielleicht ist es auch so etwas wie eine Kaufberatung für Heizdecken. Vielleicht ist es eine akustische Thermoregulation. Vielleicht aber auch nichts weiter als eine neue Evolutionsstufe des freien Internetzes. 
+
+Was es nun wirklich ist, findet ihr am besten heraus indem ihr auf der Webseite zu unserer (link: http://heizdeckenradio.pxwrk.de/hdr000/ text: ersten Folge des HeizdeckenRadio) auf den großen runden Button mit dem weißem Dreieck klickt :)
+
+Themawechsel...
+
+### Mein Blog und seine zwei Zielgruppen
+
+Oft verfolgen Blogs ein bestimmtes Thema. Meiner nicht. Und so kam es dass er mittlerweile zwei, nicht sehr nah aneinander liegende Zielgruppen hat. Die einen interessieren sich für meine Arbeit, den Code den ich schreibe und anderen Nerd-Kram. Und die anderen haben keinen Schimmer vom Responsive Web und von Pre-Compilern. Sie wollen lieber wissen was ich sonst so mache, wo ich mich rumtreibe, mit welcher Musik ich mich beschäftige.
+
+Also habe ich nun ein neues Feature für euch. Wenn ihr auf (link: http://www.der-zyklop.de/ text: die Startseite) geht, seht ihr ganz oben eine Auswahl (Nerd-Kram / Persönlicher Kram). Wenn ihr keine Auswahl trefft, seht ihr alle Artikel.
+
+----
+
+Tag: podcast,blog,heizdeckenradio
+
+----
+
+Language: firstValue

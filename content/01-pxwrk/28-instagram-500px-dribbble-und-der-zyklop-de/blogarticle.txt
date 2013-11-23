@@ -1,0 +1,49 @@
+﻿Title: Instagram, 500px, Dribbble und Der-Zyklop.de
+
+----
+
+Date: 2012-12-14
+
+----
+
+Kategory: nerdstuff
+
+----
+
+Text: Zweikommafünf neue Bereiche gibt's auf der-zyklop.de. Was dahinter steckt und was Instagram, dribbble und 500px ist, erkläre ich in diesem Blogpost. Würde mich freuen zu hören was ihr so dazu denkt.
+
+### Snapshots
+
+(image: snapshots.png link: http://www.der-zyklop.de/snapshots class: addshadow)
+
+Der Snapshots-Bereich zählt nur zur hälfte. Er ist eigentlich nicht neu, hat nur einen neuen Namen und ist (wie im vorherigen Blogpost schon erwähnt) wesentlich schicker als vorher. Die Bilder kommen von (link: http://www.instagram.com/derzyklop/ text: Instagram), der Smartphone-App für mit Filtern verhunzte Schnappschüsse von Katzen, Kuchen und anderen Dingen die das Leben lebenswert machen.
+
+### Design
+
+(image: design.png link: http://www.der-zyklop.de/design class:addshadow)
+
+Hier sammeln sich nun von mir gestaltete Illustrationen, Interfaces, Logos.. was auch immer. Die Quelle dafür ist das Designer-Netzwerk (link: http://dribbble.com/DerZyklop text: dribbble). Bei dribbble hat man die Möglichkeit Grafiken hochzuladen, Grafiken anderer zu durchstöbern, zu »liken« und zu kommentieren. 
+
+Das besondere daran: Alle Bilder sind auf 400px Breite 300px Höhe begrenzt. Da ich ja ein großer Fan des Reduzierens bin, genau das richtige für mich. Wer (von meinen Freunden und Bekannten) interesse daran hat, kann sich gerne bei mir melden. Einen Account bekommt jeder der will. Wenn ihr dort aber selbst etwas Zeigen wollt braucht ihr dafür einen Invite. Ich müsste da noch Invites übrig haben.
+
+### Photos
+
+(image: photos.png link: http://www.der-zyklop.de/photos class:addshadow)
+
+Jap, unter Snapshots gibt's auch Fotos, aber eben nur die Schnappschüsse - hier geht es um die Qualitativ hochwertigeren Bilder.
+
+In diesem Bereich werden meine letzen uploads von (link: http://www.500px.com/derzyklop text: 500px) angezeigt. Das meiner Meinung nach angenehmste Netzwerk für Fotografen. Jeder der weiß was eine Spiegelreflex ist, sollte da mal reinschauen. 
+
+Um die Bilder auf meine Webseite zu holen habe ich eine Erweiterung für das Content Manangement System (link: http://getkirby.com/ text: Kirby) geschrieben, die sich der 500px-API bedient. Dazu in einem späteren Blogpost mehr.
+
+### Google und so
+
+Abgesehen von den neuen Bereichen habe ich die Ladezeiten um mehr als 100% Verbessert. Und ich habe auf der Start/Articles Seite die Texte rausgeschmissen, und nur noch Überschrift & Bild stehen gelassen. Wie denkt ihr Kinder des Interwebs darüber? War das richtig? Ich denke, dass wenn überall Bilder vorhanden sind, eh keiner auf die Texte schaut. Die Frage die sich mir stellt ist, ob Google interesse an den Text-snippets hatte. SEO ist ja nicht so meine Welt.
+
+----
+
+Tag: kirby,dribbble,500px,instagram,blog,app,design,work
+
+----
+
+Language: firstValue

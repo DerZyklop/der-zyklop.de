@@ -1,0 +1,67 @@
+﻿Title: Wie kann ich mir Blogs abonnieren?
+
+----
+
+Date: 22.03.2012
+
+----
+
+Kategory: personalstuff, nerdstuff
+
+----
+
+Text: Viele Leute da draussen haben zwar schon mal davon gehört, aber ihnen ist nicht klar wie's funktioniert. Blogs (und andere Daten) können via (link: pxwrk/feed text: RSS-Feed) abonniert werden. Wie das geht ist leider nicht selbsterklärend, aber es ist dennoch einfach, und macht sich schnell bezahlt. Ich könnte mir nicht mehr vorstellen regelmäßig die immer gleichen Blogs zu durchforsten. Ich habe ein Programm in dem mir sehr übersichtlich dargestellt wird, wo's was neues gibt was mich interessiert.
+
+(image: reeder.png class:addshadow)
+
+<h3>Das Prinzip</h3>
+Im Grunde genommen passiert im Hintergrund nichts anderes, als dass die Informationen, die auf der Webseite zu sehen sind nicht mit dem ganzen Webseiten-Schnickschnack, sondern in einem für Maschienen lesbaren, auf Text und Bilder reduzierten Format vorliegen.
+
+(image: 01.png class:addshadow)
+
+Die Programme die das dann lesen und verarbeiten nennen sich Feedreader. Auch viele Browser (z.B. Firefox und (link: http://www.apple.com/de/safari/features.html#rss text: Safari)) und Email-Programme (z.B. (link: http://www.apple.com/de/findouthow/mac/#addrss text: Apple Mail) und (link: http://www.thunderbird-mail.de/wiki/RSS_News_und_Blogs-Konto_einrichten text: Thunderbird)) haben eine eingebaute Funktion für Feeds. Ich würde trotzdem empfehlen ein eigenes Programm dafür zu nutzen. Ist in der Regel komfortabler.
+
+<h3>Das Abonnieren</h3>
+Wenn ihr dann auf euren Lieblings-Seiten seid, dann haltet entweder Ausschau ob sich irgendwo ein Button zum Abonnieren findet oder verwendet den eures Browsers.
+
+(image: rss-feed-button.png class:addshadow)
+
+Wenn ihr einen Blog abonniert, dann werdet ihr in der Regel von eurem Browser gefragt mit welchem Programm ihr das Teil öffnen wollt. Wenn nicht findet sich oft in den Browser-Einstellungen diese Möglichkeit.
+
+(image: browser-settings.png class:addshadow)
+
+<h3>Das Problem mit dem Chrome</h3>
+Der neue Chrome kann aus unerfindlichen Gründen mit Feeds ((link: http://dev.chromium.org/user-experience/feed-subscriptions text: noch)) nicht umgehen. (link: https://chrome.google.com/webstore/detail/nlbjncdgjeocebhnmkbbbdekmmmcbfjd?hl=de text: Dieses Plugin) könnte da helfen bis es soweit ist.
+
+<h3>Fazit</h3>
+Die paar Minuten um sich das einzurichten haben sich bei mir damals nach ein paar Tagen schon gelohnt. Wenn man dann immer mal seine Augen offen hält, entdeckt man auch andere spanende Feeds die man sich abonnieren kann, an die man vielleicht noch gar nicht gedacht hat (z.B. die Suchergebnisse einer eBay-Suche, die Ankündigungen der Party-Location aus der Umgebung oder die Veröffentlichungen eines Musikers meiner Wahl in meinem (link: http://www.discogs.com/artist/Bonobo text: Lieblings-Schallplatten-Verzeichnis)).
+
+### Empfehlungen
+
+#### Der richtige Reader:
+
+Ich habe alle nennenswerten Feedreader die für **Mac** angeboten werden mittlerweile ausprobiert und der mit Abstand Beste ist der (link: http://reederapp.com/ text: Reeder). Vom Reeder ist auch eine Version für **iPhone** und eine für **iPad** vorhanden, die ich auch getestet habe und ausnahmslos empfehlen kann. <del>Er kostet 7,99€ im App Store, die er auch wert ist.</del>
+
+<div class="edit" id="edit1"><p>
+[EDIT 29.03.2013:] Er ist in der Mac und iPad-Version kostenlos, und die iPhone-Version kostet zur zeit 2,99€.
+</p></div>
+
+<del>Wer seine Feeds gerne auf mehreren Geräten synchron halten möchte, schaut sich den (link: http://www.google.de/reader/ text: Google-Reader) an. Damit kann man seine Abonnements zentral im Web verwalten, und die verschiedenen Apps auf den verschiedenen Geräten darauf zugreifen lassen, sofern diese eine Google-Reader-Unterstützung mitbringen.</del>
+
+<div class="edit" id="edit1"><p>[EDIT 29.03.2013:]<br /> Der Google-Reader war mal eine super Möglichkeit die Abonnements im Browser durchzulesen und auf verschiedenen Geräten synchron zu halten. Leider wird er am 1. Juli 2013 eingestellt. **Chrome**-Nutzer und **Smartphone/Tablet**-Nutzer können sich gerne mal (link: http://www.feedly.com/ text: Feedly) als Alternative anschauen. Feedly wird allerdings leider nicht von so vielen Drittanbieter-Programmen unterstützt, wie der Google Reader. Es ist davon auszugehen, dass bis zum 1. Juli weitere Alternativen veröffentlicht werden.
+</p></div>
+
+<div class="edit" id="edit1"><p>[EDIT 12.06.2012:]<br /> Ich habe einen gebührenden Nachfolger für den Google Reader gefunden. Er heißt (link: http://www.der-zyklop.de/pxwrk/digg text: Digg)</p></div>
+
+Wenn ihr noch Empfehlungen habt, welcher Reader für Windows und/oder Linux brauchbar ist, dann ab in die Kommentare damit.
+
+<h4>Die richtigen Blogs:</h4>Das müsst ihr natürlich am besten selbst wissen. Ein paar meiner momentanen Favoriten sind:
+<ul><li>(link:http://www.designmadeingermany.de/ text: Design made in Germany) (Für Designer)</li><li>(link: http://littlebigdetails.com/ text: Little Big Details) (Für Screendesigner und Frontend-Entwickler)</li><li>(link: http://www.lilligreen.de/ text: Lilli Green) (Für umweltbewusste)</li><li>(link: http://www.elmastudio.de/ text: Elmastudio) (Für Web-Entwickler und Freelencer)</li></ul> Und zu guter letzt: Auch mein Blog ist (link: pxwrk/feed text: abonnierbar) ;)
+
+----
+
+Tag: rss,feedreader,reeder,app,googlereader,blog
+
+----
+
+Language:

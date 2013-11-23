@@ -1,0 +1,71 @@
+Title: Anleitung zum Weltretten
+
+----
+
+Date: 2013-09-24
+
+----
+
+Kategory: personalstuff, nerdstuff
+
+----
+
+Text: Politik und ich.. es hätte so schön werden können. Aber sie hat sich der dunklen Seite der Macht verschrieben. Unsere Regierung ist für eine weitere Legislaturperiode kaputt. **Wir brauchen neue Strategien.** Und die gibt es. Aber bevor ich euch verrate wie ihr **alle** professionelle Weltretter werdet, hier erst noch mal was bisher geschah:
+
+Die (link: https://www.google.de/search?q=%23btw13 text: #btw13) ist vorbei. Wer mit wem eine Koalition macht oder auch nicht, ist zwar noch ungeklärt. Das Ergebnis zeigt aber jetzt schon: Netzpolitik und Bürgerrechte bewegen sich in den kommenden vier Jahren irgendwo zwischen "egal" und "mit Füßen getreten". Wer wissen will (link: http://www.der-zyklop.de/pxwrk/adolfs-auferstehung text: wie ich das meine), der (link: http://www.der-zyklop.de/pxwrk/alkohol-und-verschluesselung text: klickt) sich durch meine (link: http://www.der-zyklop.de/pxwrk/keine-verschluesselung text: vergangenen) (link: http://www.der-zyklop.de/pxwrk/die-kehrseite-der-ueberzeugung text: Blogartikel).
+
+(image: merkelraute.png link: merkelraute.png)
+
+Oder um es mit den Worten von [_beliebige Partei mit sinkenden Prozenten hier einsetzen_] zu sagen: Wir müssen uns der Realität stellen, uns neu aufstellen, nach innen schauen, reflektieren, Konsequenzen ziehen, klares Votum, (link: http://szenesprachenwiki.de/definition/fimimi/ text: mimimi)…
+
+So sehr ich diese Phrasen hasse, ich muss gestehen: Sie ergeben Sinn, wenn ich sie auf Netzpolitik und Bürgerrechte anwende. Nein, ich rede nicht (nur) von Piraten. Ich rede von uns! Von denjenigen, denen Demokratie lieb ist. Das Netz gab uns die Hoffnung, dass jetzt alles viel besser wird. Dass Informationen in Echtzeit, unzensiert, frei von jedem Ort an einen anderen getragen werden können. Was dazu geführt hat, dass 
+
+- Menschen sich in einer Form zu Protesten organisieren können, wie es vorher nie möglich gewesen wäre
+- Polizisten keine Demonstranten mehr problemlos verprügeln können
+- Politiker ernsthaft das Urheberrecht hinterfragen
+- Probleme an's Licht kommen – und niemand kann das verhindern, egal wie viel Geld er in der Tasche hat
+- Machtverteilung ein wenig mehr ins Gleichgewicht gebracht wurde
+
+Das Internet hat eine Relevanz wie Wasser- und Strom-Versorgung erreicht und muss auch ebenso verteidigt werden.
+
+Nun haben wir eine neue Situation. Eine (immer noch) große Bevölkerung sieht ein Übel, welches von der Masse ignoriert wird. Vielleicht aus Angst, vielleicht aus Desinteresse an der eigenen Demokratie, vielleicht aus Unwissenheit darüber, dass es sich hier um das Fundament eines viel größeren Systems handelt als "das bisschen eBay und Online-Banking". 
+
+Aber wir müssen uns eingestehen, dass wir es falsch angegangen sind. Die Wahl ist der Moment an dem wir uns eingestehen müssen, dass wir in den nächsten vier Jahren keine Unterstützung mehr durch Politik zu erwarten haben.
+
+Nun kommt Plan B an die Reihe: **Das Netz so umbauen, dass ihm niemand mehr etwas anhaben kann.** Klar, der saubere Weg wäre gewesen, die Menschen aufzuklären, damit diese das Richtige tun. Doch seit gestern scheint mir dieser Weg doch <del>zu kompliziert</del> komplizierter zu sein als Plan B. Klar wäre es besser gewesen früher zu erkennen, dass es besser gewesen wäre einen Plan A1 und einen Plan A2 nebeneinander laufen zu lassen. Aber glücklicherweise hat die Wahl nichts daran geändert, dass die Vergangenheit immer noch hinter uns und die Zukunft immer noch vor uns liegt. Und alles was mich deprimiert, kann ich auch positiv sehen. 
+
+> Menschen, die nicht mehr zu Schule gehen aufzuklären, kostet enorm viel Kraft. 
+
+Wenn dieser Weg nicht zum Erfolg führt, heißt das: 
+
+> Wir haben nun enorm viele Kräfte frei! 
+
+Nutzen wir diese Kräfte doch für die Entwicklung neuer Wege, für den Umbau des gesellschaftlichen Schutzschildes, den Interwebz-Relaunch.
+
+Also auf geht's: 
+
+- (link: http://www.trsst.com/ text: Netzwerke ohne zentrale Datensammelstelle) unterstützen
+- Nach Werkzeugen ausschau halten, die so einfach sind, dass (link: http://t3n.de/news/blockprism-verschlusselt-facebook-chat-483156/ text: jeder das versteht), der es auch schafft sich einen Facebook-Account zu klicken
+- Geld an OpenSource Projekte (link: https://spenden.wikimedia.de/spenden/?pwiki_campaign=dewiki&piwik_kwd=Wikipedia:Spenden text: Spenden)
+- eigene Werke (link: http://creativecommons.org/choose/ text: unter CC-Lizens veröffentlichen)
+- (link: https://join.app.net/ text: Alternativen zu Twitter ausprobieren)
+- den Freunden sichere (link: https://threema.ch/de/ text: Alternativen) zu (link: https://heml.is/ text: WhatsApp) auf ihre (link: https://whistle.im/ text: Smartphones) laden
+- Welle machen damit sich auf dem (link: http://www.phonebloks.com/ text: Smartphonemarkt) etwas bewegt
+- (link: http://heizdeckenradio.pxwrk.de/hdr005/ text: Entschlüsselungs-Erlebnisse haben)
+- (link: http://vimeo.com/17610424 text: Ende-zu-Ende-Verschlüsselung) an Schulen unterrichten
+- (link: https://gpgtools.org/ text: sichere Kommunikation) verstehen
+- PGP-Email-Verschlüsselung bei Freunden und Verwandten einrichten
+- (link: http://www.mailpile.is/ text: neue Email-Lösungen) auf dem eigenen Server testen
+- Mesh-Netzwerke wie (link: http://de.wikipedia.org/wiki/Freifunk text: Freifunk) aufbauen für Netzneutralität, gegen Zensur, gegen Drosselkom
+
+Es gibt so viel was man machen kann – auch wenn man kein IT-Spezialist oder Designer ist.
+
+Ich habe schon angefangen. Machst du mit?
+
+----
+
+Tag: digitalisation,politik,code,blog
+
+----
+
+Language: firstValue

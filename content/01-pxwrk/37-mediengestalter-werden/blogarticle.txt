@@ -1,0 +1,139 @@
+﻿Title: Mediengestalter werden
+
+----
+
+Date: 2013-03-20
+
+----
+
+Kategory: nerdstuff
+
+----
+
+Text: Du willst irgendwas in Richtung 
+
+- **Webdesigner**
+- **Grafikerin**
+- **User-Interface-Designer**
+- **Frontend-Developerin**
+- **Mediengestalter**
+- **Kommunikationsdesignerin**
+- **UX-Developer**
+- **Webdeveloperin** 
+
+oder so machen?
+Oder du willst versuchen zu verstehen was ich mache, und warum ich das mache?
+Dann ließ.
+
+In letzter Zeit wurde ich immer wieder von verschiedensten Leuten gefragt, ob ich irgendwelche Info's oder Tipps kann, weil er / sie / ein Kumpel / ne Freundin / die Schwester… gerne irgendwas in eine der oben genannten Richtungen machen möchte. Diejenigen, die mich das fragen sind sich in der Regel noch nicht ganz sicher wo's genau hingehen soll, und was die unterschiede sind. Es soll aber irgendwie kreativ zugehen und was mit Werbung, Webseiten und/oder Code zu tun haben. 
+
+(image: mediengestalter.jpg title: Mediengestalter werden link: mediengestalter.jpg)
+
+Es folgen… Antworten.
+
+### Die Möglichkeiten
+
+Erstmal muss halbwegs klar sein, ob's mehr technisch, oder mehr konzeptionell zugehen soll. Ich hoffe, dass ich mit diesem Artikel ein wenig helfen kann das heraus zu finden. 
+
+Im Groben gibt es zwei Möglichkeiten. Auf die Feinheiten gehe ich später ein. 
+
+Möglichkeit 1: **Mediengestalter Ausbildung**
+Möglichkeit 2: **Kommunikationsdesign oder Medientechnik studieren**
+
+### Mein Weg
+
+Ich habe eine Ausbildung zum "Mediengestalter - Gestaltung und Technik - Non-Print". Ja, umständlicher hätte man es nicht ausdrücken können. Und in all seiner Länge trifft er die Sache nicht mal auf den Punkt… Auf meiner (link: about text: About)-Seite schreibe ich 
+
+> Ich bin UI/UX-Designer d.h. ich sorge dafür, dass Webseiten und Applikationen auf allen Geräten gut aussehen, intuitiv zu bedienen sind und aus sauberem, soliden Code gebaut sind.. 
+
+Ich habe mir vor meiner Ausbildung ein Tutorial reingezogen, dass mir beibringen sollte wie man eine Webseite baut. Ich habe mir dabei an einigen Ecken und Kanten die Zähne ausgebissen und in drei Tagen das gemacht, wofür ich heute wohl ca. zwei stunden bräuchte. Aber darum geht's! Wenn du bei einem Problem solange nicht aufgibst bis du herausgefunden hast, wie der Hase läuft, dann wird das möglicherweise was für dich sein. 
+
+Heute gibt es da übrigens neben Video-Tutorials auch andere gute Möglichkeiten die ersten HTML/CSS-Gehversuche zu machen, wie z.b. (link: http://www.codecademy.com/ text: Codecadamy) und (link: http://www.codeschool.com/ text: CodeSchool).
+
+Ich bin in meinem Beruf zu ca. 60-70% mit dem Code-Editor beschäftigt. Die restliche Zeit verbringe ich mit Stift und Papier, mit Bildbearbeitung, mit Konzeption, und ähnlichen Aufgaben. Meistens beschäftige ich mich damit, wie ich Menschen, die nicht all zu viel mit Computern zu tun haben helfen kann möglichst ohne große Hürden und in möglichst wenigen schritten an ihr ziel zu kommen. Hab ich die Lösung, muss ich mir den Weg suchen, wie ich diese Lösung in Code gießen kann.
+btw: Ich liebe das!
+
+### Mediengestalter ≠ Mediengestalter
+
+Es gibt drei "Fachrichtungen" von Mediengestaltern: 
+
+- Mediengestalter - **Beratung & Planung**
+- Mediengestalter - **Konzeption & Visualisierung**
+- Mediengestalter - **Gestaltung & Technik**
+
+Alle drei Richtungen werden in ihrer Ausbildung lernen wie man mit Farben, Formen, Materialien, Druckverfahren, Schriften u.s.w. umgeht. Die "Berater" zielen dabei darauf ab später den Kundenkontakt zu haben, und müssen eher mal eine Präsentation halten wo die "Gestalter" am Rechner das umsetzen was "Konzepter" sich ausgedacht haben. So viel zur Theorie - in der Praxis mischt sich alles. Vor allem zwischen den zwei letzteren war kaum ein Unterschied festzustellen. Am verbreitetsten ist übrigens Gestaltung und Technik. 
+
+### Print vs. Non-Print
+
+Jep, diese Unterscheiddung kommt noch oben drauf. Sie ist vor allem für die Fachrichtung "Gestaltung & Technik" relevant. Man könnte sagen: **Print** betrifft alles was in irgendwelchen Formen ausgedruckt wird. **Non-Print** betrifft alles was auf Bildschirmen passiert. Print rechnet in "Dot", Non-Print rechnet in "Pixel". Print tötet Bäume und ist ein Veraltetes Medium und Non-Print macht unser Gedächtnis und unsere Gesundheit kaputt. Print kann man anfassen, fühlen, riechen, es ist Zeitlos, verbraucht kein Strom, und ohne es wäre unsere Gesellschaft heute noch furchtbar dumm. Non-Print ist Zukunft, erledigt Aufgaben für uns, öffnet Welten, bringt Menschen zusammen, ist unlöschbar, stürzt Diktaturen und rettet die Welt.
+
+Im Unterricht merkt man von der Unterscheidung noch nicht viel. Es gibt bis heute immer noch keinen Ausbildungsberuf, der z.b. in irgendeiner weise auf das Internet spezialisiert wäre (ausser an teuren Privatschulen). Aber das wird wohl in ein paar Jahren kommen, wenn genug Menschen deren Muttermilch-Fluss in KB/s gemessen wurde in das alter von Berufsschul-Lehrern/innen kommen. Bis dahin bringen sich die Non-Printler das Coden selbst bei und bauen in der Abschlussprüfung eine Webseite, wo der "Printler" eben Printprodukte entwirft.
+
+Ich würde nicht die Hand dafür in's Feuer legen, aber soweit ich weiß kann man im ersten Jahr auch noch wechseln, wenn man Gründe dafür hat.
+
+### Die richtige Agentur finden
+
+Entscheidest du dich für den Ausbildungsberuf, musst du dich auch für eine Agentur entscheiden. 
+
+#### Das Cash
+
+Dabei solltest du nicht davon ausgehen, dass du in deiner Ausbildung schon eine nennenswerte Menge Geld bekommen wirst. Die meisten Mediengestalter-Ausbildungsgehälter liegen in Mittelhessen z.b. so zwischen 400€ und 550€ netto (Erstes Lehrjahr). Ausnahmen sind die Zeitungs-Häuser. Agenturen sind idR. klein genug um sich nicht mit so lästigem kram wie "Betriebsräten", "Gewerkschaften" und damit auch "ok'en Bezahlungen" rumschlagen zu müssen. Mir erscheint die Arbeit, die in einer Agentur anfällt jedoch als viel interessanter und abwechslungsreicher. Aber das soll jedem selbst überlassen bleiben. 
+
+#### Koks vs. Langeweile
+
+Ich finde die Größe der Agentur absolut entscheidend. Ich kenne kaum Mediengestalter die in ihrer aus zwei, drei Mitarbeitern bestehenden Agentur richtig zufrieden gewesen wären. Da wird man vor allem als Azubi schnell mal zum sogenannten "Mädchen für alles" (was ein bescheuerter Ausdruck). 
+
+Ich halte zwei Hierarchiestufen für absolut legitim. Ohne Hierarchie kommt man in einer Organisation welcher art auch immer selten in einen anständigen Workflow. Ab einer bestimmten Größe bildet sich aber unweigerlich die dritte Hierarchiestufe. Und mit dieser kommen neue Probleme in's spiel, die die Arbeit nicht unbedingt erleichtern. Ich habe die besten Erfahrungen gemacht in Teams/Agenturen die um die 10-15 Mitarbeiter haben.
+
+### Studium
+
+Zum Studium in diesem Bereich kann ich nicht viel sagen. Für Kommunikationsdesign braucht man Abitur (Uni). Der Kommunikationsdesigner lernt das was der Mediengestalter lernt, plus noch mehr Fotographie, plus noch mehr Psychologie, plus noch mehr Marketing. Der Medientechnik Student lernt mehr über Programmierung, Video-Technik usw. Medientechnik geht auch ohne Abitur (FH). Wie ich das sehe ist der Medientechniker eher so der Non-Printler. Aber wie gesagt: gefährliches Halbwissen meinerseits. 
+
+#### DerZyklop vs. Schule/Studium
+
+Ich stand mit der Schule immer auf Kriegsfuß und ich habe eine Weile studiert um festzustellen, dass ich dort das selbe Problem habe… Jahrelang irgendetwas machen um es irgendwann mal Praktisch ausüben zu dürfen - das erinnert mich zu sehr an meine Schulzeit. Wenn man der Typ dafür ist, ist studieren bestimmt super. Wenn nicht, ist das auch kein Problem. Wer seinen Job liebt wird früher oder später, Meister seines Fachs. Und Referenzen zählen mehr als Noten. 
+Ach.. und wo wir gerade dabei sind: Über Ausbildungen und Studien an Privatschulen spreche ich hier bewusst nicht. Ob's was taugt, weiß man nie so recht und die Preise liegen in der Regel einem absurden Bereich. Falls ihr so viel Geld zur Verfügung haben solltet, bin ich sicher, dass es wo anders besser aufgehoben ist.
+
+### Berufsbezeichungen
+
+Die Berufe über die ich hier spreche sind recht jung. Vor allem wenn sie in irgend einer weise mit dem erfolg des Computers und vor allem des Internet's zu tun haben. Daher gibt es in dieser Banche viele neue Berufsbezeichnungen. Darunter gibt es kaum welche, die die zeit gehabt hätten sich als Allgemeingültig durchzusetzen. Mit welchem Beruf ich mich vorstelle, hängt meist davon ab mit wem ich mich unterhalte. Der Vollständigkeit halber will ich noch kurz auf die oben genannten Bezeichnungen eingehen: 
+
+#### Webdesigner
+
+Kümmert sich vorwiegend um die Gestaltung, ansatzweise um die Umsetzung von Webseiten.
+
+#### Grafikerin
+
+Der allgemein gängige Begriff für diejenige die meist in Werbe-Agenturen Print-Produkte entwirft. I.d.R. fertig studierte Kommunikationsdesignerin.
+
+#### User-Interface-Designer
+
+Beschäftigt sich mit der Konzeption und Gestaltung von Benutzeroberflächen von Anwendungen/Programmen für Computer, Smartphones, Tablets u.ä.
+
+#### Frontend-Developerin
+
+Schreibt den Code für den Teil einer Anwendung oder Webseite, den der Endbenutzer sehen kann (im Gegensatz zur Backend-Developerin).
+
+#### Mediengestalter
+
+Ausbildungsberuf mit verschiedenen Fachrichtungen. Im Artikel beschrieben.
+
+#### Kommunikationsdesignerin
+
+Studentin des Studienganges Kommunikationsdesign.
+
+#### UX-Developer
+
+User-Experience-Developerin. Fasst die verschiedenen Disziplinen der Konzeption von Anwendungen zusammen. Ist das Bindeglied zwischen Design und Technologie.
+
+#### Webdeveloperin
+
+Programmiererin. Spezialisiert auf Web-Technologien.
+
+----
+
+Tag: work,design,creativity,ux-ui
+
+----
+
+Language: firstValue
