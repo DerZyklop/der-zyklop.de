@@ -20,6 +20,7 @@ module.exports = (grunt) ->
     banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' + '<%= grunt.template.today("yyyy-mm-dd") %> */'
 
 
+
     # process coffee-files
     coffee:
       all:
