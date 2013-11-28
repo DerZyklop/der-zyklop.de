@@ -10,8 +10,8 @@ Text: Es gibt so vieles was mich beschäftigt. So vieles wovon ich euch umbeding
 
 An dieser Stelle entstehen in anderen Blogs die Linklisten. Aber die mag ich nicht. Da muss man als Leser dann entweder schon genug vorwissen haben, oder man kapiert halt nix. Nee, sowas mach ich nich. Ich werde irgendwas dazwischen machen.
 
-Darf ich vorstellen? Hier ist nummer eins meiner Linklisten-Blogartikel-Mischmasch-Dinger. Ich nenne das mal Linkartikel. Klar, meine anderen Artikel enthalten auch Links... 
-Aber da habe ich erst den Text und dann die Links. 
+Darf ich vorstellen? Hier ist nummer eins meiner Linklisten-Blogartikel-Mischmasch-Dinger. Ich nenne das mal Linkartikel. Klar, meine anderen Artikel enthalten auch Links...
+Aber da habe ich erst den Text und dann die Links.
 Hier habe ich erst die Links und dann den Text.
 
 Los gehts...
@@ -22,11 +22,11 @@ Das (link: http://rdd.me/vfqlu6my text: Landgericht Köln hat gesagt), dass es n
 
 Der Chanpory Rith (der zum Beispiel die gmail-App für's iPhone designt hat) hat in Form von Poesie ein Kernproblem zwischen Designer und Kunde beschrieben und begründet (link: http://rdd.me/m0mzc6ih text: warum Design politisch ist).
 
-Der Herr Snowden kann das durchaus auch ganz gut mit der Poesie, und sagt im Europäischen Parlament, welches gerade ab und zu zum Thema NSA tagt: 
+Der Herr Snowden kann das durchaus auch ganz gut mit der Poesie, und sagt im Europäischen Parlament, welches gerade ab und zu zum Thema NSA tagt:
 
 > "creativity is the product of curiosity, which in turn is the product of privacy" - (link: http://rdd.me/l8imprh7 text: Edward Snowden)
 
-Der (twitter: maltekrohn) (Bahn-Enthusiast aus Gießen) hat (link: http://rdd.me/szg2y9fx text: 10 Tipps für Gelegenheits-Bahnfahrer) niedergeschrieben. Da kann man echt was lernen! Und es lohnt sich auch die Kommentare durchzulesen. 
+Der (twitter: maltekrohn) (Bahn-Enthusiast aus Gießen) hat (link: http://rdd.me/szg2y9fx text: 10 Tipps für Gelegenheits-Bahnfahrer) niedergeschrieben. Da kann man echt was lernen! Und es lohnt sich auch die Kommentare durchzulesen.
 
 Der Internet-Vordenker, Podcaster und Publizist (twitter: @mspro) sagt, dass es (link: http://rdd.me/fty5ja5q text: ein Schritt in die falsche Richtung) ist wenn man versucht Daten/Privatsphäre mittels Politik zu schützen, und dass wir die Welle mitnehmen und in genau die andere Richtung gehen sollten. Ich stimme ihm sicherlich nicht in allem zu, aber der Artikel zerbricht mir den Kopf, und das sind die besten Artikel.
 
@@ -38,7 +38,7 @@ Der Informatiker und Netzjournalist Bruce Schneier sagt dazu übrigens, dass die
 
 Auf diese Idee kamen auch schon andere. So bildet sich in Berlin gerade ein neuer (link: http://www.netzgenossenschaft.org/ text: Telekommunikations-Anbieter), der nicht aus einem Wirtschafts-Unternehmen sondern aus einer Menge verärgerter Nutzer entsteht, die keine Lust mehr auf ein zensiertes, abgehörtes, gedrosseltes (...) Internet hat. Der Mailingliste nach zu urteilen wird es wohl in Richtung Genossenschaft gehen. Ihr seit alle herzlich eingeladen mitzumachen.
 
-Gut dann hätten wir das mit dem Anbieter erledigt. Wenn wir jetzt einen anderen Anbieter haben, der keine Standleitung zu verschiedenen Staaten unterhält, dann haben wir immernoch das Problem, dass unsere Kalender bei Google, unsere Emails bei GMX, unsere Dateien bei Dropbox, unsere Instant Messages bei WhatsApp, unsere netzfundstücke bei Twitter und der Rest unseres Lebens bei Facebook auf den Servern liegen. Einen eigenen Server einrichten der das alles übernimmt, scheint für die meisten Menschen unmöglich. Stimmt auch. Weil es viel zu kompliziert ist. Aber das (link: http://thenittygritty.co/the-future-of-the-web-a-draft text: Problem lässt sich auch lösen), sagte der Entwickler und Designer (twitter: bastianallgeier) schon Anfang des Jahres. 
+Gut dann hätten wir das mit dem Anbieter erledigt. Wenn wir jetzt einen anderen Anbieter haben, der keine Standleitung zu verschiedenen Staaten unterhält, dann haben wir immernoch das Problem, dass unsere Kalender bei Google, unsere Emails bei GMX, unsere Dateien bei Dropbox, unsere Instant Messages bei WhatsApp, unsere netzfundstücke bei Twitter und der Rest unseres Lebens bei Facebook auf den Servern liegen. Einen eigenen Server einrichten der das alles übernimmt, scheint für die meisten Menschen unmöglich. Stimmt auch. Weil es viel zu kompliziert ist. Aber das (link: http://thenittygritty.co/the-future-of-the-web-a-draft text: Problem lässt sich auch lösen), sagte der Entwickler und Designer (twitter: bastianallgeier) schon Anfang des Jahres.
 
 Es findet sich übrigens gerade auch ein Team zusammen, das etwas in diese Richtung bauen will, wie der @bastianallgeier sie beschrieben hat. Eine neue art Server-Betriebssystem. (link: http://decentralize.it/ text: So leicht und verständlich, wie eine App auf einem Smartphone zu installieren). Auch hier sind Programmierer, Sys-Admins und Designer herzlich eingeladen mitzuwirken. Noch befindet es sich in der Konzeptions-Phase.
 
@@ -57,7 +57,7 @@ Der Postillon sagt: (link: http://www.der-postillon.com/2013/10/im-sand-spielend
 
 ----
 
-Tag: digitalisation, politik, links
+Tag: digitalisierung, politik, linkartikel, weltretten
 
 ----
 

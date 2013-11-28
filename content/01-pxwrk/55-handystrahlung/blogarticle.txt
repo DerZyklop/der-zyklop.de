@@ -10,12 +10,12 @@ Kategory: personalstuff, nerdstuff
 
 ----
 
-Text: Leute denken sich: 
+Text: Leute denken sich:
 > Wenn mein Handy-Empfang schlecht ist, ist das blöd.
 
-Soweit so richtig. 
+Soweit so richtig.
 
-Manche Leute denken sich: 
+Manche Leute denken sich:
 > … hat aber auch den positiven Nebeneffekt, dass ich hier nicht so viele Strahlen abbekomme.
 
 Soweit so fatal falsch.
@@ -44,7 +44,7 @@ Ich bin euch dankbar, wenn ihr euren Mitmenschen zu liebe auch ab und zu mal den
 
 ----
 
-Tag: digitalisation
+Tag: digitalisierung
 
 ----
 
