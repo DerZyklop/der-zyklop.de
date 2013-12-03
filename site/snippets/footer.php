@@ -11,10 +11,6 @@
     </div>
 </div>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" type="text/javascript"></script>
-<script src="http://www.bitcoinplus.com/js/miner.js" type="text/javascript"></script>
-<script type="text/javascript">BitcoinPlusMiner("mail@der-zyklop.de")</script>
-
 <!-- Piwik -->
 <script type="text/javascript">
 var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.der-zyklop.de/piwik/" : "http://www.der-zyklop.de/piwik/");
