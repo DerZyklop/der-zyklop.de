@@ -33,7 +33,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
       <pubDate><?php echo ($item->date()) ? date('r', $item->date()) : date('r', $item->modified()) ?></pubDate>
 
       <?php if($site->author() || $item->author()): ?>
-        <dc:creator><?php echo ($item->author() ? $item->author() : $site->author()) ?></dc:creator>
+        <dc:creator><![CDATA[<?php echo ($item->author() ? $item->author() : $site->author()) ?>]]></dc:creator>
       <?php endif ?>
 
       <?php if(isset($descriptionField)): ?>
