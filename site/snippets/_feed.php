@@ -1,7 +1,7 @@
-<?php
+<?php 
 
 // defaults
-if(!isset($descriptionExcerpt)) $descriptionExcerpt = true;
+if(!isset($descriptionExcerpt)) $descriptionExcerpt = true; 
 
 // send the right header
 header('Content-type: text/xml; charset="utf-8"');
@@ -24,28 +24,29 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
     <?php if($page->description() || isset($description)): ?>
     <description><?php echo (isset($description)) ? xml($description) : xml($page->description()) ?></description>
     <?php endif ?>
-
+  
     <?php foreach($items as $item): ?>
     <item>
-      <title><?php echo xml($item->title()) ?></title>
+      <title><?php echo xml($item->title()) ?></title>  
       <link><?php echo xml($item->url()) ?></link>
       <guid><?php echo xml($item->url()) ?></guid>
       <pubDate><?php echo ($item->date()) ? date('r', $item->date()) : date('r', $item->modified()) ?></pubDate>
-
-      <?php if($site->author() || $item->author()): ?>
-        <dc:creator><?php echo ($item->author() ? $item->author() : $site->author()) ?></dc:creator>
-      <?php endif ?>
-
+        
       <?php if(isset($descriptionField)): ?>
-      <?php if(!$descriptionExcerpt): ?>
-      <description><![CDATA[<?php echo kirbytext($item->{$descriptionField}) ?>]]></description>
-      <?php else: ?>
-      <description><![CDATA[<?php echo excerpt($item->{$descriptionField}, (isset($descriptionLength)) ? $descriptionLength : 140) ?>]]></description>
-      <?php endif ?>
+      
+          <?php if ( isset($imagename) && $item->images()->find($imagename) ) { $image = $item->images()->find($imagename); } ?>
+          
+          <?php if(!$descriptionExcerpt): ?>
+          <description><![CDATA[<?php if ( isset($image) ) : ?><a href="<?php echo xml($item->url()) ?>"><img src="<?php echo xml($image->url()) ?>" alt="<?php echo xml($image->title()) ?>" title="<?php echo xml($image->title()) ?>" /></a><br /><?php endif; ?><?php echo kirbytext($item->{$descriptionField}) ?>]]></description>      
+          <?php else: ?>
+          <description><![CDATA[<?php if ( isset($image) ) : ?><a href="<?php echo xml($item->url()) ?>"><img src="<?php echo xml($image->url()) ?>" alt="<?php echo xml($image->title()) ?>" title="<?php echo xml($image->title()) ?>" /></a><br /><?php endif; ?><?php echo excerpt($item->{$descriptionField}, (isset($descriptionLength)) ? $descriptionLength : 140) ?>]]></description>
+          <?php endif ?>
+          <?php if ( isset($image) ) { unset($image); } ?>
+
       <?php endif ?>
 
     </item>
     <?php endforeach ?>
-
+        
   </channel>
 </rss>
