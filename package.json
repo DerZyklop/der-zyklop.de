@@ -7,7 +7,7 @@
     "preinstall": "sudo npm install -g grunt-cli"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
+    "grunt": "~0.4.2",
     "matchdep": "~0.1.2",
     "grunt-open": "~0.2.2",
     "grunt-contrib-watch": "~0.5.2",
