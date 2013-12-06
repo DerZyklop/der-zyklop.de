@@ -10,11 +10,11 @@ Kategory: nerdstuff
 
 ----
 
-Text: Ein Unternehmen braucht Geld um handeln zu können, und Leute die entscheiden wie gehandelt wird. 
+Text: Ein Unternehmen braucht Geld um handeln zu können, und Leute die entscheiden wie gehandelt wird.
 
-Das Geld bei den jetzigen Telekommunikations-Anbietern kommt von ein paar <del>mächtigen</del> mächtig dummen Menschen, die Entscheidungen fällen, die mir… sagen wir mal… nicht so zusagen. 
+Das Geld bei den jetzigen Telekommunikations-Anbietern kommt von ein paar <del>mächtigen</del> mächtig dummen Menschen, die Entscheidungen fällen, die mir… sagen wir mal… nicht so zusagen.
 
-Das Netz wird 
+Das Netz wird
 
 - gefiltert
 - überwacht
@@ -36,7 +36,7 @@ Klingt verrückt? Nö, dass das eine realistische und gute Idee ist, wurde schon
 - (link: http://www.startnext.de/c3s text: 3CS) (die faire GEMA-Alternative)
 - (link: http://www.taz.de/ text: TAZ)
 
-Eine Genossenschaft funktioniert ungefähr so: 
+Eine Genossenschaft funktioniert ungefähr so:
 
 - Mitglieder kaufen Anteile am Unternehmen (ein Anteil wird wohl irgendwo unter 250€ liegen)
 - Jeder der einen Anteil hat, hat ein Mitbestimmungsrecht
@@ -50,7 +50,7 @@ Wer genaueres über die Netzgenossenschaft wissen will, der schaut sich mal (lin
 
 ----
 
-Tag: politik
+Tags: politik
 
 ----
 

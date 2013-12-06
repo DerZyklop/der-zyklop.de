@@ -30,7 +30,7 @@ $border-radius: 4px
         width: 100%
 ```
 
-Das schreckt dich ab? Such dir einen anderen Job. 
+Das schreckt dich ab? Such dir einen anderen Job.
 Das macht sich skeptisch? Les' weiter - dann erkläre ich dir noch die abgeschwächten Schreibweisen SCSS und LESS.
 
 ### Was es zur Syntax zu sagen gibt
@@ -80,8 +80,8 @@ Wenn man mal die Augen offen hält findet man viele Plugins und Temples die mitt
 
 ----
 
-Tag: sass,css,code
+Tags: sass,css,code
 
 ----
 
-Language: 
+Language:

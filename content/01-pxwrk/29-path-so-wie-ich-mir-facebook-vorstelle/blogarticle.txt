@@ -10,23 +10,23 @@ Kategory: nerdstuff
 
 ----
 
-Text: Ich bin mit Facebook nie so richtig warm geworden. Trotz gelegentlicher Interface-Verbesserungen ist Facebook insgesamt doch eher verwachsener crap. 
+Text: Ich bin mit Facebook nie so richtig warm geworden. Trotz gelegentlicher Interface-Verbesserungen ist Facebook insgesamt doch eher verwachsener crap.
 [[obligatorisches Firmenpolitik-/Macht-Gemecker hier einfügen]]
 
-Das Netzwerk (link: https://path.com/ text: Path), welches bisher auf einer iOS- und Android-App basiert, ist schon vor ca. einem Jahr durch diverse Timelines gescrollt. Ein Netzwerk für Bilder, Text, Video, Location und was man sonst so braucht. Nach der App-Typischen Kinderkrankheit "Datanschutz-Fail", der Limitierung auf iOS und vielleicht auch der Konkurrenz an "new fancy networks" ist dieses ein bisschen untergegangen. Ich hol das hier mal nach, weil ich finde, dass Path es verdient hat, dass ihr da zumindest mal reinschaut. 
+Das Netzwerk (link: https://path.com/ text: Path), welches bisher auf einer iOS- und Android-App basiert, ist schon vor ca. einem Jahr durch diverse Timelines gescrollt. Ein Netzwerk für Bilder, Text, Video, Location und was man sonst so braucht. Nach der App-Typischen Kinderkrankheit "Datanschutz-Fail", der Limitierung auf iOS und vielleicht auch der Konkurrenz an "new fancy networks" ist dieses ein bisschen untergegangen. Ich hol das hier mal nach, weil ich finde, dass Path es verdient hat, dass ihr da zumindest mal reinschaut.
 
 (image: image.jpg class: addshadow)
 
-Was das User Interface angeht hat Path in meinen Augen von Anfang an sehr, sehr sauber gearbeitet. Intuitiv und Detailverliebt. Jeder Tap fühlt sich so an, wie er soll. Jede kleinste animation sitzt, wie auch jeder Pixel, sodass sich im Zusammenspiel alles stabil und smooth anfühlt. Und mit der neuen Suchfunktion, die einem Locations, Friends, Emotions und mehr in Form von tags anzeigt, macht auch das durchstöbern von vergangenen "Moments" spaß. Damit wird das Ding zum Tagebuch und (link: http://www.momentoapp.com/ text: Momento) fliegt endgültig vom Gerät. 
-Protip: Um die Suchfunktion heute schon nutzen zu können, einfach die Sprache auf Englisch umstellen ;) 
+Was das User Interface angeht hat Path in meinen Augen von Anfang an sehr, sehr sauber gearbeitet. Intuitiv und Detailverliebt. Jeder Tap fühlt sich so an, wie er soll. Jede kleinste animation sitzt, wie auch jeder Pixel, sodass sich im Zusammenspiel alles stabil und smooth anfühlt. Und mit der neuen Suchfunktion, die einem Locations, Friends, Emotions und mehr in Form von tags anzeigt, macht auch das durchstöbern von vergangenen "Moments" spaß. Damit wird das Ding zum Tagebuch und (link: http://www.momentoapp.com/ text: Momento) fliegt endgültig vom Gerät.
+Protip: Um die Suchfunktion heute schon nutzen zu können, einfach die Sprache auf Englisch umstellen ;)
 
-Für ein vollwertiges Netzwerk bräuchte ich schon irgendwann ein Webinterface, aber auch das ist schon in der Mache oder zumindest angekündigt. Bisher ist es noch verhältnismäßig ruhig dort. Andererseits genieße ich die anfängliche Ruhe und die passt mir auch gerade sehr in meine Pläne mal ein wenig abzuschalten. 
+Für ein vollwertiges Netzwerk bräuchte ich schon irgendwann ein Webinterface, aber auch das ist schon in der Mache oder zumindest angekündigt. Bisher ist es noch verhältnismäßig ruhig dort. Andererseits genieße ich die anfängliche Ruhe und die passt mir auch gerade sehr in meine Pläne mal ein wenig abzuschalten.
 
 <div style="margin: 0 auto;max-width:550px;"><blockquote class="twitter-tweet" lang="de"><p>Ich verabschiede mich bis auf weiteres aus den üblichen Netzwerken, außer Path (<a href="http://t.co/aJNKDWyM" title="http://path.com">path.com</a>) und <a href="http://t.co/hT35K3Qe" title="http://app.net">app.net</a>.</p>&mdash; Zyklop (@DerZyklop) <a href="https://twitter.com/DerZyklop/status/283695351519657985" data-datetime="2012-12-25T22:06:57+00:00">Dezember 25, 2012</a></blockquote></div><script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Es würde mich natürlich trotzdem freuen, früher oder später den ein oder anderen von euch da drüben zu treffen :)
 
-Der Vollständigkeit halber sei hier noch gesagt: 
+Der Vollständigkeit halber sei hier noch gesagt:
 Ein Twitter-Ersatz wird das übrigens (für mich) nie. So, wie auch FB nie ein Ersatz für Twitter werden konnte, da die beiden nunmal grundlegend unterschiedliche Konzepte verfolgen. Wie (nicht nur) im letzten Post schon erwähnt, stehe ich ja grundsätzlich auf Reduzierung, und damit hat Twitter sowieso bei mir gewonnen. Dennoch gehe ich jetzt mal eine Weile mit App.net fremd um zu testen wie sich das so anfühlt. <del>Kost' ja nix.</del>
 
 ###### <span>Postscript</span>
@@ -35,7 +35,7 @@ Das hier sollte ursprünglich ein kurzer Kommentar zu (twitter: maltekrohn)'s Bl
 
 ----
 
-Tag: facebook,path,twitter,app.net,cultofless
+Tags: facebook,path,twitter,app.net,cultofless
 
 ----
 

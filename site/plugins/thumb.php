@@ -2,7 +2,7 @@
 
 function thumb($obj, $options=array(), $tag=true) {
   $thumb = new thumb($obj, $options);
-  return ($tag) ? $thumb->tag() : $thumb->url();
+  return ($tag) ? $thumb->tags() : $thumb->url();
 }
 
 class thumb {
@@ -31,9 +31,9 @@ class thumb {
     $this->url  = c::get('thumb.cache.url',  c::get('url')  . '/thumbs');
 
     if(!$image) return false;
-    
+
     $this->obj = $image;
-    
+
     // set some values from the image
     $this->sourceWidth  = $this->obj->width();
     $this->sourceHeight = $this->obj->height();
@@ -41,7 +41,7 @@ class thumb {
     $this->height       = $this->sourceHeight;
     $this->source       = $this->obj->root();
     $this->mime         = $this->obj->mime();
-    
+
     // set the max width and height
     $this->maxWidth     = @$options['width'];
     $this->maxHeight    = @$options['height'];
@@ -60,29 +60,29 @@ class thumb {
 
     // set the className text
     $this->className = @$options['class'];
-    
+
     // set the new size
     $this->size();
-        
-    // create the thumbnail    
+
+    // create the thumbnail
     $this->create();
-                          
+
   }
-  
-  function tag() {
+
+  function tags() {
 
     if(!$this->obj) return false;
-    
+
     $class = (!empty($this->className)) ? ' class="' . $this->className . '"' : '';
-    
-    return '<img' . $class . ' src="' . $this->url() . '" width="' . $this->width . '" height="' . $this->height . '" alt="' . html($this->alt) . '" />';  
+
+    return '<img' . $class . ' src="' . $this->url() . '" width="' . $this->width . '" height="' . $this->height . '" alt="' . html($this->alt) . '" />';
 
   }
-  
+
   function filename() {
-  
+
     $options = false;
-  
+
     $options .= ($this->maxWidth)  ? '.' . $this->maxWidth  : '.' . 0;
     $options .= ($this->maxHeight) ? '.' . $this->maxHeight : '.' . 0;
     $options .= ($this->upscale)   ? '.' . $this->upscale   : '.' . 0;
@@ -92,7 +92,7 @@ class thumb {
     return md5($this->source) . $options . '.' . $this->obj->extension;
 
   }
-      
+
   function file() {
     return $this->root . '/' . $this->filename();
   }
@@ -100,57 +100,57 @@ class thumb {
   function url() {
     return (error($this->status)) ? $this->obj->url() : $this->url . '/' . $this->filename();
   }
-  
+
   function size() {
 
-    $maxWidth  = $this->maxWidth;        
+    $maxWidth  = $this->maxWidth;
     $maxHeight = $this->maxHeight;
-    $upscale   = $this->upscale;    
+    $upscale   = $this->upscale;
 
     if($this->crop == true) {
 
-      if(!$maxWidth)  $maxWidth  = $maxHeight;      
-      if(!$maxHeight) $maxHeight = $maxWidth;      
+      if(!$maxWidth)  $maxWidth  = $maxHeight;
+      if(!$maxHeight) $maxHeight = $maxWidth;
 
       $sourceRatio = size::ratio($this->sourceWidth, $this->sourceHeight);
       $thumbRatio  = size::ratio($maxWidth, $maxHeight);
-                      
+
       if($sourceRatio > $thumbRatio) {
         // fit the height of the source
         $size = size::fit_height($this->sourceWidth, $this->sourceHeight, $maxHeight, true);
       } else {
         // fit the height of the source
-        $size = size::fit_width($this->sourceWidth, $this->sourceHeight, $maxWidth, true);                
+        $size = size::fit_width($this->sourceWidth, $this->sourceHeight, $maxWidth, true);
       }
-                          
+
       $this->tmpWidth  = $size['width'];
       $this->tmpHeight = $size['height'];
       $this->width     = $maxWidth;
       $this->height    = $maxHeight;
-          
+
       return $size;
 
     }
-        
+
     // if there's a maxWidth and a maxHeight
     if($maxWidth && $maxHeight) {
-      
+
       // if the source width is bigger then the source height
       // we need to fit the width
       if($this->sourceWidth > $this->sourceHeight) {
         $size = size::fit_width($this->sourceWidth, $this->sourceHeight, $maxWidth, $upscale);
-        
+
         // do another check for the maxHeight
         if($size['height'] > $maxHeight) $size = size::fit_height($size['width'], $size['height'], $maxHeight);
-        
+
       } else {
-        $size = size::fit_height($this->sourceWidth, $this->sourceHeight, $maxHeight, $upscale);                    
+        $size = size::fit_height($this->sourceWidth, $this->sourceHeight, $maxHeight, $upscale);
 
         // do another check for the maxWidth
         if($size['width'] > $maxWidth) $size = size::fit_width($size['width'], $size['height'], $maxWidth);
 
       }
-                
+
     } elseif($maxWidth) {
       $size = size::fit_width($this->sourceWidth, $this->sourceHeight, $maxWidth, $upscale);
     } elseif($maxHeight) {
@@ -161,14 +161,14 @@ class thumb {
 
     $this->width  = $size['width'];
     $this->height = $size['height'];
-        
+
     return $size;
-        
+
   }
-  
+
   function create() {
-    
-    $file = $this->file();            
+
+    $file = $this->file();
 
     if(!function_exists('gd_info')) return $this->status = array(
       'status' => 'error',
@@ -184,16 +184,16 @@ class thumb {
       'status' => 'error',
       'msg'    => 'The image file is not writable'
     );
-            
+
     switch($this->mime) {
       case 'image/jpeg':
-        $image = @imagecreatefromjpeg($this->source); 
+        $image = @imagecreatefromjpeg($this->source);
         break;
       case 'image/png':
-        $image = @imagecreatefrompng($this->source); 
+        $image = @imagecreatefrompng($this->source);
         break;
       case 'image/gif':
-        $image = @imagecreatefromgif($this->source); 
+        $image = @imagecreatefromgif($this->source);
         break;
       default:
         return $this->status = array(
@@ -201,13 +201,13 @@ class thumb {
           'msg'    => 'The image mime type is invalid'
         );
         break;
-    }       
+    }
 
     if(!$image) return array(
       'status' => 'error',
       'msg'    => 'The image could not be created'
     );
-              
+
     // make enough memory available to scale bigger images (option should be something like 36M)
     if(c::get('thumb.memory')) ini_set('memory_limit', c::get('thumb.memory'));
 
@@ -216,40 +216,40 @@ class thumb {
       // Starting point of crop
       $startX = floor($this->tmpWidth  / 2) - floor($this->width / 2);
       $startY = floor($this->tmpHeight / 2) - floor($this->height / 2);
-          
+
       // Adjust crop size if the image is too small
       if($startX < 0) $startX = 0;
       if($startY < 0) $startY = 0;
-      
+
       // create a temporary resized version of the image first
-      $thumb = imagecreatetruecolor($this->tmpWidth, $this->tmpHeight); 
+      $thumb = imagecreatetruecolor($this->tmpWidth, $this->tmpHeight);
       imagesavealpha($thumb, true);
       $color = imagecolorallocatealpha($thumb, 0, 0, 0, 127);
       imagefill($thumb, 0, 0, $color);
-      imagecopyresampled($thumb, $image, 0, 0, 0, 0, $this->tmpWidth, $this->tmpHeight, $this->sourceWidth, $this->sourceHeight); 
-      
-      // crop that image afterwards      
-      $cropped = imagecreatetruecolor($this->width, $this->height); 
+      imagecopyresampled($thumb, $image, 0, 0, 0, 0, $this->tmpWidth, $this->tmpHeight, $this->sourceWidth, $this->sourceHeight);
+
+      // crop that image afterwards
+      $cropped = imagecreatetruecolor($this->width, $this->height);
       imagesavealpha($cropped, true);
       $color   = imagecolorallocatealpha($cropped, 0, 0, 0, 127);
       imagefill($cropped, 0, 0, $color);
-      imagecopyresampled($cropped, $thumb, 0, 0, $startX, $startY, $this->tmpWidth, $this->tmpHeight, $this->tmpWidth, $this->tmpHeight); 
+      imagecopyresampled($cropped, $thumb, 0, 0, $startX, $startY, $this->tmpWidth, $this->tmpHeight, $this->tmpWidth, $this->tmpHeight);
       imagedestroy($thumb);
-      
+
       // reasign the variable
       $thumb = $cropped;
 
     } else {
-      $thumb = imagecreatetruecolor($this->width, $this->height); 
+      $thumb = imagecreatetruecolor($this->width, $this->height);
       imagesavealpha($thumb, true);
       $color = imagecolorallocatealpha($thumb, 0, 0, 0, 127);
       imagefill($thumb, 0, 0, $color);
-      imagecopyresampled($thumb, $image, 0, 0, 0, 0, $this->width, $this->height, $this->sourceWidth, $this->sourceHeight); 
-    }    
-    
+      imagecopyresampled($thumb, $image, 0, 0, 0, 0, $this->width, $this->height, $this->sourceWidth, $this->sourceHeight);
+    }
+
     switch($this->mime) {
       case 'image/jpeg': imagejpeg($thumb, $file, $this->quality); break;
-      case 'image/png' : imagepng($thumb, $file, 0); break; 
+      case 'image/png' : imagepng($thumb, $file, 0); break;
       case 'image/gif' : imagegif($thumb, $file); break;
     }
 
@@ -259,7 +259,7 @@ class thumb {
       'status' => 'success',
       'msg'    => 'The image has been created',
     );
-    
+
   }
-    
+
 }

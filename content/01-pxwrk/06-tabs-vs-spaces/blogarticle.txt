@@ -13,9 +13,9 @@ Kategory: nerdstuff
 Text: Eine Grundsatzfrage. Wenn man sich einige Zeit damit beschäftigt hat, in Kooperation mit anderen Code zu schreiben, kommt irgendwann die Frage auf: Ist es sinnvoller Tabs oder Spaces zu nutzen?
 
 <h3>Tabs vs. Spaces</h3>
-Wie kommt es zu dieser Frage? In jeder mir bekannten Auszeichnungs- und Programmier-Sprache, sei es HTML, CSS, PHP, Javascript, TypoScript etc. nutzt man Einrückungen entweder für die Übersichtlichkeit, oder in Whitespace-Sensitiven Sprachen (wie Python oder SASS) um Verschachtelungen auszudrücken. 
+Wie kommt es zu dieser Frage? In jeder mir bekannten Auszeichnungs- und Programmier-Sprache, sei es HTML, CSS, PHP, Javascript, TypoScript etc. nutzt man Einrückungen entweder für die Übersichtlichkeit, oder in Whitespace-Sensitiven Sprachen (wie Python oder SASS) um Verschachtelungen auszudrücken.
 
-Tabs können in verschiedenen Text-Editoren verschiedene breiten zugeteilt bekommen. Der eine stellt sie wie zwei Whitespaces da, der andere wiederum wie vier Whitespaces. Oft kann man in den tiefen der Programm-Einstellungen selbst wählen wie man es denn gerne hätte. Aber man stelle sich folgendes Szenario vor: 
+Tabs können in verschiedenen Text-Editoren verschiedene breiten zugeteilt bekommen. Der eine stellt sie wie zwei Whitespaces da, der andere wiederum wie vier Whitespaces. Oft kann man in den tiefen der Programm-Einstellungen selbst wählen wie man es denn gerne hätte. Aber man stelle sich folgendes Szenario vor:
 
 Team-Mitglied 1 arbeitet u.a. oft mit dem TYPO3-Internen Code-Editor. Dieser wandelt Tabs immer in zwei Whitespaces um. Da es also in seinen eigenen workflow ganz gut passt, sagt er seinem eigenen Text-Editor: "Wenn ich Tab drücke, mach mir da zwei White-Spaces hin."
 
@@ -35,21 +35,21 @@ An diesem Beispiel kann man sich sicher noch darüber streiten, ob daran die Wel
 Und hier ein weiteres Problem in der Code-Formatierung: Hat Team-Mitglied 1 seine Datei mit Windows-Line-Endings angelegt und Team-Mitglied 2 kommt mit seinem Mac-Text-Editor daher bekommt er möglicherweise überall doppelte Zeilenumbrüche dort angezeigt, wo ursprünglich nur ein Zeilenumbruch vorhanden war. Speichert dieser die Datei wieder (möglicherweise ohne es selbst zu merken) mit anderen Line-Ending-Settings ab, sorgt er dafür, dass alle seine Kollegen sich nun auch an den doppelten Zeilen-Umbrüchen erfreuen dürfen.
 
 <h3>Fazit</h3>
-Einigt man sich mit den anderen Team-Mitgliedern <strong>nicht</strong> auf einen einheitlichen Umgang in der Formatierung, kommt es ggf. zu unschönen Vermischungen von Whitespaces, Tabs und Line-Endings, die der Übersichtlichkeit nicht grade dienen, oder sogar zur Unbrauchbarkeit führen können. 
+Einigt man sich mit den anderen Team-Mitgliedern <strong>nicht</strong> auf einen einheitlichen Umgang in der Formatierung, kommt es ggf. zu unschönen Vermischungen von Whitespaces, Tabs und Line-Endings, die der Übersichtlichkeit nicht grade dienen, oder sogar zur Unbrauchbarkeit führen können.
 
-In meinem aktuellen Team haben wir uns bisher darauf geeinigt, vier Whitespaces, keine Tabs und Unix-Line-Endings zu verwenden. 
+In meinem aktuellen Team haben wir uns bisher darauf geeinigt, vier Whitespaces, keine Tabs und Unix-Line-Endings zu verwenden.
 
 Was denkt ihr dazu? Sind euch weitere Fallstricke bekannt? Was sind eure Erfahrungen mit solchen Standards in Teams?
 
 
-<h4>PS: Die letzten Neuerungen am Blog</h4> 
-Ein RSS- bzw. Blog-Abonnier-Button und wie sich das gehört ein Twitter-Button für jeden Artikel. Und ab jetzt kommen auch Bilder im RSS-Feed an. 
+<h4>PS: Die letzten Neuerungen am Blog</h4>
+Ein RSS- bzw. Blog-Abonnier-Button und wie sich das gehört ein Twitter-Button für jeden Artikel. Und ab jetzt kommen auch Bilder im RSS-Feed an.
 Sry an dieser Stelle für ggf. doppelt und dreifach ankommende Posts bei den bisherigen (gefühlten drei) Abonnenten ;)
 
 ----
 
-Tag: code,workflow
+Tags: code,workflow
 
 ----
 
-Language: 
+Language:

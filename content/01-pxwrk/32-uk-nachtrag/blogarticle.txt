@@ -14,7 +14,7 @@ Text: Es folgt eine Hand voll Statistiken, die ich mal recherchiert habe, aber n
 
 ### Online-Nutzung Deutschland vs. UK
 
-In Deutschland sind in 2011 ca. (link:http://www.initiatived21.de/portfolio/nonliner-atlas text: 75% der Einwohner online rel: tooltip title: Quelle: Initiative D21 ). 
+In Deutschland sind in 2011 ca. (link:http://www.initiatived21.de/portfolio/nonliner-atlas text: 75% der Einwohner online rel: tooltip title: Quelle: Initiative D21 ).
 In UK sind es (link: http://www.ons.gov.uk/ons/rel/rdit2/internet-access-quarterly-update/2012-q1/stb-internet-access-quarterly-update-2012-q1.html text: ca. 84% rel: tooltip title: Quelle: Office for National Statistics UK ).
 
 #### Mobiles Internet
@@ -30,7 +30,7 @@ In UK sind es (link: http://www.guardian.co.uk/technology/2012/may/15/twitter-uk
 
 ----
 
-Tag: uk,germany,twitter
+Tags: uk,germany,twitter
 
 ----
 

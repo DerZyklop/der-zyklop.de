@@ -10,20 +10,20 @@ Kategory: personalstuff, nerdstuff
 
 ----
 
-Text: Aktuell bin damit beschäftigt diesen Blog nach und nach aufzubauen. Damit er als Blog auch sinn macht, sollte er auch abonnierter sein. Seit ein paar Minuten verfügt er also über einen (link: pxwrk/feed text: RSS-Feed). 
+Text: Aktuell bin damit beschäftigt diesen Blog nach und nach aufzubauen. Damit er als Blog auch sinn macht, sollte er auch abonnierter sein. Seit ein paar Minuten verfügt er also über einen (link: pxwrk/feed text: RSS-Feed).
 
 (image: image.png class:addshadow)
 
 Eine auch durchaus nicht zu verachtende Eigenschaft eines Blogs: Die Kommentarfunktion. Habe ich auch gerade eingebaut. Seht ihr unten.
 
-Ich habe mir vorgenommen kein Wort darüber zu verlieren, wie oft ich hier etwas posten werde und über was. Das ergibt sich dann. Es gibt viel zu viele Blog-Einträge die davon erzählen, was man in Zukunft mit seinem Blog vor hat. Meiner Meinung nach bringt das nur Probleme und verhängnisvolle Erwartungshaltungen bei den Lesern. Ich hoffe also darauf das meine Leser sich einfach nur darüber freuen wenn was Neues kommt. 
+Ich habe mir vorgenommen kein Wort darüber zu verlieren, wie oft ich hier etwas posten werde und über was. Das ergibt sich dann. Es gibt viel zu viele Blog-Einträge die davon erzählen, was man in Zukunft mit seinem Blog vor hat. Meiner Meinung nach bringt das nur Probleme und verhängnisvolle Erwartungshaltungen bei den Lesern. Ich hoffe also darauf das meine Leser sich einfach nur darüber freuen wenn was Neues kommt.
 
 Dinge mitzuteilen habe ich genug. Texte schreiben war eigentlich nie mein Ding. We will see...
 
 ----
 
-Tag: rss,blog
+Tags: rss,blog
 
 ----
 
-Language: 
+Language:

@@ -25,13 +25,13 @@ Bei der Suche nach Podcasts, gibt's meiner Meinung nach einen entscheidenden Unt
 Es gibt verschiedenste Programme für verschiedenste Geräte, um Podcasts zu abonnieren. Apple hat das Podcasten damals bekannt gemacht indem sie eine Podcast-Abonnieren-Funktion in ihr Musik-Programm iTunes integriert haben. Auf Mac, iPhone, iPad und iPod Touch kann ich die App (link: http://vemedio.com/products/instacast text: Instacast) empfehlen. Aber auch für alle anderen Plattformen gibt es entsprechende Programme.
 
 ### Wo finde ich Podcasts?
-Bei (link: http://www.podcast.de/ text: podcast.de), bei (link: http://hoersuppe.de/ text: hoersuppe.de) oder in dem Programm deiner Wahl. 
+Bei (link: http://www.podcast.de/ text: podcast.de), bei (link: http://hoersuppe.de/ text: hoersuppe.de) oder in dem Programm deiner Wahl.
 Und bei dem wunderbaren neuen Projekt (link: http://podpott.de/ text: Podpott) kann man in kleine Podcast-Schnippsel reinhören, die idR. nicht länger als zwei/drei Minuten sind. Spannendes Projekt... Ob's bei der Suche tatsächlich hilft, bin ich mir nicht sicher. Was meint ihr?
 
 ----
 
-Tag: podcast
+Tags: podcast
 
 ----
 
-Language: 
+Language:

@@ -14,8 +14,8 @@ Text: Wie wahrscheinlich jeder zweite, der so einen "Internet-Job" hat, habe ich
 
 ----
 
-Tag: blog
+Tags: blog
 
 ----
 
-Language: 
+Language:

@@ -10,21 +10,21 @@ Kategory: personalstuff, nerdstuff
 
 ----
 
-Text: Ich lebe zunehmend mehr nach gefühlter Zeit. Ich hatte nie gerne eine Uhr am Arm, und dass hat nicht (nur) damit zu tun dass ich drei andere Geräte habe, die mir ständig sagen wie viel Uhr es ist. Könnte ich, würde ich diese Zeitanzeigen verbergen, in den Hintergrund rücken. Doch Elektronik-Hersteller haben sich wohl darauf geeinigt dass genaue Zeitmessungen für alle Menschen essentiell sind, und diese daher in Geräten mit Bildschirmen grundsätzlich präsent sein sollten. 
+Text: Ich lebe zunehmend mehr nach gefühlter Zeit. Ich hatte nie gerne eine Uhr am Arm, und dass hat nicht (nur) damit zu tun dass ich drei andere Geräte habe, die mir ständig sagen wie viel Uhr es ist. Könnte ich, würde ich diese Zeitanzeigen verbergen, in den Hintergrund rücken. Doch Elektronik-Hersteller haben sich wohl darauf geeinigt dass genaue Zeitmessungen für alle Menschen essentiell sind, und diese daher in Geräten mit Bildschirmen grundsätzlich präsent sein sollten.
 
-Es ist nicht so dass ich zeit grundsätzlich nicht mag. Es ist äußerst praktisch wenn ich mich zum Beispiel mit jemandem der gerne mein leben finanzieren möchte, darauf einigen kann dass ich ihm dafür für eine bestimmte zeit meine Leistungen zur Verfügung stelle. Das ist dann für mich aber auch schon der einzige Grund zeit zu erfassen. Der Grund das ich keine Uhren mag ist also dass ich meine Arbeits-, Ess- und Schlaf-Zeiten danach entscheide ob ich wach, müde, krank oder fit bin. 
+Es ist nicht so dass ich zeit grundsätzlich nicht mag. Es ist äußerst praktisch wenn ich mich zum Beispiel mit jemandem der gerne mein leben finanzieren möchte, darauf einigen kann dass ich ihm dafür für eine bestimmte zeit meine Leistungen zur Verfügung stelle. Das ist dann für mich aber auch schon der einzige Grund zeit zu erfassen. Der Grund das ich keine Uhren mag ist also dass ich meine Arbeits-, Ess- und Schlaf-Zeiten danach entscheide ob ich wach, müde, krank oder fit bin.
 
 (image: watch.png link: watch.png title: Zeit class: addshadow)
 
-Viele Menschen klagen über zu viel Arbeit. Unzufriedene Arbeiter werden öfter krank als zufriedene. Der britische Forscher Michael Marmot hat dabei herausgefunden, dass es dabei nicht darum geht wieviel Menschen arbeiten. Es geht vor allem darum, ob man sich die Zeit selbst eingeteilt hat oder nicht. 
+Viele Menschen klagen über zu viel Arbeit. Unzufriedene Arbeiter werden öfter krank als zufriedene. Der britische Forscher Michael Marmot hat dabei herausgefunden, dass es dabei nicht darum geht wieviel Menschen arbeiten. Es geht vor allem darum, ob man sich die Zeit selbst eingeteilt hat oder nicht.
 
-Ich bin froh jemanden gefunden zu haben, der offenbar verstanden hat, dass er mehr von meinen Leistungen hat wenn ich selbst entscheide wann »die zeit dafür günstig ist« (Redewendung über die man auch mal nachdenken sollte), statt sie mich zu "seinen Zeiten" verrichten zu lassen. 
+Ich bin froh jemanden gefunden zu haben, der offenbar verstanden hat, dass er mehr von meinen Leistungen hat wenn ich selbst entscheide wann »die zeit dafür günstig ist« (Redewendung über die man auch mal nachdenken sollte), statt sie mich zu "seinen Zeiten" verrichten zu lassen.
 
 Und da haben wir's... wenn man mal kurz darüber nachdenkt ist das doch ganz logisch, oder? Warum ist es dann so schwer jemanden zu finden der einem für Leistung Geld gibt und diesen Freiraum als selbstverständlich ansieht?
 
-Viele Menschen sind davon überzeugt es tut ihnen gut sich einen perfekten Rhythmus anzugewöhnen bei vielen Menschen scheint das auch zu stimmen, wenn man deren Gesundheit und Ausgeglichenheit beobachtet. 
+Viele Menschen sind davon überzeugt es tut ihnen gut sich einen perfekten Rhythmus anzugewöhnen bei vielen Menschen scheint das auch zu stimmen, wenn man deren Gesundheit und Ausgeglichenheit beobachtet.
 
-Die »mechanische Räderuhr« wurde im 13ten Jahrhundert erfunden. Vorher reichte es aus, sich an Sonne und Mond zu orientieren. Mir reicht das auch heute. 
+Die »mechanische Räderuhr« wurde im 13ten Jahrhundert erfunden. Vorher reichte es aus, sich an Sonne und Mond zu orientieren. Mir reicht das auch heute.
 
 <div class="img-outer-wrap"><a class="addshadow" href='http://pinterest.com/pin/245657354644198101/' target='_blank'><img class="addshadow" src='http://media-cache0.pinterest.com/upload/245657354644198101_K8goLDmn_c.jpg' border='0' width='600' height ='1016' title="Source: watchismo.com via DerZyklop on Pinterest"/></a></div>
 </div>
@@ -33,8 +33,8 @@ Aber war dann das leben vor der Uhr einfach ungesund für die, die scheinbar den
 
 ----
 
-Tag: work,momo
+Tags: work,momo
 
 ----
 
-Language: 
+Language:

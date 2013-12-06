@@ -3,7 +3,7 @@
 function tagcloud($parent, $options=array()) {
 
   global $site;
-  
+
   // default values
   $defaults = array(
     'limit'    => false,
@@ -16,7 +16,7 @@ function tagcloud($parent, $options=array()) {
   );
 
   // merge defaults and options
-  $options = array_merge($defaults, $options);  
+  $options = array_merge($defaults, $options);
 
   switch($options['children']) {
     case 'invisible':
@@ -31,34 +31,34 @@ function tagcloud($parent, $options=array()) {
   }
 
   $cloud = array();
-  
+
   foreach($children as $p) {
-  
-    $tags = str::split($p->$options['field']());  
-    
+
+    $tags = str::split($p->$options['field']());
+
     foreach($tags as $t) {
-            
+
       if(isset($cloud[$t])) {
         $cloud[$t]->results++;
       } else {
         $cloud[$t] = new obj(array(
           'results'  => 1,
           'name'     => $t,
-          'url'      => $options['baseurl'] . '/' . $options['param'] . ':' . $t, 
+          'url'      => $options['baseurl'] . '/' . $options['param'] . ':' . $t,
           'isActive' => (param($options['param']) == $t) ? true : false,
         ));
       }
-      
+
     }
-    
+
   }
-  
+
   $cloud = a::sort($cloud, $options['sort'], $options['sortdir']);
-  
+
   if($options['limit']) {
     $cloud = array_slice($cloud, 0, $options['limit']);
   }
-  
-  return $cloud;  
+
+  return $cloud;
 
 }

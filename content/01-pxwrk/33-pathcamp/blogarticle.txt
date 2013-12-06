@@ -14,10 +14,10 @@ Text: Ich war vergangenes Wochenende auf dem (link: https://twitter.com/search?q
 
 #### Das Barcamp
 
-Ein Barcamp ist eine Art Konferenz. Barcamps werden auch Un-Konferenzen genannt, um klar zu machen, dass es ein paar grundlegende Unterschiede gibt. Auf den üblichen Konferenzen werden Speaker eingeladen und für ihre Vorträge bezahlt. Besucher sind reine Informations-Konsumenten, die Eintritt bezahlen, um sich die Vorträge anzuschauen. 
+Ein Barcamp ist eine Art Konferenz. Barcamps werden auch Un-Konferenzen genannt, um klar zu machen, dass es ein paar grundlegende Unterschiede gibt. Auf den üblichen Konferenzen werden Speaker eingeladen und für ihre Vorträge bezahlt. Besucher sind reine Informations-Konsumenten, die Eintritt bezahlen, um sich die Vorträge anzuschauen.
 
-Auf dem Barcamp gibt es keine festen Sprecher. Man trifft sich mit einer Gruppe von Leuten in einer Location, die üblicherweise von Sponsoren gestellt wird und verabredet zu Beginn des Barcamps wer eine Session halten will. 
-*Session = Präsentation / Diskussionsrunde / Workshop. 
+Auf dem Barcamp gibt es keine festen Sprecher. Man trifft sich mit einer Gruppe von Leuten in einer Location, die üblicherweise von Sponsoren gestellt wird und verabredet zu Beginn des Barcamps wer eine Session halten will.
+*Session = Präsentation / Diskussionsrunde / Workshop.
 
 > Each one teach one
 
@@ -37,9 +37,9 @@ Mehr infos gibt's auf (link: http://www.pathcamp.de/ text: pathcamp.de). Wem die
 
 #### GetLifeDone Session
 
-Eine noch größere Bedeutung bekam das Ganze für mich durch die Entscheidung dort eine Session (in Form von Vortrag und Diskussionsrunde) zum Thema "Reduziert Leben" zu halten. Ich, der Typ dessen Körper immer ziemlich seltsame Sachen anstellt, wenn er im Mittelpunkt steht. Der erste Vortrag vor weitgehend fremden Publikum. 
+Eine noch größere Bedeutung bekam das Ganze für mich durch die Entscheidung dort eine Session (in Form von Vortrag und Diskussionsrunde) zum Thema "Reduziert Leben" zu halten. Ich, der Typ dessen Körper immer ziemlich seltsame Sachen anstellt, wenn er im Mittelpunkt steht. Der erste Vortrag vor weitgehend fremden Publikum.
 
-Mit allen möglichen Bedenken ausgestattet, mit Mangel an ruhigem Schlaf, mit Unsicherheit ob sie auf das Thema anspringen, aber einem sicheren Gefühl, dass die Leute dort bestimmt nett seien, fuhr ich also in den Schwarzwald. Im Zug habe ich noch schnell den letzten Feinschliff an den Notizen und den zu 100% auf dem (link: http://www.fiftythree.com/ text: iPad gemalten) Präsentations-Folien machen können. 
+Mit allen möglichen Bedenken ausgestattet, mit Mangel an ruhigem Schlaf, mit Unsicherheit ob sie auf das Thema anspringen, aber einem sicheren Gefühl, dass die Leute dort bestimmt nett seien, fuhr ich also in den Schwarzwald. Im Zug habe ich noch schnell den letzten Feinschliff an den Notizen und den zu 100% auf dem (link: http://www.fiftythree.com/ text: iPad gemalten) Präsentations-Folien machen können.
 
 Und dann schien das Thema genau in's Schwarze getroffen zu haben. Ich sprach darüber, welche Erfahrungen ich bisher gemacht habe, bei dem Versuch so viel wie möglich Besitz los zu werden. Davon was ich denke, wie man das angehen sollte, und darüber warum ich das alles mache. Daraus entwickelten sich immer wieder sehr spannende, angeregte, auch anstrengende, aber nie überflüssige Diskussionen. Nach der Session gab es in verschiedener Form sehr wertvolles Feedback für mich. Ich bin über all das sehr dankbar.
 
@@ -49,7 +49,7 @@ Ich wurde von (twitter: dotdean) gefragt, ob ich auf dem Pathcamp nicht auch als
 
 ----
 
-Tag: barcamp,pathcamp,work,ipad,possession
+Tags: barcamp,pathcamp,work,ipad,possession
 
 ----
 

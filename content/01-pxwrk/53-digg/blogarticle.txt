@@ -10,7 +10,7 @@ Kategory: nerdstuff
 
 ----
 
-Text: Blogs kann man abonnieren. Das ist gut, weil dann muss ich nicht immer das gesamte Internet durchforsten, ob's irgendwo was relevantes neues gibt. Wäre ja auch verrückt, wenn man das nicht automatisieren könnte. Also lasse ich ein Programm für mich suchen, und das sagt dann bescheid auf welchen Webseiten sich etwas getan hat. Das Programm weiß welche Webseiten mich interessieren und weiß auch welche Artikel ich schon gelesen habe. …aber das habe ich ja schon mal (link: http://der-zyklop.de/pxwrk/wie-kann-ich-blogs-abonnieren/ text: ausführlich erklärt). 
+Text: Blogs kann man abonnieren. Das ist gut, weil dann muss ich nicht immer das gesamte Internet durchforsten, ob's irgendwo was relevantes neues gibt. Wäre ja auch verrückt, wenn man das nicht automatisieren könnte. Also lasse ich ein Programm für mich suchen, und das sagt dann bescheid auf welchen Webseiten sich etwas getan hat. Das Programm weiß welche Webseiten mich interessieren und weiß auch welche Artikel ich schon gelesen habe. …aber das habe ich ja schon mal (link: http://der-zyklop.de/pxwrk/wie-kann-ich-blogs-abonnieren/ text: ausführlich erklärt).
 
 (image: digg-app.png link: digg-app.png)
 
@@ -39,7 +39,7 @@ So. Und jetzt lese ich schöne Artikel. Bis denne!
 
 ----
 
-Tag: blog, rss
+Tags: blog, rss
 
 ----
 

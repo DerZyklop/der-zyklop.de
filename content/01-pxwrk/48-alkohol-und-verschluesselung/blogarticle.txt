@@ -10,11 +10,11 @@ Kategory: personalstuff, nerdstuff
 
 ----
 
-Text: Mein vorheriger Blogpost über (link: http://der-zyklop.de/pxwrk/adolfs-auferstehung/ text: Adolfs Auferstehung) wurde u.a. folgendermaßen kommentiert: 
+Text: Mein vorheriger Blogpost über (link: http://der-zyklop.de/pxwrk/adolfs-auferstehung/ text: Adolfs Auferstehung) wurde u.a. folgendermaßen kommentiert:
 
 > Das Schlimme bei solchen Aktionen ist immer, dass diejenigen, nach denen gesucht wird, sich leicht unter dem Radar bewegen können. Minimum jeder, der sich ein wenig mit Datensicherheit beschäftigt, kann problemlos jede Kommunikation so verschlüsseln und verschleiern, dass niemals jemand auch nur auf die Idee kommen würde, dass derjenige etwas zu verbergen hätte."
 
-Total wichtiger Ansatz. Da ergibt sich das gleiche Problem wie damals bei der Kinder-Pornografie-Debatte. Als Ursula Ursula von der Leyen (CDU) auf die Idee kam: Lasst uns doch einfach das Internet Zensieren. 
+Total wichtiger Ansatz. Da ergibt sich das gleiche Problem wie damals bei der Kinder-Pornografie-Debatte. Als Ursula Ursula von der Leyen (CDU) auf die Idee kam: Lasst uns doch einfach das Internet Zensieren.
 Es gibt immer wege diese sperren zu umgehen. Und wer sie finden will, findet sie.
 
 Zurück zu Prism: Jeder sollte wissen wie man verschlüsselt. Aber der Kommentar ist nicht ganz korrekt. Es gibt zwei Haken.
@@ -45,7 +45,7 @@ Wie man's dreht und wendet, man kommt aus der Nummer nur raus, indem man verhind
 
 ----
 
-Tag: politik
+Tags: politik
 
 ----
 

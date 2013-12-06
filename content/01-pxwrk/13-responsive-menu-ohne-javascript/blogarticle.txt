@@ -10,7 +10,7 @@ Kategory: nerdstuff
 
 ----
 
-Text: (twitter: ellenbauer) von (link: http://www.elmastudio.de/ text: Elmastudio title: Webdesign-Blog rel: tooltip ) hat (link: http://m.netmagazine.com/tutorials/build-smart-mobile-navigation-without-hacks text: einen Blogartikel title: Aaron Gustafson's Lösungsansatz für Responsive-Menu's rel: tooltip ) empfohlen, in dem jemand eine sehr gute Idee beschreibt, wie man eine Webseiten-Navigation für kleinere Bildschirme (wie z.B. Smartphones) umsetzt. 
+Text: (twitter: ellenbauer) von (link: http://www.elmastudio.de/ text: Elmastudio title: Webdesign-Blog rel: tooltip ) hat (link: http://m.netmagazine.com/tutorials/build-smart-mobile-navigation-without-hacks text: einen Blogartikel title: Aaron Gustafson's Lösungsansatz für Responsive-Menu's rel: tooltip ) empfohlen, in dem jemand eine sehr gute Idee beschreibt, wie man eine Webseiten-Navigation für kleinere Bildschirme (wie z.B. Smartphones) umsetzt.
 
 (image: responsive-menu.png title: Responsive-Menu ohne JavaScript class: addshadow )
 
@@ -23,7 +23,7 @@ Das Problem dieser, wie auch der meisten anderen Lösungen ist, dass dafür Java
 ### Lösungsansatz via :target
 
 Der im Blogartikel vorgeschlagene Lösungsansatz ist folgender:
-Wenn man auf einer Webseite auf einen Anker-Link klickt, kann man das verlinkte Ziel in CSS mit der Pesudoklasse `:target` ansprechen. 
+Wenn man auf einer Webseite auf einen Anker-Link klickt, kann man das verlinkte Ziel in CSS mit der Pesudoklasse `:target` ansprechen.
 
 ### Ein Beispiel
 
@@ -56,8 +56,8 @@ Das ganze scheint super zu funktionieren. Einziges Problem auf das ich gestoßen
 
 ----
 
-Tag: responsive,js,work,ux-ui
+Tags: responsive,js,work,ux-ui
 
 ----
 
-Language: 
+Language:

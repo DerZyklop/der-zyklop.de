@@ -2,7 +2,7 @@
 
 ----
 
-Date: 
+Date:
 
 ----
 
@@ -13,7 +13,7 @@ http://image-tool.softonic.de/mac
 
 Und dann mach folgendes:
 
- 
+
 
 0: zieh das quell-bild per drag'n'drop in das "source-image"-feld.
 
@@ -27,8 +27,8 @@ dann hast du eine schön kleine Datei und die ist dann auch richtig herum.
 
 ----
 
-Tag: 
+Tags:
 
 ----
 
-Language: 
+Language:

@@ -17,25 +17,25 @@ Text: Heute gibt's einen kleinen Überblick über die verschiedenen CSS-Einheite
 ### Einheiten
 
 #### Pixel
-Gibt man etwas in px an, so ist diese Angabe absolut. Sie orientiert sich also nicht etwa an Größenangaben der Elternelemente. 
+Gibt man etwas in px an, so ist diese Angabe absolut. Sie orientiert sich also nicht etwa an Größenangaben der Elternelemente.
 
 #### Prozent
 Gibt man größen in % an, so orientiert sich diese Angabe an den Elternelementen.
 
 ###### <span>Beispielrechnung</span>
-Ist die Standard-Schriftgröße einer Webseite also z.B. ``16px``, so wird ein Kindelement - z.B. ein ``<p>`` mit ``font-size: 80%;`` in der Schriftgröße ``12px`` dargestellt. Sollte nun das ``<p>`` innerhalb von einem Element mit der klasse ``sidebar`` liegen mit der Anweisung ``.sidebar { font-size: 50%; }``, dann ist das Ergebnis ``6px`` - also 
+Ist die Standard-Schriftgröße einer Webseite also z.B. ``16px``, so wird ein Kindelement - z.B. ein ``<p>`` mit ``font-size: 80%;`` in der Schriftgröße ``12px`` dargestellt. Sollte nun das ``<p>`` innerhalb von einem Element mit der klasse ``sidebar`` liegen mit der Anweisung ``.sidebar { font-size: 50%; }``, dann ist das Ergebnis ``6px`` - also
 
 **``50%`` von ``80%`` von ``16px``**
 
 #### EM
-Das ``em`` ist ein Faktor, der sich an der Breite eines (link: http://de.wikipedia.org/wiki/Geviert_(Typografie) text: Gevierts rel: tooltip title: wikipedia: Geviert) orientiert, und ist damit der Prozentualen Angabe sehr ähnlich. 
+Das ``em`` ist ein Faktor, der sich an der Breite eines (link: http://de.wikipedia.org/wiki/Geviert_(Typografie) text: Gevierts rel: tooltip title: wikipedia: Geviert) orientiert, und ist damit der Prozentualen Angabe sehr ähnlich.
 
 Der Entscheidende unterschied zu ``%`` liegt darin, dass ``em`` eine Einheit ist, die ihren Urschprung in der Typographie hat und sich immer an der, dem betreffenden Element zugeordneten Schriftgröße orientiert.
 
 ###### <span>Beispielrechnung</span>
-Hat das Elternelement also ``font-size: 16px`` so kann man die Schriftgröße mit ``0.8em`` auf ``12px`` setzen. Auch diese Angabe vererbt sich, wie ``%`` auf seine Kindelemente. 
+Hat das Elternelement also ``font-size: 16px`` so kann man die Schriftgröße mit ``0.8em`` auf ``12px`` setzen. Auch diese Angabe vererbt sich, wie ``%`` auf seine Kindelemente.
 
-Lege ich also in ein ``<div>``, welches die Eigenschaften ``font-size: 16px;`` und ``width: 600px;`` besitzt, ein weiteres ``<div>`` mit einer Breite von ``5%``, wird das Kindelement eine Breite von ``30px`` haben. Gebe ich dem Kindelement eine Breite von ``5em`` ergibt sich eine Breite von 
+Lege ich also in ein ``<div>``, welches die Eigenschaften ``font-size: 16px;`` und ``width: 600px;`` besitzt, ein weiteres ``<div>`` mit einer Breite von ``5%``, wird das Kindelement eine Breite von ``30px`` haben. Gebe ich dem Kindelement eine Breite von ``5em`` ergibt sich eine Breite von
 
 **5 * ``16px`` = ``80px``**
 
@@ -51,7 +51,7 @@ h2 {
 
 ```
 
-Sobald es zu mehrfacher Verschachtelung von ``font-size``-Angaben kommt muss man hier natürlich aufpassen, da sich aus ``4em`` möglicherweise ein anderer px-Wert errechnet als aus den ``4rem``. Weitere Informationen dazu gibt's bei (link: http://www.elmastudio.de/programmierung/css/css-tipp-rem-als-einheit-fur-schriftgrose-nutzen/ text: Emlastudio). 
+Sobald es zu mehrfacher Verschachtelung von ``font-size``-Angaben kommt muss man hier natürlich aufpassen, da sich aus ``4em`` möglicherweise ein anderer px-Wert errechnet als aus den ``4rem``. Weitere Informationen dazu gibt's bei (link: http://www.elmastudio.de/programmierung/css/css-tipp-rem-als-einheit-fur-schriftgrose-nutzen/ text: Emlastudio).
 
 #### Physikalische Größen
 Die weiteren Einheiten beziehen sich auf physikalische Größen. Sie sind also für Print-Stylesheets interessant, jedoch für die Darstellung am Bildschirm ungeeignet:
@@ -79,7 +79,7 @@ MacBook Pro (Retina) - 220dpi
 iPad (Retina) - 264dpi
 iPhone (Retina), iPod Touch (Retina) - 326dpi
 
-Es gibt zwar ein paar working drafts z.B. zum Umgang mit Bildern für die verschiedenen Auflösungen, aber so wie es im Moment aussieht, wird sich da erst noch irgend ein Weg etablieren müssen. 
+Es gibt zwar ein paar working drafts z.B. zum Umgang mit Bildern für die verschiedenen Auflösungen, aber so wie es im Moment aussieht, wird sich da erst noch irgend ein Weg etablieren müssen.
 
 Im Bezug auf die Typographische Gestaltung, gibt's hier jetzt keine Empfehlung, sondern ein Befehl(!): Den Artikel (link: http://informationarchitects.net/blog/responsive-typography-the-basics/ text: "Responsive Typography: The Basics") von (twitter: iA title: Oliver Reichenstein) sollte jeder Web-/UI-Designer mal gelesen haben.
 
@@ -89,8 +89,8 @@ Anmerkung, Kritik, Nörgelei, Zuspruch… ab in die Kommentare.
 
 ----
 
-Tag: css,code,work
+Tags: css,code,work
 
 ----
 
-Language: 
+Language:

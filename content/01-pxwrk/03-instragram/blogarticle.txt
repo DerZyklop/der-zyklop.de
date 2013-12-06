@@ -20,8 +20,8 @@ Text: Drei Neuerungen...
 
 ----
 
-Tag: rss,instagram,macbook,design
+Tags: rss,instagram,macbook,design
 
 ----
 
-Language: 
+Language:

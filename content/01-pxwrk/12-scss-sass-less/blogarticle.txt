@@ -10,16 +10,16 @@ Kategory: nerdstuff
 
 ----
 
-Text: Vor ein paar Wochen habe ich einen Artikel über die extrem nützliche (link:http://www.der-zyklop.de/pxwrk/sass text: preprocessing language SASS ) geschrieben. Möchte man sich die CSS-Arbeit mit einem Preprozessor erleichtern, hat man die Wahl zwischen den drei verschiedenen Syntaxen SASS, SCSS und LESS. 
+Text: Vor ein paar Wochen habe ich einen Artikel über die extrem nützliche (link:http://www.der-zyklop.de/pxwrk/sass text: preprocessing language SASS ) geschrieben. Möchte man sich die CSS-Arbeit mit einem Preprozessor erleichtern, hat man die Wahl zwischen den drei verschiedenen Syntaxen SASS, SCSS und LESS.
 
 (image: sass.gif title: SASS-Logo class: addshadow)
 
-Da ich selbst von Anfang an auf SASS gesetzt habe, habe ich die anderen Schreibweisen in meinem Artikel etwas vernachlässigt, und will hier noch zwei, drei Sätze loswerden. 
+Da ich selbst von Anfang an auf SASS gesetzt habe, habe ich die anderen Schreibweisen in meinem Artikel etwas vernachlässigt, und will hier noch zwei, drei Sätze loswerden.
 
 Vereinfacht kann man zusammenfassen:
 
 #### (link: http://sass-lang.com/ text: SASS )
-hat durch den Wegfall von Semikolons und geschweiften Klammern die minimalistischste Schreibweise. Und es hat den größten Funktionsumgang, der mit (link:http://compass-style.org/ text: entsprechenden Frameworks title: Compass - an open-source CSS Authoring Framework rel: tooltip ) beliebig erweiterbar ist, braucht dafür aber mehr Einarbeitungszeit als die anderen Syntaxen. 
+hat durch den Wegfall von Semikolons und geschweiften Klammern die minimalistischste Schreibweise. Und es hat den größten Funktionsumgang, der mit (link:http://compass-style.org/ text: entsprechenden Frameworks title: Compass - an open-source CSS Authoring Framework rel: tooltip ) beliebig erweiterbar ist, braucht dafür aber mehr Einarbeitungszeit als die anderen Syntaxen.
 Beispiel:
 
 ```
@@ -33,7 +33,7 @@ $border-radius: 4px
 ```
 
 #### (link: http://lesscss.org/ text: LESS)
-ist am einfachsten zu erlernen, hat jedoch weniger Funktionsumfang als SASS und ist nur bedingt erweiterbar. 
+ist am einfachsten zu erlernen, hat jedoch weniger Funktionsumfang als SASS und ist nur bedingt erweiterbar.
 
 ```
 @border-radius: 4px;
@@ -47,7 +47,7 @@ ist am einfachsten zu erlernen, hat jedoch weniger Funktionsumfang als SASS und 
 }
 ```
 
-#### (link: http://sass-lang.com/ text: SCSS ) 
+#### (link: http://sass-lang.com/ text: SCSS )
 ist wie SASS, mit dem unterschied, dass man die geschweiften klammern und semikolons wie bei CSS ausschreibt. Also ein Zwischenstück zwischen SASS und LESS.
 
 ```
@@ -64,14 +64,14 @@ $border-radius: 4px;
 
 #### Fazit
 
-Ich empfehle dir SASS zu nehmen. Wenn dir das für einen Einstieg zu kompliziert erscheint, Versuch's erstmal mit SCSS. Später von SCSS auf SASS umzuspringen wird für dich kein Problem sein. 
+Ich empfehle dir SASS zu nehmen. Wenn dir das für einen Einstieg zu kompliziert erscheint, Versuch's erstmal mit SCSS. Später von SCSS auf SASS umzuspringen wird für dich kein Problem sein.
 
 Schau dir mal das (link: http://css-tricks.com/video-screencasts/111-get-yourself-preprocessing-in-just-a-few-minutes/ text: Video-Tutorial von Chris Coyier) dazu an. Er erklärt den Workflow mit CodeKit anhand von SCSS.
 
 ----
 
-Tag: sass,less,scss,css,code,work
+Tags: sass,less,scss,css,code,work
 
 ----
 
-Language: 
+Language:

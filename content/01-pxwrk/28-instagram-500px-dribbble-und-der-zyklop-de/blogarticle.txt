@@ -22,7 +22,7 @@ Der Snapshots-Bereich zählt nur zur hälfte. Er ist eigentlich nicht neu, hat n
 
 (image: design.png link: http://www.der-zyklop.de/design class:addshadow)
 
-Hier sammeln sich nun von mir gestaltete Illustrationen, Interfaces, Logos.. was auch immer. Die Quelle dafür ist das Designer-Netzwerk (link: http://dribbble.com/DerZyklop text: dribbble). Bei dribbble hat man die Möglichkeit Grafiken hochzuladen, Grafiken anderer zu durchstöbern, zu »liken« und zu kommentieren. 
+Hier sammeln sich nun von mir gestaltete Illustrationen, Interfaces, Logos.. was auch immer. Die Quelle dafür ist das Designer-Netzwerk (link: http://dribbble.com/DerZyklop text: dribbble). Bei dribbble hat man die Möglichkeit Grafiken hochzuladen, Grafiken anderer zu durchstöbern, zu »liken« und zu kommentieren.
 
 Das besondere daran: Alle Bilder sind auf 400px Breite 300px Höhe begrenzt. Da ich ja ein großer Fan des Reduzierens bin, genau das richtige für mich. Wer (von meinen Freunden und Bekannten) interesse daran hat, kann sich gerne bei mir melden. Einen Account bekommt jeder der will. Wenn ihr dort aber selbst etwas Zeigen wollt braucht ihr dafür einen Invite. Ich müsste da noch Invites übrig haben.
 
@@ -32,7 +32,7 @@ Das besondere daran: Alle Bilder sind auf 400px Breite 300px Höhe begrenzt. Da 
 
 Jap, unter Snapshots gibt's auch Fotos, aber eben nur die Schnappschüsse - hier geht es um die Qualitativ hochwertigeren Bilder.
 
-In diesem Bereich werden meine letzen uploads von (link: http://www.500px.com/derzyklop text: 500px) angezeigt. Das meiner Meinung nach angenehmste Netzwerk für Fotografen. Jeder der weiß was eine Spiegelreflex ist, sollte da mal reinschauen. 
+In diesem Bereich werden meine letzen uploads von (link: http://www.500px.com/derzyklop text: 500px) angezeigt. Das meiner Meinung nach angenehmste Netzwerk für Fotografen. Jeder der weiß was eine Spiegelreflex ist, sollte da mal reinschauen.
 
 Um die Bilder auf meine Webseite zu holen habe ich eine Erweiterung für das Content Manangement System (link: http://getkirby.com/ text: Kirby) geschrieben, die sich der 500px-API bedient. Dazu in einem späteren Blogpost mehr.
 
@@ -42,7 +42,7 @@ Abgesehen von den neuen Bereichen habe ich die Ladezeiten um mehr als 100% Verbe
 
 ----
 
-Tag: kirby,dribbble,500px,instagram,blog,app,design,work
+Tags: kirby,dribbble,500px,instagram,blog,app,design,work
 
 ----
 

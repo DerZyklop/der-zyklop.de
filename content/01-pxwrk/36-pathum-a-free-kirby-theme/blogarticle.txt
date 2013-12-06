@@ -32,7 +32,7 @@ PS: I'd love to see where this goes. So if you decide to use it, please let me k
 
 ----
 
-Tag: kirby,theme,code
+Tags: kirby,theme,code
 
 ----
 

@@ -10,11 +10,11 @@ Kategory: personalstuff, nerdstuff
 
 ----
 
-Text: Da ist was neues im Internet... 
+Text: Da ist was neues im Internet...
 
 (image: heizdeckenradio.jpg link: heizdeckenradio.jpg title: HeizdeckenRadio)
 
-Meine gute Freundin (twitter: @Lecker_Lakritze text: Betti) und ich, wir haben vor ein paar Tagen ein neues Projekt gestartet. Es nennt sich HeizdeckenPodcast. Es ist ein Cyberspace-Radio ...oder so was. Vielleicht ist es auch so etwas wie eine Kaufberatung für Heizdecken. Vielleicht ist es eine akustische Thermoregulation. Vielleicht aber auch nichts weiter als eine neue Evolutionsstufe des freien Internetzes. 
+Meine gute Freundin (twitter: @Lecker_Lakritze text: Betti) und ich, wir haben vor ein paar Tagen ein neues Projekt gestartet. Es nennt sich HeizdeckenPodcast. Es ist ein Cyberspace-Radio ...oder so was. Vielleicht ist es auch so etwas wie eine Kaufberatung für Heizdecken. Vielleicht ist es eine akustische Thermoregulation. Vielleicht aber auch nichts weiter als eine neue Evolutionsstufe des freien Internetzes.
 
 Was es nun wirklich ist, findet ihr am besten heraus indem ihr auf der Webseite zu unserer (link: http://heizdeckenradio.pxwrk.de/hdr000/ text: ersten Folge des HeizdeckenRadio) auf den großen runden Button mit dem weißem Dreieck klickt :)
 
@@ -28,7 +28,7 @@ Also habe ich nun ein neues Feature für euch. Wenn ihr auf (link: http://www.de
 
 ----
 
-Tag: podcast,blog,heizdeckenradio
+Tags: podcast,blog,heizdeckenradio
 
 ----
 

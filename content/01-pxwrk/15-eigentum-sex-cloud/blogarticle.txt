@@ -18,7 +18,7 @@ Text: "Eigentum, Sex, Cloud - Das Ende der Exklusivität" ist ein Vortrag von vo
 
 ###### <span>hdsjulian</span>
 
-> Dinge die du besitzt, besitzen irgendwann dich 
+> Dinge die du besitzt, besitzen irgendwann dich
 - Fightclub
 
 - (link: http://de.wikipedia.org/wiki/Diderot-Effekt text: Diderot-Effekt)
@@ -61,7 +61,7 @@ Text: "Eigentum, Sex, Cloud - Das Ende der Exklusivität" ist ein Vortrag von vo
 
 <div></div>
 
-> Alles in allem findet man Reichtum viel eher im Gebrauch als im Besitz 
+> Alles in allem findet man Reichtum viel eher im Gebrauch als im Besitz
 - Aristoteles
 
 <div></div>
@@ -114,8 +114,8 @@ Wer mehr dazu lesen will:
 
 ----
 
-Tag: video,possession
+Tags: video,possession
 
 ----
 
-Language: 
+Language:

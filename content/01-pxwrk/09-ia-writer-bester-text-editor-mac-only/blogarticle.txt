@@ -13,7 +13,7 @@ Kategory: nerdstuff
 Text: Ich hab mich in diesen Editor verliebt und versuche hier mal zu erklären warum:
 
 ### Ich mags einfach
-Mein Beruf bringt es mit sich, dass ich immer nach einfachen sauberen Wegen und Lösungen suche. Und selbstverständlich achte ich darauf, dass das, worauf ich mindestens acht Stunden täglich schaue, nicht hässlich ist. 
+Mein Beruf bringt es mit sich, dass ich immer nach einfachen sauberen Wegen und Lösungen suche. Und selbstverständlich achte ich darauf, dass das, worauf ich mindestens acht Stunden täglich schaue, nicht hässlich ist.
 
 (image: iA-Writer-1.png title: iA Writer class: addshadow)
 
@@ -29,17 +29,17 @@ Und vor allem:
 
 Und ich schreibe Texte. Wenn nicht für dieses Blog, dann sind es Dokumentationen, Recherche-Notizen oder irgendwelche Listen.
 
-Nicht nur die umfangreicheren Programme wie Word und dessen Open-Source-Gegenstücke oder integrierte Text-Editoren wie in (link: http://evernote.com/ text: Evernote title: Programm zum synchronisieren von jeglichen Arten von Dokumenten auf mehreren Geräten rel: tooltip) haben dabei viel zu viele Formatierungs-Möglichkeiten. So viel brauche ich nicht und was ich nicht brauche, will ich nicht sehen - das lenkt nur vom Wesentlichen ab. Abgesehen davon kommt das Meiste, das ich schreibe irgendwann ins Netz - und spätestens da kommen dann wieder Formatierungs-Fehler rein. 
+Nicht nur die umfangreicheren Programme wie Word und dessen Open-Source-Gegenstücke oder integrierte Text-Editoren wie in (link: http://evernote.com/ text: Evernote title: Programm zum synchronisieren von jeglichen Arten von Dokumenten auf mehreren Geräten rel: tooltip) haben dabei viel zu viele Formatierungs-Möglichkeiten. So viel brauche ich nicht und was ich nicht brauche, will ich nicht sehen - das lenkt nur vom Wesentlichen ab. Abgesehen davon kommt das Meiste, das ich schreibe irgendwann ins Netz - und spätestens da kommen dann wieder Formatierungs-Fehler rein.
 Und so kam es immer wieder vor, dass ich meinen geliebten (link: http://macrabbit.com/espresso/ text: Code-Editor title: Espresso rel: tooltip) verwendet habe, um längere Texte zu schreiben. Der ist natürlich absolut nicht darauf ausgelegt.
 
 ### Was iA Writer so gut macht
-- Mit ihm kann man Texte ohne viel Schnickschnack und ohne Formatierungs-Fehler erstellen. 
-- Der Editor hört auf die Auszeichnungssprache (link: http://de.wikipedia.org/wiki/Markdown text: Markdown title: Link zum Wikipedia-Artikel: "Markdown" rel: tooltip) (kennt man wahrscheinlich am ehesten von den Readme-Dateien in (link: https://github.com/ text: GitHub title: Platform für Code-Austausch rel: tooltip)). D.h. wenn ich eine Überschrift haben will, setze ich eine Raute vor das Wort, will ich eine Liste, arbeite ich mit Bindestrichen usw… Die Auszeichnungen sind schnell gelernt, wenn man nicht schon mal in dem ein oder anderen Web-Projekt damit in Berührung kam. 
+- Mit ihm kann man Texte ohne viel Schnickschnack und ohne Formatierungs-Fehler erstellen.
+- Der Editor hört auf die Auszeichnungssprache (link: http://de.wikipedia.org/wiki/Markdown text: Markdown title: Link zum Wikipedia-Artikel: "Markdown" rel: tooltip) (kennt man wahrscheinlich am ehesten von den Readme-Dateien in (link: https://github.com/ text: GitHub title: Platform für Code-Austausch rel: tooltip)). D.h. wenn ich eine Überschrift haben will, setze ich eine Raute vor das Wort, will ich eine Liste, arbeite ich mit Bindestrichen usw… Die Auszeichnungen sind schnell gelernt, wenn man nicht schon mal in dem ein oder anderen Web-Projekt damit in Berührung kam.
 - Interessant für Blogger. Ich bekomme angezeigt, wie lange es durchschnittlich dauern wird den geschriebenen Text zu lesen.
 
 (image: iA-Writer-2.png title: iA Writer class: addshadow)
 
-- Er ist minimalistisch. Sobald ich anfange zu schreiben, bleibt nur der Satz an dem ich gerade dran bin schwarz. Alle Navigationsleisten blenden aus und der bisher geschriebene Text wird ausgegraut. 
+- Er ist minimalistisch. Sobald ich anfange zu schreiben, bleibt nur der Satz an dem ich gerade dran bin schwarz. Alle Navigationsleisten blenden aus und der bisher geschriebene Text wird ausgegraut.
 - Er ist darauf ausgelegt die Maus solange nicht nutzen zu müssen bis man mit dem Text durch ist. Für alles was man so braucht gibt's Tastenkombinationen.
 - Btw: Er ist ideal für den Einsatz für das ebenso kleine und ebenso saubere CMS (link: http://getkirby.com/ text: Kirby), dessen Content in Markdown geschrieben, und automatisch in HTML übersetzt wird.
 - Wird u.a. über die (link: http://www.apple.com/de/icloud/ title: System zum Abgleich verschiedener Dokumente und Informationen zwischen unterschiedlichen Apple-Geräten text: iCloud rel: tooltip) gesynct.
@@ -50,8 +50,8 @@ Den Leuten, die nie mit einen Code-Editor gearbeitet haben, wird's wohl weniger 
 
 ----
 
-Tag: typography,code,kirby,blog,apple,ios
+Tags: typography,code,kirby,blog,apple,ios
 
 ----
 
-Language: 
+Language:
