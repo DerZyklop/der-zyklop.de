@@ -1,0 +1,76 @@
+Title: Linkartikel #2
+
+----
+
+Date: 2013-12-06
+
+----
+
+Text: Wie bei meinem (link: http://der-zyklop.de/pxwrk/linkartikel-1/ text: Linkartikel #1), werde ich auch hier wieder querbeet erzählen, womit ich mich in letzter Zeit so beschäftigt habe. Also welche Artikel und Videos und so ich in den vergangenen Wochen entdeckt habe und für bemerkenswert halte.
+
+Los gehts...
+
+#### Fahrrad im Zug
+
+Der (twitter: pillenknick text: Hendryk) führt die (link: http://hendrykschaefer.de/blog/2013/11/05/radfahren-mit-der-bahn-geht-doch/ text: Liste der Tipps für Bahnreisende) vom (twitter: maltekrohn text: Malte aus Gießen) weiter, von der (link: http://der-zyklop.de/pxwrk/linkartikel-1/ text: ich letztens geschrieben habe). Hendryk geht dabei vor allem auf die Perspektive derer ein, die gerne ihr Fahrrad im Zug mitnehmen.
+
+#### Städte neu denken
+
+Der (link: https://www.youtube.com/watch?v=D-T0jrTetdg&desktop_uri=%252Fwatch%253Fv%253DD-T0jrTetdg&app=desktop text: Günter Beltzig) sagt, dass die Spielplätze die gebaut werden gar keine **Spiel**plätze seien. Und deswegen designt er nun Plätze auf denen man spielen kann.
+
+Und dann sagt er:
+
+> Spielplätze sind ein Abschieberaum. Wenn es uns gelingen würde, die Städte wider so zu planen, dass Kinder überall, zu jeder Zeit mit allem Spielen könnten, dann bräuchten wir keine Spielplätze.
+
+Recht hat er. Und recht hat auch der (link: http://manfredwerner.de/ text: Manfred) wenn er sagt, dass Städte für Maschinen gebaut werden.
+
+(link: http://uxzentrisch.de/ted-talk-new-york-city-rapid-prototyping-strassen/ text: Janette Sadik-Khan erzählt in 14 Minuten) welche Effekte das hat, wenn man Städte für Menschen statt für Maschinen baut. In New York funktioniert das wohl ganz gut.
+
+#### Kaputt-Verwalten
+
+Kommen wir zu einer anderen Baustelle. Das Arbeitsamt Duisburg produziert jetzt (link: http://www.derwesten.de/staedte/duisburg/stadt-duisburg-muss-zwei-drittel-der-ein-euro-jobs-streichen-id8647957.html text: mehr Verwaltungskosten als 1-Euro-Jobs).
+
+Moooment! ...wozu gibts die Arbeitsämter noch mal? Damit's der Wirtschaft besser geht? Gehts der Wirtschaft besser, wenn Menschen 1-Euro-Jobs ausüben? Fraglich. Wisst ihr was man in 1-Euro-Jobs für dumme Sachen machen muss? Und gehts der Wirtschaft besser, wenn die Verwaltung von fraglichen Maßnahmen mehr Geld verlangt als die fraglichen Maßnahmen selbst?
+
+Also noch mal: Wozu gibt's die Arbeitsämter? **Und brauchen wir die noch?** Vielleicht war das früher mal Sinnvoll. Heute ist es ein riesiger Klotz am Bein der Gesellschaft, welchen man schwer los wird. **Ich bin für ein Verfallsdatum für Ämter.**
+
+#### Ingenierskunst
+
+Die Menschen, die das Internet mit aufgebaut haben, haben sich getroffen um das Thema Überwachung zu besprechen. Ergebnis: Sie bewerten die Situation als (link: https://netzpolitik.org/2013/ietf-wird-politisch-und-beschliesst-dass-massenhafte-ueberwachung-als-angriff-zu-bewerten-ist/ text: "**Angriff** den es Abzuwehren gilt").
+
+#### Musik
+
+Das (link: http://www.designmadeingermany.de/2013/27082/ text: Problem mit der GEMA) wird von Design-Studenten erklärt. Die GEMA ist für Musiker, was das Arbeitsamt für Erwerbslose ist. Vielleicht war das früher mal Sinnvoll. Heute ist es ein riesiger Klotz am Bein der Gesellschaft, welchen man schwer los wird. **Ich bin für ein Verfallsdatum für Ämter und Verwertungsgesellschaften.** Zum Glück ist (link: https://www.c3s.cc/ text: eine Alternative) in Gründung.
+
+#### Mitfahrgelegenheit.de
+
+(link: https://netzpolitik.org/2013/agb-aenderung-bei-mitfahrgelegenheit-de/ text: Mitfahrgelegenheit.de ändert seine AGB). Jetzt werden die Informationen wo du dich so rumtreibst auch mit den verrücktesten Werbepartnern geteilt.
+
+Müsst ihr euch selbst überlegen, ob ihr das wollt, oder (link: http://www.bessermitfahren.de/ text: wechselt).
+
+#### Email und Marketing
+
+Mitfahrgelegenheit ist jetzt ein bisschen wie (link: https://www.youtube.com/watch?v=OrkAuwaoFGg text: G-Mail).
+
+Müsst ihr euch selbst überlegen, ob ihr das wollt, oder ob ihr (link: https://posteo.de/ text: wechselt).
+
+#### Spanner auf den Beifahrersitz
+
+Wenn euch der Weg über Mitfahrgelegenheit zu den Werbepartnern nicht direkt genug ist, dann gibt's da noch die <del>Direktversicherung</del> Direktüberwachung der Sparkassen.
+
+Das System nennt sich selbstironisch (link: https://www.youtube.com/watch?v=lSodjbiw62M&feature text: Telematik Sicherheitsservice). Und das funktioniert so: In dein Auto wird eine Überwachungsbox eingebaut. Die beobachtet dein Fahrverhalten und je nach dem, bezahlst du dann mehr oder eben weniger Versicherungsbeitrag. Und jetzt kommt's... die Sparkasse kann zaubern! Denn obwohl sie (laut eigener Aussage) nicht an die Informationen rankommt, wo du z.B. unterwegs warst, kann sie dir am Ende dann doch eine schicke Landkarte in deinen Browser malen, die zeigt, wo du wann warst.
+
+Also diese Technik von heute... langsam komm ich auch nicht mehr mit.
+
+---
+
+Eine gute Nachricht hab ich noch! Ihr könnte jetzt selbst dafür sorgen, dass alles wieder OK wird. Ganz **unverbindlich und kostenlos**!
+Ist (link: http://www.make-everything-ok.com/ text: ganz einfach)!
+
+----
+
+Tag: digitalisierung, politik, linkartikel, weltretten
+
+----
+
+Language: firstValue
