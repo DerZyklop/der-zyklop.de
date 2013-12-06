@@ -80,7 +80,7 @@ Wenn man mal die Augen offen hält findet man viele Plugins und Temples die mitt
 
 ----
 
-Tags: sass,css,code
+Tags: code,sass,css
 
 ----
 

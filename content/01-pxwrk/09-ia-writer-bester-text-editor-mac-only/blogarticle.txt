@@ -50,7 +50,7 @@ Den Leuten, die nie mit einen Code-Editor gearbeitet haben, wird's wohl weniger 
 
 ----
 
-Tags: typography,code,kirby,blog,apple,ios
+Tags: app,code,kirby,blog,apple,ios
 
 ----
 

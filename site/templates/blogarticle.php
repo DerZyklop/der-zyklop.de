@@ -39,10 +39,11 @@
       <div class="clearit"></div>
     </div>
 
-    <?php snippet('taglist') ?>
+    <?php //snippet('taglist') ?>
   </article>
 
   <?php snippet('article-suggestion'); ?>
+  <?php //snippet('article-nav'); ?>
 
   <div>
     <?php snippet('disqus', array('disqus_shortname' => 'derzyklop', 'disqus_developer' => true)) ?>

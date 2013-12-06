@@ -60,7 +60,7 @@ Wenn ihr noch Empfehlungen habt, welcher Reader für Windows und/oder Linux brau
 
 ----
 
-Tags: rss,feedreader,reeder,app,googlereader,blog
+Tags: blog,feedreader,reeder,app,googlereader
 
 ----
 

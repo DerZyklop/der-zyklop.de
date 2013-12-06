@@ -142,6 +142,7 @@ iframe.video
 
 .content
     margin-top: 2em
+    margin-bottom: 2em
     .article-text
         font-family: $font-main
         font-size: 1.2em
@@ -240,6 +241,15 @@ blockquote
     background: $width-wrap-background
     //border: 1px solid $border-color
     padding: $space-t-b $space-l-r
+
+.width-wrap
+    max-width: $page-width
+    position: relative
+    margin: 0 auto
+    img
+        max-width: 100%
+        margin: 0 auto
+        +border-radius(4px)
 
 h1, h2, h3, h4, h5, h6
     font-weight: normal
@@ -554,6 +564,15 @@ nav.submenu
             width: 48%
             margin-left: 2%
 
+.article-suggestion
+    section
+        margin: 2em 0
+    img
+        float: right
+        margin: 1.5em 0  1.5em  2em
+    .content
+        font-family: $font-main
+
 $options-bar-space: 10px
 
 .options-bar
@@ -826,24 +845,6 @@ $options-bar-space: 10px
     +box-shadow(0 0 30px rgba(0,0,0,0.3))
     h4
         font-size: 140%
-
-.addshadow
-    //+box-shadow(0px 0px 18px #999)
-    //border: 1px solid $primary
-
-.width-wrap
-    max-width: $page-width
-    position: relative
-    margin: 0 auto
-    img
-        max-width: 100%
-        margin: 0 auto
-        +border-radius(4px)
-
-//.img-border
-    //img
-        //border: 1px solid $primary
-
 
 #readingmode
     max-width: $page-width - 3px - 3px
