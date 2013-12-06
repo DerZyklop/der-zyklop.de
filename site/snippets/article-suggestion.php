@@ -17,14 +17,20 @@ if ( $suggestedArticle ) : ?>
 
   <h6><span>Das könnte dich auch interessieren:</span></h6>
   <section>
-    <h4 class="title"><?php echo $suggestedArticle->title(); ?></h4>
-    <?php
-      echo thumb( $suggestedArticle->images()->first(), array(
-        'width' => 200,
-        'quality' => 70,
-        'crop' => false
-      ));
-    ?>
+    <a class="title" href="<?php echo $suggestedArticle->url(); ?>">
+      <h4>
+        <?php echo $suggestedArticle->title(); ?>
+      </h4>
+    </a>
+    <a href="<?php echo $suggestedArticle->images()->first()->url(); ?>">
+      <?php
+        echo thumb( $suggestedArticle->images()->first(), array(
+          'width' => 200,
+          'quality' => 70,
+          'crop' => false
+        ));
+      ?>
+    </a>
     <div class="content">
       <?php echo excerpt($suggestedArticle->text(),220); ?> <a href="<?php echo $suggestedArticle->url(); ?>">weiterlesen</a>
     </div>
