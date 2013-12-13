@@ -31,9 +31,9 @@ if ( $suggestedArticle ) : ?>
         ));
       ?>
     </a>
-    <div class="content">
+    <p class="content">
       <?php echo excerpt($suggestedArticle->text(),220); ?> <a href="<?php echo $suggestedArticle->url(); ?>">weiterlesen</a>
-    </div>
+    </p>
     <div class="clearit"></div>
   </section>
 </aside>
