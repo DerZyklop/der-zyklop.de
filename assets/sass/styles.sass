@@ -92,14 +92,11 @@ h1
     margin: 0
 
 h1, h2
-    color: $tertiary
-
-h2, h3, h4
-    border-bottom: $border-width $border-style $border-color
+    color: $primary - #222
 
 h3, h4
     color: $primary - #222
-    text-align: center
+    // text-align: center
 
 h5
     background: $primary - #222
@@ -117,9 +114,10 @@ h6
         background: $quadrary
         padding: 0 1em
 
+h2, h3, h4, h5
+    border-bottom: $border-width $border-style $border-color
+
 h2, h3, h4, h5, h6
-    margin: 0.3em 0
-    margin: 0.4em 0 0.2em 0
     margin: $space-t-b*1.5 0 $space-t-b
 
 p
@@ -571,7 +569,7 @@ $options-bar-space: 10px
 
 .options-bar
     color: $quadrary
-    margin: $space-t-b 0
+    margin: $space-t-b*2 0
     a
         display: block
         color: $quadrary
@@ -737,8 +735,6 @@ $options-bar-space: 10px
 .blogarticle
     h2
         +transition(background 0.3s, border-color 0.3s, color 0.3s)
-        &:hover
-            border-color: $border-color - #333
         &:hover,
         &:hover .entry-date
             color: $font-color
