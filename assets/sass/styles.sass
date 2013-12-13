@@ -72,15 +72,7 @@ body
 h1, h2, h3, h4, h5, h6
     font-family: $font-highlight
     line-height: 1.4em
-
-h1
-    margin: 0
-
-h2, h3, h4, h5, h6
-    margin: 0.3em 0
-
-h1, h2
-    color: $primary
+    font-weight: normal
 
 h1
     font-size: 2.5em
@@ -95,14 +87,70 @@ h5
 h6
     font-size: 1em
 
+
+h1
+    margin: 0
+
+h1, h2
+    color: $tertiary
+
+h2, h3, h4
+    border-bottom: $border-width $border-style $border-color
+
+h3, h4
+    color: $primary - #222
+    text-align: center
+
+h5
+    background: $primary - #222
+    color: $primary
+    a, a:hover
+        color: $quadrary
+        text-decoration: none
+    font-size: 120%
+    padding: 0.2em 0.4em
+
+h6
+    text-align: center
+    background: url('../images/ccc.png') center center repeat-x
+    span
+        background: $quadrary
+        padding: 0 1em
+
+h2, h3, h4, h5, h6
+    margin: 0.3em 0
+    margin: 0.4em 0 0.2em 0
+    margin: $space-t-b*1.5 0 $space-t-b
+
+p
+    margin: $space-t-b 0
+hr
+    height: 1px
+    border: none
+    background: $border-color
+    margin: $space-t-b*1.5 0
+
 p
     img
         margin-top: 0.5em
+
 p, ul, ol
     a
         text-decoration: none
         &:hover
             text-decoration: underline
+
+blockquote
+    margin: $space-t-b 0
+    background: #F4F4F4
+    padding:
+        left: 30px
+        right: 30px
+        top: 1px
+        bottom: 1px
+    border-left: 4px solid $primary
+    p
+        margin: 0.5em 0
 
 legend
     color: $border-color - #444
@@ -111,15 +159,6 @@ legend
 // NN UI [END]
 
 @import 'icons.sass'
-
-hr
-    height: 1px
-    border: none
-    background: $border-color
-    margin: $space-t-b 0
-
-p
-    margin: $space-t-b 0
 
 iframe.video
     width: 100%
@@ -170,11 +209,11 @@ iframe.video
     margin: 1em 0
     .img-inner-wrap
         display: block
-        +border-radius(4px)
+        +border-radius($radius)
         border: 1px solid $border-color
     a
         padding: 1em
-        +border-radius(4px)
+        +border-radius($radius)
         display: block
         text-decoration: none
         position: relative
@@ -206,13 +245,13 @@ iframe.video
         span
             font-size: 14px
     .image-likes
-        +border-radius(4px 4px 0 0)
+        +border-radius($radius $radius 0 0)
         position: absolute
         top: 0
         font-weight: bold
         border-bottom-width: 1px
     .description
-        +border-radius(0 0 4px 4px)
+        +border-radius(0 0 $radius $radius)
         position: absolute
         text-align: center
         bottom: 0
@@ -224,18 +263,6 @@ iframe.video
 
 .entry-date
     +transition(color 0.3s)
-
-blockquote
-    margin: $space-t-b 0
-    background: #F4F4F4
-    padding:
-        left: 30px
-        right: 30px
-        top: 1px
-        bottom: 1px
-    border-left: 4px solid $primary
-    p
-        margin: 0.5em 0
 
 .inner-width-wrap
     background: $width-wrap-background
@@ -249,43 +276,7 @@ blockquote
     img
         max-width: 100%
         margin: 0 auto
-        +border-radius(4px)
-
-h1, h2, h3, h4, h5, h6
-    font-weight: normal
-
-h1, h2
-    color: $tertiary
-
-h3, h4
-    color: $primary - #222
-
-h2, h4
-    border:
-        top: $border-width $border-style $border-color
-        bottom: $border-width $border-style $border-color
-    padding: 0.2em 0.4em
-    margin: 0.8em 0
-    background: $width-wrap-background - #030303
-
-h4
-    font-size: 130%
-
-h5
-    background: $primary - #222
-    color: $primary
-    a, a:hover
-        color: $quadrary
-        text-decoration: none
-    font-size: 120%
-    padding: 0.2em 0.4em
-
-h6
-    text-align: center
-    background: url('../images/ccc.png') center center repeat-x
-    span
-        background: $quadrary
-        padding: 0 1em
+        +border-radius($radius)
 
 @media screen and (max-width: $breakpoint)
     .inner-width-wrap
@@ -572,23 +563,19 @@ nav.submenu
         text-decoration: none
     img
         float: right
-        margin: 1.5em 0  1.5em  2em
+        margin: 0.5em 0  2em  2em
     .content
         font-family: $font-main
 
 $options-bar-space: 10px
 
 .options-bar
-    background: $border-color + #222
     color: $quadrary
     margin: $space-t-b 0
-    border-top: 1px solid $quadrary
-    border-bottom: 1px solid $quadrary
     a
         display: block
         color: $quadrary
         text-decoration: none
-    .label,
     .autorinfo,
     .supporters-btn
         display: block
@@ -596,34 +583,26 @@ $options-bar-space: 10px
         padding: $options-bar-space $options-bar-space*3
         line-height: 40px
     &.flat
-        .label,
         .autorinfo,
         .supporters-btn
             line-height: 26px
     .autorinfo,
     .supporters-btn
         cursor: pointer
-        border: 1px solid transparent
         background: $border-color
-        border: 1px solid transparent
         +transition(background 0.3s, border 0.3s)
         min-width: $options-bar-space*4+10px
-        border-top-color: $quadrary
-        border-bottom-color: $quadrary
-        margin-top: -1px
-        margin-bottom: -1px
         &:hover
             background: $primary
-            border: 1px solid $primary - #222
     .autorinfo
-        float: left
-        border-right-color: $quadrary
-    .label
-        color: $border-color - #222
-    .label,
-    .supporters-btn
+        font-size: 1.2em
+        +border-radius($radius)
+        margin-left: 10px 0
         float: left
     .supporters-btn
+        margin-left: 10px
+        float: left
+        +border-radius($radius)
         text-align: center
         position: relative
         border-left-color: $quadrary
@@ -756,10 +735,6 @@ $options-bar-space: 10px
         margin-top: 1em
 
 .blogarticle
-    .entry-date
-        font-size: 0.5em
-        margin-top: 0.8em
-        line-height: 1em
     h2
         +transition(background 0.3s, border-color 0.3s, color 0.3s)
         &:hover
@@ -771,6 +746,9 @@ $options-bar-space: 10px
             float: right
             color: $border-color
             +transition(color 0.3s)
+            font-size: 0.5em
+            margin-top: 1.2em
+            line-height: 1em
     .intro
         margin: 1.6em 0
         color: $font-color + #222
