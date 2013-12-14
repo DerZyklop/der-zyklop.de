@@ -7,6 +7,10 @@
 	<title><?php echo html($page->title()) ?> - <?php echo html($site->title()) ?></title>
 
   <meta name="description" content="<?php echo html($site->description()) ?>" />
+  <?php if ($page->template() == 'blogarticle') : ?>
+    <meta property="og:description" content="<?= excerpt($page->text(), 250) ?>"/>
+  <?php endif; ?>
+
   <meta name="keywords" content="<?php echo html($site->keywords()) ?>" />
   <meta name="robots" content="index, follow" />
 
@@ -35,8 +39,8 @@
 	<div class="inner-width-wrap">
         <div class="header clearfix">
         	<h1>
-              <a href="<?php echo url() ?>">
-                  <img src="<?php echo url('assets/images/derzyklop.png'); ?>" alt="<?php echo h($site->title()) ?>" width="" />
+              <a href="<?= url() ?>">
+                  <img src="<?= url('assets/images/derzyklop.png'); ?>" alt="<?php echo h($site->title()) ?>" width="" />
               </a>
-        	</h1>
+          </h1>
         </div>
