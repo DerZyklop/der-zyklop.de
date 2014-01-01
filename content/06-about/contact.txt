@@ -3,16 +3,14 @@
 ----
 
 Text: #### Hi, ich bin DerZyklop.
-Ich lebe und arbeite in Mittelhessen. Ich bin UI/UX-Designer d.h. ich sorge dafür, dass Webseiten und Applikationen auf allen Geräten gut aussehen, intuitiv zu bedienen sind und aus sauberem, soliden Code gebaut sind. 
+Ich lebe und arbeite in Mittelhessen. Ich bin UI/UX-Designer d.h. ich sorge dafür, dass Webseiten und Applikationen auf allen Geräten gut aussehen, intuitiv zu bedienen sind und aus sauberem, soliden Code gebaut sind.
 
 (image: escher-asciiart.jpg class: addshadow alt: M. C. Escher - Asciiart by DerZyklop title: M. C. Escher - Asciiart by DerZyklop )
 
-Nebenher und während dessen beschäftige ich mich mit neuen Medien, neuen Tools, Netzpolitik und schreibe über das was mir gerade in den sinn kommt.
+Nebenher beschäftige ich mich mit Politik, Nerdstuff und Weltretten und schreibe über das was mir gerade in den sinn kommt.
 
-btw: Blogposts erscheinen ca. alle zwei Wochen.
+Blogposts erscheinen seit 2012 ca. alle 14 Tage.
 
-So könnt ihr mich erreichen:
-(link: http://www.twitter.com/DerZyklop text: DerZyklop auf Twitter)
-(email: mail@der-zyklop.de text: DerZyklop per Email)
+Ihr erreicht mich auf (link: http://www.twitter.com/DerZyklop text: Twitter) und per (email: mail@der-zyklop.de text: Email).
 
 Falls ihr mir Verschlüsselte Emails senden wollt, findet ihr meinen **PGP-Key** im (link: impressum text: Impressum). Falls ihr euch fragt warum ihr das tun solltet, (link: http://der-zyklop.de/pxwrk/keine-verschluesselung/ text: lest das).
