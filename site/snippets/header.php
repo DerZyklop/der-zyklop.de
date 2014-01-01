@@ -40,7 +40,7 @@
         <div class="header clearfix">
         	<h1>
               <a href="<?= url() ?>">
-                  <img src="<?= url('assets/images/derzyklop.png'); ?>" alt="<?php echo h($site->title()) ?>" width="" />
+                  <img src="<?php url('assets/images/derzyklop.png'); ?>" alt="<?php echo h($site->title()) ?>" width="" />
               </a>
           </h1>
         </div>
