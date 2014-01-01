@@ -109,7 +109,7 @@ module.exports = (grunt) ->
     php:
       all:
         options:
-          port: 1337
+          port: 1338
           hostname: 'localhost'
           base: ''
           keepalive: false
