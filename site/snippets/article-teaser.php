@@ -11,10 +11,9 @@
   </h2>
   <div class="img-border">
       <?php if($item->hasImages()): ?>
-          <div class="img-outer-wrap">
-            <a href="<?php echo $item->url() ?>" class="img-inner-wrap">
+            <a href="<?php echo $item->url() ?>">
               <?php if($first) : ?>
-                <img class="addshadow img-border" src="<?php 
+                <img class="img-border" src="<?php
                   $image = $item->images()->first();
                   echo thumb( $image, array(
                     'width' => 800,
@@ -24,7 +23,7 @@
                   ), false);
                 ?>" alt="<?php echo $item->images()->first()->name() ?>" />
               <?php else : ?>
-                <img class="addshadow img-border" src="<?php 
+                <img class="img-border" src="<?php
                   $image = $item->images()->first();
                   echo thumb( $image, array(
                     'width' => 348,
@@ -36,7 +35,6 @@
               <?php endif; ?>
             </a>
             <?php echo '<p class="article-text">'.excerpt($item->text(), 260).'</p>' ?>
-          </div>
       <?php else : ?>
         <?php echo '<p>'.excerpt($item->text(), 260).'</p>' ?>
       <?php endif; ?>
