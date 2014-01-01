@@ -691,27 +691,26 @@ $options-bar-space: 10px
         p
             margin-bottom: 0.5em
 
-        h2,
-        h2 a,
-        .entry-date
-            +transition(0.3s)
-
         h2
-            background: $primary
+            //background: $primary
+            border: $border-width $border-style $border-color
             +border-radius($radius)
             padding: 0
             margin: $space-t-b/2 0
+            +transition(0.3s)
             @media screen and (max-width: $breakpoint)
                 line-height: 1.4em
                 width: 100%
                 margin: 0
             @media screen and (min-width: $breakpoint)
                 font-size: 1.5em
+
             a
                 padding: 0.3em 0.5em
+                +transition(0.3s)
                 display: block
                 text-decoration: none
-                color: $quadrary
+                color: $primary - #222
 
         &.first
             margin: 0
@@ -720,36 +719,37 @@ $options-bar-space: 10px
             h2
                 font-size: 2em
 
-        &:hover h2,
-            background: $primary - #222
-            border-color: $border-color - #333
         .entry-date
             float: right
             padding: 0em 0.8em
+            +transition(0.3s)
             color: $quadrary
+            color: $border-color
             +border-radius($radius)
-            background: $border-color
+            //background: $border-color
+            border: $border-width $border-style $border-color
             @media screen and (max-width: $breakpoint)
                 display: inline
                 position: static
+        &:hover
+            .entry-date
+                border-color: $tertiary
+                color: $tertiary
+            h2
+                border-color: $primary - #222
+                &:hover
+                    background: $primary - #222
+            h2 a:hover
+                color: $quadrary
 
 .blogarticle
     h2
         +transition(background 0.3s, border-color 0.3s, color 0.3s)
-        &:hover,
-        &:hover .entry-date
-            color: $font-color
         .entry-date
             float: right
-            color: $border-color
-            +transition(color 0.3s)
             font-size: 0.5em
             margin-top: 1.2em
             line-height: 1em
-    .intro
-        margin: 1.6em 0
-        color: $font-color + #222
-        font-weight: bold
 
 /* Blog [END] */
 
@@ -848,19 +848,14 @@ $options-bar-space: 10px
     padding: 3px 3px 0
     background-color: $secondary
     background-image: url(../images/ui/noise.png)
-    +border-radius(0 0 $radius $radius)
+    +border-radius($radius $radius 0 0)
     +transition(0.5s)
+    padding: 0.4em 1em
     .inner
         +transition(0.5s)
-        display: block
-        text-decoration: none
         color: $quadrary
         text-decoration: none
-        padding: 0.4em 1em
-        border:
-            color: $quadrary
-            style: dashed
-            width: 1px 1px 0 1px
+        display: block
 
 .rss-button
     position: absolute
@@ -874,10 +869,7 @@ $options-bar-space: 10px
             display: none
         z-index: 100
         &:hover
-            border:
-                color: $quadrary
             background: complement($primary) - #222
-            color: $quadrary
     &.fixed
         display: block
 

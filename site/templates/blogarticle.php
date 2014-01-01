@@ -14,11 +14,6 @@
           <div class="clearit"></div>
       </h2>
 
-      <?php
-          if ( $page->intro() ) {
-              echo '<div class="intro">'.kirbytext($page->intro()).'</div>';
-          }
-      ?>
       <div data-post="<?php echo html($page->uid()); ?>" data-likes="<?php echo html($page->likes()); ?>" class="article-text">
         <?php echo kirbytext($page->text()); ?>
       </div>
