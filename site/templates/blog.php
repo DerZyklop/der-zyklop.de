@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 <?php snippet('menu') ?>
 
-<?php 
+<?php
   $blog = $pages->find('pxwrk');
   $articles = $blog->children()->visible()->flip();
 ?>
@@ -15,30 +15,20 @@
 <section class="blog">
   <?php if ( $articles->count() == 0 && $site->uri()->params() == '' ) : ?>
     <h3>Uuups!</h3>
-    <p>Sieht aus, als hätte <?php echo($site->author()) ?> noch keinen einzigen Artikel veröffentlicht.</p>
+    <p>Sieht aus, als hätte <?= $site->author() ?> noch keinen einzigen Artikel veröffentlicht.</p>
   <?php else: ?>
-    <?php 
-      foreach ($site->uri()->params() as $key => $value) {
-        if ($key != 'page') {
-          $articles = $articles->filterBy($key, $value, ',');
-        }
-      }
-    ?>
-    <?php if ( $articles->count() != 0 && $site->uri()->params() != '' ) : ?>
-      <?php 
-        echo('<div id="articles">');
-        foreach($articles->paginate(3) as $article) {
-          snippet( 'article-teaser', array( 'item' => $article, 'first' => false )); 
-        };
-        echo('</div>');
-
-        snippet('pagination', array( 'articles' => $articles ));
-      ?>
-    <?php elseif ( $articles->count() == 0): ?>
+    <!-- If this is a keyword-search -->
+    <?php foreach ($site->uri()->params() as $key => $value) : ?>
+      <?php if ($key != 'page') {
+        $articles = $articles->filterBy($key, $value, ',');
+      } ?>
+    <?php endforeach; ?>
+    <!-- If cant find items -->
+    <?php if ( $articles->count() == 0): ?>
       <h3>Sorry!</h3>
       <p>Ich hab überall gesucht, ich hab echt alles gegeben, ich konnte keine Einträge finden.</p>
       <p>Schau dir mal die anderen Schlagworte an, die ich gefunden habe – vielleicht interessiert dich ja eins davon:</p>
-      <?php 
+      <?php
         $tags = tagcloud($blog, array('field'=>'tag', 'baseurl'=>$site->url().'/pxwrk/tags') );
       ?>
       <ul class="tagcloud">
@@ -50,14 +40,13 @@
           <?php endif; ?>
         <?php endforeach ?>
       </ul>
+    <!-- Show items -->
     <?php else: ?>
-      <?php //snippet('kategory-select') ?>
-
       <div id="articles">
-        <?php 
+        <?php
           snippet( 'article-teaser', array( 'item' => $articles->first(), 'first' => true ));
         ?>
-        <?php 
+        <?php
           foreach($articles->offset(1)->paginate(2) as $article) {
             snippet( 'article-teaser', array( 'item' => $article, 'first' => false ));
           };

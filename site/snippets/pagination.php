@@ -11,22 +11,22 @@
     <?php else: ?>
         <div class="next-btn"><a href="#" class="nolink passiv-btn btn">Neuer<span class="no-mobile">e Artikel</span> ></a></div>
     <?php endif ?>
-  
+
   <div class="clearit"></div>
 </nav>
 
 <script type="text/javascript">
-  options = {
+  params = {
     <?php
       $i = 1;
       foreach ($site->uri()->params() as $key => $value) {
         if ($key != 'page') : ?>
           <?php echo($key) ?>:'<?php echo($value) ?>'
           <?php if ($site->uri()->params()->count() != $i) { echo(','); } ?>
-        <?php 
+        <?php
         endif;
       }
     ?>
   }
-  lazyLoadArticles(<?php echo($articles->pagination()->countPages() - 1 ) ?>, options)
+  lazyLoadArticles(<?php echo($articles->pagination()->countPages()) ?>, params)
 </script>

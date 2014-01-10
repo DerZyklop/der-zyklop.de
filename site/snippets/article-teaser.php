@@ -11,30 +11,32 @@
   </h2>
   <div class="img-border">
       <?php if($item->hasImages()): ?>
-            <a href="<?php echo $item->url() ?>">
-              <?php if($first) : ?>
-                <img class="img-border" src="<?php
-                  $image = $item->images()->first();
-                  echo thumb( $image, array(
-                    'width' => 800,
-                    'height' => 500,
-                    'quality' => 70,
-                    'crop' => true
-                  ), false);
-                ?>" alt="<?php echo $item->images()->first()->name() ?>" />
-              <?php else : ?>
-                <img class="img-border" src="<?php
-                  $image = $item->images()->first();
-                  echo thumb( $image, array(
-                    'width' => 348,
-                    'height' => 217,
-                    'quality' => 70,
-                    'crop' => true
-                  ), false);
-                ?>" alt="<?php echo $item->images()->first()->name() ?>" />
-              <?php endif; ?>
-            </a>
-            <?php echo '<p class="article-text">'.excerpt($item->text(), 260).'</p>' ?>
+        <a href="<?php echo $item->url() ?>">
+          <?php if($first) : ?>
+            <img class="img-border" src="<?php
+              $image = $item->images()->first();
+              echo thumb( $image, array(
+                'width' => 800,
+                'height' => 500,
+                'quality' => 70,
+                'crop' => true
+              ), false);
+            ?>" alt="<?php echo $item->images()->first()->name() ?>" />
+          <?php else : ?>
+            <img class="img-border" src="<?php
+              $image = $item->images()->first();
+              echo thumb( $image, array(
+                'width' => 348,
+                'height' => 217,
+                'quality' => 70,
+                'crop' => true
+              ), false);
+            ?>" alt="<?php echo $item->images()->first()->name() ?>" />
+          <?php endif; ?>
+        </a>
+        <?php if($first) : ?>
+          <?php echo '<p class="article-text">'.excerpt($item->text(), 260).'</p>' ?>
+        <?php endif; ?>
       <?php else : ?>
         <?php echo '<p>'.excerpt($item->text(), 260).'</p>' ?>
       <?php endif; ?>
