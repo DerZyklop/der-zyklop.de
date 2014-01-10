@@ -1,10 +1,12 @@
 <article class="clearfix <?php if($first) { echo('first'); } ?>">
   <div class="clearfix">
-    <span class="entry-date">
-      <span class="day"><?php echo html($item->date('d')) ?></span>
-      <span class="month"><?php echo html($item->date('m')) ?></span>
-      <span class="year"><?php echo html($item->date('Y')) ?></span>
-    </span>
+    <a href="<?php echo $item->url() ?>">
+      <span class="entry-date">
+        <span class="day"><?php echo html($item->date('d')) ?></span>
+        <span class="month"><?php echo html($item->date('m')) ?></span>
+        <span class="year"><?php echo html($item->date('Y')) ?></span>
+      </span>
+    </a>
   </div>
   <h2>
     <a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a>
