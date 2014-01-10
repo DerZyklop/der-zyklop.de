@@ -13,4 +13,6 @@ Blogposts erscheinen seit 2012 ca. alle 14 Tage.
 
 Ihr erreicht mich auf (link: http://www.twitter.com/DerZyklop text: Twitter) und per (email: mail@der-zyklop.de text: Email).
 
+Code gibts auf (link: https://github.com/DerZyklop text: github)
+
 Falls ihr mir Verschlüsselte Emails senden wollt, findet ihr meinen **PGP-Key** im (link: impressum text: Impressum). Falls ihr euch fragt warum ihr das tun solltet, (link: http://der-zyklop.de/pxwrk/keine-verschluesselung/ text: lest das).
