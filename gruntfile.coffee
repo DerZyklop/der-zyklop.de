@@ -1,6 +1,3 @@
-#das ist ein test
-# und noch einer
-
 module.exports = (grunt) ->
 
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks)
@@ -71,6 +68,26 @@ module.exports = (grunt) ->
           ]
 
 
+    imagemin:
+      options:
+        optimizationLevel: 7
+      all:
+        files: [
+          expand: true
+          cwd: './thumbs/uncompressed'
+          src: ['**/*.{gif,png}']
+          dest: './thumbs/'
+        ]
+      jpg:
+        options:
+          progressive: true
+        files: [
+          expand: true
+          cwd: './thumbs/uncompressed'
+          src: ['**/*.jpg']
+          dest: './thumbs/'
+        ]
+
     watch:
       options:
         livereload: true
@@ -96,6 +113,12 @@ module.exports = (grunt) ->
           '<%= paths.jsvendor %>/*.js'
         ]
         tasks: ['uglify']
+      images:
+        files: [
+          'thumbs/uncompressed/**/*.{gif,png,jpg}'
+        ]
+        tasks: ['imagemin']
+
 
       tmpl:
         files: [
