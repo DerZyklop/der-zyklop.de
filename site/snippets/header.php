@@ -8,7 +8,7 @@
 
   <meta name="description" content="<?php echo html($site->description()) ?>" />
   <?php if ($page->template() == 'blogarticle') : ?>
-    <meta property="og:description" content="<?= excerpt($page->text(), 250) ?>"/>
+    <meta property="og:description" content="<?php excerpt($page->text(), 250) ?>"/>
   <?php endif; ?>
 
   <meta name="keywords" content="<?php echo html($site->keywords()) ?>" />
