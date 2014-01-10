@@ -4,26 +4,26 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?php echo html($page->title()) ?> - <?php echo html($site->title()) ?></title>
+	<title><?= html($page->title()) ?> - <?= html($site->title()) ?></title>
 
-  <meta name="description" content="<?php echo html($site->description()) ?>" />
+  <meta name="description" content="<?= html($site->description()) ?>" />
   <?php if ($page->template() == 'blogarticle') : ?>
-    <meta property="og:description" content="<?php excerpt($page->text(), 250) ?>"/>
+    <meta property="og:description" content="<?= excerpt($page->text(), 250) ?>"/>
   <?php endif; ?>
 
-  <meta name="keywords" content="<?php echo html($site->keywords()) ?>" />
+  <meta name="keywords" content="<?= html($site->keywords()) ?>" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="shortcut icon" href="<?php echo url('assets/images/favicon.png') ?>" type="image/png" />
-  <link rel="icon" href="<?php echo url('assets/images/favicon.png') ?>" type="image/png" />
-  <link rel="apple-touch-icon" href="<?php echo u('assets/images/apple-touch-icon.png') ?>" />
+  <link rel="shortcut icon" href="<?= url('assets/images/favicon.png') ?>" type="image/png" />
+  <link rel="icon" href="<?= url('assets/images/favicon.png') ?>" type="image/png" />
+  <link rel="apple-touch-icon" href="<?= u('assets/images/apple-touch-icon.png') ?>" />
 
-	<?php echo js('assets/js/script.min.js') ?>
-  <?php echo css('assets/styles/styles.css') ?>
+	<?= js('assets/js/script.min.js') ?>
+  <?= css('assets/styles/styles.css') ?>
 
-  <?php echo css('assets/fancybox/jquery.fancybox.css') ?>
+  <?= css('assets/fancybox/jquery.fancybox.css') ?>
 
-  <link rel="alternate" type="application/rss+xml" href="<?php echo url('pxwrk/feed') ?>" title="<?php echo html($site->title()) ?> Blog Feed" />
+  <link rel="alternate" type="application/rss+xml" href="<?= url('pxwrk/feed') ?>" title="<?= html($site->title()) ?> Blog Feed" />
 
   <!--[if lte IE 8]>
   	<script type="text/javascript">
@@ -39,8 +39,8 @@
 	<div class="inner-width-wrap">
         <div class="header clearfix">
         	<h1>
-              <a href="<?php url() ?>">
-                  <img src="<?php echo url('assets/images/derzyklop.png'); ?>" alt="<?php echo h($site->title()) ?>" width="" />
+              <a href="<?= url() ?>">
+                  <img src="<?= url('assets/images/derzyklop.png'); ?>" alt="<?= h($site->title()) ?>" width="" />
               </a>
           </h1>
         </div>
