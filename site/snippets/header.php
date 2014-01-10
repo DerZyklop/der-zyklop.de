@@ -39,7 +39,7 @@
 	<div class="inner-width-wrap">
         <div class="header clearfix">
         	<h1>
-              <a href="<?= url() ?>">
+              <a href="<?php url() ?>">
                   <img src="<?php echo url('assets/images/derzyklop.png'); ?>" alt="<?php echo h($site->title()) ?>" width="" />
               </a>
           </h1>
