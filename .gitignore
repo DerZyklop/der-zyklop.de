@@ -4,5 +4,4 @@ piwik/
 node_modules/
 
 site/config/config.php
-
 .sass-cache
