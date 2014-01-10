@@ -418,7 +418,7 @@ body
 
 /* Icons [END] */
 
-/* Kirby-nav [BEGIN] */
+/* Nav [BEGIN] */
 
 .icon-chevron-up, .icon-chevron-down, #show-nav
     font-size: 1.8rem
@@ -460,22 +460,17 @@ body
         li
             display: table-cell
             padding-top: 0
-
-            //width: 16.6%
-
             text-align: center
-
             list-style: none
-            //font-weight: bold
             float: none
             &:first-child
                 border-left: 0px
             a
                 display: block
-                padding: 10px 0px
+                padding: 0.3em 0px
                 margin: 0 auto
                 text-decoration: none
-                +transition(background 0.3s, color 0.3s)
+                +transition(background 0.3s, color 0.3s, padding 0.3s)
                 color: $tertiary
                 &.active,
                 &:hover
@@ -495,6 +490,9 @@ body
                 .title
                     vertical-align: middle
                     line-height: 2rem
+        &:hover a
+            padding: 1em 0px
+            +transition(padding 0.3s)
         #close-nav
             clear: both
             float: none !important
@@ -650,7 +648,7 @@ $options-bar-space: 10px
             background:
                 position: 0 0
 
-/* Kirby-nav [END] */
+/* Nav [END] */
 
 /* Header [BEGIN] */
 
