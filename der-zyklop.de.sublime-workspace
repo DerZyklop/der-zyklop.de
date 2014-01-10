@@ -1,0 +1,356 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"md",
+				"markdown"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 1448 files for \"og:description\"\n\n/Users/Offline/Dropbox/server/github-derzyklop/der-zyklop.de/site/snippets/header.php:\n    9    <meta name=\"description\" content=\"<?php echo html($site->description()) ?>\" />\n   10    <?php if ($page->template() == 'blogarticle') : ?>\n   11:     <meta property=\"og:description\" content=\"<?= excerpt($page->text(), 250) ?>\"/>\n   12    <?php endif; ?>\n   13  \n\n1 match in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 420,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "site/snippets/header.php",
+			"settings":
+			{
+				"buffer_size": 2107,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git di",
+				"Git: Diff All"
+			],
+			[
+				"stats",
+				"Git: Status"
+			],
+			[
+				"git add ",
+				"Git: Add..."
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git stats",
+				"Git: Status"
+			],
+			[
+				"git diff",
+				"Git: Diff All"
+			],
+			[
+				"to spaces",
+				"Indentation: Convert to Spaces"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/pathcamp.pxwrk.de/content/home/home.txt",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/pathcamp.pxwrk.de/site/templates/default.php",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/pathcamp.pxwrk.de/assets/sass/styles.sass",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/pathcamp.pxwrk.de/.gitignore",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/pathcamp.pxwrk.de/content/04-photos/500px.txt",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/pathcamp.pxwrk.de/site/templates/500px.php",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/pathcamp.pxwrk.de/content/05-rauchzeichen/rauchzeichen.txt",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/pathcamp.pxwrk.de/content/photos/500px.txt",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/pathcamp.pxwrk.de/site/templates/camper.php",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/pathcamp.pxwrk.de/pathcamp.sublime-project",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/pathcamp.pxwrk.de/content/03-location/location.txt",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/pathcamp.pxwrk.de/gruntfile.coffee",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/pathcamp.pxwrk.de/README.md",
+		"/Users/Offline/Dropbox/server/github-derzyklop/der-zyklop.de/README.md",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/pathcamp.pxwrk.de/.DS_Store",
+		"/Users/Offline/Dropbox/server/github-derzyklop/terminal-boilerplate/.profile",
+		"/Users/Offline/.profile",
+		"/Users/Offline/Dropbox/library/Terminal/.profile",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/trader.pxwrk.de/README.md",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/trader.pxwrk.de/Re",
+		"/Users/Offline/Dropbox/library/Terminal/README.md",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/boilerplate.pxwrk.de/Re",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/boilerplate.pxwrk.de/README.md",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/foooo.pxwrk.de/package.json",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/boilerplate.pxwrk.de/.gitignore",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/boilerplate.pxwrk.de/package.json",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/boilerplate.pxwrk.de/foo.txt",
+		"/Users/Offline/Dropbox/server/pxwrk.dorado.uberspace.de/boilerplate.pxwrk.de/gruntfile.coffee",
+		"/Users/Offline/Dropbox/server/github-derzyklop/sass-boilerplate/README.markdown",
+		"/Users/Offline/Dropbox/server/github-derzyklop/gruntfile/gruntfile.coffee",
+		"/Users/Offline/Dropbox/server/github-derzyklop/gruntfile/package.json",
+		"/Users/Offline/.bashrc",
+		"/Users/Offline/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Offline/Dropbox/library/Sublime/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 111.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"og:description",
+			"default",
+			"HD",
+			"]",
+			"function p",
+			"p()",
+			"-f",
+			"pxwrk.",
+			"dev",
+			"create",
+			".gitignore",
+			"crea",
+			"gi",
+			"README.markdown",
+			"git ",
+			"web_mirror",
+			"web_miror",
+			"web_mir"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"server"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 420,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										305,
+										319
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								310,
+								310
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"incomplete_sync": null,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "site/snippets/header.php",
+					"settings":
+					{
+						"buffer_size": 2107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								413,
+								413
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 76.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
