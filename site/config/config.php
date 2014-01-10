@@ -260,7 +260,7 @@ c::set('cache.ignore', array('search', 'some/other/uri/to/ignore'));
 
 */
 
-c::set('cache', false);
+c::set('cache', true);
 #c::set('cache', true);
 c::set('cache.autoupdate', true);
 c::set('cache.data', true);
@@ -315,7 +315,7 @@ php errors there.
 
 */
 
-c::set('debug', true);
+c::set('debug', false);
 
 
 /*
@@ -442,3 +442,9 @@ array('.', '..', '.DS_Store', '.svn', '.git', '.htaccess');
 
 */
 c::set('content.file.ignore', array());
+
+/* Thumbs-Plugin */
+
+c::set('thumb.cache.root', c::get('root') . '/thumbs/uncompressed');
+c::set('thumb.cache.url',  c::get('url')  . '/thumbs');
+c::set('thumb.datauri', false);
