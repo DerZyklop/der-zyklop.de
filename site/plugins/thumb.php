@@ -2,7 +2,7 @@
 
 function thumb($obj, $options=array(), $tag=true) {
   $thumb = new thumb($obj, $options);
-  return ($tag) ? $thumb->tags() : $thumb->url();
+  return ($tag) ? $thumb->tag() : $thumb->url();
 }
 
 class thumb {
@@ -69,7 +69,7 @@ class thumb {
 
   }
 
-  function tags() {
+  function tag() {
 
     if(!$this->obj) return false;
 
@@ -208,8 +208,8 @@ class thumb {
       'msg'    => 'The image could not be created'
     );
 
-    // make enough memory available to scale bigger images (option should be something like 36M)
-    if(c::get('thumb.memory')) ini_set('memory_limit', c::get('thumb.memory'));
+    // make enough memory available to scale bigger images
+    ini_set('memory_limit', '36M');
 
     if($this->crop == true) {
 
@@ -223,16 +223,10 @@ class thumb {
 
       // create a temporary resized version of the image first
       $thumb = imagecreatetruecolor($this->tmpWidth, $this->tmpHeight);
-      imagesavealpha($thumb, true);
-      $color = imagecolorallocatealpha($thumb, 0, 0, 0, 127);
-      imagefill($thumb, 0, 0, $color);
       imagecopyresampled($thumb, $image, 0, 0, 0, 0, $this->tmpWidth, $this->tmpHeight, $this->sourceWidth, $this->sourceHeight);
 
       // crop that image afterwards
       $cropped = imagecreatetruecolor($this->width, $this->height);
-      imagesavealpha($cropped, true);
-      $color   = imagecolorallocatealpha($cropped, 0, 0, 0, 127);
-      imagefill($cropped, 0, 0, $color);
       imagecopyresampled($cropped, $thumb, 0, 0, $startX, $startY, $this->tmpWidth, $this->tmpHeight, $this->tmpWidth, $this->tmpHeight);
       imagedestroy($thumb);
 
@@ -241,9 +235,6 @@ class thumb {
 
     } else {
       $thumb = imagecreatetruecolor($this->width, $this->height);
-      imagesavealpha($thumb, true);
-      $color = imagecolorallocatealpha($thumb, 0, 0, 0, 127);
-      imagefill($thumb, 0, 0, $color);
       imagecopyresampled($thumb, $image, 0, 0, 0, 0, $this->width, $this->height, $this->sourceWidth, $this->sourceHeight);
     }
 
@@ -263,3 +254,5 @@ class thumb {
   }
 
 }
+
+?>
