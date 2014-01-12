@@ -89,7 +89,7 @@ class thumb {
     $options .= ($this->crop)      ? '.' . $this->crop      : '.' . 0;
     $options .= '.' . $this->quality;
 
-    return md5($this->source) . $options . '.' . $this->obj->extension;
+    return md5($this->obj->uri()) . $options . '.' . $this->obj->extension;
 
   }
 
