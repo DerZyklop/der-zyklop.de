@@ -3,9 +3,6 @@
   "description": "Project by @DerZyklop",
   "version": "3.0.1",
   "private": true,
-  "scripts": {
-    "preinstall": "sudo npm install -g grunt-cli"
-  },
   "devDependencies": {
     "grunt": "~0.4.2",
     "matchdep": "~0.1.2",
@@ -18,6 +15,7 @@
     "grunt-contrib-copy": "~0.4.1",
     "grunt-php": "~0.2.0",
     "grunt-contrib-cssmin": "~0.6.2",
-    "grunt-contrib-imagemin": "~0.4.1"
+    "grunt-contrib-imagemin": "~0.4.1",
+    "grunt-shell": "~0.6.1"
   }
 }

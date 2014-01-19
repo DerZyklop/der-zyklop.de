@@ -88,6 +88,16 @@ module.exports = (grunt) ->
           dest: './thumbs/'
         ]
 
+
+    # test accessability
+    shell:
+      pa11y:
+        options:
+          stdout: true
+        command: 'pa11y http://<%= php.all.options.hostname %>:<%= php.all.options.port%>'
+
+
+
     watch:
       options:
         livereload: true
@@ -135,7 +145,7 @@ module.exports = (grunt) ->
           port: 1338
           hostname: 'localhost'
           base: ''
-          keepalive: false
+          keepalive: true
 
     open:
       all:
@@ -150,4 +160,5 @@ module.exports = (grunt) ->
 
 
   grunt.registerTask('server', ['open','php'])
+  grunt.registerTask('test', ['shell:pa11y'])
   grunt.registerTask('default', ['reload','watch'])
