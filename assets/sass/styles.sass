@@ -43,35 +43,11 @@
     font-weight: normal
     font-style: italic
 
-
-
 @import 'config'
-
 @import 'compass'
-
 @import 'mixins/all'
 
-
-+reset
-+core
-+multi-col
-+clearit
-+clearfix
-+page-width
-+typography
-+button
-+input
-+blockquote
-+pre
-+table
-
-+nav
-+box
-+range
-
-+all-responsive
-
-// standard typography elements
++all
 
 body
     font-size: $font-size
@@ -80,6 +56,7 @@ body
     font-family: $font-highlight
     //padding: 1em 0 6em 0
     padding: 0
+    margin: 0
 
 h1, h2, h3, h4, h5, h6
     font-family: $font-highlight
@@ -89,7 +66,7 @@ h1, h2, h3, h4, h5, h6
 h1
     font-size: 2.5em
 h2
-    font-size: 2.12em
+    font-size: 2em
 h3
     font-size: 1.88em
 h4
@@ -139,6 +116,9 @@ hr
     border: none
     background: $border-color
     margin: $space-t-b*1.5 0
+
+img
+    display: block
 
 p
     img
@@ -195,6 +175,9 @@ iframe.video
     .article-text
         font-family: $font-main
         font-size: 1.2em
+
+.footer
+    width: auto
 
 .content,
 .footer
@@ -338,40 +321,6 @@ iframe.video
                     background: $primary
                     color: $quadrary
 
-#disqus_thread iframe #thread-votes
-    display: none
-#disqus_thread
-    margin-top: $space-t-b
-    .main-nav li
-        display: none
-        &.user-menu
-            display: block
-    h4, h5, h6
-        background: transparent
-    .dsq-comment-header
-        @extend h4
-        color: $quadrary
-        a
-            color: $quadrary
-            &:hover
-                border-color: transparent
-        background: $border-color
-        border: none
-        .dsq-commenter-name
-            font-weight: normal
-
-#disqus_thread #dsq-content
-    #dsq-subscribe
-        display: none
-
-#disqus_thread .dsq-comment-meta a, #disqus_thread .dsq-comment-actions a
-    color: $primary - #222
-    opacity: 1
-    +transition(color 0.7s ease)
-    &:hover
-        color: $primary + #191919
-        text-decoration: none
-
 body
     //background: $body-background
     background: transparent
@@ -420,10 +369,6 @@ body
 
 /* Nav [BEGIN] */
 
-.icon-chevron-up, .icon-chevron-down, #show-nav
-    font-size: 1.8rem
-    text-decoration: none
-
 #nav
     font-family: $font-highlight
     font-size: 1.2em
@@ -467,7 +412,7 @@ body
                 border-left: 0px
             a
                 display: block
-                padding: 0.3em 0px
+                padding: 0.5em 0px
                 margin: 0 auto
                 text-decoration: none
                 +transition(background 0.3s, color 0.3s, padding 0.3s)
@@ -491,7 +436,6 @@ body
                     vertical-align: middle
                     line-height: 2rem
         &:hover a
-            padding: 1em 0px
             +transition(padding 0.3s)
         #close-nav
             clear: both
@@ -499,10 +443,16 @@ body
     @media screen and (max-width: $breakpoint)
         ul
             display: block
+            li:nth-child(2) a
+                &:after
+                    content: ''
             li
                 display: block
                 text-align: left
                 a
+                    padding:
+                        right: 1em
+                        left: 1em
                     .icon
                         display: inline
                         padding-right: 0.4em
@@ -579,13 +529,14 @@ $options-bar-space: 10px
 
 .options-bar
     color: $quadrary
-    margin: $space-t-b*2 0
+    margin: $space-t-b 0
     a
         display: block
         color: $quadrary
         text-decoration: none
     .autorinfo,
     .supporters-btn
+        margin: $space-t-b 0
         display: block
         box-sizing: border-box
         padding: $options-bar-space $options-bar-space*3
@@ -663,6 +614,7 @@ $options-bar-space: 10px
             float: none
             width: 100%
         img
+            margin: 0 auto
             @media screen and (max-width: 320px)
                 margin: 40px auto 0px
 
@@ -696,13 +648,6 @@ $options-bar-space: 10px
             padding: 0
             margin: $space-t-b/2 0
             +transition(0.3s)
-            @media screen and (max-width: $breakpoint)
-                line-height: 1.4em
-                width: 100%
-                margin: 0
-            @media screen and (min-width: $breakpoint)
-                font-size: 1.5em
-
             a
                 padding: 0.3em 0.5em
                 +transition(0.3s)
@@ -714,8 +659,6 @@ $options-bar-space: 10px
             margin: 0
             width: auto
             float: none
-            h2
-                font-size: 2em
 
         .entry-date
             float: right
@@ -812,6 +755,42 @@ $options-bar-space: 10px
 
 /* Instagram [END] */
 
+/* Comments-Pluin */
+
+.add-comment-form
+    .hidden
+        color: transparent
+        +transition(color 0.5s)
+    &:hover .hidden
+        color: $secondary
+
+
+
+ul#comments
+    list-style-type: none
+    padding: 0
+    margin: 0
+    .comment-gravatar
+        float: left
+        margin-right: $space-t-b
+    .comment-date
+        float: right
+    .comment-name
+        float: left
+    .comment-name,
+    .comment-date
+        line-height: 64px
+    .comment-text
+        clear: both
+    hr
+        margin: 0
+    li
+        margin: $space-t-b 0
+        &.even
+            //background: #f8f8f8
+        &.odd
+            color: #000
+
 /* Misc [BEGIN] */
 
 .edit
@@ -870,34 +849,6 @@ $options-bar-space: 10px
             background: complement($primary) - #222
     &.fixed
         display: block
-
-// #likebtn
-//     $likebtn-size: 10em
-//     background: $primary
-//     +transition(background 0.5s)
-//     color: $quadrary
-//     display: block
-//     margin: $likebtn-size / 2 auto
-//     text-align: center
-//     height: $likebtn-size / 6 * 4
-//     width: $likebtn-size / 6 * 4
-//     +border-radius($likebtn-size)
-//     padding: $likebtn-size / 6
-//     text-decoration: none
-//     span
-//         font-size: 2em
-//         display: block
-//         line-height: $likebtn-size / 6
-//         span
-//             font-size: 1em
-//     &:hover
-//         background: $primary - #333
-//     &.clicked
-//         background: $secondary
-//         &:hover
-//             background: $secondary
-
-
 
 /* Misc [END] */
 

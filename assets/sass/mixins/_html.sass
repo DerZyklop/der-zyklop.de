@@ -5,38 +5,38 @@
 
     \:focus
         outline: 0
-    
+
     \::-moz-selection
         background: $primary
         color: $quadrary
-    
+
     \::selection
         background: $primary
         color: $quadrary
-    
+
     html, body
         min-height: 100%
 
     body
         background: $body-background
-    
-    fieldset 
+
+    fieldset
         padding: $space-t-b $space-l-r
-        border: 
+        border:
             color: $border-color + #222
             style: $border-style
             width: $border-width
-    
+
     // HTML-Elemente [END]
-    
+
     // Standart-Klassen [BEGIN]
-    
+
     .left
         float: left
-    
+
     .right
         float: right
-    
+
     .center
         text-align: center
 
@@ -44,14 +44,14 @@
         float: left
         margin-right: 2em
         margin-bottom: 1em
-    
+
     .img-right
         float: right
         margin-left: 2em
         margin-bottom: 1em
-    
+
     // Standart-Klassen [END]
-    
+
 @mixin multi-col
     // Multi-Column-Elemente
     .multi-col-50-50
@@ -62,7 +62,7 @@
         .col-2
             width: 50%
             float: right
-    
+
     .multi-col-30-30-30
         +box-sizing(border-box)
         .col-1
@@ -100,25 +100,30 @@
 
     .width-wrap
         max-width: $page-width
-        margin: 
+        margin:
             left: auto
             right: auto
-    
+
     .inner-width-wrap
         padding: $space-t-b $space-l-r
-    
+
     .main-content img
         max-width: 100%
-    
+
     .page-wrap
         padding: $space-t-b $space-l-r
 
 @mixin input
-    input[type="text"], input[type="date"], input[type="password"], input[type="search"], textarea
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="password"],
+    input[type="search"],
+    textarea
         display: block
         +box-sizing(border-box)
         width: 100%
-        border: 
+        border:
             width: $border-width
             style: $border-style
             color: $border-color
@@ -150,11 +155,11 @@
         padding: 0 1em
         cursor: pointer
         line-height: 2.6rem
-        font: 
+        font:
             weight: bold
             size: 1rem
         color: $quadrary
-        text: 
+        text:
             align: center
             decoration: none
         background: $secondary
@@ -165,7 +170,7 @@
             text-decoration: none
             color: $quadrary
             background: $secondary - #222
-        a 
+        a
             text-decoration: none
         &:disabled, &.passive
             background: $border-color + #111
@@ -192,4 +197,4 @@
         +transition(background 0.5s)
         background: $width-wrap-background + #0a0a0a
         padding: 0.1em 0.2em
-        +border-radius(4px)  
+        +border-radius(4px)
