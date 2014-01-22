@@ -1,0 +1,43 @@
+Title: Workflow #1 – Vom Designer zum Developer
+
+----
+
+Date: 2014-01-21
+
+----
+
+Text: Ich bin ursprünglich Designer, habe mich aber mittlerweile viel mehr in richtung Developement bewegt. Ich habe mich in den letzten Wochen und Monaten viel damit beschäftigt, so viel Arbeit wie möglich zu automatisieren, und den Rest noch schöner zu machen als er sowieso schon ist.
+
+Mein Problem, welches sich daraus ergibt:
+Mit den Augen eines Designers auf die Tools eines Developers zu schauen, kann furchtbar schmerzhaft sein. Meine Backend-Kollegen arbeiten die allermeiste Zeit in Eclipse...
+Nuff said.
+
+(image: eclipse-sublime.png link: eclipse-sublime.png title: Eclipse vs. Sublime)
+
+Andererseits hat sich, zumindest für's Frontend-Developement viel getan in den letzten Jahren. Ich will in der nächsten Zeit mal meinen Workflow und meine Tools ein bisschen dokumentieren und nebenher erzählen, wie man ein paar Dinge schöner machen und sich damit mehr Spaß in die Arbeit holen kann.
+
+#### Buzzword-Bingo
+
+Ich Arbeite mittlerweile hauptsächlich mit dem Editor **Sublime Text 2**, habe mir vieles mit Hilfe des **Terminal**s automatisiert und beim Entwickeln immer den **Chrome** offen. Ich vereinfache mir das **HTML**, **JS** und **CSS** schreiben mittels **Emmet**, **CoffeeScript** und **SASS**. Das dafür nötige **precompiling** und weitere nützliche Arbeiten wie **minification**, **compression**, **autoprefixing**, das bereitstellen eines lokalen php-fähigen Servers und triggern von browser refreshes übernimmt alles der task-runner **Grunt** im Hintergrund. Den Design-Kram mache ich mit der **Sketch App**. Konzept mache ich mit **Stift und Notizbuch**.
+
+Dazu kommt, dass meine Programme auf dem Arbeitsrechner, wie auch auf dem priventen Notebook exakt gleich aussehen, da alle dafür relevanten Settings und Packages/Plugins durch die **Cloud sync**ronisiert werden.
+
+Am Ende werden dann alle Projekte mit sämmtlichen Spielständen feinsäuberlich in **git**-Repositories verpackt und in die Wolke geschoben.
+
+Hört sich nach 'nem haufen Arbeit an, sich das alles anzueignen. Ist es auch, wenn man sich bei jedem der Themen selbst reinfuchsen muss. Aber kennt ihr das Gefühl, wenn man zuhause mal so richtig aufgeräumt hat? **So richtig** meine ich... mit Dachboden, Keller und allen verstaubten Ecken an die man sich ewig nicht mehr ranngetraut hat?
+
+Ja? ...ich nicht.
+
+Aber ich glaube es muss so ähnlich sein, wie ich mich momentan fühle. Ich habe mir meinen digitalen Bastelkeller so gemütlich eingerichtet, manchmal nehme ich Werkzeuge einfach so in die Hand – ohne eine konkrete idee davon, was ich damit jetzt machen will. In der Hoffnung, dass in irgendeinem meiner Projekte noch irgendeine Aufgabe offen ist die ich jetzt erledigen kann.
+
+(image: command-mkdev.png link: command-mkdev.png)
+
+Könnt ihr euch nicht vorstellen? Dann will ich nicht wissen wie's in eurem Bastelkeller aussieht...
+
+Aber zum Glück kommen da in Zukunft der ein oder andere Artikel zum Thema. Das nächste mal erzähl ich euch z.B. wie man den Sublime Text 2 hübsch einrichtet.
+
+Bis denne!
+
+----
+
+Tags: code, workflow, work
