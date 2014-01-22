@@ -8,7 +8,6 @@ Date: 2014-01-21
 
 Text: Ich bin ursprünglich Designer, habe mich aber mittlerweile viel mehr in richtung Developement bewegt. Ich habe mich in den letzten Wochen und Monaten viel damit beschäftigt, so viel Arbeit wie möglich zu automatisieren, und den Rest noch schöner zu machen als er sowieso schon ist.
 
-Mein Problem, welches sich daraus ergibt:
 Mit den Augen eines Designers auf die Tools eines Developers zu schauen, kann furchtbar schmerzhaft sein. Meine Backend-Kollegen arbeiten die allermeiste Zeit in Eclipse...
 Nuff said.
 
