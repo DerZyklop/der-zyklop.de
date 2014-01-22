@@ -62,10 +62,10 @@ module.exports = (grunt) ->
       options:
         banner: '<%= banner %>'
       all:
-        files:
-          '<%= paths.css %>/<%= paths.sassfilename %>.css': [
-            '<%= paths.sass %>/*.css'
-          ]
+        expand: false
+        flatten: true
+        src: '<%= paths.sass %>/**/*.css'
+        dest: '<%= paths.css %>/<%= paths.sassfilename %>.css'
 
 
     imagemin:
@@ -113,7 +113,7 @@ module.exports = (grunt) ->
         files: ['<%= paths.sass %>/*.sass']
         tasks: ['sass']
       css:
-        files: ['<%= paths.sass %>/*.css']
+        files: ['<%= paths.sass %>/**/*.css']
         tasks: ['cssmin']
       coffee:
         files: ['<%= paths.coffee %>/*.coffee']
