@@ -1,14 +1,12 @@
-</div>
-        <div class="footer">
-        	<div class="left">
-        	</div>
-        	<div class="right">
-                <?php echo kirbytext($site->copyright()) ?>
-        	</div>
-        	<div class="clearit"></div>
-        </div>
-
     </div>
+    <div class="footer inner-width-wrap">
+      <div class="right">
+        <?php echo kirbytext($site->copyright()) ?>
+      </div>
+      <div class="clearit"></div>
+    </div>
+
+  </div>
 </div>
 
 <!-- Piwik -->

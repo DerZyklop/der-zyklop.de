@@ -1,7 +1,3 @@
-<a id="show-nav" href="#nav">
-    <span class="icon-chevron-down"></span>
-</a>
-
 <nav id="nav">
   <ul class="clearfix">
     <?php foreach($pages->visible() AS $p): ?>
