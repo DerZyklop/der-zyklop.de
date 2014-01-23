@@ -1,4 +1,4 @@
-<article class="clearfix <?php if($first) { echo('first'); } ?>">
+<article class="clearfix <?php if($first) { echo('first'); } ?> <?= ($item->num()%2) ? "odd" : "even" ?>">
   <div class="clearfix">
     <a href="<?php echo $item->url() ?>">
       <span class="entry-date">
@@ -19,7 +19,7 @@
               $image = $item->images()->first();
               echo thumb( $image, array(
                 'width' => 800,
-                'height' => 500,
+                'height' => 600,
                 'quality' => 70,
                 'crop' => true
               ), false);
@@ -28,8 +28,8 @@
             <img class="img-border" src="<?php
               $image = $item->images()->first();
               echo thumb( $image, array(
-                'width' => 348,
-                'height' => 217,
+                'width' => 372,
+                'height' => 279,
                 'quality' => 70,
                 'crop' => true
               ), false);
