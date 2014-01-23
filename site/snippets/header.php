@@ -38,7 +38,7 @@
 <div class="width-wrap">
 	<div class="inner-width-wrap">
         <div class="header clearfix">
-        	<h1>
+          <h1>
               <a href="<?= url() ?>">
                   <img src="<?= url('assets/images/derzyklop.png'); ?>" alt="<?= h($site->title()) ?>" width="" />
               </a>
