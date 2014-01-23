@@ -45,7 +45,7 @@
 
 @import 'config'
 @import 'compass'
-@import 'mixins/all'
+@import '../../ext_repos/sass-boilerplate/mixins/all'
 
 +all
 
@@ -83,18 +83,9 @@ h1
 h1, h2
     color: $primary - #222
 
-h3, h4
+h3, h4, h5
     color: $primary - #222
     // text-align: center
-
-h5
-    background: $primary - #222
-    color: $primary
-    a, a:hover
-        color: $quadrary
-        text-decoration: none
-    font-size: 120%
-    padding: 0.2em 0.4em
 
 h6
     text-align: center
@@ -111,6 +102,10 @@ h2, h3, h4, h5, h6
 
 p
     margin: $space-t-b 0
+
+p + p
+    text-indent: 1em
+
 hr
     height: 1px
     border: none
@@ -258,7 +253,7 @@ iframe.video
     +transition(color 0.3s)
 
 .inner-width-wrap
-    background: $width-wrap-background
+    background: $quadrary
     //border: 1px solid $border-color
     padding: $space-t-b $space-l-r
 
@@ -884,8 +879,8 @@ a.passiv-btn, a.passiv-btn:hover
     border:
         width: 1px
         style: solid
-        color: $width-wrap-background - #111
-    background: $width-wrap-background - #050505
+        color: $quadrary - #111
+    background: $quadrary - #050505
     color: $border-color
     cursor: default
 
