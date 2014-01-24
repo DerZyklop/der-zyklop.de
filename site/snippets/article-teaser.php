@@ -1,4 +1,4 @@
-<article class="clearfix <?php if($first) { echo('first'); } ?> <?= ($item->num()%2) ? "odd" : "even" ?>">
+<article class="clearfix <?php if($first) { echo('first'); } ?> <?= (($item->num() + $articles_count)%2) ? "odd" : "even" ?>">
   <div class="clearfix">
     <a href="<?php echo $item->url() ?>">
       <span class="entry-date">

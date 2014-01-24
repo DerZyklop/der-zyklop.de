@@ -44,11 +44,11 @@
     <?php else: ?>
       <div id="articles">
         <?php
-          snippet( 'article-teaser', array( 'item' => $articles->first(), 'first' => true ));
+          snippet( 'article-teaser', array( 'item' => $articles->first(), 'first' => true, 'articles_count' => !($articles->count() % 2) ));
         ?>
         <?php
           foreach($articles->offset(1)->paginate(2) as $article) {
-            snippet( 'article-teaser', array( 'item' => $article, 'first' => false ));
+            snippet( 'article-teaser', array( 'item' => $article, 'first' => false, 'articles_count' => !($articles->count() % 2) ));
           };
         ?>
         <div class="clearit"></div>
