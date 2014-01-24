@@ -249,9 +249,6 @@ iframe.video
         opacity: 1
         color: #fff
 
-.entry-date
-    +transition(color 0.3s)
-
 .inner-width-wrap
     background: $quadrary
     //border: 1px solid $border-color
@@ -618,11 +615,11 @@ $options-bar-space: 10px
 /* Blog [BEGIN] */
 
 .entry-date
+    +transition(color 0.3s)
     display: block
     white-space: nowrap
     display: inline
-    padding:
-        left: 0.8em
+    line-height: 2em
 
 .blog
     position: relative
@@ -640,6 +637,7 @@ $options-bar-space: 10px
         p
             margin-bottom: 0.5em
         h2
+            font-size: 1.4em
             border: $border-width $border-style $border-color
             +border-radius($radius)
             padding: 0
@@ -653,10 +651,13 @@ $options-bar-space: 10px
                 text-decoration: none
                 color: $primary - #222
 
+
         &.first
             margin: 0
             width: auto
             float: none
+            h2
+                font-size: 2em
 
         .entry-date
             float: right
@@ -666,10 +667,13 @@ $options-bar-space: 10px
             color: $border-color
             +border-radius($radius)
             //background: $border-color
-            border: $border-width $border-style $border-color
+            border: $border-width $border-style $border-color + #222
             @media screen and (max-width: $breakpoint)
                 display: inline
                 position: static
+        &.first
+            .entry-date
+                font-size: 1.2em
         &:hover
             .entry-date
                 border-color: $tertiary
