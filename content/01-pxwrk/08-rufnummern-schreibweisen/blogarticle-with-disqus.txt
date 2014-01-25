@@ -1,4 +1,4 @@
-﻿Title: Schreibweisen für Rufnummern - Ein Haufen gefährliches Halbwissen
+Title: Schreibweisen für Rufnummern - Ein Haufen gefährliches Halbwissen
 
 ----
 
@@ -10,7 +10,10 @@ Kategory: nerdstuff
 
 ----
 
-Text: <h3>Wie trennt man die einzelnen Ziffern einer Telefonnummer typografisch richtig?</h3>
+Text: 
+
+**Wie trennt man die einzelnen Ziffern einer Telefonnummer typografisch richtig?**
+
 Heute waren in unserer Agentur drei Leute damit beschäftigt einen ganzen Haufen Adressen in eine Webseite einzupflegen. Als mir auffiel, dass die Meinungen darüber wie die Rufnummern getrennt werden weit auseinander gehen, habe ich versucht der Sache auf den Grund zu gehen. Ergebnis: Viel Halbwissen, wenig Einigkeit und eine schlechte DIN-Norm. Folgend versuche ich mal zusammenzufassen, was zu beachten ist.
 
 Mein Kollege sagt, schreib's so:

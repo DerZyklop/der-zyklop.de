@@ -37,10 +37,11 @@
   </article>
 
   <?php snippet('article-suggestion'); ?>
-  <?php //snippet('article-nav'); ?>
 
   <div>
-    <?php snippet('disqus', array('disqus_shortname' => 'derzyklop', 'disqus_developer' => true)) ?>
+    <?php //snippet('disqus', array('disqus_shortname' => 'derzyklop', 'disqus_developer' => true)) ?>
+    <?php snippet('comments.list') ?>
+    <?php snippet('comments.add.form') ?>
   </div>
 
 </section>

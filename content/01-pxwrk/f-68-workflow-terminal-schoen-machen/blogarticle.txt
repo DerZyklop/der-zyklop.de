@@ -1,0 +1,147 @@
+Title: Workflow #6 – Terminal schön machen
+
+----
+
+Date: 2014-01-xx
+
+----
+
+Text:
+
+Heute wird das Terminal schön gemacht.
+
+Bei meinem letzten Workflow-Artikel habe ich euch erklärt, wie man die Settings und Erweiterungen von Sublime Text über die Cloud auf mehreren Rechnern synchon halten kann. Um das so hin zu bekommen, musste ich einige Basics der sogenannten Commandline, also dem Terminal lernen. Und wie ich euch im ersten Workflow-Artikel schon erklärt habe, tut mir das Arbeiten in Entwickler-Tools manchmal in den Augen weh. Mir war das alles irgendwie zu unübersichtlich. Ich dachte "Das muss auch irgendwie schöner gehen". Und so ist es.
+
+Ich will euch heute ein paar Tricks zeigen wie ihr das Terminal etwas aufräumen könnt. In den Kommenden Workflow-Artikeln werden wir es öfter mal brauchen. Und sich seine Arbeitsumgebung schön einzurichten ist nie verkehrt. Egal ob es sich dabei um Büro, Editor oder Commandline handelt.
+
+#### Bild einfügen
+
+Ich öffne das Terminal. Was ich sehe, sieht traurig aus. Und wenn ich da nun öfter mal reinschauen muss, werde ich nicht glücklich. Also drücke ich `⌘`+`,` um die Einstellungen zu öffnen. Hier ist das aussehen des Terminals in Themes gespeichert. Die Themes geben alle nicht viel her, also dupliziere ich mir das "Basic" Theme und schraube so lange daran herum, bis es mir einigermaßen passt.
+
+Mein Theme könnt ihr (link: http:// text: hier) herrunterladen. Eine andere ganz okaye Vorlage heißt (link: http://noahfrederick.com/blog/2011/lion-terminal-theme-peppermint/ text: Peppermint).
+
+Auf schriftgröße 18pt finde ich die (link: http://www.marksimonson.com/fonts/view/anonymous-pro text: Anonymous Pro) ganz angenehm. Ich bin mir aber selbst noch nicht endgültig sicher. Wenn euch die nicht gefällt, schaut mal nach der (link: http://store2.adobe.com/cfusion/store/html/index.cfm?store=OLS-DE&event=displayFontPackage&code=1960 text: Adobe Source Code Pro) oder (link: http://www.google.com/fonts/specimen/Droid+Sans+Mono).
+
+Vergesst nicht, euer neues Theme auch als Standard festzulegen.
+
+Wenn ich mir jetzt aber zum Test ein paar Ordner-Inhalte per `ln pfad/zum/ordner`  auflisten lasse, finde ich das immernoch ziemlich unübersichtlich. Also kommt da jetzt mal ein bisschen Farbe rein.
+
+Es gibt eine art Settings-Datei für das Terminal. Jedes mal, wenn das Terminal gestartet wird, wird nachgeschaut ob in euerm User-Ordner eine Datei namens **.profile** liegt, und die wird dann erstmal eingelesen.
+
+Mit dem befehl
+
+<pre class="language-bash"><code>ls -a ~/</code></pre>
+
+könnt ihr nachschauen ob ihr so eine **.profile** schon habt. `ls` heißt "zeig mir den Inhalt des Ordners". `-a` heißt "auch die verstechten Dateien". Wenn da noch keine **.profile** liegt, dann legt eine an:
+
+<pre class="language-bash"><code>touch ~/.profile</code></pre>
+
+Und öffnet sie mit
+
+<pre class="language-bash"><code>open ~/.profile</code></pre>
+
+oder noch besser, falls ihr den (link: http://www.sublimetext.com/2 text: Sublime Text 2) auf eurem Rechner habt, dann
+
+<pre class="language-bash"><code>/Applications/"Sublime Text 2.app"/Contents/SharedSupport/bin/subl ~/.profile</code></pre>
+
+Diese Datei fülle ich nun mit allerlei konfigurationen zum Aussehen und Verhalten des Terminals.
+
+### Prompt
+
+Als erstes kümmere ich mich nun um "die Prompt" also den Teil der mir sagt wo ich mich gerade befinde, wer ich bin etc.
+
+####### BILD
+
+Ich trage Folgende Zeilen in die **.profile** ein:
+
+<pre class="language-bash"><code># Clean up the prompt
+export PS1="\[\033[02;30m\]–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––-
+\[\033[02;30m\]# \[\033[02;30m\]\u \[\033[02;30m\]@ \[\033[02;30m\]\H \[\033[02;36m\]\W
+\[\033[02;30m\]$ \[\033[00m\]"</code></pre>
+
+Ja, ihr seht richtig. Ich habe da schwarze Schrift auf dunkelgrauem Hintergrund. Weil es sich dabei um Informationen handelt, die ich nur selten wirklich nachschauen muss, aber auch nicht komplett auf sie verzichten kann. Sollte ich die schwarze Schrift tatsächlich mal lesen wollen aber nicht lesen können, kann ich sie immernoch mit `⌘`+`a` markieren. Die wichtigste info, die immer klar sein muss, ist: Wo befinde ich mich gerade. `~` steht dabei immer für den Pfad **/Users/username/**. Navigiert mal zum Desktop `cd ~/Desktop/`, dann seht ihr's.
+
+Ihr könnt euch das auch selbst gestalten wie ihr wollt.
+
+- `\u` steht für den aktuell eingeloggten User.
+- `\H` steht für den aktuellen Host, und
+- `\W` steht für den Ordner in dem ihr euch gerade befindet.
+
+Farb-Definitionen sehen z.b. so aus: `\[\033[02;30m\]`. Alle zur verfügung stehenden Farben könnt ihr euch auflisten lassen, indem ihr (link: https://gist.github.com/DerZyklop/8551498#file-gistfile1-txt text: diesen) Befehl in's Terminal kopiert.
+
+Wer lieber gerne einen Zweizeiler hätte der könnte folgendes eintragen:
+
+<pre class="language-bash"><code>export PS1="\[\033[02;36m\]\u@\H \[\033[02;37m\]\W
+\[\033[02;37m\]$ \[\033[00m\]"</code></pre>
+
+
+Und die reduzierteste prompt wäre z.B.:
+
+<pre class="language-bash"><code>export PS1="$ "</code></pre>
+
+Zum Testen der Änderungen muss die Datei gespeichert, und im Terminal ein neues Fenster geöffnet werden.
+
+### Ausgaben bunt machen
+
+Als nächstes schalte ich die Farben für die Ausgaben ein, indem ich folgende Zeile in die **~/.profile** schreibe:
+
+<pre class="language-bash"><code># Cli Colors
+export CLICOLOR=1
+# use yellow for dir’s
+export LSCOLORS="dxfxcxdxbxegedabagacad"</code></pre>
+
+Gebt euch nach dem nächsten Programm-Start mal euern User-Ordner incl. aller versteckter dateien per `ls -ap ~` aus. Schon viel übersichtlicher, oder?
+
+Soweit so gut, was die Farben angeht. Nun gibt es immer wieder befehle die man sehr sehr oft eingibt. Ich räume beispielsweise gerne mein Terminal-Fenster per `clear` auf. Und weil ich beim aufräumen gerne so wenig aufwand wie möglich habe, trage ich in meiner **.profile** ein alias ein:
+
+<pre class="language-bash"><code># Clear up the terminal window
+alias c="clear"</code></pre>
+
+Ab dem nächsten mal muss ich also nur noch `c` eingeben statt `clear`. Und erinnert ihr euch an den Sublime Text 2 aufruf weiter oben? Den kann man so auch super verkürzen.
+
+<pre class="language-bash"><code># open stuff with Sublime Text 2
+alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"</code></pre>
+
+Wenn man nun `subl` eingibt startet das Programm. Wenn man z.b. `subl assets/styles/styles.css` eingibt, öffnet Sublime ein Fenster mit der Datei styles.css. Gibt man `subl .` ein, öffnet sich der aktuelle Ordner im Editor.
+
+Ein ganz anderes Problem: Wenn man per Terminal per `rm name_der_datei.txt` eine Datei löscht. Dann ist die spurlos verschwunden. Ich habe gelöschte Dateien aber lieber in meinem Papierkorb. Also habe ich die funktion `rm` in meiner **.profile** mit folgender Funktion überschieben:
+
+<pre class="language-bash"><code># Put stuff into trash instead of delete them
+function rm () {
+  local path
+  for path in "$@"; do
+    # ignore any arguments
+    if [[ "$path" = -* ]]; then :
+    else
+      local dst=${path##*/}
+      # append the time if necessary
+      while [ -e ~/.Trash/"$dst" ]; do
+        dst="$dst "$(date +%H-%M-%S)
+      done
+      mv "$path" ~/.Trash/"$dst"
+    fi
+  done
+}</code></pre>
+
+Hier noch zwei von mir unheimlich häufig genutze befehle:
+
+<pre class="language-bash"><code># Open current folder
+alias o="open ."
+alias s="subl ."</code></pre>
+
+Und nun kommen noch ein paar ganz wichtige Zeilen. Wenn das Terminal nämlich eine **.profile** findet, dann ignoriert es eine gegebenenfalls vorhandene **.bashrc**, obwohl diese aber auch wichtige Inhalte haben kann. Also sorge ich dafür, dass sie am Ende der **.profile** noch nachgeladen wird, falls vorhanden.
+
+<pre class="language-bash"><code>### THE END ###
+
+# ...and now load .bashrc if it exists
+if [ -f ~/.bashrc ]; then
+   source ~/.bashrc
+fi</code></pre>
+
+So. Das war's für heute.
+
+Wenn euch der Artikel geholfen hat, dann lasst mir doch ein "Danke" in den Kommentaren. Im nächsten Workflow-Artikel erkläre ich euch wie ihr die Terminal-Einstellungen über verschiedenste Rechner Synchron halten könnt. Wenn ihr also mehr solcher Artikel haben wollt, dann stay tuned!
+
+----
+
+Tags: code, workflow, work, sublime
