@@ -31,18 +31,21 @@ require 'comments.read.php';
 
 if (count($comments['data'])):
 ?>
-	<h6><span><?= count($comments['data']) ?> <?= l::get('comments.title') ?: 'Kommentare' ?></span></h6>
+	<h6><span><?= count($comments['data']) ?> <?php
+	if (count($comments['data']) > 1) {
+		echo l::get('comments.title') ?: 'Kommentare';
+	} else {
+		echo 'Kommentar';
+	}
+	?></span></h6>
 	<ul id="comments">
 		<?php $index = 0; ?>
 		<?php foreach ($comments['data'] as $comment):
-			if ( $index != 0) {
-				echo '<hr>';
-			};
 			$index = $index+1;
 			echo '<li class="'.(( $index % 2 == 0 ) ? 'odd' : 'even').'">';
-				echo (c::get('comments.gravatar') ? '<div class="comment-gravatar">'.$comment['gravatar'].'</div>' : '');
 				echo '<div class="comment-name">'.$comment['name'].'</div>';
 				echo '<div class="comment-date">'.relative_time($comment['date']).'</div>';
+				echo (c::get('comments.gravatar') ? '<div class="comment-gravatar"><div><a href="https://de.gravatar.com/">'.$comment['gravatar'].'</a></div></div>' : '');
 				#echo '<div class="comment-date">'.date('H:m d.m.Y', strtotime($comment['date'])).'</div>';
 
 				echo '<div class="clearit"></div>';

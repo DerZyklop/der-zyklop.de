@@ -405,7 +405,7 @@ default language.
 */
 
 c::set('lang.support', false);
-c::set('lang.default', 'en');
+c::set('lang.default', 'de');
 c::set('lang.available', array('en', 'de'));
 c::set('lang.detect', true);
 
@@ -479,3 +479,16 @@ c::set('comments.notify.email', 'vladstudio@gmail.com');
 
 // when someone posts a comment, save name/email in cookie?
 c::set('comments.save_author_in_cookie', true);
+
+
+
+# Dirty.. i know. But somehow /language didn't work for me.
+
+l::set('comments.title', 'Kommentare');
+l::set('comments.add', 'Kommentar schreiben');
+l::set('comments.name', 'Name');
+l::set('comments.email', 'Email');
+l::set('comments.text', 'Kommentar');
+l::set('comments.send', 'Senden');
+l::set('comments.file_error', 'Fehler 42. Wenn du mir einen gefallen tun willst, schickst du das an mail@der-zyklop.de');
+l::set('comments.saved', 'Danke! Ich freu mich über jeden kommentar!<br />Grüße, Nils');
