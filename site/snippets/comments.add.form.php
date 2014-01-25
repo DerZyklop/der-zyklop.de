@@ -4,7 +4,8 @@ if (c::get('comments.enabled')):
 
 ?>
 
-<h6><span><?= l::get('comments.add') ?: 'Kommentieren' ?></span></h6>
+
+<h6><span><?= l::get('comments.add') ?: 'Kommentar schreiben?' ?></span></h6>
 
 <form id="smart-submit" class="add-comment-form" action="<?= url('smart-submit') ?>?handler=add-comment">
 

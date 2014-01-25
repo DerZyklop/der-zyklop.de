@@ -103,7 +103,7 @@ h2, h3, h4, h5, h6
 p
     margin: $space-t-b 0
 
-p + p
+article p + p
     text-indent: 1em
 
 hr
@@ -773,21 +773,37 @@ ul#comments
     padding: 0
     margin: 0
     .comment-gravatar
-        float: left
-        margin-right: $space-t-b
+        text-align: center
+        background: url(../images/ccc.png) center center repeat-x
+        > div
+            width: 64px + 18px*2
+            margin: 0 auto
+            padding: 0 $space-t-b
+            background: $quadrary
+            img
+                border-radius: 100px
+        margin-bottom: -1em
     .comment-date
         float: right
     .comment-name
         float: left
     .comment-name,
     .comment-date
-        line-height: 64px
+        line-height: 64px/2
+        color: $border-color
+        +transition(color 0.3s)
+    > li:hover
+        .comment-name,
+        .comment-date
+            color: $font-color
+        .comment-gravatar
+            background: url(../images/000.png) center center repeat-x
     .comment-text
         clear: both
     hr
         margin: 0
-    li
-        margin: $space-t-b 0
+    > li
+        margin: $space-t-b*2 0
         &.even
             //background: #f8f8f8
         &.odd

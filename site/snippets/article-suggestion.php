@@ -37,7 +37,6 @@ if ( $suggestedArticle ) : ?>
     <div class="clearit"></div>
   </section>
 </aside>
-<hr>
 
 <?php endif; ?>
 

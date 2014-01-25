@@ -405,7 +405,7 @@ default language.
 */
 
 c::set('lang.support', false);
-c::set('lang.default', 'en');
+c::set('lang.default', 'de');
 c::set('lang.available', array('en', 'de'));
 c::set('lang.detect', true);
 
@@ -448,3 +448,47 @@ c::set('content.file.ignore', array());
 c::set('thumb.cache.root', c::get('root') . '/thumbs/uncompressed');
 c::set('thumb.cache.url',  c::get('url')  . '/thumbs');
 c::set('thumb.datauri', false);
+
+
+
+/* Comments-Plugin */
+
+// enable/disable comments globally, true/false
+c::set('comments.enabled', true);
+
+// patterns for pages with comments (required)
+// relative to "content/" folder, f.e.: array('blog/*')
+c::set('comments.include.pages', array('*') );
+
+// patterns for pages without comments (optional)
+// relative to "content/", f.e.: array('blog/*')
+c::set('comments.exclude.pages', array('') );
+
+// Show Gravatar images?
+// false or size in pixels (f.e. 32)
+c::set('comments.gravatar', 64);
+
+// filename for saving comments
+c::set('comments.data.filename', 'comments.json');
+
+// format for post date: see http://php.net/date
+c::set('comments.date.format', 'Y-m-d');
+
+// install Amazon SES plugin and provide your email for notifications
+c::set('comments.notify.email', 'vladstudio@gmail.com');
+
+// when someone posts a comment, save name/email in cookie?
+c::set('comments.save_author_in_cookie', true);
+
+
+
+# Dirty.. i know. But somehow /language didn't work for me.
+
+l::set('comments.title', 'Kommentare');
+l::set('comments.add', 'Kommentar schreiben');
+l::set('comments.name', 'Name');
+l::set('comments.email', 'Email');
+l::set('comments.text', 'Kommentar');
+l::set('comments.send', 'Senden');
+l::set('comments.file_error', 'Fehler 42. Wenn du mir einen gefallen tun willst, schickst du das an mail@der-zyklop.de');
+l::set('comments.saved', 'Danke! Ich freu mich über jeden kommentar!<br />Grüße, Nils');
