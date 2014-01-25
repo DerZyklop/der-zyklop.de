@@ -103,7 +103,7 @@ h2, h3, h4, h5, h6
 p
     margin: $space-t-b 0
 
-p + p
+article p + p
     text-indent: 1em
 
 hr
@@ -775,8 +775,13 @@ ul#comments
     .comment-gravatar
         float: left
         margin-right: $space-t-b
+        img
+            border-radius: 100px
     .comment-date
         float: right
+        color: $border-color
+    > li:hover .comment-date
+        color: $font-color
     .comment-name
         float: left
     .comment-name,
@@ -786,8 +791,8 @@ ul#comments
         clear: both
     hr
         margin: 0
-    li
-        margin: $space-t-b 0
+    > li
+        margin: $space-t-b 0 0 0
         &.even
             //background: #f8f8f8
         &.odd
