@@ -1,5 +1,5 @@
     </div>
-    <div class="footer inner-width-wrap">
+    <div class="footer">
       <div class="right">
         <?php echo kirbytext($site->copyright()) ?>
       </div>
