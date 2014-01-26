@@ -22,7 +22,7 @@ Zuerst, solltet ihr die Farben so einstellen, dass ihr euch wohlfühlt. Ein paa
 
 ### Theme
 
-Unabhängig von den Syntax-Highlighting-Farben, könnt ihr auch ein anderes Theme für's drumherum wählen. Das vermutlich belibteste/verbreitetste ist (link: https://github.com/buymeasoda/soda-theme/ text: Soda). Wenn ihr euch noch einen Moment gedulden könnt, dann wartet mal auf den nächsten Workflow-Artikel. Da erkläre ich euch, wie man Soda ganz einfach per Sublime Package-Manager installieren kann.
+Unabhängig von den Syntax-Highlighting-Farben, könnt ihr auch ein anderes Theme für's drumherum wählen. Das vermutlich belibteste/verbreitetste ist (link: https://github.com/buymeasoda/soda-theme/ text: Soda). Auf Github wird auch beschrieben wie man das installiert. Wenn ihr euch noch einen Moment gedulden könnt, dann wartet mal auf meine nächsten Workflow-Artikel. Da erkläre ich euch, wie man Soda ganz einfach per Sublime Package-Manager installieren kann.
 
 ### Verhalten
 
