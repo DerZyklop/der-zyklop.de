@@ -16,6 +16,7 @@
     "grunt-php": "~0.2.0",
     "grunt-contrib-cssmin": "~0.6.2",
     "grunt-contrib-imagemin": "~0.4.1",
-    "grunt-shell": "~0.6.1"
+    "grunt-shell": "~0.6.1",
+    "grunt-newer": "~0.6.1"
   }
 }
