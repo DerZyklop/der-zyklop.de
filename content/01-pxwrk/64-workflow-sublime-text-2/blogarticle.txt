@@ -2,7 +2,7 @@ Title: Workflow #2 – Sublime Text 2 Settings
 
 ----
 
-Date: 2014-01-xx
+Date: 2014-01-28
 
 ----
 
