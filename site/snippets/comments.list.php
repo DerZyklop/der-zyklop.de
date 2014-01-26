@@ -32,7 +32,7 @@ require 'comments.read.php';
 <div class="comments-list">
   <h6><span><?php
   if (count($comments['data']) == 0) {
-    echo 'Schreib mir einen Kommentar!';
+    echo 'Bisher keine Kommentare';
   } else {
     echo count($comments['data']).' ';
     if (count($comments['data']) == 0) {
