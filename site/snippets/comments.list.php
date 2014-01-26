@@ -31,6 +31,7 @@ require 'comments.read.php';
 
 if (count($comments['data'])):
 ?>
+<div class="comments-list">
 	<h6><span><?= count($comments['data']) ?> <?php
 	if (count($comments['data']) > 1) {
 		echo l::get('comments.title') ?: 'Kommentare';
@@ -53,6 +54,7 @@ if (count($comments['data'])):
 			</li>';
 		endforeach; ?>
 	</ul>
-	<?php
+</div>
+<?php
 endif;
 

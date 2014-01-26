@@ -38,11 +38,9 @@
 
   <?php snippet('article-suggestion'); ?>
 
-  <div>
-    <?php //snippet('disqus', array('disqus_shortname' => 'derzyklop', 'disqus_developer' => true)) ?>
-    <?php snippet('comments.list') ?>
-    <?php snippet('comments.add.form') ?>
-  </div>
+  <?php //snippet('disqus', array('disqus_shortname' => 'derzyklop', 'disqus_developer' => true)) ?>
+  <?php snippet('comments.list') ?>
+  <?php snippet('comments.add.form') ?>
 
 </section>
 

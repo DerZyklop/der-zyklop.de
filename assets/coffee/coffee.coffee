@@ -1,7 +1,13 @@
 jQuery(document).ready ->
 
+  jQuery('.comment-add-form').addClass 'hide-form'
+  jQuery('.comment-add-form .button').click ->
+    jQuery('.comment-add-form').find('form').slideDown(300)
+    jQuery('.comment-add-form .button').addClass('passive')
+
+
   jQuery('.nolink').click (event) ->
-      event.preventDefault()
+    event.preventDefault()
 
   jQuery("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').fancybox()
 
