@@ -28,17 +28,26 @@ function relative_time($date, $postfix = ' ago', $fallback = 'F Y')
 
 
 require 'comments.read.php';
-
-if (count($comments['data'])):
 ?>
 <div class="comments-list">
-	<h6><span><?= count($comments['data']) ?> <?php
-	if (count($comments['data']) > 1) {
-		echo l::get('comments.title') ?: 'Kommentare';
-	} else {
-		echo 'Kommentar';
-	}
-	?></span></h6>
+  <h6><span><?php
+  if (count($comments['data']) == 0) {
+    echo 'Schreib mir einen Kommentar!';
+  } else {
+    echo count($comments['data']).' ';
+    if (count($comments['data']) == 0) {
+      echo l::get('comments.title') ?: 'Kommentare';
+    } elseif (count($comments['data']) == 1) {
+      echo 'Kommentar';
+    } else {
+      echo l::get('comments.title') ?: 'Kommentare';
+    }
+
+  };
+  ?></span></h6>
+<?php
+if (count($comments['data'])):
+?>
 	<ul id="comments">
 		<?php $index = 0; ?>
 		<?php foreach ($comments['data'] as $comment):
@@ -54,7 +63,8 @@ if (count($comments['data'])):
 			</li>';
 		endforeach; ?>
 	</ul>
-</div>
 <?php
 endif;
-
+?>
+</div>
+<?php
