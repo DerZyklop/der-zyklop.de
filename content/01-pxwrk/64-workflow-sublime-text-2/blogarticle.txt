@@ -6,20 +6,19 @@ Date: 2014-01-28
 
 ----
 
-Text:
+Text: In meinem vorherigen Artikel habe ich einen groben Überblick gegeben, wie mein Workflow aussieht, und welche Tools ich nutze. Wie angekündigt erkläre ich diesmal wie man es sich im (link: http://www.sublimetext.com/2 text: Sublime Text 2) gemütlich macht. Dieser Artikel soll erstmal nur die Settings erklären. Im folgenden Artikel geht's dann um Plugins für Sublime.
 
-In meinem vorherigen Artikel habe ich einen groben Überblick gegeben, wie mein Workflow aussieht, und welche Tools ich nutze. Wie angekündigt erkläre ich diesmal wie man es sich im **Sublime Text 2** gemütlich macht. Dieser Artikel soll erstmal nur die Settings erklären. Im folgenden Artikel geht's dann um Plugins für Sublime.
+(image: sublime-text.png link: sublime-text.png)
 
-Randnotiz:
-Mir ist klar, dass da schon ein Sublime Text **3** veröffentlicht wurde. Der einzig für mich erkennbare unterschied liegt aber nur darin, dass manche Plugins in der Version 3 nicht mehr funktionieren. Wenn ihr allerdings den neusten Editor verwenden wollt, sollte das kein Problem sein. Was ich im folgenden schreibe sollte größten teils exakt so auf Sublime Text 2 anwendbar sein.
+Ich habe lange mit Coda gearbeitet, danach lange mit Espresso, und ich habe auch alle anderen erdenklichen Editoren ausprobiert, von denen ich je gehört habe. Und Sublime Text 2 ist mit abstand der Beste, der mir je untergekommen ist. Man braucht ein bisschen überwindung, wenn man noch nicht gewohnt ist viel über die Tastatur statt Maus zu erledigen, aber es lohnt sich das zu lernen.
 
-Ich habe lange mit Coda gearbeitet, danach lange mit Espresso, und ich habe auch alle anderen erdenklichen Editoren ausprobiert, von denen ich je gehört habe. Und (link: http://www.sublimetext.com/2 text: Sublime Text 2) ist mit abstand der Beste, der mir je untergekommen ist. Man braucht ein bisschen überwindung, wenn man noch nicht gewohnt ist viel über die Tastatur statt Maus zu erledigen, aber es lohnt sich das zu lernen.
+### Warum nicht Sublime Text 3?
 
-Ich öffne also Sublime und bringe das Fenster per (link: http://www.irradiatedsoftware.com/cinch/ text: Cinch) auf die volle Bildschirm-Größe.
+Mir ist klar, dass da schon ein neuer Sublime Text veröffentlicht wurde. Der einzig für mich erkennbare Unterschied liegt aber nur darin, dass manche Plugins in der Version 3 nicht mehr funktionieren. Wenn ihr allerdings den neusten Editor verwenden wollt, sollte das kein Problem sein. Was ich im folgenden schreibe sollte größten teils exakt so auf Sublime Text 3 anwendbar sein.
 
 ### Color Scheme
 
-Zuerst, solltet ihr die Farben so einstellen, dass ihr euch wohlfühlt. Ein paar Farbsets findet ihr im Menü unter **"Sublime Text 2" > "Preferences" > "Color Scheme"**. Interessantere Farbkombinationen findet ihr sehr übersichtlich präsentiert auf (link: http://colorsublime.com/ text: colorsublime.com).
+Zuerst, solltet ihr die Farben so einstellen, dass ihr euch wohlfühlt. Ein paar Farbsets findet ihr im Menü unter **Sublime Text 2** > **Preferences** > **Color Scheme**. Interessantere Farbkombinationen findet ihr sehr übersichtlich präsentiert auf (link: http://colorsublime.com/ text: colorsublime.com).
 
 ### Theme
 
@@ -27,7 +26,7 @@ Unabhängig von den Syntax-Highlighting-Farben, könnt ihr auch ein anderes Them
 
 ### Verhalten
 
-Alle Settings sind in .json files definiert. Es gibt verschiedene Settings in verschiedenen Ordnern. Sie werden in einer bestimmten Reihenfolge eingelesen. Schaut mal oben in der Taskleiste nach `"Sublime Text 2" > "Preferences" > "Settings - Default"`. Hier findet ihr alle Einstellungen die du vornehmen kannst. Du solltest diese Datei aber besser unberührt lassen. Du kannst alles was in "Settings - Default" definiert wurde in "Settings - User" überschreiben. Es gibt noch weitere nützliche Settings-Dateien, die du im laufe der Zeit kennen lernen wirst. Beispielsweise Betriebsystem-, Programmiersprachen-, und Projekt-Bezogene Einstellungen.
+Alle Settings sind in .json files definiert. Es gibt verschiedene Settings in verschiedenen Ordnern. Sie werden in einer bestimmten Reihenfolge eingelesen. Schaut mal oben in der Taskleiste nach **»Sublime Text 2«** > **»Preferences«** > **»Settings - Default«**. Hier findet ihr alle Einstellungen die du vornehmen kannst. Du solltest diese Datei aber besser unberührt lassen. Du kannst alles was in **»Settings - Default«** definiert wurde in »Settings - User« überschreiben. Es gibt noch weitere nützliche Settings-Dateien, die du im laufe der Zeit kennen lernen wirst. Beispielsweise Betriebsystem-, Programmiersprachen-, und Projekt-Bezogene Einstellungen.
 
 Öffne mal deine User-Settings (`⌘`+`,`), vermultich ist da noch nichts eingetragen. Scheib mal rein:
 
@@ -43,7 +42,7 @@ Wenn du jetzt die font_size bspw. auf 20 änderst, wirst du sofort, wenn du die 
 
 (Bedenkt bei allem Folgendem: Die letzte Zeile in einem Json-Objekt darf kein Komma am Ende enthalten.)
 
-Ihr solltet umbedings festlegen, welche Line-Endings und ob ihr lieber Tabs oder Spaces für Einrückungen benutzt. Du weißt nicht warum? Dann empfehle ich dir den Artikel (link: http://www.der-zyklop.de/pxwrk/tabs-vs-spaces/ text: Tabs vs. Spaces && Line-Endings. Fallstricke der Code-Formatierung). Meine Settings dazu sind:
+Ihr solltet umbedingt festlegen, welche Line-Endings und ob ihr lieber Tabs oder Spaces für Einrückungen benutzt. Du weißt nicht warum? Dann empfehle ich dir den Artikel (link: http://www.der-zyklop.de/pxwrk/tabs-vs-spaces/ text: Tabs vs. Spaces && Line-Endings. Fallstricke der Code-Formatierung). Ich schiebe also zwischen Zeile 1 und Zeile 2 folgendes:
 
 <pre class="language-javascript line-numbers" data-start="2">
 <code>  "default_line_ending": "unix",
@@ -93,8 +92,7 @@ Code wird unübersichtlich, wenn er zu viele Zeichen pro Zeile hat. Also zeichne
   ],</code>
 </pre>
 
-
-Ich nutze die sogenante Minimap (auf der rechten Seite) nicht. Also schalte ich sie per `"View" > "Hide Minimap"` aus.
+Ich nutze die sogenante Minimap (auf der rechten Seite) nicht. Also schalte ich sie per **»View«** > **»Hide Minimap«** aus.
 
 Als Schrift verwende ich die Kostenfreie (link: http://www.fontsquirrel.com/fonts/droid-sans-mono text: Droid Sans Mono).
 
@@ -115,10 +113,9 @@ Und zu guter letzt gibt es eine Reihe an Ordnern, die will ich in meinem Editor 
   ],</code>
 </pre>
 
+---
 
-# Tastenkombination -> durchskippen
-# cmd shift t
-
+Wenn euch der Artikel geholfen hat oder ihr irgendwelche Tipps für mich habt, dann lasst mir doch ein *»Danke«* in den Kommentaren. Das nächste mal gibt's weitere nützliche Sublime hints. Wenn ihr also mehr solcher Artikel wollt, dann stay tuned!
 
 ----
 

@@ -1,0 +1,52 @@
+Title: Workflow #2 – Sublime Tabs
+
+----
+
+Date: 2014-01-28
+
+----
+
+Text:
+
+Nachdem wir im vorherigen Artikel eine Menge Einstellungen am Code-Editor Sublime Text vorgenommen haben, will ich euch hier noch zwei kleinere Tipps geben, wie ihr die Shortcuts in den Griff bekommt.
+
+### Sublime Tab-Wechsel
+
+Wenn man im Browser, im Editor oder in welcher Software auch immer zwischen Tab-Reitern hin und her springen will, macht man das in der Regel mit einer Tastenkombination. Dabei sind die folgenden Shortcuts schon zu einem ungeschriebenen Gesetz geworden:
+
+- `ctrl`+`⇥` für "ein Tab nach rechts" und
+- `ctrl`+`⇧`+`⇥` für "ein Tab nach links"
+
+Nicht so bei Sublime. Dort heißt es:
+
+- `ctrl`+`⇥` für "geh zum Tab den ich zuletzt bearbeitet habe" und
+- `ctrl`+`⇧`+`⇥` für "geh zum Tab den ich danach bearbeitet habe"
+
+Ziemlich verwirrend, wie ich finde. Aber wie alle anderen Settings, kann man auch die Key Bindings auf User-Ebene überschreiben.
+
+Ich öffne also die entsprechende json-Datei (`⌘`+`⇧`+`p` und dann **Key Bindings User** eintippen) und trage folgende Zeilen ein:
+
+<pre class="language-javascript line-numbers">
+<code>[
+  { "keys": ["ctrl+tab"], "command": "next_view" },
+  { "keys": ["ctrl+shift+tab"], "command": "prev_view" }
+]</code>
+</pre>
+
+Hier ist also der Richtige Ort, falls ihr mal einen Shortcut ändern oder überschreiben wollt.
+
+Auch Packages können Key Bindings überschreiben. In seltenen Fällen kommt es dazu, dass verschiedene Packages sich dabei in die Quere kommen. Wenn ihr also mal das Problem habt, das ein Shortcut nicht mehr funktioniert, schaut im jeweiligen Package-Ordner (`⌘`+`⇧`+`p` und dann `Browse Packages` eintippen) nach den **.sublime-keymap** Dateien. Habt ihr den Fehler gefunden, dann überschreibt den Shortcut ggf. in euren User Key Bindings.
+
+### Sublime Tab zurück holen
+
+In Browsern kann man einen Tab, wenn man ihn ausversehen geschlossen hat, mit `⌘`+`⇧`+`t` schnell wieder hervorholen. **Das selbe funktioniert auch in Sublime!** Super einfach und super effektiv!
+
+(image: sublime-shortcut.png link: sublime-shortcut.png)
+
+---
+
+Wenn euch der Artikel geholfen hat, lasst mir doch ein "Danke" in den Kommentaren! Wenn ihr mehr solcher Tipps wollt, dann stay tuned!
+
+----
+
+Tags: code, workflow, work, sublime
