@@ -23,7 +23,7 @@ Und immer wenn sich die gelegenheit mal ergeben hat, hat (twitter: maltekrohn te
 
 (image: geocaching.png link: geocaching.png)
 
-(link: http://www.geocaching.com/ text: GeoCaching), das ist eine wunderbare Mischung aus Online-Vernetzung und Offline-Entdeckertum. Es ist Zurück-in-die-Natur für Smartphone-Suchties oder auch Internet-Spielerei für Naturliebhaber ...oder irgendwas dazwischen. Es ist ein mittlerweile erstaunlich weit verbreitetes Spiel, und das geht so:
+(link: http://de.wikipedia.org/wiki/Geocaching text: GeoCaching), das ist eine wunderbare Mischung aus Online-Vernetzung und Offline-Entdeckertum. Es ist Zurück-in-die-Natur für Smartphone-Suchties oder auch Internet-Spielerei für Naturliebhaber ...oder irgendwas dazwischen. Es ist ein mittlerweile erstaunlich weit verbreitetes Spiel, und das geht so:
 
 Man markiert Orte auf einer Landkarte (online), an denen ein sogenannter Cache versteckt ist (offline). Ein Cache ist in den meisten fällen ein kleiner Behälter (beispielsweise ein Fotofilm-Döschen), in dem sich ein Logbuch befindet. Ich, als GeoCacher schaue also per Smartphone nach, wo sich in meiner Nähe ein solcher Cache befindet. Wenn ich ihn gefunden habe, was manchmal garnicht so einfach ist, dann trage ich mich in's Logbuch ein, dass sich im Film-Döschen befindet – so, wie bei einem Gipfelbuch.
 
