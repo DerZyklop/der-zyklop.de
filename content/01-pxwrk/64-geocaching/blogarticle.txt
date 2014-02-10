@@ -1,0 +1,54 @@
+Title: GeoCaching im Schwarzwald
+
+----
+
+Date: 2014-02-11
+
+----
+
+Text: Ich war mal wieder auf dem Pathcamp.
+
+Heißt: Leute die normalerweise zu einem großen Teil im Netz leben und arbeiten, treffen sich auf einer Hütte im Schwarzwald, an einem Ort an dem keine Kommunikation nach "aussen" stattfindet. Kein Handynetz, kein WLAN, nichts. Nur ein einziges Kabel-Telefon. Aber digital-dement wie wir nun mal alle sind, wusste keiner von uns mehr wie man damit Telefoniert und was es mit dieser runden Scheibe mit den Löchern auf sich hat.
+
+Und was macht man da so?
+Segway fahren, Wein trinken, Drone steigen lassen, GeoCachen, Bier trinken, Grillen, viel austauschen und schlafen.
+
+### Bitcoin
+
+(twitter: getoliverleon text: Oliver) und ich haben eine Session zum Thema "Crypto-Currencies" (z.B. **Bitcoin**, Dogecoin, Lightcoin...) gehalten. Wir dachten beide, wir würden dort mehr Bitcoin-Besitzer antreffen. Leider waren es nur wir zwei. Ein Grund mehr das Thema mal am abendlichen Lagerfeuer zu bearbeiten. Das Interesse war auch erstaunlich groß. Die Session wollte kein Ende nehmen.
+
+### GeoCaching
+
+Und immer wenn sich die gelegenheit mal ergeben hat, hat (twitter: maltekrohn text: Malte) ein paar Pathcamper zum GeoCachen mitgenommen.
+
+(image: geocaching.png link: geocaching.png)
+
+(link: http://www.geocaching.com/ text: GeoCaching), das ist eine wunderbare Mischung aus Online-Vernetzung und Offline-Entdeckertum. Es ist Zurück-in-die-Natur für Smartphone-Suchties oder auch Internet-Spielerei für Naturliebhaber ...oder irgendwas dazwischen. Es ist ein mittlerweile erstaunlich weit verbreitetes Spiel, und das geht so:
+
+Man markiert Orte auf einer Landkarte (online), an denen ein sogenannter Cache versteckt ist (offline). Ein Cache ist in den meisten fällen ein kleiner Behälter (beispielsweise ein Fotofilm-Döschen), in dem sich ein Logbuch befindet. Ich, als GeoCacher schaue also per Smartphone nach, wo sich in meiner Nähe ein solcher Cache befindet. Wenn ich ihn gefunden habe, was manchmal garnicht so einfach ist, dann trage ich mich in's Logbuch ein, dass sich im Film-Döschen befindet – so, wie bei einem Gipfelbuch.
+
+Das ist natürlich nur eine sehr oberflächliche Beschreibung des Ganzen. Es gibt da noch die
+
+- Caches für die man erstmal Rätsel lösen muss um sie zu finden,
+- Caches die nur zu einer bestimmten Jahres- oder Tageszeit auffinbar sind,
+- die winzig kleinen Caches,
+- die sehr großen Caches, in denen viel mehr zu finden ist, als ein Logbuch
+- Caches die in Bäumen hängen,
+- Caches unter der Erde,
+- Caches unter Wasser,
+- usw.
+
+Wer's genau wissen will, dem empfehle ich die (link: http://cre.fm/cre204-geocaching text: Podcast-Folge 204 des CRE).
+
+Klingt alles total unsinnig und bescheuert?
+Ist es auch.
+
+Ich habe immer  wieder mal davon gehört. Malte war nicht der erste der mich zum gemeinsamen GeoCaching eingeladen hat. Ich konnte den Erzählungen nicht allzuviel abgewinnen, habe aber schon geahnt, dass man es erst dann versteht, wenn man es selbst mal gemacht hat. Und so ist es. Es macht Spaß!
+
+Das was mich dabei am meisten fasziniert ist ein Gefühl dafür zu bekommen wie oft man im Alltag an solchen Caches vorbeiläuft ohne es zu wissen. Caches in den Strassenecken, im Wald, und am Regenrohr des Nachberhauses... überall! Dazu kommt das Bewusstsein wieviele Menschen beispielsweise in meiner Heimatstadt Gießen herumlaufen müssen, die regelmäßig den selben Quatsch mitmachen. Fühlt sich für mich an, wie eine unsichtbare Gemeinschaft.
+
+Wer mit mir Cachen gehen will, sagt mir bescheid! :)
+
+----
+
+Tags: code, workflow, work
