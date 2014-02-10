@@ -7,7 +7,7 @@ foreach ($site->uri()->params() as $key => $value) {
   }
 }
 foreach($articles->flip()->offset(1)->paginate(2) as $article) {
-    snippet( 'article-teaser', array( 'item' => $article, 'first' => false ));
+    snippet( 'article-teaser', array( 'item' => $article, 'first' => false, 'articles_count' => !($articles->count() % 2) ));
 }
 ?>
 <div class="clearit"></div>

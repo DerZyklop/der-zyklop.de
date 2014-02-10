@@ -1,0 +1,98 @@
+Title: Workflow #5 – Sublime in der Cloud
+
+----
+
+Date: 2014-01-xx
+
+----
+
+Text:
+
+Der Folgende Artikel richtet sich an diejenigen, die Sublime Text nutzen und an mindestens zwei verschiedenen Rechnern (z.B. Laptop & Büro) Arbeiten.
+
+Ich habe euch erklärt wie man den Sublime Text 2 einrichtet, und wie man Packages installiert. Nachdem ihr nun das ein oder andere Package installiert habt, ist es an der Zeit dafür zu sorgen, dass euer Sublime sich auf allen Rechnern gleich verhält und gleich aussieht.
+
+### Das Prinzip
+
+...ist eigentlich ganz einfach. Voraussetzung ist, dass ihr einen Cloud-Dienst wie zum Beispiel ownCloud, Dropbox oder ########## nutzt, und dessen Ordner dort liegt wo sich auch der Dokumente-, Musik- und Bilder-Ordner befindet. Alle Dateien, die definieren, wie Sublime aussieht und sich verhält, also alle Settings und Packages liegen in einem bestimmten Systemordner eures Beriebsystems.
+
+#### Rechner Nr. 1
+
+Ich kopiere mir die Dateien aus dem Systemordner in meinen Cloud-Ordner. Danach setze ich einen Symlink (sowas wie eine Verknüpfung) der dem Betriebsystem vorgaukelt, die Dateien würden immernoch im Systemordner liegen.
+
+#### Rechner Nr. 2
+
+Auf dem zweiten Rechner muss ich dann nur noch die Dateien im Sublime-Systemordner löschen, die selben Symlinks setzen und das wars.
+
+### Die Praxis
+
+Ich gehe jetzt mal davon aus, dass ihr einen Dropbox-Ordner habt. Solltet ihr einen anderen Dienst nutzen setzt einfach da wo ich Dropbox schreibe den Entsprechenden Namen ein.
+
+#### Rechner Nr. 1
+
+Zuerst nehmen wir uns den Rechner vor, dessen Einstellungen und Erweiterungen wir übernehmen wollen. Auf Rechner Nr. 2 werden diese überschrieben. Um sicher zu gehen, dass dabei nichts von Rechner Nr. 1 verloren geht, macht am besten vorher noch ein Backup aller relevanten Sublime-Dateien.
+
+Wenn der Editor geschlossen wurde, dann kann es losgehen. Öffnet euer Terminal und erstellt ein Backup, indem ihr folgende Befehle eingebt:
+
+<pre class="language-bash"><code>cd ~/Library/"Application Support"/
+zip -r ~/Desktop/sublime_backup.zip "Sublime Text 2"
+cd ~</code></pre>
+
+Nun liegt eine sublime_backup.zip auf eurem Desktop. Wenn alles geklappt hat, könnt ihr diese am ende wieder Löschen.
+
+Als nächstes führt ihr folgende Befehle im Terminal aus:
+
+<pre class="language-bash"><code>mkdir ~/Dropbox/Sublime
+cd ~/Library/Application\ Support/"Sublime Text 2"/
+cp -r "Packages" "Installed Packages" "Pristine Packages" ~/Dropbox/Sublime/
+rm -r "Packages" "Installed Packages" "Pristine Packages"
+ln -s ~/Dropbox/Sublime/"Packages" ~/Dropbox/Sublime/"Installed Packages" ~/Dropbox/Sublime/"Pristine Packages" ~/Library/"Application Support"/"Sublime Text 2"/</code></pre>
+
+Was ihr mit diesen Befehlen nun gemacht habt ist folgendes (Zeile für Zeile):
+
+1. Einen Ordner namens "Sublime" in die Cloud gelegt
+2. In den Sublime-Systemordner navigiert
+3. Die benötigten Ordner in die Cloud kopiert
+4. Die Originale gelöscht
+5. In die Dropbox navigiert
+6. Symlinks zu den Kopien in den Systemordner gelegt
+
+#### Rechner Nr. 2
+
+Sobald auf dem zweiten Rechner alle Dateien vom Cloud-Dienst syncronisiert wurden, brauchen wir dort nur noch die folgenden Befehle im Terminal ausführen:
+
+<pre class="language-bash"><code>cd ~/Library/"Application Support"/"Sublime Text 2"/
+rm -r "Packages" "Installed Packages" "Pristine Packages"
+ln -s ~/Dropbox/Sublime/"Packages" ~/Dropbox/Sublime/"Installed Packages" ~/Dropbox/Sublime/"Pristine Packages" ~/Library/"Application Support"/"Sublime Text 2"/</code></pre>
+
+Das wars.
+
+#### Hat geklappt?
+
+Öffnet Sublime auf euren beiden Rechnern. Und? Sieht beides gleich aus? Dann hat's wohl geklappt! Ihr könnt nun das Backup (sublime_backup.zip) auf dem Desktop von Rechner Nr. 1 löschen oder verstauen, falls ihr noch unsicher seid.
+
+#### Nicht geklappt?
+
+Solltet ihr Fehlermeldungen bekommen, oder sonst irgendetwas nicht geklappt haben, schreibt's in die Kommentare.
+
+### Fazit
+
+Egal welchen Editor ich genutzt habe, ich habe es gehasst, wenn ich zuhause ein Plugin wie z.B. Emmet ########## LINK installiert habe, und dann schreibe ich an der Arbeit Emmet-Code und es tut sich nix. Ich hasse es generell Aufgaben zu erledigen, dich ich in der Vergangenheit schon mal erledigt habe. Aber jetzt bin ich glücklich.
+
+Wie angekündigt ########LINK! werde ich in zukunft noch öfter über solche Automatisierungen schreiben. Also stay tuned!
+
+### Nachtrag für Fortgeschrittene
+
+Auch der Cache/die Session des Sublime wird in `.json`-Files gespeichert. Dort steht drin welche Dateien zuletzt geöffnet waren, welche Tabs gerade geöffnet sind, und sogar der Inhalt von Dateien, die ihr noch garnicht gespeichert hattet wird in diesen json's zwischengespeichert. Das bedeutet dass auch diese syncronisiert werden können.
+
+Das ist allerdings mit Vorsicht zu genießen, da Pfade ja ggf. auf dem Arbeitsrechner anders aussehen, als auf dem Privaten Rechner. Wer sich trotzdem trauen will, der führt nun noch folgende Befehle im Terminal aus:
+
+<pre class="language-bash"><code>cd ~/Library/"Application Support"/"Sublime Text 2"/
+cp -r "Settings" ~/Dropbox/Sublime/
+rm -r "Settings"
+ln -s ~/Dropbox/Sublime/"Settings" ~/Library/"Application Support"/"Sublime Text 2"/</code></pre>
+
+
+----
+
+Tags: code, workflow, work, sublime

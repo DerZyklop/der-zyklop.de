@@ -28,5 +28,5 @@
       }
     ?>
   }
-  lazyLoadArticles(<?php echo($articles->pagination()->countPages()) ?>, params)
+  lazyLoadArticles(<?php echo($articles->pagination()->countPages() - 1) ?>, params)
 </script>

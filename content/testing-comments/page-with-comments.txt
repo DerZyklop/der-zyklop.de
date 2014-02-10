@@ -1,7 +1,0 @@
-Title: Testing comments
-
-----
-
-Text: 
-
-Hey look, I can comment on this page!

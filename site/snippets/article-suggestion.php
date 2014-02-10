@@ -15,7 +15,7 @@ if ( $suggestedArticle ) : ?>
 
 <aside class="article-suggestion">
 
-  <h6><span>Das könnte dich auch interessieren:</span></h6>
+  <h6><span>Das könnte dich auch interessieren</span></h6>
   <section>
     <a class="title" href="<?php echo $suggestedArticle->url(); ?>">
       <h4>
@@ -25,7 +25,7 @@ if ( $suggestedArticle ) : ?>
     <a href="<?php echo $suggestedArticle->images()->first()->url(); ?>">
       <?php
         echo thumb( $suggestedArticle->images()->first(), array(
-          'width' => 200,
+          'width' => 270,
           'quality' => 70,
           'crop' => false
         ));
@@ -37,7 +37,6 @@ if ( $suggestedArticle ) : ?>
     <div class="clearit"></div>
   </section>
 </aside>
-<hr>
 
 <?php endif; ?>
 

@@ -1,0 +1,50 @@
+Title: Workflow #7 – Terminal profil synchonisieren
+
+----
+
+Date: 2014-01-xx
+
+----
+
+Text: In meinem letzten Workflow-Artikel haben wir das Terminal schön gemacht.
+
+Genau so wie wir die Sublime-Settings im Artikel "Workflow – Sublime ######" #######LINK##### zwischen verschiedenen rechnern synchron halten, kann man auch die **.profile** zwischen Arbeits-, Privat und weiteren Rechnern abgleichen.
+
+Es funktioniert nach dem selben Prinzip, wie dem im besagtem Artikel #######LINK#####. Voraussetzung ist also, dass ihr einen Cloud-Dienst wie z.B. ownCloud, Dropbox oder ########## nutzt, und dessen Ordner dort liegt, wo sich auch der Dokumente-, Musik- und Bilder-Ordner befindet. In diesem Artikel gehe ich davon aus, dass ihr die Dropbox verwendet. Sollte das nicht der Fall sein musst ihr die Pfade in den hier im Artikel aufgeführten Snippets ggf. anpassen.
+
+Wir nehmen uns also als erstes den Rechner vor, dessen Terminal-Settings wir für alle anderen Rechner übernehmen wollen. Dort öffnen wir das Terminal und geben folgende Befehle ein:
+
+<pre class="language-bash"><code>mkdir ~/Dropbox/Terminal
+cp ~/.profile ~/Dropbox/Terminal/.profile
+rm ~/.profile
+ln -s ~/Dropbox/Terminal/.profile ~/.profile</code></pre>
+
+Was ist hier Passiert?
+
+1. Ein neuer Ordner **Terminal** wurde in die Cloud gelegt
+2. Die **.profile** wurde in die Dropbox kopiert
+3. Die original **.profile** wurde gelöscht
+4. ein Symlink wurde gesetzt
+
+Wenn ihr absolut sicher gehen wollt, dass der Symlink auch wirklich gesetzt wurde, dann gebt mal `ls -al ~` ins Terminal ein. Da müsste dann irgendwo so etwas in die Richtung stehen:
+
+<pre class="language-bash"><code>.profile -> /Users/DerZyklop/Dropbox/Terminal/.profile</code></pre>
+
+
+Das wars. Wenn die Dropbox auf dem anderen Rechner fertig synchronisiert wurde, dann muss hier nur noch
+
+1. Die ggf. bestehende **.profile** gelöscht und
+2. der Symlink zu der neuen **.profile** gesetzt werden
+
+Und das geht so:
+
+<pre class="language-bash"><code>rm ~/.profile
+ln -s ~/Dropbox/Terminal/.profile ~/.profile</code></pre>
+
+Und das könnt ihr jetzt auf jedem Rechner wiederholen.
+
+Wenn euch der Artikel geholfen hat, hinterlasst doch ein kurzes "Danke" in den Kommentaren ;) Wenn ihr noch mehr Tricks wollt, die euch das Arbeiten erleichtern, dann stay tuned!
+
+----
+
+Tags: code, workflow, work, sublime

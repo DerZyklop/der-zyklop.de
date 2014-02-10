@@ -28,7 +28,7 @@ Ist die Standard-Schriftgröße einer Webseite also z.B. ``16px``, so wird ein K
 **``50%`` von ``80%`` von ``16px``**
 
 #### EM
-Das ``em`` ist ein Faktor, der sich an der Breite eines (link: http://de.wikipedia.org/wiki/Geviert_(Typografie) text: Gevierts rel: tooltip title: wikipedia: Geviert) orientiert, und ist damit der Prozentualen Angabe sehr ähnlich.
+Das ``em`` ist ein Faktor, der sich an der Breite eines (link: http://de.wikipedia.org/wiki/Geviert_(Typografie) text: Gevierts) orientiert, und ist damit der Prozentualen Angabe sehr ähnlich.
 
 Der Entscheidende unterschied zu ``%`` liegt darin, dass ``em`` eine Einheit ist, die ihren Urschprung in der Typographie hat und sich immer an der, dem betreffenden Element zugeordneten Schriftgröße orientiert.
 

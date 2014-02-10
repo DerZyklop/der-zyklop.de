@@ -45,18 +45,24 @@
 
 @import 'config'
 @import 'compass'
-@import 'mixins/all'
+@import '../../ext_repos/sass-boilerplate/mixins/all'
 
 +all
 
 body
     font-size: $font-size
     line-height: 1.8em
-    line-height: 2em
-    font-family: $font-highlight
+    font-family: $font-main
     //padding: 1em 0 6em 0
     padding: 0
     margin: 0
+
+    background: transparent
+    @media screen and (max-width: $page-width)
+        padding: 0
+        .width-wrap
+            margin-top: 0px
+            margin-bottom: 0px
 
 h1, h2, h3, h4, h5, h6
     font-family: $font-highlight
@@ -64,13 +70,13 @@ h1, h2, h3, h4, h5, h6
     font-weight: normal
 
 h1
-    font-size: 2.5em
+    font-size: 2.3em
 h2
-    font-size: 2em
+    font-size: 2.0em
 h3
-    font-size: 1.88em
+    font-size: 1.6em
 h4
-    font-size: 1.5em
+    font-size: 1.4em
 h5
     font-size: 1.2em
 h6
@@ -83,18 +89,9 @@ h1
 h1, h2
     color: $primary - #222
 
-h3, h4
+h3, h4, h5
     color: $primary - #222
     // text-align: center
-
-h5
-    background: $primary - #222
-    color: $primary
-    a, a:hover
-        color: $quadrary
-        text-decoration: none
-    font-size: 120%
-    padding: 0.2em 0.4em
 
 h6
     text-align: center
@@ -111,6 +108,10 @@ h2, h3, h4, h5, h6
 
 p
     margin: $space-t-b 0
+
+article p + p
+    text-indent: 1em
+
 hr
     height: 1px
     border: none
@@ -172,9 +173,6 @@ iframe.video
 .content
     margin-top: 2em
     margin-bottom: 2em
-    .article-text
-        font-family: $font-main
-        font-size: 1.2em
 
 .footer
     width: auto
@@ -254,11 +252,8 @@ iframe.video
         opacity: 1
         color: #fff
 
-.entry-date
-    +transition(color 0.3s)
-
 .inner-width-wrap
-    background: $width-wrap-background
+    background: $quadrary
     //border: 1px solid $border-color
     padding: $space-t-b $space-l-r
 
@@ -321,15 +316,6 @@ iframe.video
                     background: $primary
                     color: $quadrary
 
-body
-    //background: $body-background
-    background: transparent
-    @media screen and (max-width: $page-width)
-        padding: 0
-        .width-wrap
-            margin-top: 0px
-            margin-bottom: 0px
-
 /* Icons [BEGIN] */
 
 #nav ul li a
@@ -371,7 +357,6 @@ body
 
 #nav
     font-family: $font-highlight
-    font-size: 1.2em
     display: block
     overflow: hidden
     border:
@@ -390,29 +375,27 @@ body
         padding: 0
         display: table
         width: 100%
-        li:nth-child(2) a
-            &:after
-                content: 'neu!'
-                font-size: 0.8em
-                color: $secondary + #333
-                position: absolute
-                bottom: 0
-                left: 31%
-                @include rotate(-15deg)
-            &:hover:after,
-            &.active:after
-                color: $quadrary
+        // li:nth-child(2) a
+            // &:after
+            //     content: 'neu!'
+            //     font-size: 0.8em
+            //     color: $secondary + #333
+            //     position: absolute
+            //     bottom: -10px
+            //     left: 31%
+            //     @include rotate(-15deg)
+            // &:hover:after,
+            // &.active:after
+            //     color: $quadrary
         li
             display: table-cell
             padding-top: 0
             text-align: center
             list-style: none
             float: none
-            &:first-child
-                border-left: 0px
             a
                 display: block
-                padding: 0.5em 0px
+                line-height: 2.6em
                 margin: 0 auto
                 text-decoration: none
                 +transition(background 0.3s, color 0.3s, padding 0.3s)
@@ -522,8 +505,6 @@ nav.submenu
     img
         float: right
         margin: 0.5em 0  2em  2em
-    .content
-        font-family: $font-main
 
 $options-bar-space: 10px
 
@@ -540,11 +521,6 @@ $options-bar-space: 10px
         display: block
         box-sizing: border-box
         padding: $options-bar-space $options-bar-space*3
-        line-height: 40px
-    &.flat
-        .autorinfo,
-        .supporters-btn
-            line-height: 26px
     .autorinfo,
     .supporters-btn
         cursor: pointer
@@ -554,7 +530,6 @@ $options-bar-space: 10px
         &:hover
             background: $primary
     .autorinfo
-        font-size: 1.2em
         +border-radius($radius)
         margin-left: 10px 0
         float: left
@@ -564,7 +539,6 @@ $options-bar-space: 10px
         +border-radius($radius)
         text-align: center
         position: relative
-        border-left-color: $quadrary
         &.facebook,
         &.twitter,
         &.flattr,
@@ -623,11 +597,11 @@ $options-bar-space: 10px
 /* Blog [BEGIN] */
 
 .entry-date
+    +transition(color 0.3s)
     display: block
     white-space: nowrap
     display: inline
-    padding:
-        left: 0.8em
+    line-height: 2em
 
 .blog
     position: relative
@@ -635,19 +609,23 @@ $options-bar-space: 10px
         padding-top: 0
         padding-bottom: 5em
         @media screen and (min-width: $breakpoint)
-            width: 42%
+            width: 46%
             margin: 0 4%
             float: left
+            &.even
+                margin: 0 4% 0 0
+            &.odd
+                margin: 0 0 0 4%
         p
             margin-bottom: 0.5em
-
         h2
-            //background: $primary
+            font-size: 1.4em
             border: $border-width $border-style $border-color
             +border-radius($radius)
             padding: 0
             margin: $space-t-b/2 0
             +transition(0.3s)
+            overflow: hidden
             a
                 padding: 0.3em 0.5em
                 +transition(0.3s)
@@ -655,23 +633,28 @@ $options-bar-space: 10px
                 text-decoration: none
                 color: $primary - #222
 
+
         &.first
             margin: 0
             width: auto
             float: none
+            h2
+                font-size: 2em
 
         .entry-date
             float: right
             padding: 0em 0.8em
             +transition(0.3s)
-            color: $quadrary
             color: $border-color
             +border-radius($radius)
             //background: $border-color
-            border: $border-width $border-style $border-color
+            border: $border-width $border-style $border-color + #222
             @media screen and (max-width: $breakpoint)
                 display: inline
                 position: static
+        &.first
+            .entry-date
+                font-size: 1.2em
         &:hover
             .entry-date
                 border-color: $tertiary
@@ -691,6 +674,9 @@ $options-bar-space: 10px
             font-size: 0.5em
             margin-top: 1.2em
             line-height: 1em
+            color: $border-color
+    &:hover .entry-date
+        color: $tertiary
 
 /* Blog [END] */
 
@@ -764,28 +750,48 @@ $options-bar-space: 10px
     &:hover .hidden
         color: $secondary
 
-
+.comment-add-form.hide-form
+    form
+        display: none
+    h6
+        background: $secondary
 
 ul#comments
     list-style-type: none
     padding: 0
     margin: 0
     .comment-gravatar
-        float: left
-        margin-right: $space-t-b
+        text-align: center
+        background: url(../images/ccc.png) center center repeat-x
+        > div
+            width: 64px + 18px*2
+            margin: 0 auto
+            padding: 0 $space-t-b
+            background: $quadrary
+            img
+                border-radius: 100px
+        margin-bottom: -1em
     .comment-date
         float: right
     .comment-name
         float: left
     .comment-name,
     .comment-date
-        line-height: 64px
+        line-height: 64px/2
+        color: $border-color
+        +transition(color 0.3s)
+    > li:hover
+        .comment-name,
+        .comment-date
+            color: $font-color
+        .comment-gravatar
+            background: url(../images/000.png) center center repeat-x
     .comment-text
         clear: both
     hr
         margin: 0
-    li
-        margin: $space-t-b 0
+    > li
+        margin: $space-t-b*2 0
         &.even
             //background: #f8f8f8
         &.odd
@@ -854,40 +860,8 @@ ul#comments
 
 // Buttons
 
-button, .btn
-    margin: 0
-    cursor: pointer
-    display: block
-    +border-radius($radius)
-    text-align: center
-    color: $quadrary
-    font:
-        weight: bold
-        size: 1rem
-    text-decoration: none
-    line-height: 2.6rem
-    border: 1px
-    border:
-        width: 1px
-        style: solid
-        color: $primary - #222
-    background: $primary
-    +transition(background 0.3s)
-    &:hover
-        background: $primary - #222
-        border-color: $primary - #444
-
-.back-btn
-    float: left
-
-a.passiv-btn, a.passiv-btn:hover
-    border:
-        width: 1px
-        style: solid
-        color: $width-wrap-background - #111
-    background: $width-wrap-background - #050505
-    color: $border-color
-    cursor: default
+button, .button, input[type="button"], input[type="submit"], input[type="reset"]
+    line-height: 2.5em
 
 // Mailchimp
 

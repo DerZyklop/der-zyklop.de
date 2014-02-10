@@ -127,7 +127,7 @@ module.exports = (grunt) ->
         files: [
           'thumbs/uncompressed/**/*.{gif,png,jpg}'
         ]
-        tasks: ['imagemin']
+        tasks: ['newer:imagemin']
 
 
       tmpl:
@@ -161,4 +161,6 @@ module.exports = (grunt) ->
 
   grunt.registerTask('server', ['open','php'])
   grunt.registerTask('test', ['shell:pa11y'])
+  grunt.registerTask('images', ['newer:imagemin'])
+
   grunt.registerTask('default', ['reload','watch'])

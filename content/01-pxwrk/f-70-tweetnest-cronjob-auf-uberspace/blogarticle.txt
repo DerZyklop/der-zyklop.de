@@ -1,0 +1,64 @@
+Title: Tweetnest-Cronjob auf Uberspace
+
+----
+
+Date: 2014-01-21
+
+----
+
+Text:
+
+Ich habe mir vor langer Zeit mal ein (link: der-zyklop.de/tweetnest text: Tweetnest) auf meinem Uberspace eingerichtet. (link: http://pongsocket.com/tweetnest/ text: Tweetnest) ist ein Opensource-Projekt mit dem man sich ein Archiv der eigenen Tweets auf den eigenen Server holen kann. Uberspace ist der schönste Spielplatz Webentwickler wo gibt.
+
+Ich wusste aber nie wie man einen Cronjob, also ein automatisches, regelmäßiges Update einrichtet. Heute bin ich etwas fitter im Terminal, und wollte das dann mal nachholen. War auch super einfach. Here we go...
+
+Ich habe mich erst mal per SSH auf den Server eingeloggt.
+
+pre.language-bash>code
+ssh <uberspacename>@<uberspacehost>.uberspace.de
+
+Mein Tweetnest liegt im unterordner **tweetnest**. Dort habe ich das Script abgelegt, welches regelmäßig ausgeführt werden soll.
+
+pre.language-bash>code
+cd ~/html/tweetnest/
+touch loadtweets.sh
+
+Die Datei muss natürlich erst noch befüllt werden. Also öffnen mit
+
+pre.language-bash>code
+nano loadtweets.sh
+
+und da dann folgende Zeile eintragen
+
+pre>code
+php /var/www/virtual/<uberspaceuser>/html/tweetnest/maintenance/loadtweets.php
+
+Das ganze dann mit `ctrl`+`x` schließen, und das speichern mit `J` besätigen. Das selbe habe ich gleich noch für die loaduser.php eingerichtet.
+
+pre.language-bash>code
+cd ~/html/tweetnest/
+touch loaduser.sh
+nano loaduser.sh
+
+Hier habe ich dann folgendes eingetragen:
+
+pre>code
+php /var/www/virtual/<uberspaceuser>/html/tweetnest/maintenance/loaduser.php
+Nun muss die Datei bearbeitet werden in der die cronjobs eingetragen sind. Das macht man mit folgendem befehl:
+
+pre.language-bash>code
+crontab -e
+
+Wenn ihr das noch nie gemacht habt, dann steht da wahrscheinlicht jetzt nichts drin. Fügt folgende Zeilen ein:
+
+pre>code
+0 0 * * * php /var/www/virtual/<uberspacename>/html/tweetnest/loadtweets.sh
+0 0 1 * * php /var/www/virtual/<uberspacename>/html/tweetnest/loaduser.sh
+
+Und das wars. Nun wirde jeden Tag um 0:00 Uhr die neusten Tweets abgeholt und jeden ersten des Monats wird nachgeschaut, ob sich am User-Profil etwas geändert hat.
+
+Wenn ihr es öfter oder Seltener haben wollt, dann findet ihr im (link: http://uberspace.de/dokuwiki/system:cron text: Uberspace Wiki) weitere Beispiele.
+
+----
+
+Tags: code, workflow, work
