@@ -18,6 +18,8 @@ Mir ist klar, dass da schon ein neuer Sublime Text veröffentlicht wurde. Der ei
 
 ### Color Scheme
 
+Ich öffne also Spotlight per `⌘`+`space` und tippe **»Sub«** und Enter. Das habe ich mir für alle Programme angewöhnt. Geht einfach schneller als Icon im Dock suchen.
+
 Zuerst, solltet ihr die Farben so einstellen, dass ihr euch wohlfühlt. Ein paar Farbsets findet ihr im Menü unter **Sublime Text 2** > **Preferences** > **Color Scheme**. Interessantere Farbkombinationen findet ihr sehr übersichtlich präsentiert auf (link: http://colorsublime.com/ text: colorsublime.com).
 
 ### Theme
@@ -26,7 +28,7 @@ Unabhängig von den Syntax-Highlighting-Farben, könnt ihr auch ein anderes Them
 
 ### Verhalten
 
-Alle Settings sind in .json files definiert. Es gibt verschiedene Settings in verschiedenen Ordnern. Sie werden in einer bestimmten Reihenfolge eingelesen. Schaut mal oben in der Taskleiste nach **»Sublime Text 2«** > **»Preferences«** > **»Settings - Default«**. Hier findet ihr alle Einstellungen die du vornehmen kannst. Du solltest diese Datei aber besser unberührt lassen. Du kannst alles was in **»Settings - Default«** definiert wurde in »Settings - User« überschreiben. Es gibt noch weitere nützliche Settings-Dateien, die du im laufe der Zeit kennen lernen wirst. Beispielsweise Betriebsystem-, Programmiersprachen-, und Projekt-Bezogene Einstellungen.
+Alle Settings sind in **».json«** files definiert. Es gibt verschiedene Settings in verschiedenen Ordnern. Sie werden in einer bestimmten Reihenfolge eingelesen. Schaut mal oben in der Taskleiste nach **»Sublime Text 2«** > **»Preferences«** > **»Settings - Default«**. Hier findet ihr alle Einstellungen die ihr vornehmen könnt. Ihr solltest diese Datei aber besser unberührt lassen. Denn man kann alles was in **»Settings - Default«** definiert wurde in **»Settings - User«** überschreiben. Es gibt noch weitere nützliche Settings-Dateien, die du im laufe der Zeit kennen lernen wirst. Beispielsweise Betriebsystem-, Programmiersprachen-, und Projekt-Bezogene Einstellungen.
 
 Öffne mal deine User-Settings (`⌘`+`,`), vermultich ist da noch nichts eingetragen. Scheib mal rein:
 
@@ -40,7 +42,7 @@ Wenn du jetzt die font_size bspw. auf 20 änderst, wirst du sofort, wenn du die 
 
 ### Empfehlungen
 
-(Bedenkt bei allem Folgendem: Die letzte Zeile in einem Json-Objekt darf kein Komma am Ende enthalten.)
+Bei den folgenden Beispielen, solltet ihr Beachten: Die letzte Zeile in einem Json-Objekt darf nicht mit einem Komma enden.
 
 Ihr solltet umbedingt festlegen, welche Line-Endings und ob ihr lieber Tabs oder Spaces für Einrückungen benutzt. Du weißt nicht warum? Dann empfehle ich dir den Artikel (link: http://www.der-zyklop.de/pxwrk/tabs-vs-spaces/ text: Tabs vs. Spaces && Line-Endings. Fallstricke der Code-Formatierung). Ich schiebe also zwischen Zeile 1 und Zeile 2 folgendes:
 
