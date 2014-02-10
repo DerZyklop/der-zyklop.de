@@ -639,7 +639,7 @@ $options-bar-space: 10px
             width: auto
             float: none
             h2
-                font-size: 2em
+                font-size: 1.8em
 
         .entry-date
             float: right
@@ -647,14 +647,10 @@ $options-bar-space: 10px
             +transition(0.3s)
             color: $border-color
             +border-radius($radius)
-            //background: $border-color
             border: $border-width $border-style $border-color + #222
             @media screen and (max-width: $breakpoint)
                 display: inline
                 position: static
-        &.first
-            .entry-date
-                font-size: 1.2em
         &:hover
             .entry-date
                 border-color: $tertiary
