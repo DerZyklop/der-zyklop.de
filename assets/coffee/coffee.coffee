@@ -5,7 +5,6 @@ jQuery(document).ready ->
     jQuery('.comment-add-form').find('form').slideDown(300)
     jQuery('.comment-add-form .button').addClass('passive')
 
-
   jQuery('.nolink').click (event) ->
     event.preventDefault()
 
