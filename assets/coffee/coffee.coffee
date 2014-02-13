@@ -10,25 +10,83 @@ jQuery(document).ready ->
 
   jQuery("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').fancybox()
 
-  # jQuery('.blogarticle .article-text').after('<a href="#" id="likebtn"><span>Guter<br />Artikel</span></a>')
-  # jQuery('#likebtn').click (e) ->
-  #   e.preventDefault()
-  #   el = jQuery(this)
-  #   if !el.hasClass 'clicked'
-  #     uri = jQuery('.blogarticle .article-text').attr('data-post')
-  #     $.getJSON '/pxwrk/like/post:'+uri, (r) ->
-  #       if (r == undefined || r.status == 'error')
-  #         return console.log 'Likes could not be updated'
-  #       else
-  #         counter = parseFloat jQuery('.blogarticle .article-text').attr('data-likes')
-  #         console.log counter + 1
-  #         jQuery('#likebtn span').fadeOut 300, ->
-  #           jQuery(this).html('<span style="padding:0.5em 0;">Danke!</span>').fadeIn(300)
-  #           setTimeout =>
-  #             jQuery('#likebtn span').fadeOut 300, ->
-  #               jQuery(this).html('<span style="font-size:2em;">'+(counter+1)+'</span>').fadeIn(300)
-  #           , 1000
-  #         el.addClass('clicked')
-  #         el.after('<div style="display:none;text-align:center;">Danke!</div>').slideDown(500)
 
-  #         return console.log 'Likes have been updated. New Likes count: '+r.likes
+
+
+
+  ajaxNav =
+    duration: 300
+    setEvent: (params, item) ->
+      jQuery(item).click (e) =>
+        e.preventDefault()
+        jQuery.ajax
+          url: item.href
+          beforeSend: =>
+            jQuery(params.target).each (i, targetSelector) =>
+              oldContent = jQuery(targetSelector)
+              oldContent.animate 'opacity': 0, @duration
+          success: (response) =>
+            jQuery(item).parent().siblings('.active').removeClass('active')
+            jQuery(item).parent().addClass('active')
+            jQuery(params.target).each (i, targetSelector) =>
+              newContent = jQuery(targetSelector, response)
+              if newContent.length
+                oldContent = jQuery(targetSelector)
+                setTimeout =>
+                  oldContent.html(newContent.html())
+                  oldContent.animate 'opacity': 1, @duration
+                  ajaxNav.unbindAll()
+                  ajaxNav.set @allparams
+                , @duration
+              else
+                window.location.href = item.href
+
+    unbindAll: ->
+      jQuery(@allparams).each (i, params) =>
+        jQuery(params.trigger).each (i, item) =>
+          jQuery(item).off('click')
+
+    set: (allparams) ->
+      @allparams = allparams
+      jQuery(@allparams).each (i, params) =>
+        jQuery(params.trigger).each (i, item) =>
+          @setEvent(params, item)
+
+
+    #       newContent = jQuery('.content',response).closest('.main')
+    #       console.log newContent.length
+    #       if newContent.length
+    #         jQuery(e.currentTarget).parent().siblings('.active').removeClass('active')
+    #         jQuery(e.currentTarget).parent().addClass('active')
+    #         jQuery('div.main').fadeOut 100, ->
+    #           jQuery(this).html(newContent.html())
+    #           jQuery(this).fadeIn ->
+    #             setAjaxNav(jQuery('.main nav a'))
+    #         img = jQuery('.header-img-wrap').children('img')
+    #         if img.length
+    #           newImg = jQuery('.header-img-wrap',response).html()
+    #           img.fadeOut 200, =>
+    #             jQuery('.header-img-wrap .header-img-wrap').html(newImg).ready ->
+    #               jQuery('.header-img-wrap img').hide()
+    #               setTimeout ->
+    #                 setTimeout ->
+    #                   jQuery('.header-img-wrap').children('img').fadeIn 1000
+    #                 , 50
+    #               , 50
+
+    #       else
+    #         window.location.href = e.target
+  ajaxNav.set [
+    {
+      trigger: "#nav a"
+      target: [
+        ".content"
+      ]
+    }
+    {
+      trigger: "#articles a"
+      target: [
+        ".content"
+      ]
+    }
+  ]

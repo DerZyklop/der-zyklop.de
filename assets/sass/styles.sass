@@ -400,14 +400,6 @@ iframe.video
                 text-decoration: none
                 +transition(background 0.3s, color 0.3s, padding 0.3s)
                 color: $tertiary
-                &.active,
-                &:hover
-                    color: $quadrary
-                &.active
-                    background: $primary - #222
-                    +box-shadow(0px 2px 20px rgba(0,0,0,0.5) inset)
-                &:hover
-                    background: $primary
                 .icon
                     display: block
                     text-align: center
@@ -418,8 +410,17 @@ iframe.video
                 .title
                     vertical-align: middle
                     line-height: 2rem
-        &:hover a
-            +transition(padding 0.3s)
+            &.active,
+            &:hover
+                a
+                    color: $quadrary
+            &.active
+                a
+                    background: $primary - #222
+                    +box-shadow(0px 2px 20px rgba(0,0,0,0.5) inset)
+            &:hover
+                a
+                    background: $primary
         #close-nav
             clear: both
             float: none !important
