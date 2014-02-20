@@ -1,0 +1,48 @@
+Title: Facebook, WhatsApp und was zu tun ist
+
+----
+
+Date: 2014-02-20
+
+----
+
+Text: Soso... WhatsApp wurde also von Facebook für 19 Milliarden Dollar gekauft...
+
+<blockquote class="twitter-tweet" lang="de"><p>Was für Trottel bei <a href="https://twitter.com/search?q=%23Facebook&amp;src=hash">#Facebook</a>. Ich habe <a href="https://twitter.com/search?q=%23Whatsapp&amp;src=hash">#Whatsapp</a> für 79 Cent gekauft!</p>&mdash; Johannes Eydinger (@senSATZionell) <a href="https://twitter.com/senSATZionell/statuses/436263239887101952">19. Februar 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Warum WhatsApp so viel wert ist? Weil eure Daten so viel wert sind. Und WhatsApp ist ja auch einer dieser Dienste, bei denen es sich so anfühlt als würde man nur eine Nachricht an einen Freund schreiben, dabei schreibt man eigentlich eine Nachricht an ein Unternehmen, und an verschiedenste Regierungen, und das Unternehmen ist so nett, unter anderem auch diesem einen Freud bescheid zu sagen.
+
+(image: whatsapp-facebook.png link: whatsapp-facebook.png)
+
+Was sich für uns Nutzer also ändert ist eigentlich nur, dass zukünftig eben auch Facebook ein Auge darauf hat, was wir so mit unseren Familienmitgliedern, Freundinnen und Arbeitskollegen auszutauschen haben. Leider ist es eben genau das Unternehmen was ohnehin schon den besten Überblick über das soziale Geflecht der Weltbevölkerung und damit am meisten Macht hat.
+
+WhatsApp zu deinstallieren, ist keine schlechte idee.
+
+### WhatsApp Alternativen
+
+Am vertretbarsten finde ich im Moment die (link: https://threema.ch/de/ text: Threema App). Und ich habe auch das Gefühl, dass diese bisher am meisten Verbreitung gefunden hat. Diese App macht genau das, was sie soll. Nachrichten werden auf eurem Gerät in einen Briefumschlag gepackt und versiegelt, und werden dann vom Sender an den Empfänger geliefert ohne dass irgendjemand zwischendurch den Briefumschlag aufmacht, oder sich eine Kopie der verpackten Nachricht speichert. Das nennt man (link: http://vimeo.com/17610424 text: Ende-zu-Ende-Verschlüsselung).
+
+Es gibt viele gute Gründe jetzt neue, sichere Apps auf den Markt zu bringen. Und so sind momentan viele Programmierer und StartUps damit beschäftigt. Und die jetzige Situation sorgt sicherlich für viele Disskussionen um Alternativen. Ich bin gespannt, was dabei rauskommt und halte euch gerne hier auf dem laufenden. Ich teste ja eh, was ich in die Finger kriege.
+
+### Datenauskunft und Datenlöschung
+
+Wenn man die App gelöscht hat, liegen die Daten allerdings immernoch auf den Servern, und WhatsApp hat immernoch eure Berechtigung, damit machen zu dürfen was sie wollen.
+
+Wem das nicht passt, kann z.b. (link: https://gist.github.com/DerZyklop/9111828 text: diese Vorlage) verwenden und diese an (email: support@whatsapp.com) senden, um seine Daten einzufordern und deren Löschung zu veranlassen. Kaum zu glauben, aber es gibt Gesetze für sowas. Die nimmt nur kaum jemand wahr.
+
+### Verbraucherschutz-Vorlage
+
+Die verlinkte Vorlage ist während eines Vortrages vom Chaos Computer Club entstanden. Wer lieber der Verbraucherzentrale vertrauen will und eh lieber Papier-Post schickt, der wird (link: https://www.surfer-haben-rechte.de/cps/rde/xbcr/digitalrechte/Musterbrief_Datenschutz_Auskunft-Widerruf.pdf text: hier) (Daten-Auskunft) und (link: https://www.surfer-haben-rechte.de/cps/rde/xbcr/digitalrechte/Musterbrief_Datenschutz_Loeschung.pdf text: hier) (Daten-Löschung) fündig.
+
+### Facebook Daten anfordern
+
+Und wenn wir gerade dabei sind: Für das (link: http://www.europe-v-facebook.org/DE/Daten_verlangen_/daten_verlangen_.html text: Anfordern der Daten von Facebook) gibt's eine eigene Webseite mit Online-Formular und s0.
+
+---
+
+Hat der Artikel euch irgendwie weitergebracht? Dann lasst doch ein kurzes »Danke« in den Kommentaren. Habt ihr Fragen oder Tipps? ...auch in die Kommentare.
+
+----
+
+Tags: verschlüsselung, facebook, whatsapp, threema
