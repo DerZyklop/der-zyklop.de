@@ -10,7 +10,7 @@ Kategory: personalstuff, nerdstuff
 
 ----
 
-Text: Ich hoffe, ich wurde in meinem Vergangenen Artikel nicht falsch verstanden. Natürlich sollt ihr alle verschlüsseln. Allerdings bewahrt uns das nicht vor der Aufgabe, dass wir (Politik-, Wirtschafts-, Computer-) Systeme schaffen müssen, die uns nicht schaden. Im Fall "Grundrechte" also eines, was uns nicht Vollüberwacht. Aber es gibt gute Gründe, Kommunikation zu verschlüsseln, selbst wenn man sich nicht bedroht fühlt.
+Text: Ich hoffe, ich wurde in meinem (link: http://www.der-zyklop.de/pxwrk/alkohol-und-verschluesselung text: Vergangenen Artikel) nicht falsch verstanden. Natürlich sollt ihr alle verschlüsseln. Allerdings bewahrt uns das nicht vor der Aufgabe, dass wir (Politik-, Wirtschafts-, Computer-) Systeme schaffen müssen, die uns nicht schaden. Im Fall "Grundrechte" also eines, was uns nicht Vollüberwacht. Aber es gibt gute Gründe, Kommunikation zu verschlüsseln, selbst wenn man sich nicht bedroht fühlt.
 
 (image: keine_verschluesselung.png link: keine_verschluesselung.png)
 
