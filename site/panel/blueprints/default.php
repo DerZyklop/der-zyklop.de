@@ -13,3 +13,11 @@ fields:
     label: Text
     type:  textarea
     size:  large
+    buttons:
+      - h1
+      - h2
+      - h3
+      - bold
+      - italic
+      - email
+      - link
