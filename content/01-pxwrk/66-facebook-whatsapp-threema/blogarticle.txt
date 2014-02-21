@@ -23,6 +23,10 @@ WhatsApp zu deinstallieren, ist keine schlechte idee.
 
 Am vertretbarsten finde ich im Moment die (link: https://threema.ch/de/ text: Threema App). Und ich habe auch das Gefühl, dass diese bisher am meisten Verbreitung gefunden hat. Diese App macht genau das, was sie soll. Nachrichten werden auf eurem Gerät in einen Briefumschlag gepackt und versiegelt, und werden dann vom Sender an den Empfänger geliefert ohne dass irgendjemand zwischendurch den Briefumschlag aufmacht, oder sich eine Kopie der verpackten Nachricht speichert. Das nennt man (link: http://vimeo.com/17610424 text: Ende-zu-Ende-Verschlüsselung).
 
+<div class="edit" id="edit1"><p>
+[EDIT 21.02.2014:] Durch die gestrige Diskussion bin ich noch auf (link: https://telegram.org/ text: Telegram) gestoßen. Die machen (wie Threema) fast alles richtig, was sicherheut und Datenschutz angeht, und die App lässt sich noch angenehmer bedienen.</p><p>Zusätzlich hat man bei Telegram den vorteil, dass es dazu neben Apps für die verschiedensten Smartphone-Betriebssysteme auch eine Desktop-App gibt. Wer auf der Suche ist, sollte sich das umbedingt mal anschauen.
+</p></div>
+
 Es gibt viele gute Gründe jetzt neue, sichere Apps auf den Markt zu bringen. Und so sind momentan viele Programmierer und StartUps damit beschäftigt. Und die jetzige Situation sorgt sicherlich für viele Disskussionen um Alternativen. Ich bin gespannt, was dabei rauskommt und halte euch gerne hier auf dem laufenden. Ich teste ja eh, was ich in die Finger kriege.
 
 ### Datenauskunft und Datenlöschung
