@@ -9,9 +9,6 @@
         </a>
     </li>
     <?php endforeach ?>
-    <li id="close-nav"><a href="#" style="text-align: right;">
-        <span class="icon-chevron-up"></span>
-    </a></li>
   </ul>
 </nav>
 <div class="content">
