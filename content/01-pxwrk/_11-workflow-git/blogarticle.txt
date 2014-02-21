@@ -1,0 +1,96 @@
+Title: Tweetnest-Cronjob auf Uberspace
+
+----
+
+Date: 2014-01-21
+
+----
+
+Text: 
+
+Ich werde jetzt hier nicht die grundsätzliche Funktionsweise von Git erklären. Das meißte habe ich bei #########LINK gelernt. Denjenigen die sich mit git (vor allem in der Command-Line) schon etwas auskennen, möchte ich hier ein paar Kniffe zeigen, die einem die Arbeit erleichtern können.
+
+Ich habe in meinem Artikel ".....#######" ###LINK erklärt, wie man sich sogenannte Aliase und Funktionen in die `.profile` schreiben kann. So kann man sich z.B. die Befehle, die man immer wieder braucht sehr verkürzen. Das hat nicht nur den Grund, dass man den Befehl schneller eingetippt hat, sondern auch, dass man weniger Tippfehler macht, und keine ggf. nötigen Parameter vergisst. Im folgenden stelle ich euch ein paar der Zeilen meiner **.profile** vor, die sich auf Git beziehen.
+
+Einer der von mir am häufigsten genutzen Befehle ist `git status`. Das kürze ich mir auf `gs`. Das selbe mache ich mit `git diff` und `git push`.
+
+<pre class="language-bash"><code>alias "gs"="git status"
+alias "gd"="git diff "
+alias "gd"="git push"</pre></code>
+
+### git add
+
+Bei `git add` kommt dann ein Parameter dazu. Wenn ich eine Datei gelöscht habe und diese Information nun in den nächsten Commit packen will, schreibe ich entweder `git rm path/filename.foo` oder `git add -A path/filename.foo`. Das `-A` steht dabei für `All`, also werden auch Dateien mit dem Status `deleted` mit aufgenommen. Ich schreibe mir in meine `.profile`:
+
+<pre class="language-bash"><code>alias "ga"="git add -A"</pre></code>
+
+So kann ich für jede Datei `ga path/filename.foo` schreiben, egal ob sie `modified`, `deleted` oder `new` ist.
+
+### git commit
+
+Für Commits habe ich von Anfang an `git commit -m "Fixed Issue #42"` geschrieben. In meiner `.profile` steht:
+
+<pre class="language-bash"><code>alias "gc"="git commit -m "</pre></code>
+
+Nun schreibe ich also `gc "Fixed Issue #42"`.
+
+### git log
+
+Und wenn ich mir `git log` ausgeben will, dann mache ich das der übersichtlichkeit halber immer mit `--oneline`:
+
+<pre class="language-bash"><code>alias "gl"="git log --oneline"</pre></code>
+
+### Open Git URL
+
+Sehr sehr praktisch ist auch die `gopen`-Funktion. Mit dieser lässt sich die remote URL des projektes öffnen. Ganz egal ob man das jeweilige Projekt nun auf Github, Gitbucket, einem eigenen GitLab oder wo auch immer liegen hat.
+
+<pre><code># Opens current git-project on github.com
+function gopen() {
+  open $(git config --get remote.origin.url)
+}</code></pre>
+
+### git init
+
+Wenn ich ein neues Git-Projekt starte, gehören dort grundsätzlich vier Schritte dazu. Diese vier Schritte habe ich mir in eine `gi` funktion gepackt.
+
+<pre><code>function gi() {
+  git init
+  touch README.md
+  touch .gitignore
+  echo -e ".gitignore\n.DS_Store"> .gitignore
+}</code></pre>
+
+Was hier passiert:
+
+- Der `.git`-Ordner wird angelegt
+- eine leere README.md wird angelegt
+- eine leere .gitignore wird angelegt
+- in die .gitignore werden die zwei Dateien `.gitignore` und `.DS_Store` eingetragen.
+
+### Open current folder
+
+Die Möglichkeiten sind endlos. Das prinzip dürfte klar geworden sein. Daher lasse ich nun die folgenden Zeilen mal unkommentiert.
+
+<pre><code># Open current folder
+alias o="open ."
+## ssh to my server
+alias uber="ssh uberspacename@uberspacehost.uberspace.de"
+# Opens my personal Terminal configuration
+function profile() {
+  if [ -f ~/.bashrc ]; then
+    subl ~/.bashrc
+  fi
+  subl ~/.profile
+}</code></pre>
+
+### Sublime Text
+
+Wie man sich's im Code-Editor Sublime Text gemütlich macht und wie man Packages installiert, habe ich erklärt. Auch für git gibt es ein Package. Dieses macht zwar nicht viel mehr als die bekannten Befehle, die man sonst über's Terminal erledigt, aber interessant wird es bei der `git diff` Übersicht. Da findet man sich direkt im Sublime doch schneller im Code zurecht, als wenn man sich das im Terminal ausgibt.
+
+---
+
+Wenn dir dieser Artikel weitergeholfen hat, lass mir doch ein kurzes *»Danke«* in den Kommentaren. Wenn du weitere solcher artikel willst, dann stay tuned.
+
+----
+
+Tags: code, workflow, work
