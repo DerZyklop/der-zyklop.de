@@ -149,8 +149,6 @@ legend
 
 // NN UI [END]
 
-@import 'icons.sass'
-
 iframe.video
     width: 100%
     height: 500px
@@ -304,43 +302,6 @@ iframe.video
                     background: $primary
                     color: $quadrary
 
-/* Icons [BEGIN] */
-
-#nav ul li a
-    [class^="icon-"]::before,
-    [class*=" icon-"]::before
-        font-weight: normal
-
-.icon-pxwrk:before
-    font-weight: normal
-    content: "\31"
-.icon-musik:before
-    content: "\36"
-.icon-design:before
-    content: "\64"
-    content: "\44"
-.icon-snapshots:before
-    content: "\32"
-    content: "\69"
-.icon-cult-of-less:before
-    content: "\37"
-.icon-about:before
-    content: "\35"
-.icon-photos:before
-    content: "\32"
-.icon-chevron-up:before
-    content: "\75"
-.icon-chevron-down:before
-    content: "\64"
-    content: "\21"
-
-.icon-podcast:before
-    background:
-        image: url('../images/icon-podcast.png')
-        repeat: no-repeat
-
-/* Icons [END] */
-
 /* Nav [BEGIN] */
 
 #nav
@@ -419,14 +380,6 @@ iframe.video
                     padding:
                         right: 1em
                         left: 1em
-                    .icon
-                        display: inline
-                        padding-right: 0.4em
-                        text-align: left
-    @media screen and (min-width: $page-width)
-        ul li a .icon
-            display: inline
-            padding-right: 0.4em
 
 nav.submenu
     border-top: none
@@ -601,7 +554,7 @@ $options-bar-space: 10px
                 margin: 0 0 0 4%
         p
             margin-bottom: 0.5em
-        h2
+        .headline
             border: $border-width $border-style $border-color
             +border-radius($radius)
             padding: 0
@@ -620,6 +573,17 @@ $options-bar-space: 10px
             margin: 0
             width: auto
             float: none
+
+            position: relative
+            .headline
+                a
+                    padding: 0.3em 5em 0.3em 0.5em
+            .entry-date
+                background: $quadrary
+                position: absolute
+                margin: $space-t-b/2 0
+                top: 0.5em
+                right: 0.8em
 
         .entry-date
             float: right

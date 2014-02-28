@@ -1,6 +1,6 @@
 <div class="width-wrap rss-button">
     <div class="snippet">
-        <a href="/pxwrk/subscribe" class="inner">Blog abonnieren</a>
+        <a href="/blog/subscribe" class="inner">Blog abonnieren</a>
     </div>
 </div>
 

@@ -21,7 +21,7 @@
   } else {
       echo('right ');
   }; ?>overview-btn">
-      <a class="btn" href="<?php echo url('pxwrk') ?>">Zur Übersicht</a>
+      <a class="btn" href="<?php echo url('blog') ?>">Zur Übersicht</a>
   </div>
   <div class="clearit"></div>
 </div>

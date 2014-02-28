@@ -8,7 +8,7 @@
       </span>
     </a>
   </div>
-  <h2>
+  <h2 class="headline">
     <a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a>
   </h2>
   <div class="img-border">

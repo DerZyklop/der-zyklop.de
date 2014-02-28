@@ -23,7 +23,7 @@
 
   <?= css('assets/fancybox/jquery.fancybox.css') ?>
 
-  <link rel="alternate" type="application/rss+xml" href="<?= url('pxwrk/feed') ?>" title="<?= html($site->title()) ?> Blog Feed" />
+  <link rel="alternate" type="application/rss+xml" href="<?= url('blog/feed') ?>" title="<?= html($site->title()) ?> Blog Feed" />
 
   <!--[if lte IE 8]>
   	<script type="text/javascript">

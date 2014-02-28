@@ -21,7 +21,7 @@ window.lazyLoadArticles = function(pagesCount, options) {
     ajaxPaginationStatus++;
     paginationNav = jQuery('#pagination-nav').html();
     if (ajaxPaginationStatus <= pagesCount) {
-      url = "/pxwrk/ajax-article/page:" + ajaxPaginationStatus;
+      url = "/blog/ajax-article/page:" + ajaxPaginationStatus;
       if (options) {
         for (key in options) {
           value = options[key];

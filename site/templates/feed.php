@@ -1,7 +1,7 @@
 <?php
-$articles = $pages->find('pxwrk')->children()->visible()->flip()->limit(10);
+$articles = $pages->find('blog')->children()->visible()->flip()->limit(10);
 snippet('feed', array(
-  'link'  => url('pxwrk'),
+  'link'  => url('blog'),
   'items' => $articles,
   'descriptionField'  => 'text',
   'descriptionExcerpt' => '0'

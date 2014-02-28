@@ -2,18 +2,31 @@
 <?php snippet('menu') ?>
 
 <?php
-  $blog = $pages->find('pxwrk');
+  $blog = $pages->find('blog');
   $articles = $blog->children()->visible()->flip();
+
+  function isBlogError(){
+    global $articles, $site;
+    if ( !isset($articles) ) {
+      return false;
+    } elseif ( $articles->count() == 0 && $site->uri()->params() == '' ) {
+      return false;
+    } else {
+      return true;
+    }
+  };
+
 ?>
+  <?php #var_dump(blogError()); ?>
 
 <script type="text/javascript">
     jQuery(document).ready(function(){
-        $('body').addClass('pxwrk');
+        $('body').addClass('blog');
     });
 </script>
 
 <section class="blog">
-  <?php if ( $articles->count() == 0 && $site->uri()->params() == '' ) : ?>
+  <?php if ( isBlogError() ) : ?>
     <h3>Uuups!</h3>
     <p>Sieht aus, als hätte <?= $site->author() ?> noch keinen einzigen Artikel veröffentlicht.</p>
   <?php else: ?>
@@ -29,7 +42,7 @@
       <p>Ich hab überall gesucht, ich hab echt alles gegeben, ich konnte keine Einträge finden.</p>
       <p>Schau dir mal die anderen Schlagworte an, die ich gefunden habe – vielleicht interessiert dich ja eins davon:</p>
       <?php
-        $tags = tagcloud($blog, array('field'=>'tag', 'baseurl'=>$site->url().'/pxwrk/tags') );
+        $tags = tagcloud($blog, array('field'=>'tag', 'baseurl'=>$site->url().'/blog/tags') );
       ?>
       <ul class="tagcloud">
         <?php $i = 0 ?>

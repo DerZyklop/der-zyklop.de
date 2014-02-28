@@ -6,7 +6,7 @@ $tagname = $tags[0];
 
 // This takes the next latest article that includes
 // the first tag from this article.
-$allArticles = $pages->find('pxwrk')->children()->visible()->flip();
+$allArticles = $pages->find('blog')->children()->visible()->flip();
 $articlesWithSameTag = $allArticles->filterBy('tags', $tagname, ',');
 $suggestedArticle = $articlesWithSameTag->not($page->uid())->first();
 

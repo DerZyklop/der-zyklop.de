@@ -59,6 +59,10 @@ RewriteRule ^main/pxwrk/instragram/(.*) snapshots/$1 [R=301,L]
 RewriteRule ^main/cult-of-less/(.*) pxwrk/tags/tag:cultofless/$1 [R=301,L]
 
 
+# Diese Regel ist super wichtig! Weil früher hieß der Blog "pxwrk"
+RewriteRule ^pxwrk/(.*) blog/$1 [R=301,L]
+
+
 
 # make panel links work
 RewriteCond %{REQUEST_FILENAME} !-f

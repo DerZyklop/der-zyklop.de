@@ -16,7 +16,7 @@ jQuery(document).ready ->
   #   el = jQuery(this)
   #   if !el.hasClass 'clicked'
   #     uri = jQuery('.blogarticle .article-text').attr('data-post')
-  #     $.getJSON '/pxwrk/like/post:'+uri, (r) ->
+  #     $.getJSON '/blog/like/post:'+uri, (r) ->
   #       if (r == undefined || r.status == 'error')
   #         return console.log 'Likes could not be updated'
   #       else
