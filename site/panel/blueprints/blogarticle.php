@@ -12,12 +12,6 @@ fields:
   date:
     label: Date
     type:  date
-  kategory:
-    label: Kategorie
-    type: multicheckbox
-    options:
-      personalstuff: Personal stuff
-      nerdstuff: Nerd stuff
   text:
     label: Text
     type:  textarea
@@ -30,13 +24,20 @@ fields:
       - italic
       - email
       - link
-	tag:
-		label: Tags
-		type: tags
-		index: all
-	language:
-		label: Language
-		type: radio
-		options:
+  tags:
+    label: Tags
+    type: tags
+    index: all
+    data:
+      - design
+      - architecture
+      - photography
+      - development
+      - web
+  language:
+    label: Language
+    type: radio
+    options:
       firstValue: deutsch
       secondValue: english
+    default: firstValue

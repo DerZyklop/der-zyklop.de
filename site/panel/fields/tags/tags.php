@@ -33,7 +33,7 @@ if(!isset($data) || !is_array($data)) {
       $store = $page->siblings();
       break;
   }
-  
+
   // get all tags
   foreach($store as $s) {
     $data = array_merge($data, str::split($s->{$field}, $separator));
@@ -51,7 +51,7 @@ sort($data);
 <script type="text/javascript">
 $(function() {
   $('#<?php echo $id ?>').tagbox({
-    url : <?php echo json_encode((array)$data) ?>, 
+    url : <?php echo json_encode((array)$data) ?>,
     lowercase : '<?php echo $lower ?>',
     separator : '<?php echo $separator ?>'
   });
