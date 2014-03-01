@@ -1,7 +1,5 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-# default blueprint
-
 title: Blogartikel
 pages: true
 files: true
@@ -28,12 +26,6 @@ fields:
     label: Tags
     type: tags
     index: all
-    data:
-      - design
-      - architecture
-      - photography
-      - development
-      - web
   language:
     label: Language
     type: radio
@@ -41,3 +33,7 @@ fields:
       firstValue: deutsch
       secondValue: english
     default: firstValue
+  justforrss:
+    label: Just for RSS feed?
+    type: checkbox
+    default: off

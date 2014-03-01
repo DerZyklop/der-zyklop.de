@@ -1,0 +1,34 @@
+﻿Title: Blog-Artikel doppelt angekommen?
+
+----
+
+Date: 2014-03-01
+
+----
+
+Text: ### Kurzfassung
+
+Meine alte Feed-URL <http://www.der-zyklop.de/pxwrk/feed> ist (mehr oder weniger) kaputt. Abonniert bitte die neue:
+
+> <http://www.der-zyklop.de/blog/feed>
+
+### Langfassung
+
+Gestern ist was schief gelaufen. In Feed-Readern, die meinen Blog abonniert haben sind alte Artikel behandelt worden als seien sie neu und ungelesen.
+
+Ich hab da was im Code geändert. Ich habe eine URL umbenannt und dachte ich schaffe diesen Stunt ohne, dass ihr davon was mitbekommt. Hat wohl nicht geklappt. Die alte URL sollte eigentlich auch in Zukunft weiterhin funktionieren, aber sicherer wäre es, wenn ihr die neue Abonniert (siehe "Kurzfassung").<br>
+Bitte entschuldigen sie die Umstände.
+Mit freundlichen Grüßen,
+DerZyklop
+
+----
+
+Tags: blog
+
+----
+
+Language: firstValue
+
+----
+
+Justforrss: on

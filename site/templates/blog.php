@@ -57,16 +57,17 @@
     <?php else: ?>
       <div id="articles">
         <?php
-          snippet( 'article-teaser', array( 'item' => $articles->first(), 'first' => true, 'articles_count' => !($articles->count() % 2) ));
+          $frontend_articles = $articles->filterBy('justforrss','');
+          snippet( 'article-teaser', array( 'item' => $frontend_articles->first(), 'first' => true, 'articles_count' => !($frontend_articles->count() % 2) ));
         ?>
         <?php
-          foreach($articles->offset(1)->paginate(2) as $article) {
-            snippet( 'article-teaser', array( 'item' => $article, 'first' => false, 'articles_count' => !($articles->count() % 2) ));
+          foreach($frontend_articles->offset(1)->paginate(2) as $article) {
+            snippet( 'article-teaser', array( 'item' => $article, 'first' => false, 'articles_count' => !($frontend_articles->count() % 2) ));
           };
         ?>
         <div class="clearit"></div>
       </div>
-      <?php snippet('pagination', array( 'articles' => $articles )); ?>
+      <?php snippet('pagination', array( 'articles' => $frontend_articles )); ?>
     <?php endif; ?>
   <?php endif; ?>
 </section>
