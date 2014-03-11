@@ -3,20 +3,29 @@
   "description": "Project by @DerZyklop",
   "version": "3.0.1",
   "private": true,
+  "author": "Nils Neumann <mail@der-zyklop.com>",
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "matchdep": "~0.1.2",
-    "grunt-open": "~0.2.2",
-    "grunt-contrib-watch": "~0.5.2",
-    "grunt-contrib-coffee": "~0.7.0",
-    "grunt-contrib-sass": "~0.4.1",
-    "grunt-contrib-compass": "~0.5.0",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-contrib-copy": "~0.4.1",
-    "grunt-php": "~0.2.0",
-    "grunt-contrib-cssmin": "~0.6.2",
-    "grunt-contrib-imagemin": "~0.4.1",
+    "grunt": "0.4.x",
+    "matchdep": "0.1.x",
+    "grunt-contrib-watch": "0.5.x",
+    "grunt-contrib-coffee": "0.7.x",
+    "grunt-contrib-sass": "0.4.x",
+    "grunt-contrib-uglify": "0.2.x",
+    "grunt-contrib-copy": "0.4.x",
+    "grunt-contrib-imagemin": "0.5.x",
+    "grunt-php": "0.2.x",
+    "grunt-contrib-cssmin": "0.6.x",
+    "grunt-autoprefixer": "0.6.x",
     "grunt-shell": "~0.6.1",
-    "grunt-newer": "~0.6.1"
+    "grunt-newer": "~0.6.1",
+    "grunt-concurrent": "~0.5.0",
+    "grunt-image-embed": "~0.3.1"
+  },
+  "scripts": {
+    "start": "grunt server",
+    "watch": "grunt watch"
+  },
+  "dependencies": {
+    "time-grunt": "~0.2.10"
   }
 }
