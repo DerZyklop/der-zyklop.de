@@ -6,7 +6,7 @@ Date: 2014-02-28
 
 ----
 
-Text: Nachdem wir im vorherigen Artikel eine Menge Einstellungen am Code-Editor Sublime Text vorgenommen haben, will ich euch hier noch zwei kleinere Tipps geben, wie ihr die Shortcuts in den Griff bekommt.
+Text: Nachdem wir im (link: http://der-zyklop.de/blog/workflow-sublime-text-2 text: vorherigen Artikel) eine Menge Einstellungen am Code-Editor Sublime Text vorgenommen haben, will ich euch hier noch zwei kleinere Tipps geben, wie ihr die Shortcuts in den Griff bekommt.
 
 ### Sublime Tab-Wechsel
 
