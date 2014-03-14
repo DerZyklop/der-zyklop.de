@@ -3,6 +3,7 @@
 
 piwik/
 node_modules/
+tweetnest/
 
 site/config/config.php
 .sass-cache
