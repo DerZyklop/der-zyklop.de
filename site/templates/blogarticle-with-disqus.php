@@ -6,12 +6,12 @@
   <article>
     <div class="img-border">
       <h2><?php echo html($page->title()) ?>
-          <span class="entry-date">
-              <span class="day"><?php echo html($page->date('d')) ?></span>
-              <span class="month"><?php echo html($page->date('m')) ?></span>
-              <span class="year"><?php echo html($page->date('Y')) ?></span>
-          </span>
-          <div class="clearit"></div>
+        <span class="entry-date">
+            <span class="day"><?php echo html($page->date('d')) ?></span>
+            <span class="month"><?php echo html($page->date('m')) ?></span>
+            <span class="year"><?php echo html($page->date('Y')) ?></span>
+        </span>
+        <div class="clearit"></div>
       </h2>
 
       <div data-post="<?php echo html($page->uid()); ?>" data-likes="<?php echo html($page->likes()); ?>" class="article-text">

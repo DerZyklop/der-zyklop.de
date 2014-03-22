@@ -18,7 +18,7 @@
   <link rel="icon" href="<?= url('assets/images/favicon.png') ?>" type="image/png" />
   <link rel="apple-touch-icon" href="<?= u('assets/images/apple-touch-icon.png') ?>" />
 
-	<?= js('assets/js/script.js') ?>
+	<?php echo js('assets/js/script.js') ?>
   <?= css('assets/styles/styles.css') ?>
 
   <?= css('assets/fancybox/jquery.fancybox.css') ?>

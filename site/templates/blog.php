@@ -3,7 +3,7 @@
 
 <?php
   $blog = $pages->find('blog');
-  $articles = $blog->children()->visible()->flip();
+  $articles = $blog->children()->filterBy('justforrss','')->visible()->flip();
 
   function isBlogError(){
     global $articles, $site;
@@ -55,19 +55,17 @@
       </ul>
     <!-- Show items -->
     <?php else: ?>
+      <?php $articles = $articles->paginate(6); ?>
+      <?php #$i = 0; ?>
       <div id="articles">
         <?php
-          $frontend_articles = $articles->filterBy('justforrss','');
-          snippet( 'article-teaser', array( 'item' => $frontend_articles->first(), 'first' => true, 'articles_count' => !($frontend_articles->count() % 2) ));
-        ?>
-        <?php
-          foreach($frontend_articles->offset(1)->paginate(2) as $article) {
-            snippet( 'article-teaser', array( 'item' => $article, 'first' => false, 'articles_count' => !($frontend_articles->count() % 2) ));
+          foreach($articles as $article) {
+            snippet( 'article-teaser', array( 'item' => $article, 'first' => true ));
           };
         ?>
         <div class="clearit"></div>
       </div>
-      <?php snippet('pagination', array( 'articles' => $frontend_articles )); ?>
+      <?php snippet('pagination', array( 'articles' => $articles )); ?>
     <?php endif; ?>
   <?php endif; ?>
 </section>

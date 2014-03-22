@@ -1,4 +1,4 @@
-<?php $articles = $articles->paginate(2) ?>
+<?php $articles = $articles ?>
 <nav id="pagination-nav">
     <?php if($articles->pagination()->hasNextPage()): ?>
       <div class="active prev-btn"><a class="btn" href="<?php echo $articles->pagination()->nextPageURL() ?>">< Älter<span class="no-mobile">e Artikel</span></a></div>

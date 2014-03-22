@@ -7,8 +7,8 @@ foreach ($site->uri()->params() as $key => $value) {
     $frontend_articles = $articles->filterBy($key, $value, ',');
   }
 }
-foreach($frontend_articles->flip()->offset(1)->paginate(2) as $article) {
-    snippet( 'article-teaser', array( 'item' => $article, 'first' => false, 'articles_count' => !($frontend_articles->count() % 2) ));
+foreach($frontend_articles->flip()->paginate(6) as $article) {
+    snippet( 'article-teaser', array( 'item' => $article, 'first' => true ));
 }
 ?>
 <div class="clearit"></div>
