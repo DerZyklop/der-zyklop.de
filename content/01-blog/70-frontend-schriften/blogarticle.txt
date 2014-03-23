@@ -1,4 +1,4 @@
-﻿Title: Schriften für Interfaces, Webseiten und Editoren
+Title: Schriften für Interfaces, Webseiten und Editoren
 
 ----
 
@@ -7,12 +7,12 @@ Date: 2014-03-22
 ----
 
 Text:
-Ich habe vor gut zwei jahren mal einen Blog-Artikel gelesen, der meine typographische Gestaltung sehr geprägt hat. Und es kommt nicht oft vor, dass ich mich zwei Jahre später noch so genau an einen Blog-Artikel erinnern kann. Es geht um (link: http://ia.net/blog/responsive-typography-the-basics/ text: Schriftgrößen auf Bildschirmen) und macht sehr anschaulich klar warum das, was ich damals in meiner Ausbildung gelernt habe mitunter zimlicher quatsch war. Seitdem setze ich generell größere Texte und verwende in Fließtext vor allem Serif-Schriften. Dazu später mehr.
+Ich habe vor gut zwei Jahren mal einen Blog-Artikel gelesen, der meine typographische Gestaltung sehr geprägt hat. Und es kommt nicht oft vor, dass ich mich zwei Jahre später noch so genau an einen Blog-Artikel erinnern kann. Es geht um (link: http://ia.net/blog/responsive-typography-the-basics/ text: Schriftgrößen auf Bildschirmen) und macht sehr anschaulich klar warum das, was ich damals in meiner Ausbildung gelernt habe mitunter zimlicher quatsch war. Seitdem setze ich generell größere Texte und verwende in Fließtext vor allem Serif-Schriften. Dazu später mehr.
 
 Und nun vergleicht mal die Lesbarkeit des Fließtextes des verlinkten Blogartikels mit einem beliebigen Artikel auf spiegel.de. Diese zu kleine, serifenlose Verdana – auf einer News-Seite! Verrückt, oder?!
 Warum hat die Typografie auf einer Seite, auf der die User nichts anderes machen als Fließtexte am Bildschirm zu lesen, eine so geringe Priorität? ...ganz im Gegensatz zu blinkenden Werbebannern und all dem Foo, der einen von den Artikeln ablenkt.
 
-Nachdem ich ein Gefühl für Schriftgrößen entwickelt habe und viel mit verschiedenen Schriftarten herumgespielt habe, stelle ich fest: Es entwickeln sich so ein paar Lieblingsschriften, die ich immer wieder verwende. Die will ich euch mal kurz auflisten.
+Nachdem ich ein Gefühl für Schriftgrößen entwickelt, und viel mit verschiedenen Schriftarten herumgespielt habe, stelle ich fest: Es entwickeln sich so ein paar Lieblingsschriften, die ich immer wieder verwende. Die will ich euch mal kurz auflisten.
 
 ### Überschriften
 
@@ -20,15 +20,15 @@ Nachdem ich ein Gefühl für Schriftgrößen entwickelt habe und viel mit versch
 
 Die Schriftfamilie (link: http://www.fontsquirrel.com/fonts/Titillium text: Titillium) ist ein Projekt einer Italienischen Univerität und wird jedes Jahr von einer handvoll Studenten und Professoren weiterentwickelt. Ist aber eher was für Headlines, nicht für Fließtexte.
 
-(image: http://f.cl.ly/items/1N3A1K0l1n0s0f0t153i/Image%202014-03-22%20at%202.13.26%20nachm..png link: http://f.cl.ly/items/1N3A1K0l1n0s0f0t153i/Image%202014-03-22%20at%202.13.26%20nachm..png)
+(image: titillium.png link: titillium.png)
 
 #### Exo
 
-Dann war ich mal auf der suche nach einer Schrift, die der bekannten Eurostile ähnelt. Wobei mir Eurostile viel zu gradlinig und Langweilig rüber kam. Fündig wurde ich bei (link: http://www.fontsquirrel.com/fonts/exo text: Exo). Es gibt davon ganze 18 Schnitte! Diese Schrift ist allerdings noch um einiges verspielter als z.B. Titillium, weshalb ich sie nie für Fließtexte einsetzen würde.
+Dann war ich mal auf der Suche nach einer Schrift, die der bekannten Eurostile ähnelt. Wobei mir Eurostile viel zu gradlinig und langweilig rüber kam. Fündig wurde ich bei (link: http://www.fontsquirrel.com/fonts/exo text: Exo). Es gibt davon ganze 18 Schnitte! Diese Schrift ist allerdings noch um einiges verspielter als z.B. Titillium, weshalb ich sie nie für Fließtexte einsetzen würde.
 
-(image: http://f.cl.ly/items/0S1d003B3A0R1H2a2b3K/Image%202014-03-22%20at%202.14.42%20nachm..png link: http://f.cl.ly/items/0S1d003B3A0R1H2a2b3K/Image%202014-03-22%20at%202.14.42%20nachm..png)
+(image: exo.png link: exo.png)
 
-Kommen wir nun zu den gut lesbaren Schriften...
+Kommen wir nun zu den besser lesbaren Schriften...
 
 ### Fließtext
 
@@ -37,13 +37,13 @@ Kommen wir nun zu den gut lesbaren Schriften...
 Die Schriftfamilie (link: http://www.droidfonts.com/ text: Droid) (Insgesammt acht Schnitte) gibt es seit 2007. Sie wurde für Google Android entworfen, und ist daher in all ihren Schnitten vor allem für gute Lesbarkeit auf Bildschirmen geschaffen worden. Droid geht eigentlich immer, weshalb ich sie für mich zur neuen Helvetica gekürt habe.
 Serviervorschlag: Die Droid Serif für den Fließtext auf Webseiten mit einer font-size von mindestens 20px. Yummy!!
 
-(image: http://f.cl.ly/items/320j0z3L3G1v2V302V1x/Image%202014-03-22%20at%202.16.34%20nachm..png link: http://f.cl.ly/items/320j0z3L3G1v2V302V1x/Image%202014-03-22%20at%202.16.34%20nachm..png)
+(image: droid.png link: droid.png)
 
 #### Merriweather
 
 Und als ich dachte es kann nicht mehr besser werden haute mich die (link: http://www.fontsquirrel.com/fonts/merriweather text: Merriweather) völlig aus den Socken. Das hatte ich vorher noch nie so eindeutig. Ich öffnete irgendeinen Twitter-Link der mich auf einen Blogpost führte, in dem diese Schrift im einsatz war und nach ca. 0,25 Sekunden war mir klar, dass ich herrausfinden muss, was das für eine Schrift ist. Das ist verdammtnochmal die edelste Serif Freefont, die's gibt! ...überzeugt mich vom Gegenteil :)
 
-(image: http://f.cl.ly/items/3s0R3k1H2g373L1F3T1E/Image%202014-03-22%20at%202.17.32%20nachm..png link: http://f.cl.ly/items/3s0R3k1H2g373L1F3T1E/Image%202014-03-22%20at%202.17.32%20nachm..png)
+(image: merriweather.png link: merriweather.png)
 
 ### Monospace
 
@@ -53,20 +53,20 @@ Auch ganz, ganz wichtig für Frontend Developer und User Interface Designer: Di
 
 Ich habe einige Monospace-Schriften ausprobieren müssen bis ich mich wohlgefühlt habe. Am ende ist es die (link: http://www.fontsquirrel.com/fonts/droid-sans-mono text: Droid Sans Mono) geworden, aus der oben erwähnten Android Schrift-Familie. Alle vorherigen sind nicht der Rede wert.
 
-(image: http://f.cl.ly/items/0x2x3k0A3I2R382Y2C05/Image%202014-03-22%20at%202.23.22%20nachm..png link: http://f.cl.ly/items/0x2x3k0A3I2R382Y2C05/Image%202014-03-22%20at%202.23.22%20nachm..png)
+(image: droid-mono.png link: droid-mono.png)
 
 #### Anonymous Pro
 
 ...bis auf (link: http://www.marksimonson.com/fonts/view/anonymous-pro text: Anonymous Pro) vielleicht. Da muss man aber dazu sagen, dass sie sehr klein ausfällt. D.h. wenn man mit der Schriftgröße zwei nummern höher geht, und die line-height im Editor (In Sublime-Settings gibts keine Line-Height. Da macht man das (link: https://gist.github.com/DerZyklop/9706839 text: so)) noch einen ticken hochschraubt, dann passt sie.
 
-(image: http://f.cl.ly/items/301v3Q1p1p3H143V1M12/Image%202014-03-22%20at%202.27.09%20nachm..png link: http://f.cl.ly/items/301v3Q1p1p3H143V1M12/Image%202014-03-22%20at%202.27.09%20nachm..png)
+(image: anonymous-pro.png link: anonymous-pro.png)
 
 #### Fira Mono
 
 Zu guter letzt noch meine gestrige Neuentdeckung: (link: http://mozilla.github.io/Fira/ text: Fira Mono).
 Sie wurde vom werten Herrn (link: https://twitter.com/espiekermann text: Spiekermann) für das neue Open-Source Smartphone-Betriebsystem «Firefox OS» entworfen. Bisher bin ich begeistert. Mal sehen wie lange es hält.
 
-(image: http://f.cl.ly/items/1l240b1M3V371R1o1G3p/Bildschirmfoto%202014-03-22%20um%2014.23.59.png link: http://f.cl.ly/items/1l240b1M3V371R1o1G3p/Bildschirmfoto%202014-03-22%20um%2014.23.59.png)
+(image: fira-mono.png link: fira-mono.png)
 
 ---
 
