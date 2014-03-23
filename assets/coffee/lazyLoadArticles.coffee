@@ -30,13 +30,13 @@ window.lazyLoadArticles = (pagesCount, options) ->
             , 1000
         .fail ->
           jQuery('#pagination-nav').slideUp 200, ->
-            jQuery('#pagination-nav').html '<a href="javascript:void(0)" class="btn passiv-btn" id="ajax-placeholder">Ups.. Something\'s wrong. Please refresh the Page...</a>', jQuery('#pagination-nav').slideDown(200)
+            jQuery('#pagination-nav').html '<a href="javascript:void(0)" class="button passiv-btn" id="ajax-placeholder">Ups.. Something\'s wrong. Please refresh the Page...</a>', jQuery('#pagination-nav').slideDown(200)
           ajaxIsProcessing = false
         .always ->
           jQuery('#pagination-nav').slideUp 200, ->
-            jQuery('#pagination-nav').html '<a href="javascript:void(0)" class="btn passiv-btn" id="ajax-placeholder">Loading...</a>', jQuery('#pagination-nav').slideDown(200)
+            jQuery('#pagination-nav').html '<a href="javascript:void(0)" class="button passiv-btn" id="ajax-placeholder">Loading...</a>', jQuery('#pagination-nav').slideDown(200)
           ajaxIsProcessing = false
     else
-      jQuery('#pagination-nav').html '<a href="javascript:void(0)" class="btn passiv-btn">Ende! Mehr Artikel hab ich noch nicht.</a>'
+      jQuery('#pagination-nav').html '<a href="javascript:void(0)" class="button passiv-btn">Ende! Mehr Artikel hab ich noch nicht.</a>'
 
   return init()

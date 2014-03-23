@@ -175,7 +175,7 @@ module.exports = (grunt) ->
 
       styles_dev:
         files: ['<%= paths.sass %>**/*.sass']
-        tasks: ['newer:sass','newer:cssmin:dev','copy','newer:imageEmbed']
+        tasks: ['sass','newer:cssmin:dev','copy','newer:imageEmbed']
         options:
           livereload: true
       script_dev:

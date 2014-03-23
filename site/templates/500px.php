@@ -8,7 +8,7 @@
 $contentfrom500px = load500px('8QD27m6Mi3ke2Kxs63bLL2GDIU8gEF6Ps2pY9A4u', array(
     'limit'    => 15,
     'username' => 'derzyklop'
-)); 
+));
 $images     = $contentfrom500px->photos;
 
 ?>
@@ -46,9 +46,7 @@ $images     = $contentfrom500px->photos;
   <div class="clearit"></div>
 </section>
 
-<a class="btn" href="http://www.500px.com/<?php echo $contentfrom500px->user->name; ?>/">Mehr Fotos auf 500px</a>
-<!--
-<a class="btn" href="http://instagram.com/<?php echo $instagram->user->username; ?>/">Mehr Bilder auf "500px"</a>
--->
+<a class="button" href="http://www.500px.com/<?php echo $contentfrom500px->user->name; ?>/">Mehr Fotos auf 500px</a>
+
 <?php snippet('piwik') ?>
 <?php snippet('footer') ?>

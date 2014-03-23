@@ -2,7 +2,9 @@
 
 ----
 
-Text: (twitter: lecker_lakritze text: Betti) und ich machen einen Podcast. Er heißt **HeizdeckenRadio**. Ein Podcast ist sowas wie Radio, nur nicht auf UKW sondern WWW. Also weniger nervig und man kann sich die Folgen anhören wann man will.
+Text: ## HeizdeckenRadio
+
+(twitter: lecker_lakritze text: Betti) und ich machen einen Podcast. Er heißt **HeizdeckenRadio**. Ein Podcast ist sowas wie Radio, nur nicht auf UKW sondern WWW. Also weniger nervig und man kann sich die Folgen anhören wann man will.
 
 (image: heizdeckenradio.jpg link: http://heizdeckenradio.pxwrk.de/ title: HeizdeckenRadio)
 

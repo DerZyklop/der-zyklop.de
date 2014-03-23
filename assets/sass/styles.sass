@@ -5,6 +5,29 @@
 
 +all
 
+@mixin likeadiv()
+    border: none
+    padding: 0
+    margin: 0
+
+@mixin btn()
+    font-weight: bold
+    display: block
+    cursor: pointer
+    +border-radius($radius)
+    overflow: hidden
+    padding: 0.5em
+    margin: $space-t-b/2 0
+    background: $quadrary - #050505
+    +transition(0.3s)
+    border: $border-width $border-style $quadrary - #101010
+    text-decoration: none
+    &:hover
+        background: $secondary - #222
+        color: $quadrary
+        border-color: $secondary
+
+
 body
     font-size: $font-size
     color: $font-color
@@ -14,17 +37,27 @@ body
     padding: 0
     margin: 0
 
-    background: transparent
+    background: $quadrary
     @media screen and (max-width: $page-width)
         padding: 0
         .width-wrap
             margin-top: 0px
             margin-bottom: 0px
 
+a
+    color: $secondary
+
 h1, h2, h3, h4, h5, h6
     font-family: $font-highlight
-    line-height: 1.4em
-    font-weight: normal
+    line-height: 1.6em
+    font-weight: bold
+    text-align: center
+    color: $primary - #222
+    a
+        color: $secondary
+        text-decoration: none
+        &:hover
+            text-decoration: underline
 
 h1
     font-size: 2em
@@ -43,31 +76,20 @@ h6
 h1
     margin: 0
 
-h1, h2
+h1, h2, h3
     color: $primary - #222
-
-h3
-    color: $primary - #222
-    // text-align: center
 
 h4, h5
-    text-align: center
+    font-weight: normal
 
 h6
-    text-align: center
     background: url('../images/ccc.png') center center repeat-x
     span
         background: $quadrary
         padding: 0 1em
 
-h2, h3
+h3
     border-bottom: $border-width $border-style $border-color
-
-h2, h3, h4, h5, h6
-    margin: $space-t-b*2 0 $space-t-b
-
-a
-    color: $secondary
 
 p
     margin: $space-t-b 0
@@ -119,21 +141,6 @@ iframe.video
         height: 120px
     @media screen and (max-width: $breakpoint)
         height: 400px
-
-
-.btn
-    display: block
-    background: $primary
-    cursor: pointer
-    text-align: center
-    color: $quadrary
-    text-decoration: none
-    +transition(background 0.3s, border 0.3s)
-    +border-radius($radius)
-    &:hover
-        background: $primary - #222
-    &.passiv-btn
-        background: $border-color
 
 
 #beispiel:target
@@ -416,44 +423,33 @@ nav.submenu
         margin: 2em 0
     .title
         display: block
-        text-decoration: none
     img
         float: right
         margin: 0.5em 0  2em  2em
+    @media screen and (max-width: $breakpoint)
+        img
+            float: none
+            margin: 0 auto
 
 $options-bar-space: 10px
 
 .options-bar
-    color: $quadrary
     margin: $space-t-b 0
-    a
-        display: block
-        color: $quadrary
-        text-decoration: none
-    .autorinfo,
+    .autorinfo .autorlink,
     .supporters-btn
-        margin: $space-t-b 0
-        display: block
-        box-sizing: border-box
-        padding: $options-bar-space $options-bar-space*3
-    .autorinfo,
-    .supporters-btn
-        cursor: pointer
-        background: $border-color
-        +transition(background 0.3s, border 0.3s)
-        min-width: $options-bar-space*4+10px
-        &:hover
-            background: $primary
-    .autorinfo
-        +border-radius($radius)
-        margin-left: 10px 0
+        +btn()
+    .autorinfo .autorlink
         float: left
+        padding-left: 1em
+        padding-right: 1em
     .supporters-btn
+        min-width: $options-bar-space*6
+        min-height: $options-bar-space*6
         margin-left: 10px
         float: left
-        +border-radius($radius)
         text-align: center
         position: relative
+        +border-radius($radius)
         &.facebook,
         &.twitter,
         &.flattr,
@@ -478,15 +474,23 @@ $options-bar-space: 10px
         &.twitter:after
             background:
                 position: -80px 0
+        &.twitter:hover:after
+            background-position: -80px -40px
         &.pinterest:after
             background:
                 position: -120px 0
+        &.pinterest:hover:after
+            background-position: -120px -40px
         &.flattr:after
             background:
                 position: -40px 0
+        &.flattr:hover:after
+            background-position: -40px -40px
         &.facebook:after
             background:
                 position: 0 0
+        &.facebook:hover:after
+            background-position: 0 -40px
 
 /* Nav [END] */
 
@@ -512,77 +516,39 @@ $options-bar-space: 10px
 /* Blog [BEGIN] */
 
 .entry-date
-    +transition(color 0.3s)
-    display: block
-    white-space: nowrap
-    display: inline
-    line-height: 2em
+    color: $border-color
+    text-align: center
+    a
+        color: $border-color
+        white-space: nowrap
+    // padding: 0.4em 0.8em
+    // +border-radius($radius)
+    // border: $border-width $border-style $border-color + #222
+    // +transition(border-color 0.3s)
+    // background: $quadrary
+    //margin: $space-t-b/2 0
 
 .blog
     position: relative
+    a
+        display: block
+        text-decoration: none
     article
-
         padding-top: 0
         padding-bottom: 5em
 
         margin: 0
         width: auto
-        float: none
 
-        position: relative
+        h2
+            +likeadiv()
+        .headline a
+            +btn()
 
-        p
-            margin-bottom: 0.5em
-        .headline
-            border: $border-width $border-style $border-color
-            +border-radius($radius)
-            padding: 0
-            margin: $space-t-b/2 0
-            +transition(0.3s)
-            overflow: hidden
-            a
-                padding: 0.3em 5em 0.3em 0.5em
-                +transition(0.3s)
-                display: block
-                text-decoration: none
+// .blogarticle
+//     h2
+//         padding: 0.5em 0
 
-        .entry-date
-            float: right
-            padding: 0em 0.8em
-            +transition(0.3s)
-            color: $border-color
-            +border-radius($radius)
-            border: $border-width $border-style $border-color + #222
-            @media screen and (max-width: $breakpoint)
-                display: inline
-                position: static
-            background: $quadrary
-            position: absolute
-            margin: $space-t-b/2 0
-            top: 0.5em
-            right: 0.8em
-        &:hover
-            .entry-date
-                border-color: $secondary
-                color: $tertiary
-            h2
-                border-color: $secondary - #222
-                &:hover
-                    background: $secondary - #222
-            h2 a:hover
-                color: $quadrary
-
-.blogarticle
-    h2
-        +transition(background 0.3s, border-color 0.3s, color 0.3s)
-        .entry-date
-            float: right
-            font-size: 0.5em
-            margin-top: 1.2em
-            line-height: 1em
-            color: $border-color
-    &:hover .entry-date
-        color: $tertiary
 
 /* Blog [END] */
 
@@ -602,7 +568,7 @@ $options-bar-space: 10px
         a
             padding: 0
             background: #000
-    @media screen and (max-width: 700px)
+    @media screen and (max-width: $breakpoint)
         width: 100%
         float: none
         margin: 0
@@ -749,7 +715,7 @@ ul#comments
 .rss-button
     position: absolute
     top: 0
-    right: $space-l-r
+    right: $space-l-r - 2rem
     display: none
     .snippet
         position: fixed
@@ -768,6 +734,8 @@ ul#comments
 
 button, .button, input[type="button"], input[type="submit"], input[type="reset"]
     line-height: 2.5em
+    &.passiv-btn
+        background: $border-color
 
 // Mailchimp
 

@@ -17,11 +17,11 @@ if ( $suggestedArticle ) : ?>
 
   <h6><span>Das könnte dich auch interessieren</span></h6>
   <section>
-    <a class="title" href="<?php echo $suggestedArticle->url(); ?>">
-      <h4>
+    <h4>
+      <a class="title" href="<?php echo $suggestedArticle->url(); ?>">
         <?php echo $suggestedArticle->title(); ?>
-      </h4>
-    </a>
+      </a>
+    </h4>
     <a href="<?php echo $suggestedArticle->images()->first()->url(); ?>">
       <?php
         echo thumb( $suggestedArticle->images()->first(), array(

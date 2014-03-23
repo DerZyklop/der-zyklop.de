@@ -40,7 +40,7 @@ foreach ($shots as $shot): ?>
 
 
 <?php endforeach ?>
-  
+
 <!--
   <ul>
       <?php foreach ($likes as $like): ?>
@@ -55,7 +55,7 @@ foreach ($shots as $shot): ?>
   <div class="clearit"></div>
 </section>
 
-<a class="btn" href="http://www.dribbble.com/<?php echo $dribbble->username; ?>/">Mehr Grafiken auf dribbble</a>
+<a class="button" href="http://www.dribbble.com/<?php echo $dribbble->username; ?>/">Mehr Grafiken auf dribbble</a>
 
 <?php snippet('piwik') ?>
 <?php snippet('footer') ?>

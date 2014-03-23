@@ -11,14 +11,14 @@
 
     foreach ($images as $image): ?>
 
-    <?php 
+    <?php
       $cacheSubfolderName = 'instagram';
       $cacheDir = 'thumbs/' . $cacheSubfolderName;
       dir::make($cacheDir);
-    
+
       $filename                  = 'thumbs/instagram/'.$image->created.'.306.306.jpg';
       $src                       = $image->image_lowres;
-    
+
       if ( file_exists( $filename ) ) {
         $image->thumb          = url($filename);
       } else {
@@ -43,11 +43,11 @@
               <?php echo($image->likes.' ♥') ?>
             </span>
           </div>
-          
+
           <?php if($image->tags && isset($image->tags)): ?>
             <div class="description">
               <span>
-                <?php 
+                <?php
                  $tags_maximum = 4;
                  if (count($image->tags) > $tags_maximum) {
                    for ($i = 0; $i < $tags_maximum; $i++) {
@@ -78,7 +78,7 @@
   </div>
 </section>
 
-<a class="btn" href="http://instagram.com/<?php echo $instagram->user->username; ?>/">Mehr Schnappschüsse auf Instagram</a>
+<a class="button" href="http://instagram.com/<?php echo $instagram->user->username; ?>/">Mehr Schnappschüsse auf Instagram</a>
 
 <?php snippet('piwik') ?>
 <?php snippet('footer') ?>

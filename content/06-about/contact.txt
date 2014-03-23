@@ -2,7 +2,7 @@
 
 ----
 
-Text: #### Hi, ich bin DerZyklop.
+Text: ## Hi, ich bin DerZyklop.
 Ich lebe und arbeite in Mittelhessen. Ich bin UI/UX-Designer d.h. ich sorge dafür, dass Webseiten und Applikationen auf allen Geräten gut aussehen, intuitiv zu bedienen sind und aus sauberem, soliden Code gebaut sind.
 
 (image: escher-asciiart.jpg class: addshadow alt: M. C. Escher - Asciiart by DerZyklop title: M. C. Escher - Asciiart by DerZyklop )

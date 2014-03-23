@@ -1,11 +1,7 @@
-<article class="clearfix">
-  <div class="clearfix">
+<article>
+  <div class="entry-date">
     <a href="<?php echo $item->url() ?>">
-      <span class="entry-date">
-        <span class="day"><?php echo html($item->date('d')) ?></span>
-        <span class="month"><?php echo html($item->date('m')) ?></span>
-        <span class="year"><?php echo html($item->date('Y')) ?></span>
-      </span>
+      <?php echo html($item->date('d').'·'.$item->date('m').'·'.$item->date('Y')) ?>
     </a>
   </div>
   <h2 class="headline">
