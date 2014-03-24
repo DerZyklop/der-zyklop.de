@@ -8,7 +8,7 @@ foreach ($site->uri()->params() as $key => $value) {
   }
 }
 foreach($frontend_articles->flip()->paginate(6) as $article) {
-    snippet( 'article-teaser', array( 'item' => $article, 'first' => true ));
+    snippet( 'article-teaser-big', array( 'item' => $article ));
 }
 ?>
 <div class="clearit"></div>
