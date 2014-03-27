@@ -1,12 +1,13 @@
-    </div>
-    <div class="footer">
+  </div>
+  <div class="footer">
+    <div class="width-wrap">
       <div class="right">
         <?php echo kirbytext($site->copyright()) ?>
       </div>
       <div class="clearit"></div>
     </div>
-
   </div>
+
 </div>
 
 <!-- Piwik -->

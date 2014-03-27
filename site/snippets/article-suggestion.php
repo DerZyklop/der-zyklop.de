@@ -15,8 +15,7 @@ if ( $suggestedArticle ) : ?>
 
 <aside class="article-suggestion">
 
-  <h6><span>Das könnte dich auch interessieren</span></h6>
-  <section>
+    <h6><span>Das könnte dich auch interessieren</span></h6>
     <h4>
       <a class="title" href="<?php echo $suggestedArticle->url(); ?>">
         <?php echo $suggestedArticle->title(); ?>
@@ -31,11 +30,8 @@ if ( $suggestedArticle ) : ?>
         ));
       ?>
     </a>
-    <p class="content">
-      <?php echo excerpt($suggestedArticle->text(),220); ?> <a href="<?php echo $suggestedArticle->url(); ?>">weiterlesen</a>
-    </p>
+    <?php echo excerpt($suggestedArticle->text(),220); ?> <a href="<?php echo $suggestedArticle->url(); ?>">weiterlesen</a>
     <div class="clearit"></div>
-  </section>
 </aside>
 
 <?php endif; ?>

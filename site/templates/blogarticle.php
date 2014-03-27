@@ -32,18 +32,26 @@
       </div>
       <div class="clearit"></div>
     </div>
-
   </article>
-
-  <?php #snippet('article-taglist') ?>
-  <?php snippet('article-suggestion') ?>
-
-  <?php snippet('comments.list') ?>
-  <?php snippet('comments.add.form') ?>
-
+<!--
 </section>
+</div>
 
-<?php snippet('rss-button') ?>
+<div class="comments bg-primary">
+  <section class="width-wrap"> -->
+      <?php snippet('comments.list') ?>
+      <?php snippet('comments.add.form') ?>
+  </section>
+</div>
 
-<?php snippet('footer') ?>
-<div id="reading-progress"></div>
+<div class="meta bg-tertiary">
+  <section class="width-wrap">
+    <?php snippet('article-suggestion') ?>
+    <?php snippet('article-taglist') ?>
+  </section>
+
+
+  <?php snippet('rss-button') ?>
+
+  <?php snippet('footer') ?>
+  <div id="reading-progress"></div>

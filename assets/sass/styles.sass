@@ -22,11 +22,10 @@
     +transition(0.3s)
     border: $border-width $border-style $quadrary - #101010
     text-decoration: none
-    white-space: nowrap
     &:hover
         background: $secondary - #222
         color: $quadrary
-        border-color: $secondary
+        border-color: $secondary - #222
 
 @mixin clear-list-styles()
     list-style: none
@@ -90,6 +89,7 @@ h4, h5
 
 h6
     background: url('../images/ccc.png') center center repeat-x
+    margin: 2em 0
     span
         background: $quadrary
         padding: 0 1em
@@ -148,6 +148,8 @@ iframe.video
     @media screen and (max-width: $breakpoint)
         height: 400px
 
+section
+    padding: 2em 0
 
 #beispiel:target
     background: #fff
@@ -160,11 +162,8 @@ iframe.video
 .left
     float: left
 
-.content
-    margin-top: 2em
-    margin-bottom: 2em
-
 .footer
+    border-top: 1px solid $border-color
     width: auto
 
 .content,
@@ -181,7 +180,6 @@ iframe.video
             border:
                 bottom-color: $primary - #333
             color: $primary
-
 
 
 .img-outer-wrap
@@ -240,25 +238,39 @@ iframe.video
         opacity: 1
         color: #fff
 
-.inner-width-wrap
-    background: $quadrary
-    //border: 1px solid $border-color
-    padding: $space-t-b $space-l-r
-
+.header,
+#nav,
+.content,
 .width-wrap
     max-width: $page-width
     position: relative
-    margin: 0 auto
+    margin:
+        left: auto
+        right: auto
+    padding:
+        left: $space-l-r
+        right: $space-l-r
     img
         max-width: 100%
         margin: 0 auto
         +border-radius($radius)
+    @media screen and (max-width: $breakpoint)
+        padding: $space-t-b/2 8%
 
 @media screen and (max-width: $breakpoint)
-    .inner-width-wrap
-        padding: $space-t-b/2 8%
     body
         font-size: $font-size - 4px
+
+.bg-tertiary
+    background: $primary
+    background: $secondary
+    background: $tertiary
+    color: $quadrary - #222
+    h1, h2, h3, h4, h5, h6
+        color: $quadrary - #222
+        font-weight: bold
+        span
+            background: $tertiary
 
 .flattr-wrap
     margin: 6px
@@ -275,6 +287,7 @@ iframe.video
             display: inline
             a
                 +btn()
+                white-space: nowrap
                 display: inline
                 line-height: 3em
                 margin: 0.5em
@@ -282,19 +295,17 @@ iframe.video
 /* Nav [BEGIN] */
 
 #nav
-    font-family: $font-highlight
-    display: block
-    overflow: hidden
-    border:
-        color: $quadrary - #111
-        style: $border-style
-        width: $border-width 0 $border-width 0
-    +transition(border-color 0.5s)
-    background: $quadrary - #050505
-    position: relative
-    &:hover
-        border-color: $secondary
     ul
+        font-family: $font-highlight
+        display: block
+        overflow: hidden
+        border:
+            color: $quadrary - #111
+            style: $border-style
+            width: $border-width 0 $border-width 0
+        +transition(border-color 0.5s)
+        background: $quadrary - #050505
+        position: relative
         margin: 0
         padding: 0
         display: table
@@ -311,6 +322,8 @@ iframe.video
             // &:hover:after,
             // &.active:after
             //     color: $quadrary
+        &:hover
+            border-color: $secondary
         li
             display: table-cell
             padding-top: 0
@@ -323,7 +336,7 @@ iframe.video
                 margin: 0 auto
                 text-decoration: none
                 +transition(background 0.3s, color 0.3s, padding 0.3s)
-                color: $tertiary
+                color: $font-color + #333
                 &.active,
                 &:hover
                     color: $quadrary
@@ -410,8 +423,6 @@ nav.submenu
             margin-left: 2%
 
 .article-suggestion
-    section
-        margin: 2em 0
     .title
         display: block
     img
@@ -488,7 +499,8 @@ $options-bar-space: 10px
 /* Header [BEGIN] */
 
 .header
-    margin-bottom: 16px
+    margin-bottom: 1em
+    margin-top: 2em
     a
         display: block
         margin: 8px auto
