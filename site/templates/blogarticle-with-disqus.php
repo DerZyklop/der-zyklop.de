@@ -32,7 +32,7 @@
       <div class="clearit"></div>
     </div>
 
-    <?php //snippet('taglist') ?>
+    <?php //snippet('article-taglist') ?>
   </article>
 
   <?php snippet('article-suggestion'); ?>

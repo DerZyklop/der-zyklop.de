@@ -48,11 +48,11 @@
 
     <h2>Artikel zum Thema: <?php echo $site->uri()->params('tags'); ?></h2>
 
-    <div id="articles">
+    <ul id="articles">
       <?php foreach($articles as $article) : ?>
         <?php snippet( 'article-teaser-small', array( 'item' => $article )); ?>
       <?php endforeach; ?>
-    </div>
+    </ul>
 
   <?php else : ?>
 

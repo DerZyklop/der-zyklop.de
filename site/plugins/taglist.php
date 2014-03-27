@@ -10,10 +10,10 @@ function taglist($tags, $tagpage) {
       $list[$tag] = new obj(array(
         'results'  => 1,
         'name'     => $tag,
-        'url'      => $tagpage . '/tags/tag:' . urlencode($tag), 
+        'url'      => $tagpage . '/tags:' . urlencode($tag),
       ));
     }
-  
+
   }
 
   return $list;

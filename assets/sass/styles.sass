@@ -22,10 +22,16 @@
     +transition(0.3s)
     border: $border-width $border-style $quadrary - #101010
     text-decoration: none
+    white-space: nowrap
     &:hover
         background: $secondary - #222
         color: $quadrary
         border-color: $secondary
+
+@mixin clear-list-styles()
+    list-style: none
+    padding: 0
+    margin-top: 0
 
 
 body
@@ -163,7 +169,7 @@ iframe.video
 
 .content,
 .footer
-    li, p, blockquote, table
+    p, blockquote, table
         a
             text-decoration: none
             border:
@@ -171,8 +177,6 @@ iframe.video
                 style: solid
                 color: $border-color
                 bottom-color: $border-color
-            color: $primary
-            color: $secondary
         a:hover
             border:
                 bottom-color: $primary - #333
@@ -264,29 +268,16 @@ iframe.video
         display: none
 
 .taglist
-    margin: $space-t-b 0
-
-.taglist
-    color: $border-color - #222
-    line-height: 2em
     +transition(0.5s)
     ul
-        list-style: none
-        padding: 0
-        margin-top: 0
-        display: inline
+        +clear-list-styles()
         li
             display: inline
             a
-                border: none
-                padding: 0.3em 0.5em
-                color: $quadrary
-                background: $border-color
-                +transition(0.5s)
-                &:hover
-                    border: none
-                    background: $primary
-                    color: $quadrary
+                +btn()
+                display: inline
+                line-height: 3em
+                margin: 0.5em
 
 /* Nav [BEGIN] */
 
@@ -515,19 +506,6 @@ $options-bar-space: 10px
 
 /* Blog [BEGIN] */
 
-.entry-date
-    color: $border-color
-    text-align: center
-    a
-        color: $border-color
-        white-space: nowrap
-    // padding: 0.4em 0.8em
-    // +border-radius($radius)
-    // border: $border-width $border-style $border-color + #222
-    // +transition(border-color 0.3s)
-    // background: $quadrary
-    //margin: $space-t-b/2 0
-
 .blog
     position: relative
     a
@@ -545,10 +523,34 @@ $options-bar-space: 10px
         .headline a
             +btn()
 
-// .blogarticle
-//     h2
-//         padding: 0.5em 0
+.entry-date
+    color: $border-color
+    text-align: center
+    a
+        color: $border-color
+        white-space: nowrap
 
+#articles
+    +clear-list-styles()
+    .article-teaser-small
+        +btn()
+        .entry-date,
+        .headline
+            font-size: 1em
+            line-height: 1.8em
+            a
+                +transition(color 0.3s)
+        .entry-date
+            float: left
+        .headline
+            margin: 0
+            text-align: left
+            padding-left: 5em
+        &:hover
+            .entry-date a,
+            .headline a
+                text-decoration: none
+                color: $quadrary
 
 /* Blog [END] */
 
@@ -629,9 +631,7 @@ $options-bar-space: 10px
         background: $secondary
 
 ul#comments
-    list-style-type: none
-    padding: 0
-    margin: 0
+    +clear-list-styles()
     .comment-gravatar
         text-align: center
         background: url(../images/ccc.png) center center repeat-x
@@ -752,11 +752,53 @@ button, .button, input[type="button"], input[type="submit"], input[type="reset"]
         margin: $space-t-b 0
 
 #mc_embed_signup ul
-    list-style: none
-    padding: 0
-    margin-top: 0
+    +clear-list-styles()
 
 // Twitter integration
 
 iframe.twitter-tweet-rendered
     margin: 7px auto !important
+
+
+.tagcloud
+    +clear-list-styles()
+    position: relative
+    z-index: 10
+    box-sizing: border-box
+    *
+        box-sizing: border-box
+    li
+        > a
+            border-bottom: none
+            display: block
+            position: relative
+            z-index: 6
+            +transition(background 0.3s)
+            +border-radius($radius)
+            overflow: hidden
+            position: relative
+            margin-bottom: 0.2em
+            .bar,
+            .label
+                white-space: nowrap
+                //padding: 1em $space-l-r/2
+                padding: 0.5em 1em
+            .bar
+                position: absolute
+                top: 0
+                bottom: 0
+                left: 0
+                background: #f8f8f8
+                z-index: 20
+                overflow: hidden
+            .label
+                position: relative
+                z-index: 10
+            &:hover
+                color: $secondary
+                text-decoration: none
+                .bar
+                    background: $secondary
+                    color: $quadrary
+                .label
+                    background: #f8f8f8

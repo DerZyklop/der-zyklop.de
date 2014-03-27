@@ -17,6 +17,7 @@
         <?php echo kirbytext($page->text()); ?>
       </div>
     </div>
+  <hr>
     <div class="options-bar">
       <div class="autorinfo">
         <?php echo $page->parent()->author() ?>
@@ -32,12 +33,11 @@
       <div class="clearit"></div>
     </div>
 
-    <?php //snippet('taglist') ?>
   </article>
 
-  <?php snippet('article-suggestion'); ?>
+  <?php #snippet('article-taglist') ?>
+  <?php snippet('article-suggestion') ?>
 
-  <?php //snippet('disqus', array('disqus_shortname' => 'derzyklop', 'disqus_developer' => true)) ?>
   <?php snippet('comments.list') ?>
   <?php snippet('comments.add.form') ?>
 
