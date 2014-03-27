@@ -68,6 +68,6 @@
 
 </section>
 
-<?php snippet('rss-button') ?>
 
 <?php snippet('footer') ?>
+<?php snippet('rss-button') ?>

@@ -43,7 +43,5 @@
 
 </section>
 
-<?php snippet('rss-button') ?>
-
 <?php snippet('footer') ?>
-<div id="reading-progress"></div>
+<?php snippet('rss-button') ?>

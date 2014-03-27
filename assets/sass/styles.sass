@@ -165,6 +165,8 @@ section
 .footer
     border-top: 1px solid $border-color
     width: auto
+    p
+        line-height: 2.8em
 
 .content,
 .footer
@@ -261,16 +263,38 @@ section
     body
         font-size: $font-size - 4px
 
+.meta
+    background: $quadrary - #050505
+    // background: $quadrary - #050505 url('../images/noise.png')
+    // background: $quadrary - #050505 url('../images/pattern/bright/bright_squares.png')
+    // background: $quadrary - #050505 url('../images/pattern/bright/roughcloth.png')
+    // background: $quadrary - #050505 url('../images/pattern/bright/texturetastic_gray.png')
+
+
+    .taglist
+        li
+            a
+                background-color: $quadrary - #111
+                border-color: $quadrary - #222
+    h1, h2, h3, h4, h5, h6
+        span
+            background: $quadrary - #050505
+            //background: $quadrary - #050505 url('../images/noise.png')
+
 .bg-tertiary
-    background: $primary
-    background: $secondary
     background: $tertiary
+    background: $tertiary url('../images/pattern/dark/irongrip.png')
+    //background: $tertiary url('../images/pattern/dark/px_by_Gre3g.png')
+
+
     color: $quadrary - #222
     h1, h2, h3, h4, h5, h6
         color: $quadrary - #222
         font-weight: bold
         span
             background: $tertiary
+            background: $tertiary url('../images/pattern/dark/irongrip.png')
+            //background: $tertiary url('../images/pattern/dark/px_by_Gre3g.png')
 
 .flattr-wrap
     margin: 6px
@@ -636,11 +660,13 @@ $options-bar-space: 10px
     &:hover .hidden
         color: $secondary
 
-.comment-add-form.hide-form
-    form
-        display: none
+.comment-add-form
+    margin: 2em 0
     h6
         background: $secondary
+    &.hide-form
+        form
+            display: none
 
 ul#comments
     +clear-list-styles()
@@ -715,7 +741,7 @@ ul#comments
     padding: 3px 3px 0
     background-color: $secondary
     background-image: url(../images/ui/noise.png)
-    +border-radius($radius $radius 0 0)
+    +border-radius($radius)
     +transition(0.5s)
     padding: 0.4em 1em
     .inner
@@ -726,12 +752,11 @@ ul#comments
 
 .rss-button
     position: absolute
-    top: 0
-    right: $space-l-r - 2rem
+    left: 0
     display: none
     .snippet
         position: fixed
-        bottom: 0
+        bottom: $space-t-b
         @media screen and (max-width: $breakpoint)
             display: none
         z-index: 100
