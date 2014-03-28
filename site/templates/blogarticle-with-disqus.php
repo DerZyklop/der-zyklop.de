@@ -23,7 +23,7 @@
 </section>
 </div>
 
-<div class="comments">
+<div class="comments bg-tertiary">
   <section class="width-wrap">
     <?php snippet('options-bar') ?>
     <?php snippet('disqus', array('disqus_shortname' => 'derzyklop', 'disqus_developer' => true)) ?>
