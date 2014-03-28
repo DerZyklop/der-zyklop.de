@@ -56,7 +56,7 @@ Das ganze scheint super zu funktionieren. Einziges Problem auf das ich gestoßen
 
 ----
 
-Tags: work,responsive,js,ux-ui
+Tags: work,responsive,javascript,ux
 
 ----
 
