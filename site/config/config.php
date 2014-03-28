@@ -491,4 +491,4 @@ l::set('comments.email', 'Email');
 l::set('comments.text', 'Kommentar');
 l::set('comments.send', 'Senden');
 l::set('comments.file_error', 'Fehler 42. Wenn du mir einen gefallen tun willst, schickst du das an mail@der-zyklop.de');
-l::set('comments.saved', '<p>Danke! Ich freu mich über jeden kommentar!<br />Grüße, Nils</p>');
+l::set('comments.saved', '<p>Danke! Ich freu mich über kommentare!<br />Grüße, Nils</p>');

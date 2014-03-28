@@ -26,7 +26,7 @@ Interessantere Farbkombinationen findet ihr sehr übersichtlich präsentiert auf
 
 ### Theme
 
-Unabhängig von den Syntax-Highlighting-Farben, könnt ihr auch ein anderes Theme für's drumherum wählen. Das vermutlich belibteste/verbreitetste ist (link: https://github.com/buymeasoda/soda-theme/ text: Soda). Auf Github wird auch beschrieben wie man das installiert. Wenn ihr euch noch einen Moment gedulden könnt, dann wartet mal auf meine nächsten Workflow-Artikel. Da erkläre ich euch, wie man Soda ganz einfach per Sublime Package-Manager installieren kann.
+Unabhängig von den Syntax-Highlighting-Farben, könnt ihr auch ein anderes Theme für's drumherum wählen. Das vermutlich belibteste/verbreitetste ist (link: https://github.com/buymeasoda/soda-theme/ text: Soda). Auf Github wird auch beschrieben wie man das installiert. Wenn ihr euch noch einen Moment gedulden könnt, dann wartet mal auf meine nächsten Workflow-Artikel. Da erkläre ich euch, (link: http://www.der-zyklop.de/blog/workflow-sublime-packages text: wie man Soda ganz einfach per Sublime Package-Manager installieren kann).
 
 ### Verhalten
 
@@ -138,7 +138,7 @@ Eure Datei müsste jetzt ungefähr (link: https://gist.github.com/DerZyklop/9056
 
 ---
 
-Wenn euch der Artikel geholfen hat dann lasst mir doch ein *»Danke«* in den Kommentaren. Wenn ihr irgendwelche Tipps für mich habt, her damit. Das nächste mal gibt's weitere nützliche Sublime hints. Wenn ihr also mehr solcher Artikel wollt, stay tuned!
+Wenn euch der Artikel geholfen hat dann lasst mir doch ein *»Danke«* in den Kommentaren. Wenn ihr irgendwelche Tipps für mich habt, her damit. Das nächste mal gibt's weitere nützliche Sublime hints. Wenn ihr also mehr solcher Artikel wollt, (link: blog/tags:workflow text: stay tuned)!
 
 ----
 

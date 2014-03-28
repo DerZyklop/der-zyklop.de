@@ -45,7 +45,7 @@ In Browsern kann man einen Tab, wenn man ihn aus Versehen geschlossen hat, mit `
 
 ---
 
-Wenn euch der Artikel geholfen hat, lasst mir doch ein "Danke" in den Kommentaren! Wenn ihr mehr solcher Tipps wollt, stay tuned!
+Wenn euch der Artikel geholfen hat, lasst mir doch ein "Danke" in den Kommentaren! Wenn ihr mehr solcher Tipps wollt, (link: blog/tags:workflow text: stay tuned)!
 
 ----
 
