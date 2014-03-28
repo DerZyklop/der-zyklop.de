@@ -17,7 +17,6 @@
         <?php echo kirbytext($page->text()); ?>
       </div>
     </div>
-  <hr>
   </article>
 
 </section>
