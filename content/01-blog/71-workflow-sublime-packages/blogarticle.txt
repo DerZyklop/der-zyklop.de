@@ -1,0 +1,45 @@
+Title: Sublime Text Packages
+
+----
+
+Date: 2014-02-28
+
+----
+
+Text:
+
+Wie in meinem (link: blog/workflow-vom-designer-zum-developer text: ersten Workflow-Artikel) angekündigt, ist der Umgang mit Sublime am anfang etwas gewöhnungsbedürftig, wenn man vorher nie mit Command Lines und ähnlichem gearbeitet hat. Aber wenn ihr die ersten paar Hürden genommen habt, wartet dahinter eine total bunte Developer-Blümchenwelt auf euch! Also haltet durch jetzt!
+
+In meinen vorherigen (link: blog/tags:workflow text: Workflow-Artikeln) haben wir den Sublime hübsch gemacht, und ihm beigebracht wie er sich zu benehmen hat. Jetzt geht's an die Plugin's. In Sublime werden Erweiterungen **Packages** genannt.
+
+Für Sublime gibt es einen Package Manager. Das heißt, dass man später einfach den Namen vom gewünschten Plugin in ein Textfeld einträgt und schon ist es installiert. Der Package-Manager ist allerdings nicht von Anfang an dabei. Um ihn zu installieren müsst ihr die Sublime-Console öffnen. Die findet ihr im Menü unter **View > Show Console**. Und da kopiert ihr folgenden Befehl rein:
+
+<pre class="language-shell" styles="white-space:normal;"><code styles="white-space:normal;">import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')</code></pre>
+
+Wenn ihr das gemacht habt, steht in der letzen Zeile »Please restart Sublime Text to finish installation«. Nach einem restart könnt ihr in die »Command Palette« (`⌘`+`⇧`+`p`) `Install Package` eingeben, ein paar Sekunden warten und dann bekommt ihr eine Liste aller erdenklichen Packages, wie z.B. ...
+
+### Soda
+
+In (link: /blog/workflow-sublime-text-2 text: einem anderen Workflow-Artikel) habe ich über das Sublime-Theme (link: https://github.com/buymeasoda/soda-theme/ text: Soda) geschrieben. Nun könnt ihr in der Liste der Packages einfach Soda eingeben, Enter drücken, Sublime neu starten und das Package ist installiert.
+
+Der Neustart ist hier übrigens eine Ausnahme. Die meisten Packages funktionieren sofort, auch ohne Neustart.
+
+### LoremIpsum
+
+Und nicht nur Themes sondern auch Erweiterungen, die neue Features in den Editor bringen, lassen sich auf diesem Weg installieren. Zum Beispiel könntet ihr mal im Package-Manager nach `LoremIpsum` suchen. Wenn ihr das installiert habt, öffnet mal eine neue Datei, tippt in das leere Dokument `lorem` und drückt `⇥` und ihr bekommt einen Absatz des bekannten Lorem Ipsum Blindtextes.
+
+### Upgrade Packages
+
+Alle über den Package Manager installierten Packages werden übrigens automatisch aktualisiert, falls es mal ein update gibt. Das passiert alle sechs Stunden. Wer das gerne anders hätte, schaut sich die (link: https://sublime.wbond.net/docs/settings text: Package Manager eigenen Settings) an.
+
+### Fazit
+
+Der Package-Manager macht es super einfach Erweiterungen zu installieren, deinstallieren, updaten usw. ohne dabei Gefahr zu laufen irgend etwas kaputt zu machen.
+
+Ihr könnt jetzt Packages installieren. Das Internet ist voll von »Meine Lieblings Sublime Packages«-Blogposts. Alternativ gibt es auch eine Seite auf der (link: https://sublime.wbond.net/ text: alle verfügbaren Packages) gelistet werden.
+
+Ich werde in den folgenden Workflow-Artikeln immer wieder nutzliche Werkzeuge vorstellen dabei auf entsprechende Sublime Packages verweisen, also (link: blog/tags:workflow text: stay tuned)!
+
+----
+
+Tags: code, workflow, work, sublime
