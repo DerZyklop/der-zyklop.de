@@ -1,5 +1,9 @@
 
 @import 'config'
+
+$dark-bg: #{$tertiary} url('../images/pattern/dark/irongrip.png')
+
+
 @import 'compass'
 @import '../../ext_repos/sass-boilerplate/mixins/all'
 
@@ -284,7 +288,7 @@ section
 
 .bg-tertiary
     background: $tertiary
-    background: $tertiary url('../images/pattern/dark/irongrip.png')
+    background: $dark-bg
     //background: $tertiary url('../images/pattern/dark/px_by_Gre3g.png')
 
 
@@ -294,7 +298,7 @@ section
         font-weight: bold
         span
             background: $tertiary
-            background: $tertiary url('../images/pattern/dark/irongrip.png')
+            background: $dark-bg
             //background: $tertiary url('../images/pattern/dark/px_by_Gre3g.png')
 
 .flattr-wrap
@@ -679,7 +683,7 @@ ul#comments
             width: 64px + 18px*2
             margin: 0 auto
             padding: 0 $space-t-b
-            background: $quadrary
+            background: $dark-bg
             img
                 border-radius: 100px
         margin-bottom: -1em
