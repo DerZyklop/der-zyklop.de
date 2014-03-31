@@ -138,7 +138,7 @@ Eure Datei müsste jetzt ungefähr (link: https://gist.github.com/DerZyklop/9056
 
 ---
 
-Wenn euch der Artikel geholfen hat dann lasst mir doch ein *»Danke«* in den Kommentaren. Wenn ihr irgendwelche Tipps für mich habt, her damit. Das nächste mal gibt's weitere nützliche Sublime hints. Wenn ihr also mehr solcher Artikel wollt, (link: blog/tags:workflow text: stay tuned)!
+Wenn euch der Artikel geholfen hat dann lasst mir doch ein *»Danke«* in den Kommentaren. Wenn ihr irgendwelche Tipps für mich habt, her damit. Das nächste mal gibt's weitere nützliche Sublime hints. Wenn ihr also mehr solcher Artikel wollt, (link: /blog/tags:workflow text: stay tuned)!
 
 ----
 

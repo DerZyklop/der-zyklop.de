@@ -20,6 +20,7 @@
 
 	<?php echo js('assets/js/script.js') ?>
   <?= css('assets/styles/styles.css') ?>
+  <?= css('assets/styles/prism.css') ?>
 
   <?= css('assets/fancybox/jquery.fancybox.css') ?>
 
