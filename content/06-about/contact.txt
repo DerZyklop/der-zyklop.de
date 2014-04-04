@@ -7,7 +7,7 @@ Ich lebe und arbeite in Mittelhessen. Ich bin UI/UX-Designer d.h. ich sorge daf�
 
 (image: escher-asciiart.jpg class: addshadow alt: M. C. Escher - Asciiart by DerZyklop title: M. C. Escher - Asciiart by DerZyklop )
 
-Nebenher beschäftige ich mich mit Politik, Nerdstuff und Weltretten und schreibe über das was mir gerade in den sinn kommt.
+Nebenher beschäftige ich mich mit (link: /blog/tags:politik text: Politik), (link: /blog/tags:code text: Code) und (link: /blog/tags:weltretten text: Weltretten) und schreibe über das was mir gerade in den sinn kommt.
 
 Blogposts erscheinen seit 2012 ca. alle 14 Tage.
 
