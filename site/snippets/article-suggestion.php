@@ -21,15 +21,17 @@ if ( $suggestedArticle ) : ?>
         <?php echo $suggestedArticle->title(); ?>
       </a>
     </h4>
-    <a href="<?php echo $suggestedArticle->images()->first()->url(); ?>">
-      <?php
-        echo thumb( $suggestedArticle->images()->first(), array(
-          'width' => 270,
-          'quality' => 70,
-          'crop' => false
-        ));
-      ?>
-    </a>
+    <?php if ($suggestedArticle->hasImages()) : ?>
+      <a href="<?php echo $suggestedArticle->images()->first()->url(); ?>">
+        <?php
+          echo thumb( $suggestedArticle->images()->first(), array(
+            'width' => 270,
+            'quality' => 70,
+            'crop' => false
+          ));
+        ?>
+      </a>
+    <?php endif; ?>
     <?php echo excerpt($suggestedArticle->text(),220); ?> <a href="<?php echo $suggestedArticle->url(); ?>">weiterlesen</a>
     <div class="clearit"></div>
 </aside>
