@@ -5,7 +5,7 @@ $dark-bg: #{$tertiary} url('../images/pattern/dark/irongrip.png')
 
 
 @import 'compass'
-@import '../../ext_repos/sass-boilerplate/mixins/all'
+@import '../../submodules/sass-boilerplate/mixins/all'
 
 +all
 
@@ -802,6 +802,14 @@ iframe.twitter-tweet-rendered
     position: relative
     z-index: 10
     box-sizing: border-box
+    .more
+        position: absolute
+        z-index: 20
+        bottom: 0
+        left: 0
+        right: 0
+        //background: $quadrary
+        +box-shadow($quadrary 0 0px 50px, $quadrary 0 -20px 20px)
     *
         box-sizing: border-box
     li

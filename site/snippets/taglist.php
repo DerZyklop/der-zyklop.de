@@ -6,6 +6,7 @@
     'baseurl'=>$site->url().'/blog'
   ) );
 ?>
+
 <ul class="tagcloud">
   <?php $highestAmount = $tags[array_keys($tags)[0]]->results() ?>
   <?php foreach($tags as $tag): ?>
@@ -22,3 +23,16 @@
     </li>
   <?php endforeach ?>
 </ul>
+
+<script type="text/javascript">
+  $('.tagcloud').css({
+    "overflow": "hidden",
+    "height": "33em"
+  }).append('<button class="more">&#9662; Alle Schlagwörter anzeigen &#9662;</button>').find('button').click(function() {
+    $(this).remove();
+    $('.tagcloud').css({
+      "overflow": "hidden",
+      "height": "auto"
+    });
+  });
+</script>
