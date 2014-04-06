@@ -10,9 +10,8 @@
 </script>
 
 <section class="<?= $site->template() ?>">
-    <h3>Sorry!</h3>
-    <p>Ich hab überall gesucht, ich hab echt alles gegeben, ich konnte keine Einträge finden.</p>
-    <p>Schau dir mal die folgenden Schlagworte an, die ich gefunden habe – vielleicht interessiert dich ja eins davon:</p>
+    <h3>Suchst du nach etwas bestimmten?</h3>
+    <p>Dann schau dir mal die folgenden Schlagwörter an, über die ich geschrieben habe – vielleicht interessiert dich ja eins davon:</p>
     <?php snippet('taglist', array('blog'=>$blog)) ?>
 </section>
 

@@ -42,7 +42,13 @@
 
   <?php if ( isBlogError($articles) ) : ?>
 
-    <?php go('/blog/tags') ?>
+    <h3>Sorry!</h3>
+    <p>Ich habe ganz, ganz angestrengt nachgedacht, aber ich kann mich nicht erinnern schon mal etwas zum Thema <strong><?= $site->uri()->params('tags') ?></strong> geschrieben zu haben.</p>
+    <p>Aber vielleicht suchst du ja nach einem der folgenden Schlagwörter:</p>
+
+    <?php snippet('taglist', array('blog'=>$blog)) ?>
+
+    <?php #go('/blog/tags') ?>
 
   <?php elseif ( hasTags($site) ) : ?>
 
