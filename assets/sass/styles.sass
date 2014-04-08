@@ -466,6 +466,18 @@ $options-bar-space: 10px
 
 .options-bar
     margin: $space-t-b 0
+    .right
+        position: relative
+        &:before
+            content: ' '
+            background: url('../images/teilen.png')
+            opacity: 0.5
+            display: block
+            width: 253px
+            height: 52px
+            position: absolute
+            top: -50%
+            right: 0
     .autorinfo .autorlink,
     .supporters-btn
         +btn()
