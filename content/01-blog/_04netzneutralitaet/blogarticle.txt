@@ -1,0 +1,53 @@
+Title: Netzneutralität
+
+----
+
+Date: 2014-01-xx
+
+----
+
+Text:
+
+Ich dachte immer Netzneutralität sei ein schwierig zu vermittelndes Thema. Ich habe meinen Denkfehler gefunden. Aber erstmal ein kleines Intro, für diejenigen, die mit dem Begriff nichts anfangen können. Die anderen können das (link: #das-problem text: überspringen).
+
+### Was ist "Netzneutralität"?
+
+Das ist ungefähr das was wir heute haben. Also ein Internet wo alle Daten die über die Kupfer- und Glasfaser-Leitungen geschickt werden gleich behandelt werden. Man spricht da auch von Daten-Packeten.
+
+Einer sendet ein Packet (z.B. eine Webseite).
+Einer empfängt ein Packet (z.B. Du).
+Und einer dazwischen kümmert sich um den Transport (z.B. Telekom).
+
+Und ein Packet in dem eure Emails drin sind, ist für denjenigen, der die Transportwege bereitstellt, genau so viel wert, wie das Packet in dem eure YouTube-Videos, oder Wikipedia, oder Pornos, oder Facebook, oder mein Blog, oder die Tweets Ukrainischer Demonstranten drin sind. Alles sucht sich den schnellsten Weg vom Sender zum Empfänger.
+
+### Und was ist "nicht Netzneutral"?
+
+Das ist, wenn derjenige der eigentlich nur die Leitungen bereitstellt, erst in die Packete reinschaut um dann selbst zu entscheiden wer schneller, oder langsamer, oder garnicht durchgelassen wird.
+
+> Warum sollte er das tun?
+
+Geld. Ein Telekomunikationsanbieter könnte zum beispiel YouTube, Google und mich fragen, ob wir nicht jeweils ein bisschen Kohle hergeben wollen, damit unsere Packete ungebremst über die Leitungen gehen. Derjenige der von diesen drei Beispielen nicht bezahlt, wird dann eben ausgebremst. Wo das hinführt wird sehr anschaulich in (link: https://www.youtube.com/watch?v=eQqu_WXZBNw text: diesem Video).
+
+### <span id="das-problem">Wo liegt das Problem?</span>
+
+> Bei anderen Angeboten ist es doch auch so, dass man mehr bekommt, wenn man mehr bezahlt! Is doch Logisch, oder?
+
+Richtig. Aber hier geht es nicht um irgend ein Spaß-Angebot! Es geht auch nicht nur um das, was ihr in eurem Browser seht. Es geht um die Infrastruktur für alles. Infrastruktur für eure private Kommunikation, aber auch für die Arbeitsabläufe in Firmen, für den Unterricht in Schulen, für sogenannte intelligente Energiespar-Systeme, für die Weiterentwicklung von Politik, für die Organisation von Gemeinnützigkeit.
+
+...
+
+↑ An dieser Stelle versuchte ich praktische Beispiele aufzuzählen, was natürlich quatsch ist, denn da werde ich nie ein Ende finden.
+
+###### <span>Fazit</span>
+
+Um auf meinen Anfangs-Satz zurück zu kommen: Ich hatte immer wieder Probleme anderen Menschen zu erklären warum Netzneutralität so wichtig ist. Und das lag alles daran, dass ich über eine Infrastruktur wie Wasser und Strom sprach. Was ich übersehen habe ist, dass mein Gegenüber an ein Entertainment-Angebot dachte.
+
+Glücklicherweise hat das (link: http://www.tagesschau.de/wirtschaft/ep-netzneutralitaet100.html text: EU-Parlament gerade beschlossen), dass sie eine Zukunft, wie in dem oben verlinkten Video dargestellt, nicht wollen. So gesehen, kommt dieser Blogartikel ein paar Tage zu spät.
+
+Was ich hiermit aber umbedingt loswerden wollte:
+Wenn das nächste mal irgendjemand eure Infrastruktur angreift – ob durch Überwachung, Filterung, Zensur oder was auch immer – könntet ihr euch dann bitte genau so empören, wie wenn es um die Privatisierung von Wasser geht?
+Danke :)
+
+----
+
+Tags: weltretten, politik, netzneutralität
