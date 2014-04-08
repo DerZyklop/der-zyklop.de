@@ -1,4 +1,4 @@
-Title: Netzneutralität
+Title: Warum Netzneutralität?
 
 ----
 
@@ -32,7 +32,7 @@ Ein Telekomunikationsanbieter könnte zum Beispiel YouTube, Google und mich frag
 
 > Bei anderen Angeboten ist es doch auch so, dass man mehr bekommt, wenn man mehr bezahlt! Is doch logisch, oder?
 
-Richtig. Aber hier geht es nicht um irgendein Spaß-Angebot! Es geht auch nicht nur um das, was ihr in eurem Browser seht. Es geht um die Infrastruktur für viel mehr. Infrastruktur für eure private Kommunikation, aber auch für die Arbeitsabläufe in Firmen, für den Unterricht in Schulen, für sogenannte intelligente Energiespar-Systeme (Smart-Homes), für die Weiterentwicklung von Politik, für die Organisation von Gemeinnützigkeit.
+Richtig. Aber hier geht es nicht um irgendein Spaß-Angebot! Es geht auch nicht nur um das, was ihr in eurem Browser seht. Es geht um die Infrastruktur für viel mehr. Infrastruktur für eure private Kommunikation, aber auch für die Arbeitsabläufe in Firmen, für den Unterricht in Schulen, für sogenannte intelligente Energiespar-Systeme (Smart-Homes), für die Weiterentwicklung von Politik, für die Organisation von Gemeinnützigkeit. Man nennt das auch (link: http://de.wikipedia.org/wiki/Kritische_Infrastrukturen text: »Kritische Infrastruktur«)
 
 [Absatz gelöscht] <- An dieser Stelle versuchte ich praktische Beispiele aufzuzählen, was natürlich Quatsch ist, denn da werde ich nie ein Ende finden.
 
