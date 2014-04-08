@@ -680,10 +680,16 @@ $options-bar-space: 10px
 .comment-add-form
     margin: 2em 0
     h6
-        background: $secondary
+        background-color: $secondary
     &.hide-form
         form
             display: none
+    .button span
+        padding-right: 6px + 32px
+        background:
+            image: url('../images/iconmonstr-pen-5-icon-32.png')
+            position: center right
+            repeat: no-repeat
 
 ul#comments
     +clear-list-styles()
