@@ -17,6 +17,9 @@
   };
 
   function hasTags( $site ) {
+    var_dump($site);
+    var_dump($site->uri()->params());
+    var_dump($site->uri()->params()->count());
     return $site->uri()->params()->count();
   };
 

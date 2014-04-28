@@ -21,7 +21,7 @@ http://getkirby.com/license
 
 */
 
-c::set('license', '38fd17ab41910070c336ac87320f5a35');
+c::set('license', 'your license key');
 
 
 /*
@@ -233,12 +233,9 @@ If you enable it, you need to make
 sure that the site/cache
 directory is writable.
 
-You can also decide to disable/enable
-either caching of the data structure
-or the final html. If you are caching
-the final html, make sure to clean
-the cache, once you've modified your
-templates. It's better to keep this
+If you are caching the final html,
+make sure to clean the cache, once you've
+modified your templates. It's better to keep this
 off until your site is ready for production.
 
 With c::set('cache.autoupdate') you can set if
@@ -250,23 +247,23 @@ disabled autoupdating of cache files, but then you
 need to make sure to delete cache files yourself after
 each update.
 
-With c::set('cache.ignore', array()); you can speficy
+With c::set('cache.ignore.urls', array()); you can speficy
 an array of URIs which should be skipped for caching.
 If you got a search page for example you might not want
 to cache each search result so you can add the URI of your
 search site to the ignore array:
 
-c::set('cache.ignore', array('search', 'some/other/uri/to/ignore'));
+c::set('cache.ignore.urls', array('search', 'some/other/uri/to/ignore'));
+
+With c::set('cache.ignore.templates', array()); you can speficy
+an array of template names which should be skipped for caching.
 
 */
-
-c::set('cache', true);
-#c::set('cache', true);
+c::set('cache', false);
+c::set('cache.html', true);
 c::set('cache.autoupdate', true);
-c::set('cache.data', true);
-c::set('cache.html', false);
-c::set('cache.ignore', array());
-
+c::set('cache.ignore.urls', array());
+c::set('cache.ignore.templates', array());
 
 /*
 
@@ -282,6 +279,22 @@ Please read more about it at: http://php.net/manual/en/function.date-default-tim
 */
 
 c::set('timezone', 'UTC');
+
+
+/*
+
+---------------------------------------
+Locale
+---------------------------------------
+
+The locale has effect on all language-specific
+PHP functions, like date or money functions.
+
+http://php.net/manual/de/function.setlocale.php
+
+*/
+
+c::set('locale', 'en_US');
 
 
 /*
@@ -315,7 +328,7 @@ php errors there.
 
 */
 
-c::set('debug', false);
+c::set('debug', true);
 
 
 /*
@@ -391,8 +404,9 @@ or
 
 http://yourdomain.com/de/blog
 
-Make sure to set the default language code and
-also the available language codes.
+Make sure to configure all available languages
+with c::set('lang.config', array(...)). Check out
+the following example.
 
 If you keep…
 
@@ -402,12 +416,29 @@ Kirby will try to detect the default language
 from the user agent string instead of using the
 default language.
 
+Use c::set('lang.urls', 'short') to remove the
+language code from URLs for the default language
+
 */
 
 c::set('lang.support', false);
-c::set('lang.default', 'de');
-c::set('lang.available', array('en', 'de'));
 c::set('lang.detect', true);
+c::set('lang.urls', 'default');
+c::set('lang.config', array(
+  'en' => array(
+    'code'      => 'en',
+    'name'      => 'English',
+    'default'   => true,
+    'locale'    => 'en_US',
+    'available' => true,
+  ),
+  'de' => array(
+    'code'      => 'de',
+    'name'      => 'Deutsch',
+    'locale'    => 'de_DE',
+    'available' => true,
+  )
+));
 
 
 /*
@@ -442,53 +473,3 @@ array('.', '..', '.DS_Store', '.svn', '.git', '.htaccess');
 
 */
 c::set('content.file.ignore', array());
-
-/* Thumbs-Plugin */
-
-c::set('thumb.cache.root', c::get('root') . '/thumbs/uncompressed');
-c::set('thumb.cache.url',  c::get('url')  . '/thumbs');
-c::set('thumb.datauri', false);
-
-
-
-/* Comments-Plugin */
-
-// enable/disable comments globally, true/false
-c::set('comments.enabled', true);
-
-// patterns for pages with comments (required)
-// relative to "content/" folder, f.e.: array('blog/*')
-c::set('comments.include.pages', array('*') );
-
-// patterns for pages without comments (optional)
-// relative to "content/", f.e.: array('blog/*')
-c::set('comments.exclude.pages', array('') );
-
-// Show Gravatar images?
-// false or size in pixels (f.e. 32)
-c::set('comments.gravatar', 64);
-
-// filename for saving comments
-c::set('comments.data.filename', 'comments.json');
-
-// format for post date: see http://php.net/date
-c::set('comments.date.format', 'Y-m-d');
-
-// install Amazon SES plugin and provide your email for notifications
-c::set('comments.notify.email', 'vladstudio@gmail.com');
-
-// when someone posts a comment, save name/email in cookie?
-c::set('comments.save_author_in_cookie', true);
-
-
-
-# Dirty.. i know. But somehow /language didn't work for me.
-
-l::set('comments.title', 'Kommentare');
-l::set('comments.add', 'Kommentar schreiben');
-l::set('comments.name', 'Name');
-l::set('comments.email', 'Email');
-l::set('comments.text', 'Kommentar');
-l::set('comments.send', 'Senden');
-l::set('comments.file_error', 'Fehler 42. Wenn du mir einen gefallen tun willst, schickst du das an mail@der-zyklop.de');
-l::set('comments.saved', '<p>Danke! Ich freu mich über kommentare!<br />Grüße, Nils</p>');
