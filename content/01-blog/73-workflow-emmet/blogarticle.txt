@@ -1,14 +1,14 @@
-Title: Workflow #4 – Über HTML, Emmet und alte Hüte
+Title: Über Sublime, Emmet und alte Hüte
 
 ----
 
-Date: 2014-01-xx
+Date: 2014-04-29
 
 ----
 
 Text:
 
-Ich möchte euch Emmet vorstellen. Ist zwar eigentlich ein alter Hut (früher bekannt unter dem viel cooleren Namen ZenCoding), aber es ist nie zu spät gute Werkzeuge vorzustellen. Das man viel mehr über (gute) alte Hüte sprechen sollte, wurde mir besonders klar als ich mich so freute zu lesen, dass @mkuehnel 2013 einen Vortrag über Twitter gehalten hat. Vor einem Publikum das durchweg in der Digitalen Spaate arbeitet :D
+Ich möchte euch Emmet vorstellen. Ein Werkzeug Frontend-Developer. Ist zwar eigentlich ein alter Hut (früher bekannt unter dem viel cooleren Namen ZenCoding), aber es ist nie zu spät gute Werkzeuge vorzustellen. Das man viel mehr über (gute) alte Hüte sprechen sollte, wurde mir besonders klar als ich mich so freute zu lesen, dass @mkuehnel 2013 einen Vortrag über Twitter gehalten hat. Vor einem Publikum das durchweg aus Webworkern besteht :D
 
 Zudem ist Emmet so eines dieser Dinge, die sich so gut in den Workflow integrieren, dass man's kaum noch spürt und dementsprechend auch nicht mehr darüber spricht.
 
@@ -24,7 +24,7 @@ Dann drückt man die Tabulator-Taste `⇥`, und es wird folgendes HTML generiert
 
 Man spaart sich also mit Emmet viel getippe beim HTML schreiben. Meine weiteren Beispiele könnt ihr am besten gleich selbst ausprobieren, nachdem ihr euch das Plugin installiert habt.
 
-In meinen vorherigen Workflow-Artikeln haben wir dem Sublime Text 2 manieren beigebracht, ihn hübscher gemacht und den Package-Manager installiert. Zum installieren von Emmet macht ihr also Folgendes:
+In meinen vorherigen (link: http://der-zyklop.de/blog/tags:workflow text: Workflow-Artikeln) haben wir den Sublime Text (link: http://der-zyklop.de/blog/workflow-sublime-text-2 text: hübscher gemacht), ihm (link: http://der-zyklop.de/blog/workflow-sublime-shortcuts text: manieren beigebracht) und den (link: http://der-zyklop.de/blog/workflow-sublime-packages text: Package-Manager installiert). Zum installieren von Emmet macht ihr nun Folgendes:
 
 - Command-Palette öffnen (`⌘`+`⇧`+`p`)
 - `Package Install` eingeben und Enter drücken (...ein paar Sekunden warten)
@@ -51,15 +51,7 @@ Und zu guterletzt noch eine einfache HTML-Seite in Emmet:
 
 <pre class="language-emmet"><code>html:5>(header>img.logo)+(nav>ul>li*5>a)+(section>h1+p+aside)+(footer>span)</code></pre>
 
-Auch für oft wiederkehrendes css kann man Emmet nutzen. Die komplette Dokumentation aller Funktionen findet ihr (link: #### text ### Hier).
-
-Im nächsten Workflow-Artikel ezähle ich euch, wie ....
-
-##########
-
-ctrl+alt+enter
-
-
+Auch für oft wiederkehrendes css kann man Emmet nutzen. Wenn ihr genaueres wissen wollt, schaut in die (link: http://docs.emmet.io/ text: Emmet-Docs) oder die (link: https://github.com/sergeche/emmet-sublime#available-actions text: Dokumentation des Sublime-Packages).
 
 ----
 
