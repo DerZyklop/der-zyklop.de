@@ -2,7 +2,7 @@
 header('Access-Control-Allow-Origin: *');
 $articles = $pages->find('blog')->children()->visible();
 $frontend_articles = $articles->filterBy('justforrss','');
-foreach ($site->uri()->params() as $key => $value) {
+foreach (param() as $key => $value) {
   if ($key != 'page') {
     $frontend_articles = $articles->filterBy($key, $value, ',');
   }

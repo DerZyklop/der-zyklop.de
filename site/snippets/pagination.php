@@ -19,10 +19,10 @@
   params = {
     <?php
       $i = 1;
-      foreach ($site->uri()->params() as $key => $value) {
+      foreach (param() as $key => $value) {
         if ($key != 'page') : ?>
           <?php echo($key) ?>:'<?php echo($value) ?>'
-          <?php if ($site->uri()->params()->count() != $i) { echo(','); } ?>
+          <?php if (param()->count() != $i) { echo(','); } ?>
         <?php
         endif;
       }

@@ -17,7 +17,7 @@
   };
 
   function hasTags( $site ) {
-    return $site->uri()->params()->count();
+    return count(param());
   };
 
 ?>
@@ -32,7 +32,7 @@
 <section class="blog">
 
   <?php if ( hasTags($site) ) : ?>
-    <?php foreach ($site->uri()->params() as $key => $value) : ?>
+    <?php foreach (param() as $key => $value) : ?>
       <?php $taglist = ''; ?>
       <?php if ($key != 'page') {
         $articles = $articles->filterBy($key, urldecode($value), ',');
@@ -43,16 +43,16 @@
   <?php if ( isBlogError($articles) ) : ?>
 
     <h3>Sorry!</h3>
-    <p>Ich habe ganz, ganz angestrengt nachgedacht, aber ich kann mich nicht erinnern schon mal etwas zum Thema <strong><?= $site->uri()->params('tags') ?></strong> geschrieben zu haben.</p>
+    <p>Ich habe ganz, ganz angestrengt nachgedacht, aber ich kann mich nicht erinnern schon mal etwas zum Thema <strong><?= param('tags') ?></strong> geschrieben zu haben.</p>
     <p>Aber vielleicht suchst du ja nach einem der folgenden Schlagwörter:</p>
 
-    <?php snippet('taglist', array('blog'=>$blog)) ?>
+    <?php #snippet('taglist', array('blog'=>$blog)) ?>
 
     <?php #go('/blog/tags') ?>
 
   <?php elseif ( hasTags($site) ) : ?>
 
-    <h2>Artikel zum Thema: <?php echo urldecode($site->uri()->params('tags')); ?></h2>
+    <h2>Artikel zum Thema: <?php echo urldecode(param('tags')); ?></h2>
 
     <ul id="articles">
       <?php foreach($articles as $article) : ?>

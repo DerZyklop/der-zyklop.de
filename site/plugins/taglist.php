@@ -15,7 +15,5 @@ function taglist($tags, $tagpage) {
     }
 
   }
-
   return $list;
-
 }
