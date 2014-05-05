@@ -5,6 +5,7 @@ piwik/
 node_modules/
 tweetnest/
 
+site/cache/site.php
 site/config/config.php
 .sass-cache
 
