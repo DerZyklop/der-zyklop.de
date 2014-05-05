@@ -1,0 +1,54 @@
+﻿Title: Welchen Browser du nutzen solltest
+
+----
+
+Date: 2014-04-30
+
+----
+
+Text: Gestern ist ein neuer Browser zur Welt gekommen. Ich nehme das zum Anlass zu schreiben welche Browser man nutzen sollte.
+
+Hier erstmal eine Liste der relevanten Browser und der Firmen/Organisationen die dahinter stecken.
+
+- Internet Explorer (Microsoft)
+- Chrome (Google)
+- Safari (Apple)
+- Firefox (Mozilla Foundation / OpenSource community)
+
+Ich wurde schon oft gefragt welchen Browser ich empfehlen würde. Über den **Internet Explorer** werde ich nicht weiter sprechen. Nur so viel: Microsofts Browser ist kaputt und gefährlich – lasst die Finger davon. Safari kann nicht viel, ist aber dafür nicht kaputt und somit okay für Menschen die ihren Rechner eher aus Dekorations-Gründen gekauft haben. Mein Rat war in den letzten Jahren immer in etwa folgender: 
+
+> Nimm **Firefox**. Es sei denn du hast hohe Ansprüche, bist Programmierer oder hast einen sehr alten, langsamen Rechner – dann nimm (link: https://www.google.com/intl/de/chrome/browser/ text: Google Chrome).
+
+Warum? Weil der Browser **Chrome** der technisch am besten umgesetzte Browser ist. Er war von beginn an der schnellste Browser was vor allem mit ausgeklügelten Zwischenspeicher-Mechanismen zu tun hat. In der Bedienbarkeit unterscheiden sich Browser nicht allzusehr. Wenn man allerdings mehrere Stunden täglich damit arbeitet, dann merkt man auch hier die vielen kleinen innovativen Raffinessen, wie man sie von Google-Produkten gewohnt ist. Und die Erweiterungen für Web-Entwickler waren lange Zeit ungeschlagen.
+
+Bis gestern!
+
+Denn gestern kam eine grundlegend neue Version des lange Zeit eingerosteten (link: http://www.mozilla.org/de/firefox/new/ text: Firefox) heraus. Das interface ist komplett überarbeitet worden, und kommt nun wesentlich aufgeräumter daher. Ich sehe zwar noch keine großen Vorteile von Firefox gegenüber Chrome, aber wenn sie Technisch mehr oder weniger auf gleichstand gehoben wurden, ist meine Entscheidung trotzdem klar. Und das hat zwei einfache Gründe.
+
+1. Das Informations-Monopol von Google schadet der Wirtschaft und der Politik.
+2. Google Chrome ist nicht OpenSource.
+
+Firefox ist OpenSource. Das schützt uns nicht davor, dass (link: http://www.spiegel.de/netzwelt/web/heartbleed-passwoerter-aendern-und-zwar-sofort-a-963938.html text: Dinge schief gehen können). Aber seht es mal so: 
+
+- Wenn in Firefox eine Sicherheitslücke besteht, dann kann sie gefunden und repariert werden. 
+- Wenn in Chrome eine Sicherheitslücke besteht dann... pech. Vielleicht wird's repariert. Vielleicht nicht. Wer weiß das schon.
+- Wo die Daten im Firefox hinfließen ist nachvollziehbar.
+- Wo die Daten im Chrome hinfießen ist im Grunde allen klar, aber keiner weiß es so genau.
+
+Software ist immer eine Frage des Vertrauens. 
+Vertraut ihr einer Masse an verschiedensten Menschen mit verschiedensten Interessen? Vertraut ihr darauf dass sich darunter Leute befinden, die Radau machen werden wenn ein Browser dinge tut, die für die Nutzer nicht gut sind?
+Oder vertraut ihr darauf, dass eine Firma euch bescheid sagt, wenn sie einen Fehler in ihrer eigenen Software finden?
+
+Ich bin Bequem. Ich habe kein bock darauf meine Bequemlichkeit einzuschrenken, nur weil's besser zu meinem Image passen würde, wenn ich Quelloffene Software benutze. Aber es hat ein Wandel stattgefunden. Auch wenn dieses Klischee noch immer ein Stück weit an dem Wort haftet – **OpenSource** ist schon lange nicht mehr das Spielzeug für Programmierer und Idealisten, mit komplizierten, unübersichtlichen Bedien-Oberflächen. Es ist massenkompatibel. Und es wird immer besser. Ich freue mich auf die Zukunft :)
+
+----
+
+Tags: browser,app,weltretten,opensource
+
+----
+
+Language: firstValue
+
+----
+
+Justforrss: 
