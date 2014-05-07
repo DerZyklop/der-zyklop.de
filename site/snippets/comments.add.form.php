@@ -27,7 +27,7 @@ if (c::get('comments.enabled')):
 
     <p>
       <input type="submit" class="submit" value="<?= l::get('comments.send') ?: 'Senden' ?>">
-      <input type="hidden" name="diruri" value="<?= $page->diruri ?>">
+      <input type="hidden" name="diruri" value="<?= $page->diruri() ?>">
     </p>
 
   </form>
