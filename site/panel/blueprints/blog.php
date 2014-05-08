@@ -3,13 +3,13 @@
 title: Blog
 pages:
   template: blogarticle
-	sort: flip
+  sort: flip
   limit: 2
 files: true
 fields:
-  title: 
+  title:
     label: Title
     type:  text
-  author: 
+  author:
     label: Autor
     type:  text
