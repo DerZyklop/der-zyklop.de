@@ -6,9 +6,13 @@ $tagname = $tags[0];
 
 // This takes the next latest article that includes
 // the first tag from this article.
-$allArticles = $pages->find('blog')->children()->visible()->flip();
-$articlesWithSameTag = $allArticles->filterBy('tags', $tagname, ',');
-$suggestedArticle = $articlesWithSameTag->not($page->uid())->first();
+$suggestedArticle = $pages->find('blog');
+$suggestedArticle = $suggestedArticle->children();
+$suggestedArticle = $suggestedArticle->visible();
+$suggestedArticle = $suggestedArticle->flip();
+$suggestedArticle = $suggestedArticle->filterBy('tags', $tagname, ',');
+$suggestedArticle = $suggestedArticle->not($page->uid());
+$suggestedArticle = $suggestedArticle->first();
 
 
 if ( $suggestedArticle ) : ?>
