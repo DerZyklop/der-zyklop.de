@@ -6,13 +6,13 @@ Date: 2014-05-08
 
 ----
 
-Text: This is for those, who are already playing around with Kirby 2 Beta 1, which was (link: http://getkirby.com/blog/kirby-2-beta text: released this monday).
+Text: This is for those who are already playing around with Kirby 2 Beta 1 which was (link: http://getkirby.com/blog/kirby-2-beta text: released this monday).
 
 This is a very early version of Kirby 1. So the migration from Kirby 1 to Kirby 2 is still a bit rough. When there is a stable version of Kirby 2 you probably won't have to update any of your plugins to make them work.
 
 ...except the (link: https://github.com/vladstudio/vladstudio-kirby-comments text: comments plugin) made by (link: http://www.vladstudio.com/de/home/ text: Vladstudio).
 
-I've made some changes, and for me it's working fine now. If you are searching for a Kirby 2 version of **vladstudio-kirby-comments**, you should take (link: https://github.com/DerZyklop/vladstudio-kirby-comments/ text: this one).
+I've made some changes and for me it's working fine now. If you are searching for a Kirby 2 version of **vladstudio-kirby-comments**, you should take (link: https://github.com/DerZyklop/vladstudio-kirby-comments/ text: this one).
 
 ----
 
@@ -24,4 +24,4 @@ Language: secondValue
 
 ----
 
-Justforrss: 
+Justforrss:
