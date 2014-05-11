@@ -24,7 +24,6 @@ $comment_json = json_encode($comments, JSON_HEX_QUOT | JSON_FORCE_OBJECT | JSON_
 
 // write to file
 file_put_contents($comments_file, $comment_json) || die('{"error":"'.(l::get('comments.file_error') ?: 'Failed to save comment, please contact web master!').'"}');
-die('{"error":"Poo!"}');
 
 // save name & email into cookie
 if (c::get('comments.save_author_in_cookie')):
