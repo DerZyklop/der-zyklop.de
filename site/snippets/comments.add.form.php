@@ -20,6 +20,11 @@ if (c::get('comments.enabled')):
       <input type="email" class="text required email" name="email" id="email" value="<?= cookie::get('comments_author_email') ?: '' ?>">
     </p>
 
+    <div class="verify">
+      <label>Verify your email address here if you are not a carbon based lifeform</label>
+      <input class="contactform-input" type="email" name="verify" placeholder="your email" />
+    </div>
+
     <p>
       <label for="comment"><?= l::get('comments.text') ?: 'Dein Kommentar' ?></label>
       <textarea type="comment" rows="12" name="text" class="required" id="comment"></textarea>

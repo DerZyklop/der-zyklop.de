@@ -1,13 +1,15 @@
-<?php 
+<?php
 
 header('Content-type: application/json');
 
-
 //validate using Kirby toolkit
 $errors = array();
+if (get('verify')) {
+  die('{"success":"Thanks!"}');
+}
 if (!get('name'))            	{ die('{"error":"'.(l::get('error.name-required') ?: 'Please enter your name.').'"}'); }
 if (!v::email(get('email'))) 	{ die('{"error":"'.(l::get('error.email-invalid') ?: 'Please enter valid e-mail address.').'"}'); }
-if (!get('text'))            	{ die('{"error":"'.(l::get('error.message-required') ?: 'Message is required.').'"}'); }
+if (!get('text'))             { die('{"error":"'.(l::get('error.message-required') ?: 'Message is required.').'"}'); }
 
 $comments_file = c::get('root') . '/' . get('diruri') . '/' . c::get('comments.data.filename', 'comments.json');
 $comments = json_decode(utf8_encode(file_get_contents($comments_file)), true);
@@ -22,10 +24,11 @@ $comment_json = json_encode($comments, JSON_HEX_QUOT | JSON_FORCE_OBJECT | JSON_
 
 // write to file
 file_put_contents($comments_file, $comment_json) || die('{"error":"'.(l::get('comments.file_error') ?: 'Failed to save comment, please contact web master!').'"}');
+die('{"error":"Poo!"}');
 
 // save name & email into cookie
 if (c::get('comments.save_author_in_cookie')):
-	cookie::set('comments_author_name', get('name'));	
+	cookie::set('comments_author_name', get('name'));
 	cookie::set('comments_author_email', get('email'));
 endif;
 
@@ -33,7 +36,7 @@ endif;
 if (function_exists('amazon_ses') && v::email(c::get('comments.notify.email'))):
 amazon_ses(array(
 	'to'	=> c::get('comments.notify.email'),
-	'body'	=> 
+	'body'	=>
 		"From: ".addslashes(get('name'))." <".addslashes(get('email')).">\n\n".
 		server::get('http_referer')."\n\n".
 		addslashes(get('text'))
