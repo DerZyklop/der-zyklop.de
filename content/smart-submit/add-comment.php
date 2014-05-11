@@ -2,13 +2,14 @@
 
 header('Content-type: application/json');
 
-
 //validate using Kirby toolkit
 $errors = array();
 if (!get('name'))             { die('{"error":"'.(l::get('error.name-required') ?: 'Please enter your name.').'"}'); }
 if (!v::email(get('email')))  { die('{"error":"'.(l::get('error.email-invalid') ?: 'Please enter valid e-mail address.').'"}'); }
 if (!get('text'))             { die('{"error":"'.(l::get('error.message-required') ?: 'Message is required.').'"}'); }
-
+if (get('verify')) {
+  die('{"success":"Thanks!"}');
+}
 
 $comments_file = c::get('root.content') . '/' . get('diruri') . '/' . c::get('comments.data.filename', 'comments.json');
 $comments = json_decode(utf8_encode(file_get_contents($comments_file)), true);

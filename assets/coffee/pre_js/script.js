@@ -9,6 +9,10 @@
     jQuery(".nolink").click(function(event) {
       return event.preventDefault();
     });
+    jQuery(".comment-add-form").find("input:submit").attr("disabled", "disabled");
+    setTimeout(function() {
+      return jQuery(".comment-add-form").find("input:submit").removeAttr("disabled");
+    }, 1000);
     return jQuery("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.png'],a[href$='.gif']").attr("rel", "gallery").fancybox();
   });
 

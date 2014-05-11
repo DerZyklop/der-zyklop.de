@@ -10,6 +10,12 @@ jQuery(document).ready ->
   jQuery(".nolink").click (event) ->
     event.preventDefault()
 
+  jQuery(".comment-add-form").find("input:submit").attr("disabled","disabled")
+
+  setTimeout ->
+    jQuery(".comment-add-form").find("input:submit").removeAttr("disabled")
+  , 1000
+
   jQuery("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.png'],a[href$='.gif']").attr("rel", "gallery").fancybox()
 
   # jQuery('.blogarticle .article-text').after('<a href="#" id="likebtn"><span>Guter<br />Artikel</span></a>')
