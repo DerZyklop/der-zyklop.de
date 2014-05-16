@@ -1,0 +1,15 @@
+{
+  "assets":     "assets/",
+  "src": {
+    "dir":      "src/",
+    "coffee":   "<%= paths.assets %><%= paths.src.dir %>coffee/",
+    "js":       "<%= paths.assets %><%= paths.src.dir %>js/",
+    "sass":     "<%= paths.assets %><%= paths.src.dir %>sass/",
+    "css":      "<%= paths.assets %><%= paths.src.dir %>styles/"
+  },
+  "build": {
+    "dir":      "",
+    "js":       "<%= paths.assets %><%= paths.build.dir %>js/",
+    "css":      "<%= paths.assets %><%= paths.build.dir %>styles/"
+  }
+}

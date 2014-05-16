@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "no-console": 1,
+    "no-wrap-func": 0,
+    "no-unused-vars": 1,
+    "no-return-assign": 1
+  }
+}
