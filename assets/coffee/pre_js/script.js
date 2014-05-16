@@ -1,5 +1,7 @@
 (function() {
   "use strict";
+  /* global jQuery, document, setTimeout*/
+
   jQuery(document).ready(function() {
     jQuery(".comment-add-form").addClass("hide-form");
     jQuery(".comment-add-form .button").click(function() {

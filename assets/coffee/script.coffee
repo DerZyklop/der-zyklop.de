@@ -1,4 +1,5 @@
 "use strict"
+### global jQuery, document, setTimeout ###
 
 jQuery(document).ready ->
 

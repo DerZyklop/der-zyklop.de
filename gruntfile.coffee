@@ -80,7 +80,7 @@ module.exports = (grunt) ->
     eslint:
       options:
         config: 'conf/eslint.json'
-      all: ['<%= paths.coffee %>pre_js/*.js']
+      all: ['<%= paths.coffee %>pre_js/script.js']
 
 
     # process sass-files
@@ -184,7 +184,7 @@ module.exports = (grunt) ->
           livereload: true
       script_dev:
         files: ['<%= paths.coffee %>*.coffee']
-        tasks: ['newer:coffee:dev','newer:uglify','newer:eslint']
+        tasks: ['newer:coffee:dev','newer:uglify','newer:eslint', 'notify']
         options:
           livereload: true
 
@@ -238,6 +238,13 @@ module.exports = (grunt) ->
         logConcurrentOutput: true
 
 
+    notify:
+      watch:
+        options:
+          title: 'FFFFFFFFFFFFFFF'
+          message: 'SASS and Uglify finished running'
+
+
   # Run with: grunt switchwatch:target1:target2 to only watch those targets
   grunt.registerTask 'switchwatch', ->
     targets = Array.prototype.slice.call(arguments, 0)
@@ -249,7 +256,7 @@ module.exports = (grunt) ->
     grunt.task.run('watch')
 
 
-  grunt.registerTask('server', ['php'])
+  grunt.registerTask('server', ['notify','php'])
 
   #grunt.registerTask('dev', ['switchwatch:styles_dev:script_dev:images:templates'])
   grunt.registerTask('dev', ['concurrent:dev'])
