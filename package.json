@@ -26,8 +26,7 @@
     "matchdep": "0.1.x"
   },
   "scripts": {
-    "start": "grunt server",
-    "watch": "grunt watch"
+    "postinstall": "bower install"
   },
   "dependencies": {
     "time-grunt": "~0.2.10"
