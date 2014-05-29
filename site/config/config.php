@@ -260,9 +260,11 @@ c::set('cache.ignore', array('search', 'some/other/uri/to/ignore'));
 
 */
 
-c::set('cache', true);
-c::set('cache', false);
-#c::set('cache', true);
+if($_SERVER['SERVER_NAME'] == 'localhost') {
+  c::set('cache', false);
+} elseif($_SERVER['SERVER_NAME'] == 'der-zyklop.de') {
+  c::set('cache', true);
+}
 c::set('cache.autoupdate', true);
 c::set('cache.data', true);
 c::set('cache.html', false);
