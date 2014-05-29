@@ -11,44 +11,45 @@ function load500px( $consumerkey = '', $params = array() ) {
     'username'   => 'derzyklop',
     'refresh'    => 60*20 // refresh every 20 minutes
   );
-  
+
   $options = array_merge($defaults, $params);
 
-  // check the cache dir 
+  // check the cache dir
   $cacheSubfolderName = '500px';
   $cacheDir = c::get('root.cache') . '/' . $cacheSubfolderName;
   dir::make($cacheDir);
 
-  // disable the cache if adding the cache dir failed  
+  // disable the cache if adding the cache dir failed
   if(!is_dir($cacheDir) || !is_writable($cacheDir)) $options['cache'] = false;
-    
+
   // sanitize the limit
   if($options['limit'] > 200) $options['limit'] = 200;
-  
-  // generate a unique cache ID    
+
+  // generate a unique cache ID
   $cacheID = $cacheSubfolderName . '/' . $cacheSubfolderName . '.' . md5($options['username']) . '.' . $options['limit'] . '.php';
-  
+
   if($options['cache']) {
-    $cache = (cache::modified($cacheID) < time()-$options['refresh']) ? false : cache::get($cacheID);  
+    $cache = (cache::modified($cacheID) < time()-$options['refresh']) ? false : cache::get($cacheID);
   } else {
     $cache = false;
   }
-  
+
   if(!empty($cache)) return $cache;
 
   $url  = 'https://api.500px.com/v1/photos?consumer_key=' . $consumerkey . '&feature=' . $options['feature'] . '&username=' . $options['username'] . '&image_size[]=' . $options['image_size'] . '&image_size[]=' . $options['thumb_size'];
 
   #$json = @file_get_contents($temp_url);
   $json = @file_get_contents($url);
-  
-  
-  $data = str::parse($json);  
+
+
+  $data = str::parse($json);
 
   if(!$data) return false;
 
   $result = array();
-   
 
+
+  $stufffrom500px = new stdClass();
   $stufffrom500px->user     = new stdClass;
 
   // Process the images
@@ -71,7 +72,7 @@ function load500px( $consumerkey = '', $params = array() ) {
         $stufffrom500px->user->followers_count = $photo['user']['followers_count'];
       }
 
-      // create a new object for each image                    
+      // create a new object for each image
       $obj = new stdClass;
 
       $obj->id               =  $photo['id'];
@@ -87,12 +88,12 @@ function load500px( $consumerkey = '', $params = array() ) {
       $obj->favorites_count  =  $photo['favorites_count'];
       $obj->comments_count   =  $photo['comments_count'];
       $obj->nsfw             =  $photo['nsfw'];
-      
+
       if ( $options['cache'] ) {
         $filename                  = 'thumbs/' . $cacheSubfolderName . '/'.$photo['id'].'.'.$options['image_size'].'.jpg';
         $src                       = $photo['image_url'][0];
 
-  			dir::make(c::get('root') . '/thumbs/' . $cacheSubfolderName);
+        dir::make(c::get('root') . '/thumbs/' . $cacheSubfolderName);
 
         if ( file_exists( $filename ) ) {
           $obj->url          = url($filename);
@@ -211,20 +212,20 @@ function load500px( $consumerkey = '', $params = array() ) {
 }
 
 class load500px extends obj {
-  
+
   function date($format=false) {
-    return ($format) ? date($format, $this->date) : $this->date;  
+    return ($format) ? date($format, $this->date) : $this->date;
   }
 
   function text($link=false) {
-    return ($link) ? self::link(html($this->text)) : $this->text;      
+    return ($link) ? self::link(html($this->text)) : $this->text;
   }
 /*
   static function link($text) {
     $text = preg_replace('/(http|https):\/\/([a-z0-9_\.\-\+\&\!\#\~\/\,]+)/i', '<a href="$1://$2">$1://$2</a>', $text);
     $text = preg_replace('/@([A-Za-z0-9_]+)/is', '<a href="https://twitter.com/#!/$1">@$1</a>', $text);
     $text = preg_replace('/#([A-Aa-z0-9_-]+)/is', '<a href="https://twitter.com/#!/search/%23$1">#$1</a>', $text);
-    return $text; 
+    return $text;
   }
-*/  
+*/
 }

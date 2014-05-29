@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
  * Returns a Dribbble object.
@@ -43,50 +43,51 @@ class dribbble {
         $this->shots    = array();
         $this->likes    = array();
         $this->player   = null;
-    
-        // Build URLs    
+
+        // Build URLs
         $base_url   = "http://api.dribbble.com/players/" . $this->username;
         $shots_url  = $base_url . "/shots";
         $likes_url  = $base_url . "/likes";
-          
+
         // create the cache directory if not there yet
         if ($_cache) {
-            dir::make(c::get('root.cache') . '/dribbble');  
+            dir::make(c::get('root.cache') . '/dribbble');
         }
-          
+
         // Process the data
         if ($_number_of_shots > 0) {
 
             // Define a cache id
             $shots_cache_id   = 'dribbble/shots.' . md5($this->username) . '.' . $_number_of_shots . '.php';
             $shots_cache_data = false;
-            
+
             // Try to fetch the data from cache
             if( $_cache) {
-                $shots_cache_data = (cache::modified($shots_cache_id) < time() - $_refresh) ? false : cache::get($shots_cache_id);  
+                $shots_cache_data = (cache::modified($shots_cache_id) < time() - $_refresh) ? false : cache::get($shots_cache_id);
             }
-            
-            // If there's no data in the cache, load shots from the Dribbble API            
+
+            // If there's no data in the cache, load shots from the Dribbble API
             if (empty($shots_cache_data)) {
                 $all_shots = $this->fetch_data($shots_url);
                 $all_shots = json_decode($all_shots);
                 $all_shots = $all_shots->shots;
-                
+
                 if ($_cache) {
                     cache::set($shots_cache_id, $all_shots);
                 }
             } else {
-                $all_shots = $shots_cache_data; 
+                $all_shots = $shots_cache_data;
             }
-            
+
             // Only proceed if there is at least one shot.
             // If there's no shot, then player data can't be extracted from this API call
             // and must be extracted via /players/:id/ (maybe I'll implement that later)
-            if (count($all_shots) > 0) {   
-            
-                // Load shots data 
+            if (count($all_shots) > 0) {
+
+                // Load shots data
                 for ($i = 0; $i < $_number_of_shots; $i++) {
                     if (!is_null($all_shots[$i])) {
+                        $this->shots[$i] = new stdClass();
                         $this->shots[$i]->id        = $all_shots[$i]->id;
                         $this->shots[$i]->title     = $all_shots[$i]->title;
                         $this->shots[$i]->url       = $all_shots[$i]->url;
@@ -100,8 +101,9 @@ class dribbble {
                         $this->shots[$i]->created   = $all_shots[$i]->created_at;
                     }
                 }
-                
+
                 // Process player data
+                $this->player = new stdClass();
                 $this->player->id           = $all_shots[0]->player->id;
                 $this->player->name         = $all_shots[0]->player->name;
                 $this->player->username     = $all_shots[0]->player->username;
@@ -111,10 +113,10 @@ class dribbble {
                 $this->player->location     = $all_shots[0]->player->location;
                 $this->player->followers    = $all_shots[0]->player->followers_count;
                 $this->player->following    = $all_shots[0]->player->following_count;
-                $this->player->likes        = $all_shots[0]->player->likes_count;                
+                $this->player->likes        = $all_shots[0]->player->likes_count;
             }
         }
-            
+
         // Fetch all likes of the user (needs another API call).
         // If you only want to fetch the likes, not the shots, then set <code>$_number_of_shots</code> to <code>0</code>.
         if ($_fetch_likes && $_number_of_likes > 0) {
@@ -122,13 +124,13 @@ class dribbble {
             // Define a cache id
             $likes_cache_id   = 'dribbble/likes.' . md5($this->username) . '.' . $_number_of_likes . '.php';
             $likes_cache_data = false;
-            
+
             // Try to fetch the data from cache
             if ($_cache) {
-                $likes_cache_data = (cache::modified($likes_cache_id) < time() - $_refresh) ? false : cache::get($likes_cache_id);  
+                $likes_cache_data = (cache::modified($likes_cache_id) < time() - $_refresh) ? false : cache::get($likes_cache_id);
             }
 
-            // If there's no data in the cache, load likes from the Dribbble API                                    
+            // If there's no data in the cache, load likes from the Dribbble API
             if (empty($likes_cache_data)) {
                 $all_likes = $this->fetch_data($likes_url);
                 $all_likes = json_decode($all_likes);
@@ -141,7 +143,7 @@ class dribbble {
                 $all_likes = $likes_cache_data;
             }
 
-        
+
             // Process likes
             for ($i = 0; $i < $_number_of_likes; $i++) {
                 if (!is_null($all_likes[$i])) {
@@ -156,7 +158,7 @@ class dribbble {
                     $this->likes[$i]->rebounds  = $all_likes[$i]->rebounds_count;
                     $this->likes[$i]->comments  = $all_likes[$i]->comments_count;
                     $this->likes[$i]->created   = $all_likes[$i]->created_at;
-                    
+
                     // Process the user the like belongs to
                     $this->likes[$i]->player->id            = $all_likes[$i]->player->id;
                     $this->likes[$i]->player->name          = $all_likes[$i]->player->name;
@@ -167,7 +169,7 @@ class dribbble {
                     $this->likes[$i]->player->location      = $all_likes[$i]->player->location;
                     $this->likes[$i]->player->followers     = $all_likes[$i]->player->followers_count;
                     $this->likes[$i]->player->following     = $all_likes[$i]->player->following_count;
-                    $this->likes[$i]->player->likes         = $all_likes[$i]->player->likes_count;   
+                    $this->likes[$i]->player->likes         = $all_likes[$i]->player->likes_count;
                 }
             }
         }
@@ -180,7 +182,7 @@ class dribbble {
     function shots() {
         return $this->shots;
     }
-    
+
     /**
      * Returns the likes of the player.
      * @return array    Array of objects that contain the likes data.
@@ -188,7 +190,7 @@ class dribbble {
     function likes() {
         return $this->likes;
     }
-    
+
     /**
      * Returns an object containing all the data of the player.
      * @return object   Object containing all the player's data.
@@ -196,7 +198,7 @@ class dribbble {
     function player() {
         return $this->player;
     }
-    
+
     /**
      * Returns the username.
      * @return string   The username used to construct this class.
@@ -204,7 +206,7 @@ class dribbble {
     function username() {
         return $this->username;
     }
-    
+
     /**
      * Fetches data from an url.
      * @param string    The url from where data should be fetched.
@@ -212,18 +214,18 @@ class dribbble {
      */
     protected function fetch_data($url = null) {
         if (!is_null($url)) {
-            
+
             // Init CURL
-            $handler = curl_init();        
-    
+            $handler = curl_init();
+
             // CURL options
             curl_setopt($handler, CURLOPT_URL, $url);
             curl_setopt($handler, CURLOPT_RETURNTRANSFER, 1);
 
             // Load data & close connection
             $data = curl_exec($handler);
-            curl_close($handler);  
-        
+            curl_close($handler);
+
             return $data;
         }
     }
