@@ -876,3 +876,48 @@ $main-nav-percentage: 30
         .main-header
             width: percentage((100-$main-nav-percentage)/100)
             left: percentage($main-nav-percentage/100)
+
+.tweets
+    background: $tertiary
+    color: $quadrary
+    border-left: $border-color $border-style $border-width
+    position: absolute
+    z-index: 30
+    top: 0
+    right: 0
+    bottom: 0
+    width: 320px
+    box-sizing: border-box
+    padding: 1em
+    font-size: 16px
+    line-height: 1.5em
+    p
+        margin: 0
+    ul
+        list-style: none
+        padding: 0
+        margin: 0
+        li
+            position: relative
+            margin-top: 1.5em
+            &:after
+                position: absolute
+                content: ""
+                top: -.75em
+                right: 0
+                height: 1px
+                width: 50%
+                background-color: $border-color
+    .headline
+        margin: 0.4em 0
+    .user
+        display: block
+        line-height: 40px
+        margin-bottom: 1em
+        .date
+            float: right
+        img
+            margin-right: 1em
+            width: 40px
+            border-radius: $radius
+            float: left

@@ -36,18 +36,18 @@
 <?php snippet('menu') ?>
 
 <div class="page-wrap">
-<a href="#nav" class="open-menu">
-  ☰
-</a>
-<div class="content">
-
-  <div class="header">
-    <h1>
-      <a href="<?= url() ?>">
-        <img src="<?= url('assets/images/derzyklop.png'); ?>" alt="<?= h($site->title()) ?>" width="500px" />
-      </a>
-    </h1>
-    <div class="claim">
-      <span>Code, User Experience Design und Weltretten</span>
+  <?php #snippet('tweets-placeholder') ?>
+  <a href="#nav" class="open-menu">
+    ☰
+  </a>
+  <div class="content">
+    <div class="header">
+      <h1>
+        <a href="<?= url() ?>">
+          <img src="<?= url('assets/images/derzyklop.png'); ?>" alt="<?= h($site->title()) ?>" width="500px" />
+        </a>
+      </h1>
+      <div class="claim">
+        <span>Code, User Experience Design und Weltretten</span>
+      </div>
     </div>
-  </div>

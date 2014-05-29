@@ -5,6 +5,7 @@ function tweets($username, $params=array()) {
   $defaults = array(
     'limit'   => 10,
     'cache'   => true,
+    'hiderep' => false, //Parameter to hide replies in your feed - for accounts with high reply volumes
     'refresh' => 60*20 // refresh every 20 minutes
   );
   
@@ -34,31 +35,73 @@ function tweets($username, $params=array()) {
   
   if(!empty($cache)) return $cache;
 
-  $url  = 'http://api.twitter.com/1/statuses/user_timeline.json?screen_name=' . $options['username'] . '&count=' . $options['limit'] . '&include_rts=true';
-  $json = @file_get_contents($url);
-  $data = str::parse($json);  
+  // Encode the key and secret from the Twitter config.
+  $twitterKey = urlencode(c::get('twitter.key'));
+  $twitterSecret = urlencode(c::get('twitter.secret'));
 
+  // combine and base64 encode the key and secret with a colon seperator
+  $twitterCode  = base64_encode( $twitterKey . ':' . $twitterSecret );
+
+  // obtain a bearer token from the api, by building a request
+
+  //url to use
+  $url = 'https://api.twitter.com/oauth2/token';
+
+  //create header 
+  $header = array(
+    'http' => array(
+        'method'  => "POST",
+        'header'  =>  "Content-type: application/x-www-form-urlencoded;charset=UTF-8\r\n"
+                      ."Authorization: Basic " . $twitterCode ."\r\n",
+        'content' => "grant_type=client_credentials",
+    ),
+  );
+
+  //send the request
+  $context  = stream_context_create($header);
+  $bearer = file_get_contents($url, false, $context);
+
+  // decode the json response
+  $bearer = json_decode($bearer);
+
+  // send the rquest for tweets
+
+  $url  = 'https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=' . $options['username'] . '&count=' . $options['limit']. '&include_rts=true' . '&exclude_replies=' . $options['hiderep'];
+
+  $header = array(
+      'http' => array(
+          'method'  => "GET",
+          'header'  => "Authorization: Bearer " . $bearer->access_token ."\r\n",
+      ),
+  );
+
+  $context  = stream_context_create($header);
+  
+  $json = file_get_contents($url, false, $context);
+
+  $data = json_decode($json);  
+  
   if(!$data) return false;
 
   $result = array();
    
   foreach($data as $tweet) {
     
-    $user = $tweet['user'];
-                                            
+    $user = $tweet->user;
+               
     $result[] = new tweet(array(
-      'url'    => 'http://twitter.com/' . $options['username'] . '/status/' . $tweet['id_str'],
-      'text'   => $tweet['text'],
-      'date'   => strtotime($tweet['created_at']),
-      'source' => $tweet['source'],
+      'url'    => 'http://twitter.com/' . $options['username'] . '/status/' . $tweet->id_str,
+      'text'   => $tweet->text,
+      'date'   => strtotime($tweet->created_at),
+      'source' => $tweet->source,
       'user'   => new obj(array(
-        'name'      => $user['name'],
-        'bio'       => $user['description'], 
-        'username'  => $user['screen_name'],
-        'url'       => 'http://twitter.com/' . $user['screen_name'],
-        'image'     => 'http://twitter.com/api/users/profile_image/' . $user['screen_name'],
-        'following' => $user['friends_count'],
-        'followers' => $user['followers_count'],
+        'name'      => $user->name,
+        'bio'       => $user->description, 
+        'username'  => $user->screen_name,
+        'url'       => 'http://twitter.com/' . $user->screen_name,
+        'image'     => 'http://twitter.com/api/users/profile_image/' . $user->screen_name,
+        'following' => $user->friends_count,
+        'followers' => $user->followers_count,
       ))
     ));
         

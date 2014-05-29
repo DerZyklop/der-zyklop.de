@@ -1102,3 +1102,50 @@ a.open-menu {
   #nav:target + .page-wrap .main-header {
     width: 70%;
     left: 30%; }
+
+.tweets {
+  background: #333333;
+  color: #fcfcfc;
+  border-left: #cccccc solid 1px;
+  position: absolute;
+  z-index: 30;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 320px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 1em;
+  font-size: 16px;
+  line-height: 1.5em; }
+  .tweets p {
+    margin: 0; }
+  .tweets ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    .tweets ul li {
+      position: relative;
+      margin-top: 1.5em; }
+      .tweets ul li:after {
+        position: absolute;
+        content: "";
+        top: -0.75em;
+        right: 0;
+        height: 1px;
+        width: 50%;
+        background-color: #cccccc; }
+  .tweets .headline {
+    margin: 0.4em 0; }
+  .tweets .user {
+    display: block;
+    line-height: 40px;
+    margin-bottom: 1em; }
+    .tweets .user .date {
+      float: right; }
+    .tweets .user img {
+      margin-right: 1em;
+      width: 40px;
+      border-radius: 4px;
+      float: left; }
