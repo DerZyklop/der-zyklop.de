@@ -1274,9 +1274,8 @@ section {
 /* Blog [BEGIN] */
 .blog {
   position: relative; }
-  .blog .content a {
-    display: block;
-    text-decoration: none; }
+  .blog .article-text a {
+    border-bottom: none; }
   .blog article {
     padding-top: 0;
     padding-bottom: 5em;

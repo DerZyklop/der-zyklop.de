@@ -14,6 +14,6 @@
         <img class="img-border" src="<?= $image->url(); ?>" alt="<?= $image->name() ?>" />
       </a>
     <?php endif; ?>
-    <?php echo '<p class="article-text">'.excerpt($item->text(), 260).'</p>' ?>
+    <?php echo '<p class="article-text">'.excerpt($item->text(), 300).'<a href="'.$item->url().'">weiterlesen</a></p>' ?>
   </div>
 </article>
