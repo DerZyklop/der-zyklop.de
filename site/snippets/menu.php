@@ -1,7 +1,7 @@
 <nav class="main-nav" id="nav">
   <ul>
     <li>
-        <a href="#" class="close-menu">&#215;</a>
+        <a href="#close" class="close-menu">&#215;</a>
     </li>
     <?php foreach($site->children()->visible() as $p): ?>
         <li>
