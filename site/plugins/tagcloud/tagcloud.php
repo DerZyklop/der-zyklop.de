@@ -39,14 +39,14 @@ function tagcloud($parent, $options=array()) {
     foreach($tags as $t) {
 
       if(isset($cloud[$t])) {
-        $cloud[$t]->results++;
+        $cloud[$t]['results']++;
       } else {
-        $cloud[$t] = new obj(array(
+        $cloud[$t] = array(
           'results'  => 1,
           'name'     => $t,
           'url'      => $options['baseurl'] . '/' . $options['param'] . ':' . $t,
           'isActive' => (param($options['param']) == $t) ? true : false,
-        ));
+        );
       }
 
     }

@@ -12,7 +12,7 @@
 <section class="<?= $site->template() ?>">
     <h3>Suchst du nach etwas bestimmten?</h3>
     <p>Dann schau dir mal die folgenden Schlagwörter an, über die ich geschrieben habe – vielleicht interessiert dich ja eins davon:</p>
-    <?php #snippet('taglist', array('blog'=>$blog)) ?>
+    <?php snippet('taglist', array('blog'=>$blog)) ?>
 </section>
 
 <?php snippet('rss-button') ?>
