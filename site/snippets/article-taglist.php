@@ -1,8 +1,8 @@
 <?php
-#$taglist = taglist($page->tags(), $pages->find('blog')->url());
+$taglist = taglist($page->tags(), $pages->find('blog')->url());
 ?>
 
-<!-- <div class="taglist">
+<div class="taglist">
   <h6><span>Mehr Artikel zum Thema...</span></h6>
   <ul>
     <?php foreach($taglist as $tag): ?>
@@ -10,4 +10,3 @@
     <?php endforeach ?>
   </ul>
 </div>
- -->
