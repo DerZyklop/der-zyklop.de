@@ -1,4 +1,4 @@
-Title: Über Sublime, Emmet und alte Hüte
+﻿Title: Über Sublime, Emmet und alte Hüte
 
 ----
 
@@ -6,9 +6,7 @@ Date: 2014-04-29
 
 ----
 
-Text:
-
-Ich möchte euch Emmet vorstellen. Ein Werkzeug Frontend-Developer. Ist zwar eigentlich ein alter Hut (früher bekannt unter dem viel cooleren Namen ZenCoding), aber es ist nie zu spät gute Werkzeuge vorzustellen. Das man viel mehr über (gute) alte Hüte sprechen sollte, wurde mir besonders klar als ich mich so freute zu lesen, dass @mkuehnel 2013 einen Vortrag über Twitter gehalten hat. Vor einem Publikum das durchweg aus Webworkern besteht :D
+Text: Ich möchte euch Emmet vorstellen. Ein Werkzeug Frontend-Developer. Ist zwar eigentlich ein alter Hut (früher bekannt unter dem viel cooleren Namen ZenCoding), aber es ist nie zu spät gute Werkzeuge vorzustellen. Das man viel mehr über (gute) alte Hüte sprechen sollte, wurde mir besonders klar als ich mich so freute zu lesen, dass (twitter: mkuehnel) 2013 einen Vortrag über Twitter gehalten hat. Vor einem Publikum das durchweg aus Webworkern besteht :D
 
 Zudem ist Emmet so eines dieser Dinge, die sich so gut in den Workflow integrieren, dass man's kaum noch spürt und dementsprechend auch nicht mehr darüber spricht.
 
@@ -31,7 +29,7 @@ In meinen vorherigen (link: http://der-zyklop.de/blog/tags:workflow text: Workfl
 - Namen des Packages `Emmet` eingeben. Enter.
 - Sublime neu starten.
 
-Solltet ihr Emmet in einem anderen Editor als dem Sublime verwenden wollen, werdet ihr (link: ########## text: #### hier) bestimmt glücklich.
+Solltet ihr Emmet in einem anderen Editor als dem Sublime verwenden wollen, werdet ihr (link: http://emmet.io/download/ text:hier) bestimmt glücklich.
 
 ### Beispiele
 
@@ -55,4 +53,12 @@ Auch für oft wiederkehrendes css kann man Emmet nutzen. Wenn ihr genaueres wiss
 
 ----
 
-Tags: code, workflow, work, sublime
+Tags: code,workflow,work,sublime
+
+----
+
+Language: firstValue
+
+----
+
+Justforrss: 
