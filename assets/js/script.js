@@ -2679,5 +2679,81 @@ $(function(){
 
 });
 
-/*! der-zyklop.de - v1.0.0 - 2014-05-29 */
-(function(){"use strict";jQuery(document).ready(function(){return jQuery(".comment-add-form").addClass("hide-form"),jQuery(".comment-add-form .button").click(function(){return jQuery(".comment-add-form").find("form").slideDown(300),jQuery(".comment-add-form .button").addClass("passive")}),jQuery(".nolink").click(function(a){return a.preventDefault()}),jQuery(".comment-add-form").find("input:submit").attr("disabled","disabled"),setTimeout(function(){return jQuery(".comment-add-form").find("input:submit").removeAttr("disabled")},1e3),jQuery("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.png'],a[href$='.gif']").attr("rel","gallery").fancybox()}),window.lazyLoadArticles=function(a,b){var c,d,e,f,g;return d=1,c=!1,g=!1,e=function(){return jQuery(window).scroll(function(){return g||(g=jQuery("body").height()-jQuery(window).height()-500),!c&&jQuery("body").scrollTop()>g?f(b):void 0})},f=function(b){var e,f,h,i;if(c=!0,d++,f=jQuery("#pagination-nav").html(),a>=d){if(h="/blog/ajax-article/page:"+d,b)for(e in b)i=b[e],h+="/"+e+":"+i;return jQuery.ajax({url:h,success:function(a){return jQuery("#articles").append(a),jQuery("#pagination-nav").html(f),setTimeout(function(){return g=jQuery("body").height()-jQuery(window).height()-500},1e3)}}).fail(function(){return jQuery("#pagination-nav").slideUp(200,function(){return jQuery("#pagination-nav").html('<a href="event.preventDefault()" class="button passiv-btn" id="ajax-placeholder">Ups.. Something\'s wrong. Please refresh the Page...</a>',jQuery("#pagination-nav").slideDown(200))}),c=!1}).always(function(){return jQuery("#pagination-nav").slideUp(200,function(){return jQuery("#pagination-nav").html('<a href="event.preventDefault()" class="button passiv-btn" id="ajax-placeholder">Loading...</a>',jQuery("#pagination-nav").slideDown(200))}),c=!1})}return jQuery("#pagination-nav").html('<a href="event.preventDefault()" class="button passiv-btn">Ende! Mehr Artikel hab ich noch nicht.</a>')},e()}}).call(this);
+(function() {
+  "use strict";
+  /* global jQuery, document, setTimeout, window*/
+
+  jQuery(document).ready(function() {
+    jQuery(".comment-add-form").addClass("hide-form");
+    jQuery(".comment-add-form .button").click(function() {
+      jQuery(".comment-add-form").find("form").slideDown(300);
+      return jQuery(".comment-add-form .button").addClass("passive");
+    });
+    jQuery(".nolink").click(function(event) {
+      return event.preventDefault();
+    });
+    jQuery(".comment-add-form").find("input:submit").attr("disabled", "disabled");
+    setTimeout(function() {
+      return jQuery(".comment-add-form").find("input:submit").removeAttr("disabled");
+    }, 1000);
+    return jQuery("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.png'],a[href$='.gif']").attr("rel", "gallery").fancybox();
+  });
+
+  window.lazyLoadArticles = function(pagesCount, options) {
+    var ajaxIsProcessing, ajaxPaginationStatus, init, loadArticles, triggerPos;
+    ajaxPaginationStatus = 1;
+    ajaxIsProcessing = false;
+    triggerPos = false;
+    init = function() {
+      return jQuery(window).scroll(function() {
+        if (!triggerPos) {
+          triggerPos = jQuery("body").height() - jQuery(window).height() - 500;
+        }
+        if (!ajaxIsProcessing) {
+          if (jQuery("body").scrollTop() > triggerPos) {
+            return loadArticles(options);
+          }
+        }
+      });
+    };
+    loadArticles = function(options) {
+      var key, paginationNav, url, value;
+      ajaxIsProcessing = true;
+      ajaxPaginationStatus++;
+      paginationNav = jQuery("#pagination-nav").html();
+      if (ajaxPaginationStatus <= pagesCount) {
+        url = "/blog/ajax-article/page:" + ajaxPaginationStatus;
+        if (options) {
+          for (key in options) {
+            value = options[key];
+            url += "/" + key + ":" + value;
+          }
+        }
+        return jQuery.ajax({
+          url: url,
+          success: function(data) {
+            jQuery("#articles").append(data);
+            jQuery("#pagination-nav").html(paginationNav);
+            return setTimeout(function() {
+              return triggerPos = jQuery("body").height() - jQuery(window).height() - 500;
+            }, 1000);
+          }
+        }).fail(function() {
+          jQuery("#pagination-nav").slideUp(200, function() {
+            return jQuery("#pagination-nav").html("<a href=\"event.preventDefault()\" class=\"button passiv-btn\" id=\"ajax-placeholder\">Ups.. Something\'s wrong. Please refresh the Page...</a>", jQuery("#pagination-nav").slideDown(200));
+          });
+          return ajaxIsProcessing = false;
+        }).always(function() {
+          jQuery("#pagination-nav").slideUp(200, function() {
+            return jQuery("#pagination-nav").html("<a href=\"event.preventDefault()\" class=\"button passiv-btn\" id=\"ajax-placeholder\">Loading...</a>", jQuery("#pagination-nav").slideDown(200));
+          });
+          return ajaxIsProcessing = false;
+        });
+      } else {
+        return jQuery("#pagination-nav").html("<a href=\"event.preventDefault()\" class=\"button passiv-btn\">Ende! Mehr Artikel hab ich noch nicht.</a>");
+      }
+    };
+    return init();
+  };
+
+}).call(this);

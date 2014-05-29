@@ -1,32 +1,3 @@
-# +---------------------------------------------+ #
-# |#############################################| #
-# |###################EEEEEEE###################| #
-# |##################/      /\##################| #
-# |#################/      /  \#################| #
-# |################/      /    \################| #
-# |###############/      /      \###############| #
-# |##############/      /        \##############| #
-# |#############/      /     A    \#############| #
-# |############/      /     / \    \############| #
-# |###########/      /     /   \    \###########| #
-# |##########/      /     /     \    \##########| #
-# |#########/      /     /#\     \    \#########| #
-# |########/      /     /###\     \    \########| #
-# |#######/      /     /#####\     \    \#######| #
-# |######/      /_____/EEEEEEE\     \    \######| #
-# |#####/                      \     \    \#####| #
-# |####(________________________\     \    )####| #
-# |#####\                              \  /#####| #
-# |######\______________________________\/######| #
-# |#############################################| #
-# |############# +-------------------+ #########| #
-# |############# | www.der-zyklop.de | #########| #
-# |############# +-------------------+ #########| #
-# |#############################################| #
-# +–––––––––––––––––––––––––––––––––––––––––––––+ #
-
-# Info's about this Gruntfile: https://github.com/DerZyklop/boilerplate.pxwrk.de
-
 module.exports = (grunt) ->
 
   # Get all grunt modules
@@ -74,24 +45,17 @@ module.exports = (grunt) ->
         ]
         dest: '<%= paths.src.css %>styles.css'
 
+    uglify:
+      all:
+        files:
+          '<%= paths.build.js %>script.min.js': ['<%= paths.build.js %>script.js']
+
+
     # eslint
     eslint:
       options:
         config: 'eslint.json'
       all: ['<%= paths.src.js %>*.js']
-
-    # uglify
-    uglify:
-      options:
-        banner: '<%= banner %>'
-      all:
-        files: [
-          expand: true
-          cwd: '<%= paths.src.js %>'
-          src: ['*.js']
-          dest: '<%= paths.src.js %>'
-          ext: '.js'
-        ]
 
     # sass
     sass:
@@ -99,7 +63,7 @@ module.exports = (grunt) ->
         files: [
           expand: true
           cwd: '<%= paths.src.sass %>'
-          src: ['*.sass']
+          src: ['styles.sass']
           dest: '<%= paths.src.css %>'
           ext: '.css'
         ]
@@ -135,7 +99,7 @@ module.exports = (grunt) ->
         files: [
           expand: true
           cwd: '<%= paths.src.css %>'
-          src: ['styles.css']
+          src: ['*.css']
           dest: '<%= paths.build.css %>'
           ext: '.css'
         ]
@@ -145,13 +109,13 @@ module.exports = (grunt) ->
       # watch coffee
       coffee:
         files: ['<%= paths.src.coffee %>*.coffee']
-        tasks: ['newer:coffee', 'newer:eslint', 'newer:uglify', 'concat:js']
+        tasks: ['newer:coffee', 'newer:eslint', 'concat', 'uglify']
         options:
           livereload: true
       # watch sass
       sass:
         files: ['<%= paths.src.sass %>*.sass']
-        tasks: ['newer:sass', 'newer:imageEmbed', 'concat:css', 'newer:autoprefixer', 'newer:cssmin']
+        tasks: ['newer:sass', 'newer:autoprefixer', 'newer:imageEmbed', 'newer:cssmin']
         options:
           livereload: true
 
@@ -161,6 +125,7 @@ module.exports = (grunt) ->
           '<%= paths.src.dir %>*'
           '<%= paths.src.dir %>site/**/*'
         ]
+        #tasks: ['newer:copy']
         options:
           livereload: true
 
@@ -169,8 +134,19 @@ module.exports = (grunt) ->
         files: [
           '<%= paths.src.dir %>content/**/*'
         ]
+        #tasks: ['newer:copy']
         options:
           livereload: true
+
+    # copy
+    # copy:
+    #   all:
+    #     files: [
+    #       expand: true
+    #       cwd: '<%= paths.src.dir %>'
+    #       src: ['**/*','!<%= paths.assets %>**','<%= paths.assets %>images/**/*']
+    #       dest: '<%= paths.build.dir %>'
+    #     ]
 
     # php
     php:
@@ -178,7 +154,7 @@ module.exports = (grunt) ->
         options:
           port: 1337
           hostname: 'localhost'
-          base: '<%= paths.build.dir %>'
+          base: '<%= paths.root %>'
           keepalive: true
           open: true
 
@@ -198,44 +174,6 @@ module.exports = (grunt) ->
 
 
   # Default task(s)
-  grunt.registerTask('scripts', ['coffee', 'eslint', 'concat:js', 'uglify'])
-  grunt.registerTask('styles', ['sass', 'concat:css', 'autoprefixer', 'cssmin'])
+  grunt.registerTask('scripts', ['coffee', 'eslint', 'concat', 'uglify'])
+  grunt.registerTask('styles', ['sass', 'autoprefixer', 'imageEmbed', 'cssmin'])
   grunt.registerTask('default', ['scripts', 'styles', 'concurrent'])
-
-
-
-
-
-
-    # imageEmbed:
-    #   options:
-    #     deleteAfterEncoding : false
-    #   all:
-    #     files: [
-    #       expand: true
-    #       cwd: '<%= paths.css %>'
-    #       src: ['*.css']
-    #       dest: '<%= paths.css %>'
-    #     ]
-
-
-    # # compress images
-    # imagemin:
-    #   options:
-    #     optimizationLevel: 7
-    #   all:
-    #     files: [
-    #       expand: true
-    #       cwd: './thumbs/uncompressed'
-    #       src: ['**/*.{gif,png}']
-    #       dest: './thumbs/'
-    #     ]
-    #   jpg:
-    #     options:
-    #       progressive: true
-    #     files: [
-    #       expand: true
-    #       cwd: './thumbs/uncompressed'
-    #       src: ['**/*.jpg']
-    #       dest: './thumbs/'
-    #     ]

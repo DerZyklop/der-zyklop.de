@@ -18,7 +18,7 @@
   <link rel="icon" href="<?= url('assets/images/favicon.png') ?>" type="image/png" />
   <link rel="apple-touch-icon" href="<?= u('assets/images/apple-touch-icon.png') ?>" />
 
-  <?= js('assets/js/script.js') ?>
+  <?= js('assets/js/script.min.js') ?>
   <?= css('assets/styles/styles.css') ?>
 
   <link rel="alternate" type="application/rss+xml" href="<?= url('blog/feed') ?>" title="<?= html($site->title()) ?> Blog Feed" />
@@ -44,7 +44,7 @@
   <div class="header">
     <h1>
       <a href="<?= url() ?>">
-        <img src="<?= url('assets/images/derzyklop.png'); ?>" alt="<?= h($site->title()) ?>" width="" />
+        <img src="<?= url('assets/images/derzyklop.png'); ?>" alt="<?= h($site->title()) ?>" width="500px" />
       </a>
     </h1>
     <div class="claim">
