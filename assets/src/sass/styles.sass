@@ -244,7 +244,6 @@ section
         color: #fff
 
 .header,
-#nav,
 .content,
 .width-wrap
     max-width: $page-width
@@ -321,90 +320,6 @@ section
                 margin: 0.5em
 
 /* Nav [BEGIN] */
-
-#nav
-    ul
-        font-family: $font-highlight
-        display: block
-        overflow: hidden
-        border:
-            color: $quadrary - #111
-            style: $border-style
-            width: $border-width 0 $border-width 0
-        transition: border-color 0.5s
-        background: $quadrary - #050505
-        position: relative
-        margin: 0
-        padding: 0
-        display: table
-        //+border-radius($radius)
-        width: 100%
-        // li:nth-child(2) a
-            // &:after
-            //     content: 'neu!'
-            //     font-size: 0.8em
-            //     color: $secondary + #333
-            //     position: absolute
-            //     bottom: -10px
-            //     left: 31%
-            //     @include rotate(-15deg)
-            // &:hover:after,
-            // &.active:after
-            //     color: $quadrary
-        &:hover
-            border-color: $secondary
-        li
-            display: table-cell
-            padding-top: 0
-            text-align: center
-            list-style: none
-            float: none
-            a
-                display: block
-                line-height: 2.6em
-                margin: 0 auto
-                text-decoration: none
-                transition: background 0.3s, color 0.3s, padding 0.3s
-                color: $font-color + #333
-                &.active,
-                &:hover
-                    color: $quadrary
-                &.active
-                    background: $primary - #222
-                    box-shadow: 0px 2px 20px rgba(0,0,0,0.5) inset
-                &:hover
-                    background: $secondary
-                .icon
-                    display: block
-                    text-align: center
-                    font-size: 1.4rem
-                    vertical-align: middle
-                    line-height: 2rem
-                    padding-right: 0
-                .title
-                    vertical-align: middle
-                    line-height: 2rem
-        &:hover a
-            transition: padding 0.3s
-    @media screen and (max-width: $breakpoint)
-        ul
-            display: block
-            li:nth-child(2) a
-                &:after
-                    content: ''
-            li
-                display: block
-                text-align: left
-                a
-                    padding:
-                        right: 1em
-                        left: 1em
-
-nav.submenu
-    border-top: none
-    margin-bottom: 20px
-    a
-        font-weight: normal
 
 .article-nav, #pagination-nav
     margin: $space-t-b 0
@@ -555,15 +470,22 @@ $options-bar-space: 10px
             @media screen and (max-width: 320px)
                 margin: 40px auto 0px
 
+    .claim
+        text-align: center
+        color: $border-color
+        color: $primary
+        font-size: 0.9em
+
 /* Header [END] */
 
 /* Blog [BEGIN] */
 
 .blog
     position: relative
-    a
-        display: block
-        text-decoration: none
+    .content
+        a
+            display: block
+            text-decoration: none
     article
         padding-top: 0
         padding-bottom: 5em
@@ -871,3 +793,88 @@ iframe.twitter-tweet-rendered
 
 .comment-add-form .verify
     display: none
+
+
+
+.page-wrap,
+.main-nav
+    transition: all 0.3s cubic-bezier(1.000, -0.530, 0.405, 1.000)
+
+.page-wrap
+    position: relative
+    float: right
+    width: 100%
+    padding: 0
+
+.main-nav
+    position: fixed
+    z-index: 20
+    top: 0
+    width: 0
+    height: 100%
+    background: $tertiary
+    overflow-y: auto
+    color: $quadrary
+    ul
+        // TODO: Needs a better solution for min-width here
+        min-width: 220px
+        padding: 0
+        margin: 0
+        li
+            border-bottom: $border-width dotted rgba(255,255,255,0.2)
+            font-size: 0.8em
+            a
+                display: block
+                padding: $space-t-b/2 $space-t-b
+                color: $quadrary
+                text-decoration: none
+                &:hover
+                    background: $quadrary
+                    color: $tertiary
+                &.close-menu
+                    padding: $space-t-b
+                    color: #f99
+    &:after
+        content: ""
+        position: absolute
+        top: 0
+        right: 0
+        height: 100%
+        width: 34px
+        background: linear-gradient(left, rgba(black, 0), rgba(black, 0.4))
+
+a.close-menu
+    font-size: 50px
+    line-height: 50px
+a.open-menu
+    font-size: 30px
+    line-height: 50px
+
+a.close-menu
+    display: none
+
+a.open-menu
+    text-decoration: none
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    z-index: 10
+    padding: $space-t-b
+
+$main-nav-percentage: 30
+
+#nav
+    &:target
+        width: percentage($main-nav-percentage/100)
+        min-width: 400px
+    &:target + .page-wrap
+        width: percentage((100-$main-nav-percentage)/100)
+        //margin-right: -120px
+        .open-menu
+            display: none
+        .close-menu
+            display: block
+        .main-header
+            width: percentage((100-$main-nav-percentage)/100)
+            left: percentage($main-nav-percentage/100)

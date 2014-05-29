@@ -1,5 +1,4 @@
 <?php snippet('header') ?>
-<?php snippet('menu') ?>
 <?php snippet('submenu') ?>
 <section class="instagram-detail clearfix">
   <article>
@@ -22,9 +21,9 @@
             <?php echo '-'; ?>
           <?php endif; ?>
           <br />
-          Tags: 
+          Tags:
           <?php if($image->tags): ?>
-          <?php 
+          <?php
             foreach ($image->tags as $tag) {
                echo($tag);
                echo(', ');
@@ -32,7 +31,7 @@
           ?>
         <?php endif; ?>
         <br />
-        <a href="<?php echo $image->thumb ?>">Kleines Bild</a> 
+        <a href="<?php echo $image->thumb ?>">Kleines Bild</a>
         <br />
         <a href="<?php echo $image->image_lowres ?>">Mittleres Bild</a>
         <br />

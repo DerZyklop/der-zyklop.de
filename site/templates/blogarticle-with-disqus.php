@@ -1,7 +1,5 @@
 <?php snippet('header'); ?>
 
-<?php snippet('menu') ?>
-
 <section class="blogarticle">
   <article>
     <div class="img-border">

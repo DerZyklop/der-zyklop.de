@@ -33,10 +33,21 @@
 
 </head>
 <body>
-<div class="header">
-  <h1>
-    <a href="<?= url() ?>">
-      <img src="<?= url('assets/images/derzyklop.png'); ?>" alt="<?= h($site->title()) ?>" width="" />
-    </a>
-  </h1>
-</div>
+<?php snippet('menu') ?>
+
+<div class="page-wrap">
+<a href="#nav" class="open-menu">
+  ☰
+</a>
+<div class="content">
+
+  <div class="header">
+    <h1>
+      <a href="<?= url() ?>">
+        <img src="<?= url('assets/images/derzyklop.png'); ?>" alt="<?= h($site->title()) ?>" width="" />
+      </a>
+    </h1>
+    <div class="claim">
+      <span>Code, User Experience Design und Weltretten</span>
+    </div>
+  </div>

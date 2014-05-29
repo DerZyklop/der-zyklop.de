@@ -1,5 +1,4 @@
 <?php snippet('header') ?>
-<?php snippet('menu') ?>
 
 <?php
   $blog = $pages->find('blog');
