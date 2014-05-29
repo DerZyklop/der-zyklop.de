@@ -7,8 +7,13 @@
         <li>
             <a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a>
         </li>
+
     <?php endforeach ?>
+    <div class="button-wrap">
+      <a href="/blog/subscribe" class="button">Blog abonnieren?</a>
+    </div>
   </ul>
+
 </nav>
 
 

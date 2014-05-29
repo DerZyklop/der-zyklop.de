@@ -35,4 +35,3 @@
   </section>
 
 <?php snippet('footer') ?>
-<?php snippet('rss-button') ?>

@@ -10,7 +10,7 @@ Text:
 
 Du weisst nicht was das ist? Ich habe mal einen (link: blog/wie-kann-ich-blogs-abonnieren text: Artikel über Blog-Abonnoments) geschrieben. Und ich habe meinen (link: blog/digg text: heutigen Lieblings-Reader "Digg") vorgestellt.
 
-(image: digg-app.png link: digg-app.png title: Feedreader)
+(image: digg-app.png link: blog/feed title: Feedreader)
 
 (link: blog/feed class: button text: Hier gehts zum Feed-Abo)
 

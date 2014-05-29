@@ -674,34 +674,6 @@ ul#comments
             style: dashed
             width: 0 0 1px 0
 
-.snippet
-    padding: 3px 3px 0
-    background-color: $secondary
-    background-image: url(../images/ui/noise.png)
-    border-radius: $radius
-    transition: 0.5s
-    padding: 0.4em 1em
-    .inner
-        transition: 0.5s
-        color: $quadrary
-        text-decoration: none
-        display: block
-
-.rss-button
-    position: absolute
-    left: 0
-    display: none
-    .snippet
-        position: fixed
-        bottom: $space-t-b
-        @media screen and (max-width: $breakpoint)
-            display: none
-        z-index: 100
-        &:hover
-            background: complement($primary) - #222
-    &.fixed
-        display: block
-
 /* Misc [END] */
 
 // Buttons
@@ -712,6 +684,9 @@ button, .button, a.button, input[type="button"], input[type="submit"], input[typ
         color: $quadrary !important
     &.passiv-btn
         background: $border-color
+
+.button-wrap
+    padding: $space-t-b
 
 // Mailchimp
 
