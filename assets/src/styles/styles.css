@@ -1036,7 +1036,7 @@ iframe.twitter-tweet-rendered {
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 0;
+    height: 100%;
     width: 34px;
     background: -webkit-gradient(linear, left top, right top, from(transparent), to(rgba(0, 0, 0, 0.4)));
     background: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.4));
@@ -1056,7 +1056,7 @@ a.close-menu {
 a.open-menu {
   text-decoration: none;
   display: block;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 10;
