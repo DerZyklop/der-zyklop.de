@@ -1,0 +1,23 @@
+﻿Title: Wichtige Info an meine RSS-Abonnenten
+
+----
+
+Date: 2014-05-29
+
+----
+
+Text: Ich werde demnächst das Grundgerüst meiner Seite erneuern. Eigentlich sollte euch das nicht weiter interessieren müssen. Aber man weiß ja nie... vielleicht geht ja der RSS-Feed kaputt. Falls ihr also in den nächsten zwei/drei Wochen nichts neues mehr von mir hört, dann müsst ihr meinen Blog möglicherweise noch mal neu abonnieren.
+
+Ich hoffe natürlich, dass alles glatt läuft, aber man weiß ja nie. Und solange ich euch über diesen Feed noch erreiche, warne ich euch lieber mal vor.
+
+----
+
+Tags: blog,reeder
+
+----
+
+Language: firstValue
+
+----
+
+Justforrss: on
