@@ -104,6 +104,9 @@ p
 article p + p
     text-indent: 1em
 
+input
+    box-sizing: border-box
+
 hr
     height: 1px
     border: none
@@ -783,8 +786,10 @@ ul#comments
 
 // Buttons
 
-button, .button, input[type="button"], input[type="submit"], input[type="reset"]
+button, .button, a.button, input[type="button"], input[type="submit"], input[type="reset"]
     line-height: 2.5em
+    &:hover
+        color: $quadrary !important
     &.passiv-btn
         background: $border-color
 
