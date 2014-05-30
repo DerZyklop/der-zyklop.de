@@ -335,7 +335,7 @@ section
 
 /* Nav [BEGIN] */
 
-.article-nav, #pagination-nav
+#pagination-nav
     margin: $space-t-b 0
     white-space: nowrap
     a.btn
@@ -364,21 +364,6 @@ section
         width: 48%
     .next-btn
         width: 48%
-
-.article-nav
-    .prev-btn
-        width: 28%
-    .next-btn
-        width: 28%
-    @media screen and (max-width: $breakpoint)
-        .prev-btn
-            width: 48%
-            margin-right: 2%
-        .overview-btn
-            display: none
-        .next-btn
-            width: 48%
-            margin-left: 2%
 
 .article-suggestion
     .title
@@ -909,3 +894,54 @@ $main-nav-percentage: 30
             width: 40px
             border-radius: $radius
             float: left
+
+
+#article-nav
+    display: none
+    @media screen and (min-width: $breakpoint)
+        a
+            text-decoration: none
+            .icon,
+            .text
+                background: $quadrary
+                border: $border-width $border-style $border-color
+            .icon
+                padding: $space-t-b
+                font-size: 50px
+                position: absolute
+            .text
+                padding: $space-t-b
+                font-size: 0.8em
+                position: absolute
+                display: none
+            &:hover
+                .text
+                    display: block
+        .next-page,
+        .prev-page
+            position: fixed
+            z-index: 40
+            top: 45%
+            width: 50%
+        .next-page
+            right: 0
+            .text,
+            .icon
+                border-radius: $radius 0 0 $radius
+                border-right: 0
+            .text
+                padding-right: 0
+                right: $space-t-b*2
+            .icon
+                right: 0
+        .prev-page
+            left: 0
+            .text,
+            .icon
+                border-radius: 0 $radius $radius 0
+                border-left: 0
+            .text
+                padding-left: 0
+                left: $space-t-b*2
+            .icon
+                left: 0
