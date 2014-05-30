@@ -1,6 +1,6 @@
 <?php
 
-function taglist($tags, $tagpage) {
+function taglist($tags, $tagpage, $paramname = 'tag') {
   $list = array();
   foreach( explode(',',$tags) as $tag ) {
     $tag = trim($tag);
@@ -10,7 +10,7 @@ function taglist($tags, $tagpage) {
       $list[$tag] = new obj(array(
         'results'  => 1,
         'name'     => $tag,
-        'url'      => $tagpage . '/tags:' . urlencode($tag),
+        'url'      => $tagpage . '/'.$paramname.':' . urlencode($tag),
       ));
     }
 

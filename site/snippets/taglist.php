@@ -2,8 +2,8 @@
   $tags = tagcloud($blog, array(
     'limit'=>30,
     'field'=>'tags',
-    'param' => 'tags',
-    'baseurl'=>$site->url().'/blog'
+    'param' => 'tag',
+    'baseurl'=>url('blog/tags')
   ) );
 ?>
 

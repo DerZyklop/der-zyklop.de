@@ -19,6 +19,9 @@
   </article>
 
 </section>
+
+<?php snippet('article-nav') ?>
+
 </div>
 
 <div class="comments bg-tertiary">

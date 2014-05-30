@@ -1,5 +1,5 @@
 <?php
-$taglist = taglist($page->tags(), $pages->find('blog')->url());
+  $taglist = taglist($page->tags(), url('blog/tags'));
 ?>
 
 <div class="taglist">

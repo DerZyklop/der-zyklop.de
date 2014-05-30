@@ -26,10 +26,10 @@
     init = function() {
       return jQuery(window).scroll(function() {
         if (!triggerPos) {
-          triggerPos = jQuery("body").height() - jQuery(window).height() - 500;
+          triggerPos = jQuery(".page-wrap").height() - jQuery(window).height() - 500;
         }
         if (!ajaxIsProcessing) {
-          if (jQuery("body").scrollTop() > triggerPos) {
+          if (jQuery(".page-wrap").scrollTop() > triggerPos) {
             return loadArticles(options);
           }
         }
@@ -54,7 +54,7 @@
             jQuery("#articles").append(data);
             jQuery("#pagination-nav").html(paginationNav);
             return setTimeout(function() {
-              return triggerPos = jQuery("body").height() - jQuery(window).height() - 500;
+              return triggerPos = jQuery(".page-wrap").height() - jQuery(window).height() - 500;
             }, 1000);
           }
         }).fail(function() {
