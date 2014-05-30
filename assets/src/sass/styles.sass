@@ -789,7 +789,7 @@ iframe.twitter-tweet-rendered
 
 .page-wrap
     position: relative
-    float: right
+    float: left
     width: 100%
     padding: 0
 
@@ -836,6 +836,7 @@ a.close-menu
 a.open-menu
     font-size: 30px
     line-height: 50px
+    transition: 0.5s
 
 a.close-menu
     display: none
@@ -853,18 +854,16 @@ $main-nav-percentage: 30
 
 #nav
     &:target
-        width: percentage($main-nav-percentage/100)
+        //width: percentage($main-nav-percentage/100)
         min-width: 400px
     &:target + .page-wrap
-        width: percentage((100-$main-nav-percentage)/100)
-        //margin-right: -120px
+        //width: percentage((100-$main-nav-percentage)/100)
+        //left: 400px
+        margin-left: 400px
         .open-menu
             display: none
         .close-menu
             display: block
-        .main-header
-            width: percentage((100-$main-nav-percentage)/100)
-            left: percentage($main-nav-percentage/100)
 
 .tweets
     background: $tertiary

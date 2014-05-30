@@ -1000,7 +1000,7 @@ iframe.twitter-tweet-rendered {
 
 .page-wrap {
   position: relative;
-  float: right;
+  float: left;
   width: 100%;
   padding: 0; }
 
@@ -1048,7 +1048,9 @@ a.close-menu {
 
 a.open-menu {
   font-size: 30px;
-  line-height: 50px; }
+  line-height: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
 
 a.close-menu {
   display: none; }
@@ -1063,17 +1065,13 @@ a.open-menu {
   padding: 2rem; }
 
 #nav:target {
-  width: 30%;
   min-width: 400px; }
 #nav:target + .page-wrap {
-  width: 70%; }
+  margin-left: 400px; }
   #nav:target + .page-wrap .open-menu {
     display: none; }
   #nav:target + .page-wrap .close-menu {
     display: block; }
-  #nav:target + .page-wrap .main-header {
-    width: 70%;
-    left: 30%; }
 
 .tweets {
   background: #333333;
