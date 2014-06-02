@@ -30,7 +30,7 @@ module.exports = (grunt) ->
       js:
         src: [
           'bower_components/jquery/dist/jquery.min.js'
-          'bower_components/fancybox/source/jquery.fancybox.js'
+          '<%= paths.assets %>fancybox/source/jquery.fancybox.js'
           'bower_components/prism/prism.js'
           'bower_components/vladstudio-kirby-smart-submit/move-to-kirby/assets/js/smart-submit.js'
           '<%= paths.src.js %>*.js'
@@ -40,7 +40,6 @@ module.exports = (grunt) ->
         src: [
           'bower_components/prism/themes/prism.css'
           'bower_components/prism/themes/prism-twilight.css'
-          'bower_components/fancybox/source/jquery.fancybox.css'
           '<%= paths.src.css %>*.css'
         ]
         dest: '<%= paths.src.css %>styles.css'
