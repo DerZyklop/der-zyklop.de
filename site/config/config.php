@@ -263,10 +263,10 @@ an array of template names which should be skipped for caching.
 if($_SERVER['SERVER_NAME'] == 'localhost') {
   c::set('cache', false);
 } elseif($_SERVER['SERVER_NAME'] == 'der-zyklop.de') {
-  c::set('cache', true);
+  c::set('cache', false);
 }
 c::set('cache.autoupdate', true);
-c::set('cache.data', true);
+c::set('cache.data', false);
 c::set('cache.html', false);
 c::set('cache.ignore', array('sitemap'));
 
