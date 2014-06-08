@@ -49,6 +49,6 @@
         </a>
       </h1>
       <div class="claim">
-        <span>Code, User Experience Design und Weltretten</span>
+        <span><?= h($site->description()) ?></span>
       </div>
     </div>

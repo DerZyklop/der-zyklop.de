@@ -1,17 +1,9 @@
-﻿Title: DerZyklop
-
+Title: DerZyklop
 ----
-
 Author: DerZyklop
-
 ----
-
-Description: Politik, Nerdstuff & Weltretten
-
+Description: Code, User Experience Design und Weltretten
 ----
-
-Keywords: DerZyklop, pxwrk, Nils Neumann, Webworker, kirby cms
-
+Keywords: DerZyklop, Nils Neumann, kirby cms, weltretten, user experience
 ----
-
 Copyright: (link: impressum/ text: Impressum & Lizenz)
