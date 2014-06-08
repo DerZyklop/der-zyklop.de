@@ -1,0 +1,40 @@
+﻿Title: Pageselect field for Kirby CMS
+
+----
+
+Date: 2014-05-11
+
+----
+
+Text: I've build a custom panel (backend) field for the (link: http://www.getkirby.com/ text: Kirby CMS).
+
+It creates a html select which shows all invisible and visible pages:
+
+(image: kirby-pageselect.png link: kirby-pageselect.png text: Kirby pageselect)
+
+After you have copied the required files from the (link: https://github.com/DerZyklop/kirbycms-pageselect/ text: kirbycms-pageselect) repo to your ``site/panel/fields`` folder, you can add the new field by typing this in your blueprint file:
+
+```
+fields:
+    myfield:
+        label: My Page Select
+        type: pageselect
+```
+
+Once you have selected something, the uri of the selected site will be stored in your ``.txt``-file.
+
+There are propably much better ways to write the php-part. But i think it's a good start, if you want to build something comparable.
+
+(link: http://getkirby.com/blog/kirby-2-beta text: Kirby 2 is already in beta). I haven't tested the plugin in Kirby 2. If someone needs it, just add an (link: https://github.com/DerZyklop/kirbycms-pageselect/issues text: issue to my github repo) or send me a pull-request, if you have migrated it yourself.
+
+----
+
+Tags: kirby,code,opensource
+
+----
+
+Language: secondValue
+
+----
+
+Justforrss: 

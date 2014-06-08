@@ -1,0 +1,64 @@
+﻿Title: Über Sublime, Emmet und alte Hüte
+
+----
+
+Date: 2014-04-29
+
+----
+
+Text: Ich möchte euch Emmet vorstellen. Ein Werkzeug Frontend-Developer. Ist zwar eigentlich ein alter Hut (früher bekannt unter dem viel cooleren Namen ZenCoding), aber es ist nie zu spät gute Werkzeuge vorzustellen. Das man viel mehr über (gute) alte Hüte sprechen sollte, wurde mir besonders klar als ich mich so freute zu lesen, dass (twitter: mkuehnel) 2013 einen Vortrag über Twitter gehalten hat. Vor einem Publikum das durchweg aus Webworkern besteht :D
+
+Zudem ist Emmet so eines dieser Dinge, die sich so gut in den Workflow integrieren, dass man's kaum noch spürt und dementsprechend auch nicht mehr darüber spricht.
+
+### Was macht Emmet?
+
+Es handelt sich um eine bestimmte Art HTML zu schreiben. Hat man Emmet in Form von einem Plugin in seinen Code-Editor integriert, so kann man z.b. folgenden Text schreiben:
+
+<pre class="language-emmet"><code>div.foobar</code></pre>
+
+Dann drückt man die Tabulator-Taste `⇥`, und es wird folgendes HTML generiert:
+
+<pre class="language-html"><code>&lt;div class=&quot;foobar&quot;&gt;&lt;/div&gt;</code></pre>
+
+Man spaart sich also mit Emmet viel getippe beim HTML schreiben. Meine weiteren Beispiele könnt ihr am besten gleich selbst ausprobieren, nachdem ihr euch das Plugin installiert habt.
+
+In meinen vorherigen (link: http://der-zyklop.de/blog/tags:workflow text: Workflow-Artikeln) haben wir den Sublime Text (link: http://der-zyklop.de/blog/workflow-sublime-text-2 text: hübscher gemacht), ihm (link: http://der-zyklop.de/blog/workflow-sublime-shortcuts text: manieren beigebracht) und den (link: http://der-zyklop.de/blog/workflow-sublime-packages text: Package-Manager installiert). Zum installieren von Emmet macht ihr nun Folgendes:
+
+- Command-Palette öffnen (`⌘`+`⇧`+`p`)
+- `Package Install` eingeben und Enter drücken (...ein paar Sekunden warten)
+- Namen des Packages `Emmet` eingeben. Enter.
+- Sublime neu starten.
+
+Solltet ihr Emmet in einem anderen Editor als dem Sublime verwenden wollen, werdet ihr (link: http://emmet.io/download/ text:hier) bestimmt glücklich.
+
+### Beispiele
+
+Die folgenden Snippets könnt ihr euch jetzt also in eine leere **.html**-Datei kopieren, und selbst beobachten was bei `⇥` passiert. So richtig interessant wird es, wenn man etwas größere Aufgaben per Emmet erledigt. Ich baue mir meine Navigation beispielsweise so:
+
+<pre class="language-html"><code>div.nav>ul>li*5>a</code></pre>
+
+Auch Möglich ist z.B. eine Tabelle mit zwei zeilen und drei Spalten:
+
+<pre class="language-emmet"><code>table>tr*2>td*3</code></pre>
+
+Und hier noch eine reihe an Containern mit durchnummerierten ID's:
+
+<pre class="language-emmet"><code>div#foobar-$*5</code></pre>
+
+Und zu guterletzt noch eine einfache HTML-Seite in Emmet:
+
+<pre class="language-emmet"><code>html:5>(header>img.logo)+(nav>ul>li*5>a)+(section>h1+p+aside)+(footer>span)</code></pre>
+
+Auch für oft wiederkehrendes css kann man Emmet nutzen. Wenn ihr genaueres wissen wollt, schaut in die (link: http://docs.emmet.io/ text: Emmet-Docs) oder die (link: https://github.com/sergeche/emmet-sublime#available-actions text: Dokumentation des Sublime-Packages).
+
+----
+
+Tags: code,workflow,work,sublime
+
+----
+
+Language: firstValue
+
+----
+
+Justforrss: 

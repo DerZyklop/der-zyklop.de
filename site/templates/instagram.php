@@ -1,5 +1,4 @@
 <?php snippet('header') ?>
-<?php snippet('menu') ?>
 <?php snippet('submenu') ?>
 <?php
   $instagram = instagram('161059.c103450.088260c0523643618bff0e812f2fcb2a', 27);

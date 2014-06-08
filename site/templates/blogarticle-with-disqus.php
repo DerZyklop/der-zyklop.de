@@ -1,7 +1,5 @@
 <?php snippet('header'); ?>
 
-<?php snippet('menu') ?>
-
 <section class="blogarticle">
   <article>
     <div class="img-border">
@@ -21,6 +19,9 @@
   </article>
 
 </section>
+
+<?php snippet('article-nav') ?>
+
 </div>
 
 <div class="comments bg-tertiary">
@@ -37,4 +38,3 @@
   </section>
 
 <?php snippet('footer') ?>
-<?php snippet('rss-button') ?>

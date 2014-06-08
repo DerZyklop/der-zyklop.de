@@ -1,13 +1,11 @@
 <?php snippet('header'); ?>
 
-<?php snippet('menu') ?>
-
 <section class="blogarticle">
   <article>
     <div class="img-border">
 
       <div class="entry-date">
-        <?php echo html($page->date('d').'·'.$page->date('m').'·'.$page->date('Y')) ?>
+        <?php echo html($page->date('d').'·'.$page->date('m').'·'.$page->date('Y')) ?><br>
       </div>
       <h2 class="headline">
         <?php echo html($page->title()) ?>
@@ -20,6 +18,9 @@
   </article>
 
 </section>
+
+<?php snippet('article-nav') ?>
+
 </div>
 
 <div class="comments bg-tertiary">

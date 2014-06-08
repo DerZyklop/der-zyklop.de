@@ -259,11 +259,16 @@ With c::set('cache.ignore.templates', array()); you can speficy
 an array of template names which should be skipped for caching.
 
 */
-c::set('cache', false);
-c::set('cache.html', true);
+
+if($_SERVER['SERVER_NAME'] == 'localhost') {
+  c::set('cache', false);
+} elseif($_SERVER['SERVER_NAME'] == 'der-zyklop.de') {
+  c::set('cache', true);
+}
 c::set('cache.autoupdate', true);
-c::set('cache.ignore.urls', array());
-c::set('cache.ignore.templates', array());
+c::set('cache.data', true);
+c::set('cache.html', false);
+c::set('cache.ignore', array('sitemap'));
 
 /*
 
@@ -328,7 +333,11 @@ php errors there.
 
 */
 
-c::set('debug', true);
+if($_SERVER['SERVER_NAME'] == 'localhost') {
+  c::set('debug', true);
+} elseif($_SERVER['SERVER_NAME'] == 'der-zyklop.de') {
+  c::set('debug', false);
+}
 
 
 /*

@@ -1,15 +1,15 @@
-<?php 
+<?php
 
 class kirbytextExtended extends kirbytext {
-  
+
   function __construct($text, $markdown=true) {
-    
+
     parent::__construct($text, $markdown);
-    
+
     // define custom tags
     $this->addTags('instagram');
 
-  }  
+  }
 
   function instagram($params) {
 
@@ -27,7 +27,7 @@ class kirbytextExtended extends kirbytext {
     if ( isset($image->url) ) {
       $output_date = date('d. M Y', $image->created);
       $output_time = date('h:i', $image->created);
-  
+
       $tags_maximum = 4;
       if($image->tags) {
         if (count($image->tags) > $tags_maximum) {
@@ -48,7 +48,7 @@ class kirbytextExtended extends kirbytext {
          }
         }
       }
-  
+
       $output_html = '<div class="instagram-photo">
         <div class="img-outer-wrap">
             <a class="img-inner-wrap img-link" href="'.$image->url.'" rel="galery">
@@ -67,7 +67,7 @@ class kirbytextExtended extends kirbytext {
       $output_html .= '</a>
         </div>
       </div>';
-  
+
       // build the link tag
       return $output_html;
     } else {

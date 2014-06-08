@@ -3,7 +3,7 @@
 if (c::get('comments.enabled')):
 
 	// prepare current page's path (f.e. blog/post-one)
-	$comments['match_path'] = str_replace('content/', '', $page->diruri);
+	$comments['match_path'] = str_replace('content/', '', $page->diruri());
 
 	// check "include pages"
 	if (c::get('comments.include.pages')):
@@ -34,18 +34,18 @@ endif;
 if (c::get('comments.enabled')):
 
 	// read comments
-	$comments['data.file.path'] = c::get('root') . '/' . $page->diruri . '/' . c::get('comments.data.filename', 'comments.json');
+	$comments['data.file.path'] = c::get('root.content') . '/' . $page->diruri() . '/' . c::get('comments.data.filename', 'comments.json');
 
 	if (file_exists($comments['data.file.path'])):
 		$comments['data'] = json_decode(utf8_encode(file_get_contents($comments['data.file.path'])), true);
 	endif;
 
 	// prepare HTML for gravatars
-	if (c::get('comments.gravatar')):
+	if (c::get('comments.gravatar') && $comments['data']):
 		foreach ($comments['data'] as $i => $comment):
 			$gravatar_hash = md5(strtolower(trim($comment['email'])));
 			$comments['data'][$i]['gravatar'] = '<img src="http://www.gravatar.com/avatar/'.$gravatar_hash.'.jpg?d=http%3A%2F%2Fder-zyklop.de%2Fassets%2Fimages%2Fno_avatar-'.substr($i, -1).'.jpg&s='.c::get('comments.gravatar').'" width="'.c::get('comments.gravatar').'" height="'.c::get('comments.gravatar').'">';
-			endforeach;
+		endforeach;
 	endif;
 
 endif;

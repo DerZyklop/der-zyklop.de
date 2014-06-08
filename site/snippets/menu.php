@@ -1,14 +1,19 @@
-<nav id="nav">
-  <ul class="clearfix">
-    <?php foreach($pages->visible() AS $p): ?>
+<nav class="main-nav" id="nav">
+  <ul>
     <li>
-        <a class="<?php echo ($p->isOpen() || ( $pages->find('home')->isOpen() && ( $p->content()->title() == 'Articles' || $p->content()->name() == 'home' ) ) ) ? 'active' : '' ?>" href="<?php echo $p->url() ?>" title="<?php echo html($p->title()) ?>">
-            <span class="title">
-                <?php echo html($p->title()) ?>
-            </span>
-        </a>
+        <a href="#close" class="close-menu">&#215;</a>
     </li>
+    <?php foreach($site->children()->visible() as $p): ?>
+        <li>
+            <a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a>
+        </li>
+
     <?php endforeach ?>
+    <div class="button-wrap">
+      <a href="/blog/subscribe" class="button">Blog abonnieren?</a>
+    </div>
   </ul>
+
 </nav>
-<div class="content">
+
+

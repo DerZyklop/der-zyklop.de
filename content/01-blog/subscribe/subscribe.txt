@@ -1,0 +1,17 @@
+Title: Blog Abonnieren
+----
+Text:
+
+### Blog-Abonnoment per Email
+
+<form style="border:none;padding:3px;" action="http://feedpress.it/e/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedpress.it/e/mailverify?feed_id=derzyklop', 'popupwindow', 'scrollbars=yes,width=550,height=400');return true"><p><input type="text" placeholder="Email-Adresse" name="email"/></p><input type="hidden" value="derzyklop" name="feed_id"/><input type="submit" value="Email-Newsletter anmelden" /><div class="clearit"></div></form>
+
+### Blog-Abonnoment für den Feedreader
+
+    http://der-zyklop.de/blog/feed
+
+Du weisst nicht was das ist? Ich habe mal einen (link: blog/wie-kann-ich-blogs-abonnieren text: Artikel über Blog-Abonnoments) geschrieben. Und ich habe meinen (link: blog/digg text: heutigen Lieblings-Reader "Digg") vorgestellt.
+
+(image: digg-app.png link: blog/feed title: Feedreader)
+
+----

@@ -1,0 +1,900 @@
+@import 'config'
+
+$dark-bg: #{$tertiary} url('../images/pattern/dark/irongrip.png')
+
+@import 'bower_components/sass-boilerplate/mixins/all'
+
++all
+
+@mixin likeadiv()
+    border: none
+    padding: 0
+    margin: 0
+
+@mixin btn()
+    font-weight: bold
+    display: block
+    cursor: pointer
+    border-radius: $radius
+    overflow: hidden
+    padding: 0.5em
+    margin: $space-t-b/2 0
+    background: $quadrary - #050505
+    transition: 0.3s
+    border: $border-width $border-style $quadrary - #101010
+    text-decoration: none
+    &:hover
+        background: $secondary - #222
+        color: $quadrary
+        border-color: $secondary - #222
+
+@mixin clear-list-styles()
+    list-style: none
+    padding: 0
+    margin-top: 0
+
+
+body
+    // text-rendering: optimizeLegibility
+    // -moz-font-feature-settings: "kern"
+    // -moz-font-feature-settings: "kern=1"
+    // -ms-font-feature-settings: "kern"
+    // -o-font-feature-settings: "kern"
+    // -webkit-font-feature-settings: "kern"
+    // font-feature-settings: "kern"
+    // -webkit-font-feature-settings: "liga" 1
+    // -o-font-feature-settings: "liga" 1
+    // -moz-font-feature-settings: "liga" 1
+    // -moz-font-feature-settings: "liga=1"
+    // -ms-font-feature-settings: "liga" 1
+    // font-feature-settings: "liga" 1
+
+    font-size: $font-size
+    color: $font-color
+    line-height: 1.8em
+    font-family: $font-main
+    //padding: 1em 0 6em 0
+    padding: 0
+    margin: 0
+
+    background: $quadrary
+    @media screen and (max-width: $page-width)
+        padding: 0
+        .width-wrap
+            margin-top: 0px
+            margin-bottom: 0px
+
+a
+    color: $secondary
+
+h1, h2, h3, h4, h5, h6
+    font-family: $font-highlight
+    line-height: 1.6em
+    font-weight: bold
+    text-align: center
+    color: $primary - #222
+    a
+        color: $secondary
+        text-decoration: none
+        &:hover
+            text-decoration: underline
+
+h1
+    font-size: 2em
+h2
+    font-size: 1.6em
+h3
+    font-size: 1.4em
+h4
+    font-size: 1.2em
+h5
+    font-size: 1.2em
+h6
+    font-size: 1em
+
+
+h1
+    margin: 0
+
+h1, h2, h3
+    color: $primary - #222
+
+h4, h5
+    font-weight: normal
+
+h6
+    background: url('../images/ccc.png') center center repeat-x
+    margin: 2em 0
+    span
+        background: $quadrary
+        padding: 0 1em
+
+h3
+    border-bottom: $border-width $border-style $border-color
+
+p
+    margin: $space-t-b 0
+
+article p + p
+    text-indent: 1em
+
+input
+    box-sizing: border-box
+
+hr
+    height: 1px
+    border: none
+    background: $border-color
+    margin: $space-t-b*1.5 0
+
+img
+    display: block
+
+p
+    img
+        margin-top: 0.5em
+
+p, ul, ol
+    a
+        text-decoration: none
+        &:hover
+            text-decoration: underline
+
+blockquote
+    margin: $space-t-b 0
+    background: #F4F4F4
+    padding:
+        left: 30px
+        right: 30px
+        top: 1px
+        bottom: 1px
+    border-left: 4px solid $primary
+    p
+        margin: 0.5em 0
+
+legend
+    color: $border-color - #444
+    font-weight: bold
+
+// NN UI [END]
+
+iframe.video
+    width: 100%
+    height: 500px
+    @media screen and (max-width: 320px)
+        height: 120px
+    @media screen and (max-width: $breakpoint)
+        height: 400px
+
+section
+    padding: 1em 0
+
+#beispiel:target
+    background: #fff
+    border: 4px solid #aa0000
+    padding: 4px
+
+.right
+    float: right
+
+.left
+    float: left
+
+.footer
+    border-top: 1px solid $border-color
+    width: auto
+    p
+        line-height: 2.8em
+
+.content,
+.footer
+    p, blockquote, table
+        a
+            text-decoration: none
+            border:
+                width: 0 0 1px 0
+                style: solid
+                color: $border-color
+                bottom-color: $border-color
+        a:hover
+            border:
+                bottom-color: $primary - #333
+            color: $primary
+
+
+.img-outer-wrap
+    margin: 1em 0
+    .img-inner-wrap
+        display: block
+        border-radius: $radius
+    a
+        padding: 1em
+        border-radius: $radius
+        display: block
+        text-decoration: none
+        position: relative
+        transition: background 0.4s, border-color 0.3s
+        img
+            transition: opacity 0.4s
+            opacity: 1
+        &:hover .description
+            color: $primary
+        &:hover
+            background-position: center center
+            border-color: $border-color - #333
+            img
+                opacity: 0.3
+                background: $quadrary
+
+    .description,
+    .image-likes
+        color: rgba(255,255,255,0.6)
+        border-style: solid
+        border-width: 0
+        border-color: rgba(255,255,255,0.6)
+        background: rgba(255,255,255,0.3)
+        padding: 0.3em 1em
+        line-height: 1.2em
+        transition: color 0.5s, background 0.5s
+        right: 0
+        left: 0
+        span
+            font-size: 14px
+    .image-likes
+        border-radius: $radius $radius 0 0
+        position: absolute
+        top: 0
+        font-weight: bold
+        border-bottom-width: 1px
+    .description
+        border-radius: 0 0 $radius $radius
+        position: absolute
+        text-align: center
+        bottom: 0
+        border-top-width: 1px
+    &:hover a .description,
+    &:hover .image-likes
+        opacity: 1
+        color: #fff
+
+.header,
+.content,
+.width-wrap
+    max-width: $page-width
+    position: relative
+    margin:
+        left: auto
+        right: auto
+    padding:
+        left: $space-l-r
+        right: $space-l-r
+    img
+        max-width: 100%
+        margin: 0 auto
+        border-radius: $radius
+    @media screen and (max-width: $breakpoint)
+        padding: $space-t-b/2 8%
+
+@media screen and (max-width: $breakpoint)
+    body
+        font-size: $font-size - 4px
+
+.meta
+    background: $quadrary - #050505
+    border-top: 1px solid $border-color
+    // background: $quadrary - #050505 url('../images/noise.png')
+    // background: $quadrary - #050505 url('../images/pattern/bright/bright_squares.png')
+    // background: $quadrary - #050505 url('../images/pattern/bright/roughcloth.png')
+    // background: $quadrary - #050505 url('../images/pattern/bright/texturetastic_gray.png')
+
+
+    .taglist
+        li
+            a
+                background-color: $quadrary - #111
+                border-color: $quadrary - #222
+    h1, h2, h3, h4, h5, h6
+        span
+            background: $quadrary - #050505
+            //background: $quadrary - #050505 url('../images/noise.png')
+
+.bg-tertiary
+    background: $tertiary
+    background: $dark-bg
+    //background: $tertiary url('../images/pattern/dark/px_by_Gre3g.png')
+
+
+    color: $quadrary - #222
+    h1, h2, h3, h4, h5, h6
+        color: $quadrary - #222
+        font-weight: bold
+        span
+            background: $tertiary
+            background: $dark-bg
+            //background: $tertiary url('../images/pattern/dark/px_by_Gre3g.png')
+
+.flattr-wrap
+    margin: 6px
+
+.no-mobile
+    @media screen and (max-width: $breakpoint)
+        display: none
+
+.taglist
+    transition: 0.5s
+    ul
+        +clear-list-styles()
+        li
+            display: inline
+            a
+                +btn()
+                white-space: nowrap
+                display: inline
+                line-height: 3em
+                margin: 0.5em
+
+/* Nav [BEGIN] */
+
+#pagination-nav
+    margin: $space-t-b 0
+    white-space: nowrap
+    a.btn
+        line-height: 60px
+    .prev-btn
+        &.active
+            transition: margin 0.3s
+            &:hover
+                margin-left: -1%
+                margin-right: 3%
+        float: left
+        margin-right: 2%
+    .overview-btn
+        width: 40%
+    .next-btn
+        float: right
+        margin-left: 2%
+        &.active
+            transition: margin 0.3s
+            &:hover
+                margin-right: -1%
+                margin-left: 3%
+
+#pagination-nav
+    .prev-btn
+        width: 48%
+    .next-btn
+        width: 48%
+
+.article-suggestion
+    .title
+        display: block
+    img
+        float: right
+        margin: 0.5em 0  2em  2em
+    @media screen and (max-width: $breakpoint)
+        img
+            float: none
+            margin: 0 auto
+
+$options-bar-space: 10px
+
+.options-bar
+    margin: $space-t-b 0
+    .right
+        position: relative
+        &:before
+            content: ' '
+            background: url('../images/teilen.png')
+            opacity: 0.5
+            display: block
+            width: 253px
+            height: 52px
+            position: absolute
+            top: -50%
+            right: 0
+    .autorinfo .autorlink,
+    .supporters-btn
+        +btn()
+    .autorinfo .autorlink
+        float: left
+        padding-left: 1em
+        padding-right: 1em
+    .supporters-btn
+        min-width: $options-bar-space*6
+        min-height: $options-bar-space*6
+        margin-left: 10px
+        float: left
+        text-align: center
+        position: relative
+        border-radius: $radius
+        &.facebook,
+        &.twitter,
+        &.flattr,
+        &.pinterest
+            font-size: 0
+        &:after
+            position: absolute
+            left: 0
+            right: 0
+            top: $options-bar-space
+            margin: 0 auto
+            display: block
+            content: ' '
+            height: 40px
+            width: 40px
+        &.twitter:after,
+        &.pinterest:after,
+        &.flattr:after,
+        &.facebook:after
+            background:
+                image: url('../images/supporter-icons.png')
+        &.twitter:after
+            background:
+                position: -80px 0
+        &.twitter:hover:after
+            background-position: -80px -40px
+        &.pinterest:after
+            background:
+                position: -120px 0
+        &.pinterest:hover:after
+            background-position: -120px -40px
+        &.flattr:after
+            background:
+                position: -40px 0
+        &.flattr:hover:after
+            background-position: -40px -40px
+        &.facebook:after
+            background:
+                position: 0 0
+        &.facebook:hover:after
+            background-position: 0 -40px
+
+/* Nav [END] */
+
+/* Header [BEGIN] */
+
+.header
+    margin-bottom: 1em
+    margin-top: 2em
+    a
+        display: block
+        margin: 8px auto
+    h1
+        padding: 0
+        @media screen and (max-width: $page-width)
+            float: none
+            width: 100%
+        img
+            margin: 0 auto
+            @media screen and (max-width: 320px)
+                margin: 40px auto 0px
+
+    .claim
+        text-align: center
+        color: $primary + #222
+        font-size: 0.9em
+
+/* Header [END] */
+
+/* Blog [BEGIN] */
+
+.blog
+    position: relative
+    .article-text a
+        border-bottom: none
+    article
+        padding-top: 0
+        padding-bottom: 5em
+
+        margin: 0
+        width: auto
+
+        h2
+            +likeadiv()
+        .headline a
+            +btn()
+
+.entry-date
+    color: $border-color
+    text-align: center
+    a
+        text-decoration: none
+        color: $border-color
+        white-space: nowrap
+
+#articles
+    +clear-list-styles()
+    .article-teaser-small
+        +btn()
+        .entry-date,
+        .headline
+            font-size: 1em
+            line-height: 1.8em
+            a
+                transition: color 0.3s
+        .entry-date
+            float: left
+        .headline
+            margin: 0
+            text-align: left
+            padding-left: 5em
+        &:hover
+            .entry-date a,
+            .headline a
+                text-decoration: none
+                color: $quadrary
+
+/* Blog [END] */
+
+/* Dribbble [BEGIN] */
+
+.dribbble-shot
+    box-sizing: border-box
+    width: 42%
+    max-width: 400px
+    margin: 4%
+    float: left
+    .img-outer-wrap
+        max-width: 442px
+        max-width: 100%
+        margin-top: 0
+        margin-bottom: 0
+        a
+            padding: 0
+            background: #000
+    @media screen and (max-width: $breakpoint)
+        width: 100%
+        float: none
+        margin: 0
+        margin-bottom: 2em
+        .img-outer-wrap
+            margin: 0 auto
+            max-width: 442px
+            width: 442px
+
+/* Dribbble [END] */
+
+/* Instagram [BEGIN] */
+
+.instagram
+    margin-bottom: 1em
+    .instagram-photo
+        width: 31%
+        margin: 1%
+        float: left
+        a
+            padding: 0
+            background: #000
+        .img-outer-wrap
+            margin-bottom: 0
+            margin-top: 0
+        @media screen and (max-width: $breakpoint)
+            width: 48%
+            margin: 1%
+        @media screen and (max-width: 390px)
+            width: 100%
+            float: none
+            margin: 0
+
+.instagram-detail img
+    max-width: 100%
+
+.instagram-detail .img-outer-wrap,
+.blogarticle .instagram-photo
+    margin: 0 auto
+    width: 654px
+    max-width: 100%
+
+/* Instagram [END] */
+
+/* Comments-Pluin */
+
+.add-comment-form
+    .hidden
+        color: transparent
+        transition: color 0.5s
+    &:hover .hidden
+        color: $secondary
+
+.comment-add-form
+    margin: 2em 0
+    h6
+        background-color: $secondary
+    &.hide-form
+        form
+            display: none
+    .button span
+        padding-right: 6px + 32px
+        background:
+            image: url('../images/iconmonstr-pen-5-icon-32.png')
+            position: center right
+            repeat: no-repeat
+
+ul#comments
+    +clear-list-styles()
+    .comment-gravatar
+        text-align: center
+        background: url(../images/ccc.png) center center repeat-x
+        > div
+            width: 64px + 18px*2
+            margin: 0 auto
+            padding: 0 $space-t-b
+            background: $dark-bg
+            img
+                border-radius: 100px
+        margin-bottom: -1em
+    .comment-date
+        float: right
+    .comment-name
+        float: left
+    .comment-name,
+    .comment-date
+        line-height: 64px/2
+        color: $border-color
+        transition: color 0.3s
+    .comment-text
+        clear: both
+    hr
+        margin: 0
+    > li
+        margin: $space-t-b*2 0
+        // &.even
+        //     //background: #f8f8f8
+        // &.odd
+        //     color: #000
+
+/* Misc [BEGIN] */
+
+.edit
+    padding: 1em 1.6em
+    margin: 30px 0
+    border: 3px solid $primary
+    box-shadow: 0 0 30px rgba(0,0,0,0.3)
+    h4
+        font-size: 140%
+
+/* Misc [END] */
+
+// Buttons
+
+button, .button, a.button, input[type="button"], input[type="submit"], input[type="reset"]
+    line-height: 2.5em
+    &:hover
+        color: $quadrary !important
+    &.passiv-btn
+        background: $border-color
+
+.button-wrap
+    padding: $space-t-b
+
+// Twitter integration
+
+iframe.twitter-tweet-rendered
+    margin: 7px auto !important
+
+.tagcloud
+    +clear-list-styles()
+    position: relative
+    z-index: 10
+    box-sizing: border-box
+    .more
+        position: absolute
+        z-index: 20
+        bottom: 0
+        left: 0
+        right: 0
+        //background: $quadrary
+        box-shadow: $quadrary 0 0px 50px, $quadrary 0 -20px 20px
+    *
+        box-sizing: border-box
+    li
+        > a
+            border-bottom: none
+            display: block
+            position: relative
+            z-index: 6
+            transition: background 0.3s
+            border-radius: $radius
+            overflow: hidden
+            position: relative
+            margin-bottom: 0.2em
+            .bar,
+            .label
+                white-space: nowrap
+                //padding: 1em $space-l-r/2
+                padding: 0.5em 1em
+            .bar
+                position: absolute
+                top: 0
+                bottom: 0
+                left: 0
+                background: $secondary
+                color: $quadrary
+                z-index: 20
+                overflow: hidden
+            .label
+                position: relative
+                z-index: 10
+                background: #f2f2f2
+            &:hover
+                color: $secondary - #222
+                text-decoration: none
+                .bar
+                    background: $secondary - #222
+                    color: $quadrary
+                .label
+                    background: #ccc
+
+.comment-add-form .verify
+    display: none
+
+
+
+.page-wrap,
+.main-nav
+    transition: all 0.3s cubic-bezier(1.000, -0.530, 0.405, 1.000)
+
+.page-wrap
+    position: relative
+    float: left
+    width: 100%
+    padding: 0
+
+.main-nav
+    position: fixed
+    z-index: 20
+    top: 0
+    width: 0
+    height: 100%
+    background: $tertiary
+    overflow-y: auto
+    color: $quadrary
+    ul
+        // TODO: Needs a better solution for min-width here
+        min-width: 220px
+        padding: 0
+        margin: 0
+        li
+            border-bottom: $border-width dotted rgba(255,255,255,0.2)
+            a
+                display: block
+                padding: $space-t-b/2 $space-t-b
+                color: $quadrary
+                text-decoration: none
+                &:hover
+                    background: $quadrary
+                    color: $tertiary
+                &.close-menu
+                    padding: $space-t-b
+                    color: #f99
+
+a.close-menu
+    font-size: 50px
+    line-height: 50px
+a.open-menu
+    font-size: 30px
+    line-height: 50px
+    transition: 0.5s
+
+a.close-menu
+    display: none
+
+a.open-menu
+    text-decoration: none
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    z-index: 10
+    padding: $space-t-b
+
+$main-nav-percentage: 30
+
+#nav
+    &:target
+        //width: percentage($main-nav-percentage/100)
+        min-width: 360px
+    &:target + .page-wrap
+        //width: percentage((100-$main-nav-percentage)/100)
+        //left: 400px
+        margin-left: 360px
+        .open-menu
+            display: none
+        .close-menu
+            display: block
+
+.tweets
+    background: $tertiary
+    color: $quadrary
+    border-left: $border-color $border-style $border-width
+    position: absolute
+    z-index: 30
+    top: 0
+    right: 0
+    bottom: 0
+    width: 320px
+    box-sizing: border-box
+    padding: 1em
+    font-size: 16px
+    line-height: 1.5em
+    p
+        margin: 0
+    ul
+        list-style: none
+        padding: 0
+        margin: 0
+        li
+            position: relative
+            margin-top: 1.5em
+            &:after
+                position: absolute
+                content: ""
+                top: -.75em
+                right: 0
+                height: 1px
+                width: 50%
+                background-color: $border-color
+    .headline
+        margin: 0.4em 0
+    .user
+        display: block
+        line-height: 40px
+        margin-bottom: 1em
+        .date
+            float: right
+        img
+            margin-right: 1em
+            width: 40px
+            border-radius: $radius
+            float: left
+
+
+#article-nav
+    display: none
+    @media screen and (min-width: $breakpoint)
+        a
+            text-decoration: none
+            .icon,
+            .text
+                background: $quadrary
+                border: $border-width $border-style $border-color
+            .icon
+                padding: $space-t-b
+                font-size: 50px
+                position: absolute
+            .text
+                padding: $space-t-b
+                font-size: 0.8em
+                position: absolute
+                display: none
+            &:hover
+                .text
+                    display: block
+        .next-page,
+        .prev-page
+            position: fixed
+            z-index: 40
+            top: 45%
+            width: 50%
+        .next-page
+            right: 0
+            .text,
+            .icon
+                border-radius: $radius 0 0 $radius
+                border-right: 0
+            .text
+                padding-right: 0
+                right: $space-t-b*2
+            .icon
+                right: 0
+        .prev-page
+            left: 0
+            .text,
+            .icon
+                border-radius: 0 $radius $radius 0
+                border-left: 0
+            .text
+                padding-left: 0
+                left: $space-t-b*2
+            .icon
+                left: 0

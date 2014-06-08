@@ -1,0 +1,23 @@
+{
+  "name": "der-zyklop.de",
+  "version": "0.0.0",
+  "homepage": "https://github.com/DerZyklop/der-zyklop.de",
+  "authors": [
+    "Nils Neumann <mail@der-zyklop.de>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "fancybox": "~2.1.5",
+    "prism": "git@github.com:LeaVerou/prism.git#gh-pages",
+    "vladstudio-kirby-smart-submit": "vladstudio/vladstudio-kirby-smart-submit",
+    "sass-boilerplate": "DerZyklop/sass-boilerplate",
+    "jquery": "~2.1.1"
+  }
+}

@@ -1,0 +1,70 @@
+﻿Title: GitHub per ssh statt https
+
+----
+
+Date: 2014-05-26
+
+----
+
+Text: ### Warum SSH?
+
+Weil wenn ich mir ein repo per `https` auf meinen Rechner clone muss ich bei jedem push meine Zugangsdaten erneut eingeben. Wenn ich einen `ssh` Zugang verwende, ist die Verbindung ende-zu-ende-verschlüsselt. Ich generiere also einen privaten und einen öffentlichen Schlüssel auf meinem Rechner, hinterlege den Öffentlichen bei Github und clone meine Projekte anschließend per 
+
+```
+git@github.com:[UserName]/[meinprojekt].git
+```
+
+statt per 
+
+```
+https://github.com/[UserName]/[meinprojekt].git
+```
+
+Los gehts..
+
+### ´ssh´ Schlüssel generieren
+
+```
+cd ~/.ssh
+ssh-keygen
+```
+
+Nun werdet ihr nach einem Namen für die Schlüssel-Dateien gefragt. Ich bennene meine Dateien nach den Diensten die dahinter stehen. Also zum Beispiel **github** oder **bitbucket**.
+
+Dann wird man nach dem Passwort gefragt. Ich vergebe keins – zum einen aus Faulheit, zum anderen aus dem Grund dass Derjenige der damit blödsinn anstellen will, erst mal an meinen Rechner rann muss, und das ist schwer genug. Also tippe ich zwei mal [enter].
+
+Der private Schlüssel liegt jetzt in `~/.ssh/github` und der öffentliche in `~/.ssh/github.pub`.
+
+### Öffentlichen Schlüssel bei GitHub hinterlegen
+
+Nun kopiere ich mir meinen öffentlichen Schlüssel in den Zwischenspeicher:
+
+```
+pbcopy < ~/.ssh/github.pub
+```
+
+Und anschließend füge ich ihn in meinen (link: https://github.com/settings/ssh text: Benutzereinstellungen unter »ssh«) als neuen Schlüssel hinzu. Da ich von verschiedenen Rechnern aus arbeite vergebe ich hier noch einen Titel wie **Rechner im Büro**.
+
+### Private Schlüssel permanent hinzufügen
+
+Nun muss man noch eine config-Datei anlegen, in der man erklärt welche Schlüssel-Dateien zu meiner Identität gehören.
+
+```
+echo 'IdentityFile ~/.ssh/github' > ~/.ssh/config
+```
+
+Fertig. Ab jetzt kann man seine eigenen GitHub-Projekte per `ssh` clonen, pullen, pushen etc.:
+
+`git@github.com:[UserName]/[meinprojekt].git`
+
+----
+
+Tags: code,git,github,workflow
+
+----
+
+Language: firstValue
+
+----
+
+Justforrss: 

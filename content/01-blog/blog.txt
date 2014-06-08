@@ -1,6 +1,0 @@
-Title: Articles
-----
-Author: <a href="/about" class="autorlink">Autor: DerZyklop | UX-Designer</a>
-----
-AuthorDescription: Pixelworker, Digital Native und Nachdenker
-----
