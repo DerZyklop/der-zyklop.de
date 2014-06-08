@@ -1,0 +1,15 @@
+Title: My Blog is now build on Kirby 2
+----
+Date: 2014-06-08
+----
+Text: The navigation doesn't take up much space anymore. And here and there is a little design-cleanup. But thats not the only change i made on my blog recently. My blog is now completely switched to Kirby 2.
+
+I'm a big fan of (link: http://getkirby.com text: this CMS). I don't want to have my own blog build on a system that i can't overview or understand. And Kirby does everything right in this case.
+
+(link: http://getkirby.com/blog/sneak-peek text: Kirby 2 is still in beta), so (link: http://der-zyklop.de/blog/kirby-2-beta-1-comments-plugin text: i've had) and will have to do some changes by hand – but it's worth it. The new Panel is so nice! If you want to have a look at it, (link: http://getkirby.com/blog/jumpstarter text: jumpstarter) is propably the best way to do it.
+----
+Tags: blog, kirby, code
+----
+Language: English
+----
+Justforrss: 
