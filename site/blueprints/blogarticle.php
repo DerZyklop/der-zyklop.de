@@ -30,9 +30,11 @@ fields:
     label: Language
     type: radio
     options:
-      firstValue: deutsch
-      secondValue: english
-    default: firstValue
+      - key: Deutsch
+        value: deutsch
+      - key: English
+        value: english
+    default: deutsch
   justforrss:
     label: Just for RSS feed?
     type: checkbox
