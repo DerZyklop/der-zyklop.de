@@ -62,4 +62,4 @@ Tags: digitalisierung
 
 ----
 
-Language: firstValue
+Language: deutsch

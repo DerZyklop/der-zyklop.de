@@ -48,4 +48,4 @@ Tags: weltretten, politik, heizdeckenradio
 
 ----
 
-Language: firstValue
+Language: deutsch

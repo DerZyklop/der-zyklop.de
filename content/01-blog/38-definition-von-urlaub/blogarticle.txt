@@ -48,4 +48,4 @@ Tags: information-overload,travel,vacation,digitalisierung
 
 ----
 
-Language: firstValue
+Language: deutsch

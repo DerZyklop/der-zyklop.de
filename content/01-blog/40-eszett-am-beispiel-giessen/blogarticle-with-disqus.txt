@@ -69,4 +69,4 @@ Tags: gießen,gießenlove,twitter,typography,digitalisierung
 
 ----
 
-Language: firstValue
+Language: deutsch

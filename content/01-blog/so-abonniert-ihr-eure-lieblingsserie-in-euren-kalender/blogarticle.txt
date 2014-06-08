@@ -28,8 +28,8 @@ Tags: feedreader,automatization
 
 ----
 
-Language: firstValue
+Language: deutsch
 
 ----
 
-Justforrss: 
+Justforrss:

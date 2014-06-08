@@ -8,15 +8,15 @@ Date: 2014-05-16
 
 Text: Lange Texte im Internet lesen nervt (meistens). Ich lese fast ausschließlich auf Bildschirmen. Da draussen (oder besser: hier drinnen) gibt es so viele Webseiten bei denen sich keiner Gedanken über die Leser gemacht hat. spiegel.de zum Beispiel. So was hässliches... kleine Schrift, zu wenig Zeilenabstand, die Zeilenlängen werden ständig von Werbebannern misshandelt. Sie unternehmen einfach alles um das Gehirn beim Lesen maximal anzustrengen.
 
-- Zu wenig Zeilenabstand: Das Auge hat schwirigkeiten beim lesen nicht von einer Zeile in eine darüber-/darunter-ligenede abzurutzschen. 
+- Zu wenig Zeilenabstand: Das Auge hat schwirigkeiten beim lesen nicht von einer Zeile in eine darüber-/darunter-ligenede abzurutzschen.
 - Zu kleine Schrift: Auge strengt sich mehr an beim fokussieren und Gehirn muss »pixelige Kurven« der Buchstaben ausglichen (sofern nicht Retina-Display).
-- Zu kurze Zeilen: Text wirkt stockend. 
+- Zu kurze Zeilen: Text wirkt stockend.
 - Zu viele Worte pro Zeile: Auge hat mehr Aufwand den neuen Zeilenanfang zu finden.
 - Zu wenig Weißraum links und rechts vom Text: Auch problematisch für die Suche nach dem Beginn der nächsten Zeile.
 
 Eure Hirnkapazität ist begrenzt. Die Kapazität, die sich auf das ausglechen von Design-Fehlern konzentriert, wird von der Kapazität abgezogen, die sich um den eigentlichen Inhalt kümmert. Weil es Menschen gibt denen das bewusst ist bekomme ich Geld für meine Arbeit.
 
-> Dem Leser dienen. 
+> Dem Leser dienen.
 
 Das ist der Sinn der Typografie (Schriftenlehre) – so sagt es der Christoph Koeberlin von (link: http://typefacts.com/ text: typefacts.com) ganz treffend.
 
@@ -37,8 +37,8 @@ Tags: typography,information-overload,app,browser
 
 ----
 
-Language: firstValue
+Language: deutsch
 
 ----
 
-Justforrss: 
+Justforrss:

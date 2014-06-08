@@ -53,4 +53,4 @@ Tags: barcamp,pathcamp,work,ipad,possession
 
 ----
 
-Language: firstValue
+Language: deutsch

@@ -48,4 +48,4 @@ Tags: alltagstechnik, digitalisierung
 
 ----
 
-Language: firstValue
+Language: deutsch

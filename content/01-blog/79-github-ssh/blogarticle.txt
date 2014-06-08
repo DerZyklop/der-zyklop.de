@@ -8,13 +8,13 @@ Date: 2014-05-26
 
 Text: ### Warum SSH?
 
-Weil wenn ich mir ein repo per `https` auf meinen Rechner clone muss ich bei jedem push meine Zugangsdaten erneut eingeben. Wenn ich einen `ssh` Zugang verwende, ist die Verbindung ende-zu-ende-verschlüsselt. Ich generiere also einen privaten und einen öffentlichen Schlüssel auf meinem Rechner, hinterlege den Öffentlichen bei Github und clone meine Projekte anschließend per 
+Weil wenn ich mir ein repo per `https` auf meinen Rechner clone muss ich bei jedem push meine Zugangsdaten erneut eingeben. Wenn ich einen `ssh` Zugang verwende, ist die Verbindung ende-zu-ende-verschlüsselt. Ich generiere also einen privaten und einen öffentlichen Schlüssel auf meinem Rechner, hinterlege den Öffentlichen bei Github und clone meine Projekte anschließend per
 
 ```
 git@github.com:[UserName]/[meinprojekt].git
 ```
 
-statt per 
+statt per
 
 ```
 https://github.com/[UserName]/[meinprojekt].git
@@ -63,8 +63,8 @@ Tags: code,git,github,workflow
 
 ----
 
-Language: firstValue
+Language: deutsch
 
 ----
 
-Justforrss: 
+Justforrss:

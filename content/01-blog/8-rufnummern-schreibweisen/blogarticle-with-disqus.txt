@@ -10,7 +10,7 @@ Kategory: nerdstuff
 
 ----
 
-Text: 
+Text:
 
 **Wie trennt man die einzelnen Ziffern einer Telefonnummer typografisch richtig?**
 
@@ -56,4 +56,4 @@ Tags: typography,digitalisierung,code
 
 ----
 
-Language: firstValue
+Language: deutsch

@@ -46,4 +46,4 @@ Tags: blog,kirby
 
 ----
 
-Language: firstValue
+Language: deutsch

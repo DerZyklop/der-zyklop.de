@@ -20,7 +20,7 @@ Tags: kirby,code,opensource
 
 ----
 
-Language: secondValue
+Language: english
 
 ----
 

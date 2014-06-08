@@ -62,4 +62,4 @@ Tags: politik, digitalisierung
 
 ----
 
-Language: firstValue
+Language: deutsch

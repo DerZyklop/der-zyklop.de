@@ -20,8 +20,8 @@ Tags: politik
 
 ----
 
-Language: firstValue
+Language: deutsch
 
 ----
 
-Justforrss: 
+Justforrss:

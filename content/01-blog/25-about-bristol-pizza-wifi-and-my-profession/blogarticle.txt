@@ -32,4 +32,4 @@ Tags: bristol,berlin,gießen,twitter,design,typography,work,music
 
 ----
 
-Language: secondValue
+Language: english

@@ -44,4 +44,4 @@ Tags: gießen, politik
 
 ----
 
-Language: firstValue
+Language: deutsch

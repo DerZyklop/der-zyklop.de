@@ -36,4 +36,4 @@ Tags: kirby,theme,code
 
 ----
 
-Language: secondValue
+Language: english

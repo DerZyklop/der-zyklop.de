@@ -32,4 +32,4 @@ Tags: information-overload, music, digitalisierung
 
 ----
 
-Language: firstValue
+Language: deutsch

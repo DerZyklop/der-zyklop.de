@@ -15,7 +15,7 @@ Hier erstmal eine Liste der relevanten Browser und der Firmen/Organisationen die
 - Safari (Apple)
 - Firefox (Mozilla Foundation / OpenSource community)
 
-Ich wurde schon oft gefragt welchen Browser ich empfehlen würde. Über den **Internet Explorer** werde ich nicht weiter sprechen. Nur so viel: Microsofts Browser ist kaputt und gefährlich – lasst die Finger davon. Safari kann nicht viel, ist aber dafür nicht kaputt und somit okay für Menschen die ihren Rechner eher aus Dekorations-Gründen gekauft haben. Mein Rat war in den letzten Jahren immer in etwa folgender: 
+Ich wurde schon oft gefragt welchen Browser ich empfehlen würde. Über den **Internet Explorer** werde ich nicht weiter sprechen. Nur so viel: Microsofts Browser ist kaputt und gefährlich – lasst die Finger davon. Safari kann nicht viel, ist aber dafür nicht kaputt und somit okay für Menschen die ihren Rechner eher aus Dekorations-Gründen gekauft haben. Mein Rat war in den letzten Jahren immer in etwa folgender:
 
 > Nimm **Firefox**. Es sei denn du hast hohe Ansprüche, bist Programmierer oder hast einen sehr alten, langsamen Rechner – dann nimm (link: https://www.google.com/intl/de/chrome/browser/ text: Google Chrome).
 
@@ -28,14 +28,14 @@ Denn gestern kam eine grundlegend neue Version des lange Zeit eingerosteten (lin
 1. Das Informations-Monopol von Google schadet der Wirtschaft und der Politik.
 2. Google Chrome ist nicht OpenSource.
 
-Firefox ist OpenSource. Das schützt uns nicht davor, dass (link: http://www.spiegel.de/netzwelt/web/heartbleed-passwoerter-aendern-und-zwar-sofort-a-963938.html text: Dinge schief gehen können). Aber seht es mal so: 
+Firefox ist OpenSource. Das schützt uns nicht davor, dass (link: http://www.spiegel.de/netzwelt/web/heartbleed-passwoerter-aendern-und-zwar-sofort-a-963938.html text: Dinge schief gehen können). Aber seht es mal so:
 
-- Wenn in Firefox eine Sicherheitslücke besteht, dann kann sie gefunden und repariert werden. 
+- Wenn in Firefox eine Sicherheitslücke besteht, dann kann sie gefunden und repariert werden.
 - Wenn in Chrome eine Sicherheitslücke besteht dann... pech. Vielleicht wird's repariert. Vielleicht nicht. Wer weiß das schon.
 - Wo die Daten im Firefox hinfließen ist nachvollziehbar.
 - Wo die Daten im Chrome hinfießen ist im Grunde allen klar, aber keiner weiß es so genau.
 
-Software ist immer eine Frage des Vertrauens. 
+Software ist immer eine Frage des Vertrauens.
 Vertraut ihr einer Masse an verschiedensten Menschen mit verschiedensten Interessen? Vertraut ihr darauf dass sich darunter Leute befinden, die Radau machen werden wenn ein Browser dinge tut, die für die Nutzer nicht gut sind?
 Oder vertraut ihr darauf, dass eine Firma euch bescheid sagt, wenn sie einen Fehler in ihrer eigenen Software finden?
 
@@ -47,8 +47,8 @@ Tags: browser,app,weltretten,opensource
 
 ----
 
-Language: firstValue
+Language: deutsch
 
 ----
 
-Justforrss: 
+Justforrss:
