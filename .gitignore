@@ -4,6 +4,7 @@
 piwik/
 node_modules/
 tweetnest/
+thumbs/
 
 site/cache/
 site/config/config.php
