@@ -32,7 +32,7 @@ module.exports = (grunt) ->
           'bower_components/jquery/dist/jquery.min.js'
           'bower_components/fancybox/source/jquery.fancybox.js'
           'bower_components/prism/prism.js'
-          'bower_components/vladstudio-kirby-smart-submit/move-to-kirby/assets/js/smart-submit.js'
+          'assets/smart-submit/smart-submit.js'
           '<%= paths.src.js %>*.js'
         ]
         dest: '<%= paths.build.js %>script.js'
