@@ -1,0 +1,39 @@
+Title: Kinder und Touchscreens
+----
+Date: 2014-06-08
+----
+Text: Oft unterhalten sich Erwachsene darüber wie abgefahren das ist wie wahnsinnig schnell Babys und Kleinkinder mit der Bedienung eines Smartphones oder Tablets zurecht kommen. Diese Erwachsenen sind offensichtlich keine Nerds. Zumindest habe ich eine solche Reaktion noch nicht bei Technik-Begeisterten Eltern erlebt.
+
+### Was mich überrascht ist, ist folgendes:
+
+Diese Erwachsenen sind es, die eine viel absurdere Verknüpfung in ihrem Kopf schaffen, und diese für selbstverständlich halten.
+
+### Ein Word-Dokument scrollen geht so:
+
+Man bewegt einen kleinen Haufen Plastik auf dem Schreibtisch (Maus), und gleichzeitig bewegen sich ~15x20 Pixel (Mauszeiger) auf einem anderen Platz auf dem Schreibtisch (Monitor). Die bewegen sich nicht mal in die selbe Richtung. Wenn ich die Maus zum Beispiel nach **vorne** schiebe, bewegen sich die Pixel nach **oben**. 
+
+Und als wärs das gewesen, wird die Sache noch komplizierter: Man berührt nun dem virtuellen Zeiger nicht das zu scrollende Dokument selbst, sondern einen Balken auf einer Leiste (Scroll-Leiste) neben dem Dokument, der sich in entgegengesetzter Richtung zum Dokument bewegt. 
+
+...
+
+Wow! Hat jemand die Abstraktions-Layer mitgezählt? Wer hat sich das ausgedacht? Nagut.. bleiben wir fair.. die Hardware war damals™ einfach nicht so weit. 
+
+### Vergleichen wir das nochmal kurz mit dem Touchscreen:
+
+Beim Touchscreen fasst man das Element an, welches man nach links schieben will, und schiebt es nach links und was passiert? Das Element bewegt sich nach links. 
+Abstraktionslayer: 0. 
+Oder vielleicht 1, denn man muss nun noch lernen, dass das was man bewegt hat nicht links aus dem Smartphone herausfällt. Und wer weiss... vielleicht ist das Problem in ein paar Jahren auch behoben.
+
+### Was ich euch damit sagen will
+
+Wundert euch nicht, wenn die Generation eurer Kinder mit einer Technik klarkommen, bei der sie viel weniger nachdenken müssen als ihr, als ihr vor eurem ersten Röhrenmonitor saßt. Oft ist es schwer Menschen dazu zu bringen neue Technik / neue Software zu benutzen. Das liegt oft nicht daran, dass die Software schwer zu bedienen sei. Oft liegt es daran, dass uns die Vergangenheit verkorkst hat. Und während wir noch verzeifelt nach dem gewohnt komplizierten Weg suchen ein Programm auf dem Rechner zu installieren (Ja > Ja > Erlauben > Ok > Herunterladen > Ok > Ja > Installieren > Amen) hat der Computer das schon alles selbst erledigt. 
+
+tl;dr
+
+Fürchtet euch nicht vor neuer Technik. Ihr müsst nur hin und wieder mal vergessen wie kompliziert die Vergangenheit war.
+----
+Tags: digitalisierung
+----
+Language: Deutsch
+----
+Justforrss: 

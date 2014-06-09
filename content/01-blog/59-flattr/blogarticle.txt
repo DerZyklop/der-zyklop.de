@@ -1,11 +1,7 @@
 Title: Hast du Wikipedia schon mal danke gesagt?
-
 ----
-
 Date: 2013-11-28
-
 ----
-
 Text: ###### <span>Kurzfassung</span>
 
 Wikipedia braucht spenden. Aber es gibt einen besseren Weg als eine einfache Spende. Der Weg heißt (link: http://www.youtube.com/watch?v=9zrMlEEWBgY text: Flattr)-Subscription.
@@ -67,11 +63,9 @@ Und wenn jeder zweite von euch was spendet, dann gibts ja vielleicht auch irgend
 ### Fazit
 
 Nicht nur Wikipedia, TAZ-Artikel und (link: https://flattr.com/thing/26871/dict-cc-multilingual-dictionary text: dict.cc), sondern auch Bettis und meinen Podcast (link: http://heizdeckenradio.pxwrk.de/ text: Heizdeckenradio) und auch diesen Artikel hier kann man Flattrn, wenn man der Meinung ist, dass das gut ist was der Nils macht und dass der weiter machen soll.
-
 ----
-
-Tags: weltretten, digitalisierung
-
+Tags: flattr, weltretten, digitalisierung
 ----
-
-Language: deutsch
+Language: Deutsch
+----
+Justforrss: 
