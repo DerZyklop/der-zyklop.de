@@ -15,7 +15,6 @@
         <?php echo kirbytext($page->text()); ?>
       </div>
     </div>
-
   </article>
 
 </section>
