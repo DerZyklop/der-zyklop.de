@@ -1,8 +1,12 @@
 {
   "rules": {
-    "no-console": 1,
+    "no-console": 2,
+
+    "no-undef": 0,
+    "no-console": 0,
+
     "no-wrap-func": 0,
     "no-unused-vars": 1,
-    "no-return-assign": 1
+    "no-return-assign": 1,
   }
 }

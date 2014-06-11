@@ -109,13 +109,13 @@ module.exports = (grunt) ->
       # watch coffee
       coffee:
         files: ['<%= paths.src.coffee %>*.coffee']
-        tasks: ['newer:coffee', 'newer:eslint', 'concat', 'uglify']
+        tasks: ['newer:coffee', 'newer:eslint', 'concat:js', 'uglify']
         options:
           livereload: true
       # watch sass
       sass:
         files: ['<%= paths.src.sass %>*.sass']
-        tasks: ['newer:sass', 'newer:autoprefixer', 'newer:imageEmbed', 'newer:cssmin']
+        tasks: ['newer:sass', 'newer:autoprefixer', 'newer:imageEmbed', 'concat:js', 'newer:cssmin']
         options:
           livereload: true
 
