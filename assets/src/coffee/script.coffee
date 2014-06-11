@@ -6,6 +6,8 @@ jQuery(document).ready ->
   jQuery(".nolink").click (event) ->
     event.preventDefault()
 
+  jQuery(".comment-add-form textarea").autosize()
+
   jQuery(".comment-add-form").addClass "hide-form"
   sweetComments = ->
     jQuery(".comment-add-form textarea").on "keyup", (e) ->
@@ -24,3 +26,4 @@ jQuery(document).ready ->
   , 1000
 
   jQuery("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.png'],a[href$='.gif']").attr("rel", "gallery").fancybox()
+

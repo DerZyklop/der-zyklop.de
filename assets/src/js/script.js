@@ -7,6 +7,7 @@
     jQuery(".nolink").click(function(event) {
       return event.preventDefault();
     });
+    jQuery(".comment-add-form textarea").autosize();
     jQuery(".comment-add-form").addClass("hide-form");
     sweetComments = function() {
       return jQuery(".comment-add-form textarea").on("keyup", function(e) {

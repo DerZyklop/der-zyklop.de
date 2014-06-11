@@ -32,6 +32,7 @@ module.exports = (grunt) ->
           'bower_components/jquery/dist/jquery.min.js'
           'bower_components/fancybox/source/jquery.fancybox.js'
           'bower_components/prism/prism.js'
+          'bower_components/jquery-autosize/jquery.autosize.min.js'
           'assets/smart-submit/smart-submit.js'
           '<%= paths.src.js %>*.js'
         ]
