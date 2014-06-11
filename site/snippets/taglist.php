@@ -1,6 +1,6 @@
 <?php
   $tags = tagcloud($blog, array(
-    'limit'=>30,
+    'limit'=>100,
     'field'=>'tags',
     'param' => 'tag',
     'baseurl'=>url('blog/tags')
