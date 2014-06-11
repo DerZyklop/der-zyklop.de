@@ -41,7 +41,7 @@ module.exports = (grunt) ->
         src: [
           'bower_components/prism/themes/prism.css'
           'bower_components/prism/themes/prism-twilight.css'
-
+          'bower_components/fancybox/source/jquery.fancybox.css'
           '<%= paths.src.css %>*.css'
         ]
         dest: '<%= paths.src.css %>styles.css'
@@ -116,7 +116,7 @@ module.exports = (grunt) ->
       # watch sass
       sass:
         files: ['<%= paths.src.sass %>*.sass']
-        tasks: ['newer:sass', 'newer:autoprefixer', 'newer:imageEmbed', 'concat:js', 'newer:cssmin']
+        tasks: ['newer:sass', 'newer:autoprefixer', 'concat:css', 'newer:imageEmbed', 'newer:cssmin']
         options:
           livereload: true
 
