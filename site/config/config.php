@@ -502,7 +502,7 @@ c::set('comments.exclude.pages', array('') );
 
 // Show Gravatar images?
 // false or size in pixels (f.e. 32)
-c::set('comments.gravatar', 64);
+c::set('comments.gravatar', 80);
 
 // filename for saving comments
 c::set('comments.data.filename', 'comments.json');
