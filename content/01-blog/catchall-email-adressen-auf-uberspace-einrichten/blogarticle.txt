@@ -1,0 +1,56 @@
+Title: CatchAll-Email-Adressen auf Uberspace einrichten
+----
+Date: 2014-06-11
+----
+Text: Es ist super einfach Catchall Adressen auf meinem Lieblings-Hoster **Uberspace**, (link: http://der-zyklop.de/blog/uberspace text: den ich euch schon mal vorgestellt habe), einzurichten.
+
+### Was ist eine Catch-All Adresse?
+
+Wenn ich eine Domain besitze, wie z.B. `der-zyklop.de`, dann kann ich mir verschiedenste Email-Adressen einrichten. Ich könnte beispielsweise eine Adresse wie `mail@der-zyklop.de` für die allgemeinheit einrichten, und eine `katzenfreunde-giessen@der-zyklop.de`, die nur für meine Stammtisch-Runde bestimmt ist. Oder ich richte mir `spam@der-zyklop.de` ein, die ich nur für Soziale Netze und andere Online-Dienste nehme, wenn nur mal kurz was testen will.
+
+Ich kann diese neuen Email-Adressen als eigenständige accounts einrichten, oder als virtuelle Postfächer, indem ich einfach alle Mails an meine allgemeine `mail@der-zyklop.de` weiterleite.
+
+#### Nebeneffekt: Missbrauch rückverfolgen
+
+Wenn ich nun z.B. eine eigene Adresse für meinen **Facebook-Account**, den **Google-Account** sowie für den **Katzenfreunde-Newsletter** einrichte, dann hat das einen netten Nebeneffekt. Ich kann dann nämlich anhand der Empfänger-Adresse erkennen durch wen der Spammer an meine Adresse gelangt ist.
+
+#### Nebeneffekt: Zusätzliche SPAM-Gefahr
+
+Wenn man jetzt alles auf macht – also wenn man sagt `[egal-was-hier-steht]@der-zyklop.de` soll immer ankommen, dann läuft man Gefahr mehr SPAM als vorher zu bekommen. Dafür kann man bei Uberspace sehr einfach einen eleganten Zwischenweg einrichten...
+
+### Lösung
+
+Man kann bei Uberspace virtuelle Postfächer mit der Variable `default` anlegen.
+
+Wenn ich also z.B. `super-default` als virtuelle Adresse anlege, die an `mail@der-zyklop.de` weiterleitet, dann werden die Emails durchgestellt, die an folgende Adressen gesendet werden:
+`super-man@der-zyklop.de`
+`super-markt@der-zyklop.de`
+`super-geil@der-zyklop.de`
+
+Folgende Emails laufen in’s leere:
+`super@der-zyklop.de`
+`total-super@der-zyklop.de`
+
+So minimiere ich die Gefahr, zugespammt zu werden und brauche nicht jedes mal per Hand eine neue Adresse registrieren. Wenn ich nun einen neuen Account bei Twitter registriere, dann könnte ich `super-twitter@der-zyklop.de` eingeben, und alles funktioniert wie gewohnt.
+
+### Einrichten
+
+1. (link: https://uberspace.de/dashboard/mail#vmailmgr text: Hier) die Unterstützung der virtuellen Postfächer aktivieren, falls nicht schon geschehen. 
+2. Daraufhin ändert sich (link: https://uberspace.de/dashboard/mail#dotqmail text: hier) der eintrag `default` zur Zustellungsregel `|/usr/bin/vdeliver`. Das müsst ihr nicht verstehen – ich schreibe das hier nur zur kontrolle, ob auch alles glatt geht. 
+3. Nun bei den (link: https://uberspace.de/dashboard/mail#dotqmail text: Virtuellen Postfächern) unten auf *** Neu** klicken. Links in der Spalte **Adresse** tragt ihr `fancy-adresse-default` ein, und rechts tragt ihr euren `[uberspace-usernamen]` ein.
+
+Fertig. 
+
+Sendet euch zur kontrolle mal eine Mail an 
+`fancy-adresse-foo@[eure domain].[tld]`
+und 
+`fancy-adresse-bar@[eure domain].[tld]`
+und dann freut euch :)
+
+Mehr zu dem Thema im (link: https://wiki.uberspace.de/mail:vmailmgr text: Uberspace-Wiki).
+----
+Tags: workflow, hosting, uberspace, email
+----
+Language: Deutsch
+----
+Justforrss: 
