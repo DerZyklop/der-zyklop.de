@@ -10,7 +10,7 @@
     jQuery(".comment-add-form textarea").autosize();
     jQuery(".comment-add-form").addClass("hide-form");
     sweetComments = function() {
-      return jQuery(".comment-add-form textarea").on("keyup", function(e) {
+      return jQuery(".comment-add-form textarea").on("keyup", function() {
         if (this.value.length) {
           jQuery(".comment-add-form").find(".visible").slideDown(300);
           return jQuery(".comment-add-form").find("input:submit").removeAttr("disabled");

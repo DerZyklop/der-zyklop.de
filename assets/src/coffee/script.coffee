@@ -10,7 +10,7 @@ jQuery(document).ready ->
 
   jQuery(".comment-add-form").addClass "hide-form"
   sweetComments = ->
-    jQuery(".comment-add-form textarea").on "keyup", (e) ->
+    jQuery(".comment-add-form textarea").on "keyup", ->
       if this.value.length
         jQuery(".comment-add-form").find(".visible").slideDown(300)
         jQuery(".comment-add-form").find("input:submit").removeAttr("disabled")
