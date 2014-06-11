@@ -14,6 +14,7 @@
       <div data-post="<?php echo html($page->uid()); ?>" data-likes="<?php echo html($page->likes()); ?>" class="article-text">
         <?php echo kirbytext($page->text()); ?>
       </div>
+      <?php snippet('options-bar') ?>
     </div>
   </article>
 
@@ -25,7 +26,6 @@
 
 <div class="comments bg-tertiary">
   <section class="width-wrap">
-      <?php snippet('options-bar') ?>
       <?php snippet('comments.list') ?>
       <?php snippet('comments.add.form') ?>
   </section>

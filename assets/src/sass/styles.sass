@@ -382,43 +382,30 @@ $options-bar-space: 10px
     margin: $space-t-b 0
     .right
         position: relative
-        &:before
-            content: ' '
-            background: url('../images/teilen.png')
-            opacity: 0.5
-            display: block
-            width: 253px
-            height: 52px
-            position: absolute
-            top: -50%
-            right: 0
-    .autorinfo .autorlink,
+        // &:before
+        //     content: ' '
+        //     background: url('../images/teilen.png')
+        //     opacity: 0.5
+        //     display: block
+        //     width: 253px
+        //     height: 52px
+        //     position: absolute
+        //     top: -50%
+        //     right: 0
     .supporters-btn
         +btn()
-    .autorinfo .autorlink
-        float: left
-        padding-left: 1em
-        padding-right: 1em
     .supporters-btn
         min-width: $options-bar-space*6
-        min-height: $options-bar-space*6
         margin-left: 10px
         float: left
         text-align: center
         position: relative
         border-radius: $radius
-        &.facebook,
-        &.twitter,
-        &.flattr,
-        &.pinterest
-            font-size: 0
+        padding-right: 1em
+        line-height: $options-bar-space*4
         &:after
-            position: absolute
-            left: 0
-            right: 0
-            top: $options-bar-space
-            margin: 0 auto
             display: block
+            float: left
             content: ' '
             height: 40px
             width: 40px
