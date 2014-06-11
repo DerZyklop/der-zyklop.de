@@ -1,0 +1,40 @@
+Title: Uberspace. Mein Lieblings-Hoster.
+----
+Date: 2014-06-11
+----
+Text: Mein Lieblings-Hoster ist seit einigen Jahren (link: https://uberspace.de/ text: Uberspace) aus Mainz. Bei Uberspace landet ihr, wenn ihr der-zyklop.de in eure Browser-Adresszeile eingebt. 
+
+(image: uberspace-hosting-on-asteroids.jpg link: uberspace-hosting-on-asteroids.jpg title: Uberspace)
+
+Warum ich die so dope finde, hat viel mit vertrauen zu tun. Und das fängt bei deren Business-Model an: 
+
+### Pay what you want.
+
+Ich muss mir selbst überlegen, was ich denke was angebracht ist. Wenn ich also eine kleine Webseite mit 5 Besuchern pro Monat dort hosten lasse, zahle ich einen Euro pro Monat. Wenn ich all meine Dateien über deren Server synchronisiere, alle Emails darüber laufen lasse und einen Online-Shop mit 10.000 besuchern pro tag betreibe, orientiere ich mich am besten an der Konkurenz.
+
+Der erste Monat ist komplett umsonst. Man muss auch keine Kontodaten hinterlassen oder irgend einen Vertrag unterschreiben. Was uns zum nächsten Punkt bringt.
+
+### Schnell mal was testen geht super.
+
+Wenn ich irgenwo mal ein interessantes Projekt gefunden habe, dass man sich auf dem eigenen Server installieren kann, wie z.B. die Kalender-, Kontakt- und Datei-Synchronisation (link: http://owncloud.org/ text: ownCloud), dann ist Uberspace der richtige ort um das schnell mal zu testen. Denn...
+
+### Einrichten dauert genau so lange, wie ich brauche um mir einen Benutzernamen auszudenken.
+
+Denn mehr ist es nicht. Ich gehe auf (link: https://uberspace.de/register text: uberspace.de/register), gebe einen Benutzernamen ein, und schon bekomme ich alles was ich brauche. Zum Beispiel einen FTP-Zugang für den Datenaustausch, eine Email-Adresse, sogar ein SSH-Zugang für die Komandozeile und einiges mehr. Dafür brauche ich keine eigene Email oder Post-Adresse und keine Kreditkarten-Nummer angeben.
+
+Ich kann also z.b. den User `owncloud-test` anmelden, schnell mal ownCloud installieren, testen und anschließend den Account wieder vergessen. Denn wenn ich mich nicht weiter um meinen Account kümmere, dann wird er irgendwann wieder gelöscht.
+
+Was gibts sonst noch zu sagen? 
+...vieles. Das vermutlich meiste steht im Wiki. Sonstiges findet man in unzähligen Uberspace-Tutorials in Blogs. Und wenn man Fragen hat oder man auf dem laufen bleiben will, erreicht man die (link: https://twitter.com/ubernauten text: Ubernauten auch auf Twitter).
+
+---
+
+Das ist alles sowas von **nicht Vergleichbar** mit allem was ich zuvor für krämpfe mit Hostern hatte. Es ist so ehrlich! (link: http://www.biohost.de/ text: Nicht alle waren schlecht), aber keiner war so einfach und umfangreich wie Uberspace.
+
+PS: Nein, ich bekomme kein Geld für diesen Artikel :D
+----
+Tags: uberspace, hosting, blog, workflow
+----
+Language: Deutsch
+----
+Justforrss: 
