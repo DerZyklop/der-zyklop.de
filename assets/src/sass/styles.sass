@@ -600,15 +600,13 @@ $options-bar-space: 10px
     margin: 2em 0
     h6
         background-color: $secondary
+    p
+        margin-bottom: 0
+    input, textarea
+        box-sizing: border-box
     &.hide-form
-        form
+        form .visible
             display: none
-    .button span
-        padding-right: 6px + 32px
-        background:
-            image: url('../images/iconmonstr-pen-5-icon-32.png')
-            position: center right
-            repeat: no-repeat
 
 ul#comments
     +clear-list-styles()
