@@ -20,7 +20,7 @@
   <h6><span>Mehr Artikel zum Thema...</span></h6>
   <ul>
     <?php foreach($taglist as $tag): ?>
-    <li><a href="<?= $tag->url() ?>"><?= $tag->name() ?> <span><?= $tag->results ?></span></a></li>
+    <li><a href="<?= $tag->url() ?>"><?= $tag->name() ?> <span class="result-counter"><?= $tag->results ?></span></a></li>
     <?php endforeach ?>
   </ul>
 </div>

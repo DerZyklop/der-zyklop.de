@@ -1052,13 +1052,13 @@ section {
     background-color: #bd6457;
     color: #fcfcfc;
     border: none; }
-    .meta .taglist li a span {
-      background: #9b4235;
-      padding: 0.2em 0.4em;
-      margin-left: 0.2em;
-      border-radius: 4px; }
   .meta h1 span, .meta h2 span, .meta h3 span, .meta h4 span, .meta h5 span, .meta h6 span {
     background: #f7f7f7; }
+
+a span.result-counter {
+  background: #9b4235;
+  padding: 0.2em 0.4em;
+  border-radius: 4px; }
 
 .bg-tertiary {
   background: #333333;
