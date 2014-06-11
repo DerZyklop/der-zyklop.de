@@ -30,39 +30,37 @@ function relative_time($date, $postfix = ' ago', $fallback = 'F Y')
 require 'comments.read.php';
 ?>
 <div class="comments-list">
-  <h6><span><?php
-  if (count($comments['data']) == 0) {
-    echo 'Bisher keine Kommentare';
-  } else {
-    echo count($comments['data']).' ';
-    if (count($comments['data']) == 0) {
-      echo l::get('comments.title') ?: 'Kommentare';
-    } elseif (count($comments['data']) == 1) {
-      echo 'Kommentar';
-    } else {
-      echo l::get('comments.title') ?: 'Kommentare';
-    }
+  <?php if (count($comments['data']) != 0) : ?>
+    <h6><span><?php
+      echo count($comments['data']).' ';
+      if (count($comments['data']) == 0) {
+        echo l::get('comments.title') ?: 'Kommentare';
+      } elseif (count($comments['data']) == 1) {
+        echo 'Kommentar';
+      } else {
+        echo l::get('comments.title') ?: 'Kommentare';
+      }
 
-  };
-  ?></span></h6>
+    ?></span></h6>
+  <?php endif; ?>
 <?php
 if (count($comments['data'])):
 ?>
-	<ul id="comments">
-		<?php $index = 0; ?>
-		<?php foreach ($comments['data'] as $comment):
-			$index = $index+1;
-			echo '<li class="'.(( $index % 2 == 0 ) ? 'odd' : 'even').'">';
-				echo '<div class="comment-name">'.$comment['name'].'</div>';
-				echo '<div class="comment-date">'.relative_time($comment['date']).'</div>';
-				echo (c::get('comments.gravatar') ? '<div class="comment-gravatar"><div><a href="https://de.gravatar.com/">'.$comment['gravatar'].'</a></div></div>' : '');
-				#echo '<div class="comment-date">'.date('H:m d.m.Y', strtotime($comment['date'])).'</div>';
+  <ul id="comments">
+    <?php $index = 0; ?>
+    <?php foreach ($comments['data'] as $comment):
+      $index = $index+1;
+      echo '<li class="'.(( $index % 2 == 0 ) ? 'odd' : 'even').'">';
+        echo '<div class="comment-name">'.$comment['name'].'</div>';
+        echo '<div class="comment-date">'.relative_time($comment['date']).'</div>';
+        echo (c::get('comments.gravatar') ? '<div class="comment-gravatar"><div><a href="https://de.gravatar.com/">'.$comment['gravatar'].'</a></div></div>' : '');
+        #echo '<div class="comment-date">'.date('H:m d.m.Y', strtotime($comment['date'])).'</div>';
 
-				echo '<div class="clearit"></div>';
-				echo '<div class="comment-text">'.kirbytext($comment['text']).'</div>
-			</li>';
-		endforeach; ?>
-	</ul>
+        echo '<div class="clearit"></div>';
+        echo '<div class="comment-text">'.kirbytext($comment['text']).'</div>
+      </li>';
+    endforeach; ?>
+  </ul>
 <?php
 endif;
 ?>

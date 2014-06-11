@@ -3,11 +3,13 @@
   src: url("../fonts/Merriweather-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+
 @font-face {
   font-family: "Merriweather";
   src: url("../fonts/Merriweather-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
+
 :focus {
   outline: 0; }
 
@@ -816,13 +818,14 @@ section {
   margin: 2em 0; }
   .comment-add-form h6 {
     background-color: #bd6457; }
-  .comment-add-form.hide-form form {
+  .comment-add-form p {
+    margin-bottom: 0; }
+  .comment-add-form input, .comment-add-form textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  .comment-add-form.hide-form form .visible {
     display: none; }
-  .comment-add-form .button span {
-    padding-right: 38px;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACPUlEQVRYCWNgGAWjIUDDEGhoaBBZsWLFnoULFy6GWQMUY4GxQTQjMoeabJDl3t7etwwMDATnzZvX/eHDh50ODg6rjIyMhD5//vx/3759x69cueJMTTvhZoEsP3369Lvfv3//nzlzZhcQeL148eLPfzSwevXqw3BN1GIQaznILW/fvv1LLXvB5pBiOcgBP3/+/E81B5BqOcgBx48ff81ELRfo6+tvgSW4jx8/HoiLi9skLi7OjMv858+f/z148GAgLnmSxVetWnUQX4ID+RgGnj179qezs5P6OQBXaodZDKJpZjnIR9iyGiHLqZYGgHn+BtAB33DFHSjOFy9e7F5eXr4XWQ1VHDB//vw5jIyMf7Zs2aJ58eLFz8gWgNi4LEdXRxYflPhAwXz27NkPra2t4i0tLdIXLlz4BAt6msU5yLUwy2GWoTuCGMvJroxWrly5LywszBE92M6dO/dxx44d6kBHsbCxsamUlZUdRFdDMR9YvS6D+RobPXfu3OkUW4LLgAkTJoSDynBcAFj/78CllyrioFQ+YJZPmzatBpfly5Yto63PQcF39OjRF+gO+P79+/8FCxbMo0rw4jMEWN2yoBe1oGzX398fgE8fITlGUJwCSzGs2fHkyZMLUlNTc0CG9PT02AB9LxgdHb3+zp07ry5fvtybnZ3dS8gCgvLoQYrMX7JkyUaQAbNmzZoECmpghWMBCgmChpKggGXbtm3XcKl///79UZDcr1+/ngPzfjewIjmBS+2o+GgIkBsCADVYt0+JXCouAAAAAElFTkSuQmCC);
-    background-position: center right;
-    background-repeat: no-repeat; }
 
 ul#comments {
   list-style: none;
