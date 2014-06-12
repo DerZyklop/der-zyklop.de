@@ -176,5 +176,5 @@ module.exports = (grunt) ->
 
   # Default task(s)
   grunt.registerTask('scripts', ['coffee', 'eslint', 'concat', 'uglify'])
-  grunt.registerTask('styles', ['sass', 'autoprefixer', 'imageEmbed', 'cssmin'])
+  grunt.registerTask('styles', ['sass', 'autoprefixer', 'imageEmbed', 'concat:css', 'cssmin'])
   grunt.registerTask('default', ['scripts', 'styles', 'concurrent'])
