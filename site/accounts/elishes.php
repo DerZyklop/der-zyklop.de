@@ -1,0 +1,7 @@
+<?php if(!defined('KIRBY')) exit ?>
+
+language: de
+username: elishes
+email: elisa-heuser@gmx.de
+password: >
+  $2a$10$azqoMdrImRTiGj.CWSX.KOkKQTrHnd6TKpiMgTIX3V5QntRchw.0q
