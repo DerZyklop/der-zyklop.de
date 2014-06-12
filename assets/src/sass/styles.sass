@@ -845,27 +845,9 @@ $main-nav-percentage: 30
 #article-nav
     display: none
 
-    .next-page
-        text-align: right
     .next-page,
     .prev-page
-        font-weight: bold
-        display: block
-        cursor: pointer
-        border-radius: $radius
-        padding: 0.5em
-        margin: $space-t-b/2 0
-        transition: 0.3s
-        text-decoration: none
-        background: $quadrary - #050505
-        border: $border-width $border-style $quadrary - #101010
-        a
-            text-decoration: none
-        &:hover
-            border-color: $secondary - #222
-            background: $secondary - #222
-            a
-                color: $quadrary
+        display: none
 
     @media screen and (min-width: $breakpoint)
         a
@@ -888,6 +870,7 @@ $main-nav-percentage: 30
                     display: block
         .next-page,
         .prev-page
+            display: block
             position: fixed
             z-index: 40
             top: 45%

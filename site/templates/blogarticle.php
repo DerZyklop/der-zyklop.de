@@ -20,8 +20,6 @@
 
 </section>
 
-<?php snippet('article-nav') ?>
-
 </div>
 
 <div class="comments bg-tertiary">
@@ -34,6 +32,7 @@
 <div class="meta">
   <section class="width-wrap">
     <?php snippet('article-suggestion') ?>
+    <?php snippet('article-nav') ?>
     <?php snippet('article-taglist') ?>
   </section>
 

@@ -1631,31 +1631,9 @@ a.open-menu {
 
 #article-nav {
   display: none; }
-  #article-nav .next-page {
-    text-align: right; }
   #article-nav .next-page,
   #article-nav .prev-page {
-    font-weight: bold;
-    display: block;
-    cursor: pointer;
-    border-radius: 4px;
-    padding: 0.5em;
-    margin: 1rem 0;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    text-decoration: none;
-    background: #f7f7f7;
-    border: 1px solid #ececec; }
-    #article-nav .next-page a,
-    #article-nav .prev-page a {
-      text-decoration: none; }
-    #article-nav .next-page:hover,
-    #article-nav .prev-page:hover {
-      border-color: #9b4235;
-      background: #9b4235; }
-      #article-nav .next-page:hover a,
-      #article-nav .prev-page:hover a {
-        color: #fcfcfc; }
+    display: none; }
   @media screen and (min-width: 770px) {
     #article-nav a {
       text-decoration: none; }
@@ -1676,6 +1654,7 @@ a.open-menu {
         display: block; }
     #article-nav .next-page,
     #article-nav .prev-page {
+      display: block;
       position: fixed;
       z-index: 40;
       top: 45%;
