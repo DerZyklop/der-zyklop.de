@@ -37,7 +37,4 @@
     <?php snippet('article-taglist') ?>
   </section>
 
-
-
-  <?php snippet('footer') ?>
-  <?php snippet('rss-button') ?>
+<?php snippet('footer') ?>

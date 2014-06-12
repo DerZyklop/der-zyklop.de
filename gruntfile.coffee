@@ -116,7 +116,8 @@ module.exports = (grunt) ->
       # watch sass
       sass:
         files: ['<%= paths.src.sass %>*.sass']
-        tasks: ['newer:sass', 'newer:autoprefixer', 'concat:css', 'newer:imageEmbed', 'newer:cssmin']
+        #tasks: ['newer:sass', 'newer:autoprefixer', 'concat:css', 'newer:imageEmbed', 'newer:cssmin']
+        tasks: ['newer:sass', 'newer:autoprefixer', 'concat:css', 'newer:cssmin']
         options:
           livereload: true
 
@@ -176,5 +177,6 @@ module.exports = (grunt) ->
 
   # Default task(s)
   grunt.registerTask('scripts', ['coffee', 'eslint', 'concat', 'uglify'])
-  grunt.registerTask('styles', ['sass', 'autoprefixer', 'imageEmbed', 'concat:css', 'cssmin'])
+  #grunt.registerTask('styles', ['sass', 'autoprefixer', 'imageEmbed', 'concat:css', 'cssmin'])
+  grunt.registerTask('styles', ['sass', 'autoprefixer', 'concat:css', 'cssmin'])
   grunt.registerTask('default', ['scripts', 'styles', 'concurrent'])

@@ -5,7 +5,7 @@ if(!isset($disqus_shortname)) die('Please pass the disqus shortname');
 if(!isset($disqus_title)) $disqus_title = $page->title();
 if(!isset($disqus_developer)) $disqus_developer = 0;
 if(!isset($disqus_identifier)) $disqus_identifier = $page->uri();
-if(!isset($disqus_url)) $disqus_url = thisURL();
+if(!isset($disqus_url)) $disqus_url = $page->url();
 
 ?>
 <div id="disqus_thread"></div>

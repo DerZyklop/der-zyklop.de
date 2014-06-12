@@ -11,8 +11,8 @@
   <?php if($page->nextVisible()): ?>
   <div class="next-page">
     <a href="<?php echo $page->nextVisible()->url() ?>">
-      <span class="icon">&#10093;</span>
       <span class="text"><?= $page->nextVisible()->title() ?></span>
+      <span class="icon">&#10093;</span>
     </a>
   </div>
   <?php endif ?>
