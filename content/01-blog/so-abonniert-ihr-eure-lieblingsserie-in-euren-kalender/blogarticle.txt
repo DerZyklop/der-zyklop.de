@@ -2,7 +2,7 @@ Title: So abonniert ihr eure Lieblingsserie in euren Kalender
 ----
 Date: 2014-05-17
 ----
-Text: Ihr schaut Serien und wollt informiert werden, wenn eine neue Folge erscheint? Ich auch. Ich habs so eingerichtet, dass Neuerscheinungen als Termin (mit Erinnerung) in meinem Kalender stehen. So erreicht mich die Erinnerung egal an welchem Gerät ich gerade sitze. Das geht so...
+Text: Ihr schaut Serien und wollt informiert werden, wenn eine neue Folge erscheint? Ich auch. Ich habs so eingerichtet, dass Neuerscheinungen als Termin (mit Erinnerung) automatisch in meinem Kalender stehen. So erreicht mich die Erinnerung egal an welchem Gerät ich gerade sitze. Das geht so...
 
 ### Veröffentlichung der Original-Folgen
 
