@@ -1,6 +1,6 @@
-Title: Das eigentliche Problem mit dem Privaten und dem Öffentlichen Raum
+Title: Das eigentliche Problem mit dem privaten und dem öffentlichen Raum
 ----
-Date: 2014-06-12
+Date: 2014-06-18
 ----
 Text: > Früher waren der **private Raum** und der **öffentliche Raum** klar voneinander getrennt – durch physikalische Räumlichkeit.
 
@@ -14,7 +14,7 @@ Dass man Privatsphäre hat, ist unheimlich wichtig für die Entwicklung der eige
 
 Ich kommuniziere mit anderen Menschen via Internet. Ich ersteigere und bestelle Dinge online. Die Ein- und Ausgänge meines Kontos fließen durchs Netz, auch wenn ich nie Online-Banking gemacht hätte, denn auch meine Bank kommuniziert über das Internet. Die magentafarbene Firma presst die Stimme meiner Mutter jetzt nicht mehr über das olle Kupferkabel, sondern wandelt die Schwingungen in Einsen und Nullen um um sie geschmeidig durch das neue Glasphaser fließen zu lassen.
 
-Ich hole an dieser Stelle so weit aus, weil ich immer noch Menschen höre die behaupten sie machen ja garnicht viel im **Internet** und seien deshalb nicht so betroffen von Überwachung. Das ist aus vielen Gründen falsch. Aber vor allem werden hier Begriffe vermischt. Was sie meinen ist das **(link: https://de.wikipedia.org/wiki/World_Wide_Web text: Web)** – also das was im Browser passiert. Aber das Web ist nur ein Bruchteil von dem, was im Netz der Netze los ist. Wenn ich hier über das **Internet** schreibe, handelt es sich dabei nicht um ein Entertainment-Angebot – es handelt sich um (link: http://der-zyklop.de/blog/netzneutralitaet text: unsere Infrastruktur).
+Ich hole an dieser Stelle so weit aus, weil ich immer noch Menschen höre, die behaupten sie machen ja garnicht viel im **Internet** und seien deshalb nicht so betroffen von Überwachung. Das ist aus vielen Gründen falsch. Aber vor allem werden hier Begriffe vermischt. Was sie meinen ist das **(link: https://de.wikipedia.org/wiki/World_Wide_Web text: Web)** – also das was im Browser passiert. Aber das Web ist nur ein Bruchteil von dem, was im Netz der Netze los ist. Wenn ich hier über das **Internet** schreibe, handelt es sich dabei nicht um ein Entertainment-Angebot – es handelt sich um (link: http://der-zyklop.de/blog/netzneutralitaet text: unsere Infrastruktur).
 Zurück zum Thema...
 
 Das Internet wird oft als der öffentliche Raum wahrgenommen. Manchmal auch als privater Raum. Dabei transportiert es doch eigentlich nur Informationen. Es ist passiv. Es lebt nicht.
@@ -28,7 +28,7 @@ Und weil das alles so wenig greifbar ist, ist nun eine Zeit gekommen in der in P
 ...oder eben nicht. Je nach dem wie wir uns entscheiden. 
 
 - Wir können sagen »Ich habe nichts zu verbergen« und damit allen anderen Mitmenschen auch das Recht auf eine gesunde Persönlichkeits-Entwicklung absprechen. 
-- Wir können eine Partei, die sich nicht wehrt wenn unsere Demokratie angegriffen wird, **demokratisch** in’s Europa-Parlament wählen.
+- Wir können eine Partei, die sich nicht wehrt, wenn unsere Demokratie angegriffen wird, **demokratisch** in’s Europa-Parlament wählen.
 - Oder wir lassen den Quatsch sein und (link: https://digitalegesellschaft.de/uber-uns/ text: unterstützen) (link: http://irights.info/ text: diejenigen, die für) (link: https://netzpolitik.org/ text: unsere Zukunft) (link: https://digitalcourage.de/ text: kämpfen). 
 
 Um das zu verstehen, braucht man kein Informatik-Studium. 
