@@ -1,0 +1,32 @@
+Title: Meine Lieblings-Blog-Abonnier-App ist zurück. Besser denn je.
+----
+Date: 2014-06-19
+----
+Text: (link: http://der-zyklop.de/blog/readability text: Lange Texte im Internet lesen kann auch Spaß machen.) Und Blogs kann man per Software abonnieren. Die Software nennt man Feed-Reader. Als ich damals mal (link: http://der-zyklop.de/blog/wie-kann-ich-blogs-abonnieren text: einen Artikel darüber) geschrieben habe, habe ich noch die App **Reeder** in Version 1 genutzt. Jetzt ist eine neue Version veröffentlicht worden. Und die ist besser als alle Feed-Reader die ich bisher gesehen habe.
+
+### Was bisher geschah
+
+In der Zwischenzeit ist einiges passiert. Der **Google Reader** wurde abgeschaltet. In **Reeder 1** gab es aber keine andere Möglichkeit die Blog-Abos auf verschiedenen Geräten synchon zu halten, als über den Google Reader. Damit war Reeder 1 vorerst gestorben. (link: http://der-zyklop.de/blog/digg text: Viele sind zu »Feedly« gewechselt. Ich bin mit »Digg.com« einigermaßen glücklich gewurden).
+
+### Reeder ist zurück!
+
+(image: reeder2.png link: reeder2.png)
+
+Der Entwickler Silvio Rizzi hat sich mit der Entwicklung der Version 2 von seinem Reeder recht lange Zeit gelassen. Wie sich nun herausstellt zu recht! Denn das was er nun (link: http://reederapp.com/mac/ text: für Mac) und (link: http://reederapp.com/ios/ text: für iOS) abgeliefert hat, ist besser den je und ein Highlight der User Experience. So vorbildlich designt! So sauber programmiert! Bei Bedarf komplett über die Tastatur oder auch Touch-Gesten bedienbar. Ich habe mich schon eine ganze Weile nicht mehr so sehr über eine neue App gefreut wie diese. Die Mac-Version kostet 10€ und iOS kostet 5€. Das ist ziemlich wenig Geld für das was er da gebaut hat finde ich.
+
+Einziges Problem für mich: Es wird keine synchronisation über Digg.com angeboten. Angebotene Dienste sind bisher:
+
+- (link: https://feedbin.com/ text: Feedbin) (30$/Jahr)
+- (link: https://feedly.com/ text: Feedly) (Kostenlos oder 45$ für Pro-Account)
+- (link: https://feedwrangler.net/ text: Feed Wrangler) (19$/Jahr)
+- (link: http://feedafever.com/ text: Fever) (30$ einmalig)
+- (link: http://der-zyklop.de/blog/readability text: Readability) (Kostenloser »Read Later«-Service)
+- Oder man verzichtet eben auf die Synchronisation und konsumiert Blog-Inhalte nur auf einem einzigen Gerät.
+
+Also habe ich schnell mal meine (link: https://digg.com/settings text: Abos Exportiert (ganz herunter scrollen..)) und (link: https://feedly.com/index.html#cortex text: bei Feedly Importiert).
+----
+Tags: blog, app, feedreader
+----
+Language: Deutsch
+----
+Justforrss: 
