@@ -1,11 +1,7 @@
 Title: GeoCaching im Schwarzwald
-
 ----
-
 Date: 2014-02-11
-
 ----
-
 Text: Ich war mal wieder auf dem (link: http://www.der-zyklop.de/pxwrk/pathcamp/ text: Pathcamp).
 
 Heißt: Leute die normalerweise zu einem großen Teil im Netz leben und arbeiten, treffen sich auf einer Hütte im Schwarzwald, an einem Ort an dem keine Kommunikation nach "aussen" stattfindet. Kein Handynetz, kein WLAN, nichts. Nur ein einziges Kabel-Telefon. Aber digital-dement wie wir nun mal alle sind, wusste keiner von uns mehr wie man damit Telefoniert und was es mit dieser runden Scheibe mit den Löchern auf sich hat.
@@ -46,7 +42,9 @@ Ich habe immer  wieder mal davon gehört. Malte war nicht der erste der mich zum
 Das was mich dabei am meisten fasziniert ist ein Gefühl dafür zu bekommen wie oft man im Alltag an solchen Caches vorbeiläuft ohne es zu wissen. Caches in den Strassenecken, im Wald, und am Regenrohr des Nachberhauses... überall! Dazu kommt das Bewusstsein wieviele Menschen beispielsweise in meiner Heimatstadt Gießen herumlaufen müssen, die regelmäßig den selben Quatsch mitmachen. Fühlt sich für mich an, wie eine unsichtbare Gemeinschaft.
 
 Wer mit mir Cachen gehen will, sagt mir bescheid! :)
-
 ----
-
-Tags: geocaching, geocache, pathcamp, bitcoin
+Tags: geocaching, pathcamp, bitcoin
+----
+Language: Deutsch
+----
+Justforrss: 

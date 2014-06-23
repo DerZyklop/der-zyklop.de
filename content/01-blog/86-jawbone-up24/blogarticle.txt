@@ -1,0 +1,86 @@
+Title: Persönliche Erfahrungen mit dem Jawbone UP24
+----
+Date: 2014-06-23
+----
+Text: Ich habe ein Band am Arm, das kann bei Bedarf vibrieren, hat einen Knopf, einige Sensoren und tauscht Informationen mit meinem Smartphone/Tablet aus. So überwacht es mich (mit meinem Einverständnis) und verspricht mir, mein Leben besser zu machen. Da der (twitter: maltekrohn text: Malte) von (link: http://www.generation-zweinull.com/ text: generation-zweinull.com) gerade vor der (link: https://twitter.com/maltekrohn/status/480724866019385344 text: Frage) steht ob (link: https://jawbone.com/up text: Jawbone UP) oder (link: http://www.fitbit.com/de/flex text: Fitbit Flex), schreibe ich hier mal über meine persönlichen Erfahrungen mit dem Jawbone. So viel sei schon mal verraten: 
+Ich habe den Kauf nicht bereut.
+
+(image: jawbone-up.jpg link: jawbone-up.jpg title: Jawbone UP24)
+
+### Kaufgründe
+
+Mein Leben läuft unstrukturiert. Meistens ist das so gewollt. Ich habe beispielsweise eine große Abneigung gegen Uhren jeglicher art. Aber in manchen Punkten ist das unstrukturiert-sein nicht gewollt. Ich dachte mir so ein Band könnte vielleicht helfen, und wenn nicht, verkaufe ich’s halt wieder.
+
+#### Ich esse unregelmäßig
+
+Manchmal vergesse ich zu essen. Besonders dann wenn meine Arbeit besonders spaß macht und das kommt nicht selten vor. Dann bemerke ich mein rießen Loch im Bauch erst sobald ich den Rechner aus irgend einem Grund verlassen muss. So kann es durchaus mal passieren, dass ich nach dem Frühstück einen ganzen Mittag/Nachmittag lang nichts esse. Meistens bin ich am darauf folgenden Tag um so weniger Fit (vor allem im Kopf).
+
+Das erste was ich also an Vibrations-Alarmen eingestellt habe war eine Essens-Erinnerung mittags und eine Nachmittags/Abends.
+
+Und das hilft. Jegliche sonstigen Erinnerungen, Push-Notifications, Kalender-Einträge, was auch immer... erreicht mich nicht. Ich habe alles was mich ablenken kann beim Arbeiten entweder ausgeschaltet, oder mein Gehirn filtert es aus meiner Realität raus. Das vibrierende Armband ist perfekt für diesen Job.
+
+#### Ich schlafe unregelmäßig
+
+Ich habe wenige feste Arbeitszeiten. Niemand schreibt mir vor wann ich aufstehen sollte. Und da ich auch kein Zeitgefühl habe sind die Zeiten zu denen ich ins Bett gehe und zu denen ich aufstehe dementsprechend unregelmäßig. Das, in Kombination mit meiner chaotischen Ernährung, sorgt dafür, dass ich nicht gut aus dem Bett komme.
+
+Das Band hat einen »Interligenten Wecker«. Ich sage ihm wann ich ungefähr geweckt werden will (+/-30min) und es weckt mich wann es das für richtig hält. Wenn ich mich gerade in einer erholsamen Tiefschlaf-Phase befinde lässt es mich eine runde länger schlafen. Wenn ich mich eh gerade unruhig im Bett hin und her welze, kann mir das Band eine vergeudete Stunde ersparen.
+
+#### Ich bewege mich zu wenig
+
+Ich bin Designer/Programmierer. Wie viele in diesem Beruf bewege ich mich zu wenig.
+
+In der Jawbone-App kann ich mir ein eigenes Ziel setzen, wieviele **Schritte ich pro Tag** mindestens machen möchte. Halte ich mein Ziel ein, werde ich immer wieder ermutigt weiter zu machen (Challenges, Recorde etc.). Ich bin zu faul, als dass mir das als mutivation ausreichen würde. Aber wenn man an dieser Stelle das UP mit einer sportbegeisterten Freundin kombiniert, dann geht’s.
+
+Dazu kommt der **Idle-Alert**. Wenn ich mich länger als eine halbe Stunde nicht bewege, bin ich vermutlich in Arbeit/Gedanken versunken. Das Band vibriert kurz um mich da raus zu holen. Manchmal strecke ich mich nur, manchmal gehe ich in den Keller um eine neue Flasche Wasser zu holen. Das ist nicht viel, aber viel besser als vorher.
+
+#### Ich schlafe schlecht
+
+Dass ich morgens nur schwer aus dem Bett komme, war früher nicht so. Vielleicht liegt’s an meinem verkorksten Essens- und Schlaf-Rhytmus. Vielleicht liegts auch daran, dass ich mich zu wenig bewege. Vermutlich ist es von allem ein bisschen. An meinem Alter liegt’s hoffentlich noch nicht :)
+
+Also habe ich mir noch einen Bedtime-Reminder gestellt. Wann ich allerdings wirklich in’s Bett gehe, muss ich dem Band dann per Knopfdruck mitteilen.
+
+Das Band sendet die gesammelten Daten nach dem Aufwachen an mein Smartphone/Tablet und ich bekomme eine graphische Auswertung über Qualität und Dauer. Wenn ich mich mal wieder gehen lasse, erinnert die App mich daran welche positiven Auswirkungen regelmäßiger Schlaf haben kann. Und ja, wenn ich einen »streak« habe, also wenn ich möglichste viele Tage in Folge meine Ziele eingehalten habe, dann spornt mich das an diesen »streak« nicht abreissen zu lassen.
+
+#### Der unerwartete Bonus: Mein Zeitgefühl ist zurück
+
+Wie gesagt: Ich mag Uhren nicht. Armbanduhren sind die schlimmsten. Smartwatches kämen für mich erst in Frage, wenn sie keine Uhrzeit mehr anzeigen.
+
+Und nun ist etwas passiert, womit ich nicht gerechnet habe und woran ich beim kauf garnicht gedacht habe: 
+Ich habe durch das Armband wieder ein Zeitgefühl. Das ist mir zuerst aufgefallen als ich drei mal in folge jeweils mittags, kurz vor »Armband vibriert gleich« nach der Zeit geschaut habe, weil ich mir dachte »ist es nicht schon Zeit für’s Mittagsessen?«. Und mittlerweile wache ich auch am Wochenende in meinem Rythmus auf, auch wenn kein Wecker gestellt ist.
+
+### Dinge die ich nicht nutze
+
+Ich könnte noch über die Erfassung von Power-Naps, von Gewicht, Essen (und deren bestandteilen), und der Verknüpfung mit anderen Sport-Apps schreiben. Aber das sind alles Dinge, die ich nicht wirklich nutze.
+
+### Tragekomfort
+
+Ich merke es kaum, dass ich es anhabe. Beim Duschen ziehe ich es aus, obwohl es das laut Hersteller vertragen würde.
+
+Einziges Problem: Wenn man am Laptop arbeitet, liegt eine Hand auf dem Laptop, und die andere auf dem Armband. Zum Glück habe ich mein Armband eine Nummer größer gekauft. So kann ich es weit genug hoch schieben, sodass es nicht mehr aufliegt. 
+**Das sollte man beim Kauf unbedingt beachten!**
+
+### Die negative Kritik
+
+Der Support ist scheisse. Auf Emails an die Support-Email-Adresse antworten Roboter.
+
+Der Bedtime-Reminder geht auch an, wenn ich dem Band schon mitgeteilt habe, dass ich mich schlafen gelegt habe.
+
+Die Daten fließen über den Jawbone-Server. Das wäre meiner Meinung nach kein muss. Auch wenn sie Ausnahmsweise einer der wenigen Dienste sind, die einem eine klar kommunizierte Möglichkeit der Datenlöschung bieten:
+
+(image:  jawbone-up24-daten-loeschen.png link:  jawbone-up24-daten-loeschen.png title: Jawbone UP Daten Löschen)
+
+Und wenn man den weg durch die Cloud des Herstellers schon zur Pflicht macht, dann sollte das Band wesentlich Günstiger sein. Denn dann verdient das Unternehmen vermutlich nicht nur an dem verkauf des Produktes. Die Technik die in dem Armband verbaut ist, ist jedenflls nichts besonderes.
+
+Bei der Vibration schnarrt der Bedien-Knopf. Das hat er am Anfang nicht getan. Normalerweise ist das nicht störend, aber als Wecker oder Erinnerung in einer üblicherweise sehr leisen Uni-Bibliothek ist es lästig. Vielleicht bekomme ich das ja nochmal getauscht.
+
+Ach ja.. und mit einer besseren Visualisierung der Daten könnte man noch einiges an Erkenntnissen aus der App ziehen. Ich hätte da jedenfalls noch ein paar Ideen. Aber wer weiß, viellecht kommt da ja noch was.
+
+### tl;dr
+
+Ich finde das Gerät zu teuer aber habe meinen Kauf nicht bereut. Es hat mein Leben ein stückchen strukturierter gemacht und dafür hat es sich schon gelohnt. Es kommt eben auch darauf an was man vor hat. Ich bin z.B. kein Sportler – die haben da möglicherweise andere Ansprüche als ich.
+----
+Tags: app, digitalisierung, information-overload, ios
+----
+Language: Deutsch
+----
+Justforrss: 
