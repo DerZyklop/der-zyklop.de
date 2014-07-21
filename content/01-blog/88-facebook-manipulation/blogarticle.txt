@@ -1,0 +1,38 @@
+Title: Ärgert es dich eigentlich, dass Facebook deine Kommunikation manipuliert?
+----
+Date: 2014-07-11
+----
+Text: Seit neustem Wissen wir: (link: http://media.tagesschau.de/audio/2014/0630/AU-20140630-0219-5301.mp3 text: Facebook manipliert) den Newsfeed seiner Nutzer — **und das sorgt für große Empörung.** ...oder?
+
+(image: facebook-manipulation.png link: facebook-manipulation.png title: Facebook Manipulation)
+
+Ist das so? Ich höre davon nur in den Medien und auf Twitter, aber ich habe kein Wort darüber in meiner eigenen (manipulierten) Facebook-Timeline gelesen. 
+
+Neu ist dabei auch eigentlich nur die information, dass in einer bestimmten Studie 689.003 der über 1.000.000.000 Facebook-Nutzer als Versuchsversonen für psychologische Forschung genutzt werden, ohne dass sie jemand darüber aufgeklärt hätte. Da kann man sich drüber streiten ob man das Ethisch okay findet oder nicht. Aber mein Problem ist jetzt:
+
+**Hat die Manipulation, die schon vorher stattgefunden hat, keiner bemerkt?** Man bekommt auf Facebook doch immer nur die Posts von Leuten mit denen man die selben Interessen teilt oder mit denen man ohnehin schon viel Kontakt hat. Die anderen Freunde werden von der Firma Facebook aus deiner Wahrnehmung (auch Newsfeed, Timeline, Dashboard oder Facebook-Startseite genannt), ohne Vorwarnung weggefiltert. Achtet mal darauf.
+
+Das sorgt also dafür, dass du nur noch Gleichgesinnte um sich herum findest und der Austausch mit anders-denkenden seltener stattfindet. Wir Menschen sehen unsere eigene Meinung nun mal gerne bestätigt. Doch wenn du dir nicht darüber nicht bewusst bist, dass Facebook versucht selbst zu steuern wie du dein soziales Umfeld wahrnimmst, was passiert dann? Welchen Einfluss hat das auf dich, oder diejenigen die es nicht bemerken? Welche Menschen sind es die so ein einseitiges Umfeld/Weltbild gerne haben und willst du auch so sein?
+
+Man nennt das Phänomen auch (link: http://youtu.be/BLaZl9ve0z4?t=4m20s text: Echo-Chamber) (Echo-Kammer) oder (link: http://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles text: Filter-Bubble) (Filterblase). 
+
+<iframe src="//player.vimeo.com/video/21422747" width="100%" height="455" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/21422747">Eli Pariser: Beware online "filter bubbles"</a> from <a href="http://vimeo.com/basilsalad">Basil Salad Software</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+Ein interessantes Thema. Vor ein paar Jahren hat man darüber mal ganz angeregt diskutiert. Also die Nerds, Techniker und Soziologen von denen sowas normalerweise über die üblichen verdächtigen (link: http://re-publica.de/ text: Konferenz)en in die Gesellschaft getragen wird. Aber mit scheint als hätte dieser letzte Schritt nie stattgefunden. Die Zeit ist reif.
+
+Manche mögen das ja vielleicht auch, dass der Mark schon mal eine Vorauswahl trifft, von dem was du zu sehen hast und was nicht. Ich nenne das kaputt. Ich will die Nachrichten aller Kontakte nach Datum sortiert angezeigt bekommen. Das wäre ein unkomplizierter Algorithmus den jeder verstehen kann.
+
+Man kann übrigens auch das Standard-Verhalten für einzelne posts freischalten, wenn man dafür ein paar Euro abdrückt. ... ... lol
+
+Zurück zu den empörten...
+Vorausgesetzt, die Leute haben nicht bemerkt, dass ihnen nicht alle Nachrichten aller Freunde angezeigt werden... Sind sie dann gegen Manipulation oder finden sie nur die neue Manipulation schlechter als die vorherige?
+
+(image: research-ethics.png link: https://xkcd.com/1390/)
+
+Äusserst absurd das alles.
+----
+Tags: digitalisierung, facebook, ux
+----
+Language: Deutsch
+----
+Justforrss: 
