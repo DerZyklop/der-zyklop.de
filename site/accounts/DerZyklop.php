@@ -1,8 +1,8 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-username: DerZyklop
+username: derzyklop
 email: mail@der-zyklop.de
 password: >
-  $2a$10$u2TP4vlt8F6LBoyOVzMkG.eev1UMkGBo9dvVRyCvjbxPknKDO8.SW
+  $2a$10$XzNYIF5r17.zd9lYjFW7FOcjFdr1I4814Cq7k.xbqAvPxpmi2R0bO
 language: en
-token: e98b0d67524d2f662e9f77073b3fec3e173f3312
+token: e2fea377788b27b3569346eb1ed039b548f41282
