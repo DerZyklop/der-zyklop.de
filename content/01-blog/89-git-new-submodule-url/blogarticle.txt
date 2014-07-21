@@ -1,0 +1,20 @@
+Title: git: Switch to a new submodule url
+----
+Date: 2014-07-16
+----
+Text: I have a git-project with a submodule. The new major-version of the submodule is located in a completely different repo on github. So, it has a new repo-url, which means that i have to update my submodule-setup.
+
+I really hate git's submodule-handling so i sumbled upon various less meaningful error-messages on my way. The final answer looks quite easy:
+
+```
+git rm -rf [submodule_dir]
+git submodule add --name new_[submodule_name] [new_submodule_url] [submodule_dir]
+```
+
+And it works well, if you go this way – but never take a look to the left or right!
+----
+Tags: submodule, git, code, work, kirby, terminal
+----
+Language: English
+----
+Justforrss: 
