@@ -42,6 +42,10 @@ BitTorrent is a great peer-to-peer protocol for Filesharing. I already use it fo
 My first idea was to use the NAS as simple storage and let my Raspberry Pi do all the automated XBMC and Torrent stuff. But i repeatedly read about performance-issues, when people tried to stream HD files while torrents where in proccess. (link: http://www.reddit.com/r/raspberry_pi/comments/1596yu/is_it_possible_to_run_xbmc_nas_and_torrent_box_on/c7mxev0 text: Someone wrote a script) that stops all the torrent-stuff when he starts a movie.
 
 But i decided to use my Pi as a simple XBMC (with (link: http://openelec.tv/ text: OpenELEC for RaspberryPi) like my workmate recommended it) and let the Synology NAS do all the hard torrent-, watch-folders- and sorting-work (i’ll elaborate on that later).
+
+---
+
+Read my follow-up article (link: http://der-zyklop.de/blog/xbmc-and-airplay-on-raspberry-pi text: XBMC and AirPlay on Raspberry Pi).
 ----
 Tags: raspberrypi, entertainment, automation, torrent, opensource
 ----

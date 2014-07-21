@@ -20,6 +20,10 @@ Ah.. and a (link: http://decentralize.it/ text: Grand Decentral Station) on a Pi
 And a friend asked me to (link: http://www.raspberrypi.org/learning/infrared-bird-box/ text: survail a bird box) with it. Funny idea my friend, but you probably have to do this on your own :P
 
 In the near future, I'll tell you more about my setup.
+
+---
+
+Read my follow-up article (link: http://der-zyklop.de/blog/raspberry-pi-plans text: Raspberry Pi and Synology NAS for XBMC and BitTorrent. The tv-show automation plans).
 ----
 Tags: raspberrypi, entertainment, apple, freifunk, decentralization, automation, opensource, torrent
 ----
