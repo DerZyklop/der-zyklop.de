@@ -5,7 +5,7 @@ Date: 2014-06-23
 Text: Ich habe ein Band am Arm, das kann bei Bedarf vibrieren, hat einen Knopf, einige Sensoren und tauscht Informationen mit meinem Smartphone/Tablet aus. So überwacht es mich (mit meinem Einverständnis) und verspricht mir, mein Leben besser zu machen. Da der (twitter: maltekrohn text: Malte) von (link: http://www.generation-zweinull.com/ text: generation-zweinull.com) gerade vor der (link: https://twitter.com/maltekrohn/status/480724866019385344 text: Frage) steht ob (link: https://jawbone.com/up text: Jawbone UP) oder (link: http://www.fitbit.com/de/flex text: Fitbit Flex), schreibe ich hier mal über meine persönlichen Erfahrungen mit dem Jawbone. So viel sei schon mal verraten: 
 Ich habe den Kauf nicht bereut.
 
-(image: jawbone-up.jpg link: jawbone-up.jpg title: Jawbone UP24)
+(image: 01-jawbone-up.jpg link: 01-jawbone-up.jpg title: Jawbone UP24)
 
 ### Kaufgründe
 
@@ -59,6 +59,10 @@ Ich merke es kaum, dass ich es anhabe. Beim Duschen ziehe ich es aus, obwohl es 
 Einziges Problem: Wenn man am Laptop arbeitet, liegt eine Hand auf dem Laptop, und die andere auf dem Armband. Zum Glück habe ich mein Armband eine Nummer größer gekauft. So kann ich es weit genug hoch schieben, sodass es nicht mehr aufliegt. 
 **Das sollte man beim Kauf unbedingt beachten!**
 
+### Akku-Laufzeit
+
+Eine Akku-Ladung hält laut Hersteller eine Woche, und das kann ich auch bestätigen. Ich habe von einem anderen UP-Nutzer erfahren, dass die Akkuleistung deutlich schneller sinkt, wenn man den Akku aufläd bevor er (fast) leer ist. Das Band sagt einem aber auch rechtzeitig bescheid, wenn es aufgeladen werden will.
+
 ### Die negative Kritik
 
 Der Support ist scheisse. Auf Emails an die Support-Email-Adresse antworten Roboter.
@@ -79,7 +83,7 @@ Ach ja.. und mit einer besseren Visualisierung der Daten könnte man noch einige
 
 Ich finde das Gerät zu teuer aber habe meinen Kauf nicht bereut. Es hat mein Leben ein stückchen strukturierter gemacht und dafür hat es sich schon gelohnt. Es kommt eben auch darauf an was man vor hat. Ich bin z.B. kein Sportler – die haben da möglicherweise andere Ansprüche als ich.
 ----
-Tags: app, digitalisierung, information-overload, ios
+Tags: app, digitalisierung, information-overload, ios, jawbone
 ----
 Language: Deutsch
 ----
