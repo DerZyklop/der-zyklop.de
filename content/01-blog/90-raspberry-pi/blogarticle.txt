@@ -1,0 +1,28 @@
+Title: Hello Raspberry Pi! :)
+----
+Date: 2014-07-19
+----
+Text: I have bought a cute little **Raspberry Pi**. 
+
+Don't know, what it is? Watch this:
+<iframe src="//player.vimeo.com/video/90103691?color=5fbecd" height="450" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+I bought it for several reasons. For example, I wanted an AirPlay-Device, which I can use for audio without turning on my TV (as you would have to do with AppleTV). Maybe something like an AirPort Extreme, which is also a WLAN router or at least repeater. But I also wanted a media-center, like an Apple TV. But these two would cost me ~200€ and I'm a bit afraid of the restrictions that Apple implements in some of their products.
+
+A Raspberry Pi can do that all at once and it costs something about 30-40€. With the required SD-Card, a USB-WLAN stick and some cables I paid 61,74€. But you have to learn how to set things up. You have to get smarten up. That's the price.
+
+(image: raspberry-pi.jpg link: raspberry-pi.jpg text: Raspberry Pi)
+
+But that's just one idea. I‘m also interested in the (link: http://freifunk.net/ text: Freifunk) project. That's a german mesh network. **Free internet access to the people!**
+
+Ah.. and a (link: http://decentralize.it/ text: Grand Decentral Station) on a Pi would be awesome. But it will take some time till this happens.
+
+And a friend asked me to (link: http://www.raspberrypi.org/learning/infrared-bird-box/ text: survail a bird box) with it. Funny idea my friend, but you probably have to do this on your own :P
+
+In the near future, I'll tell you more about my setup.
+----
+Tags: raspberrypi, entertainment, apple, freifunk, decentralization, automation, opensource, torrent
+----
+Language: English
+----
+Justforrss: 
