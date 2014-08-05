@@ -2,11 +2,15 @@ Title: XBMC and AirPlay on Raspberry Pi
 ----
 Date: 2014-07-21
 ----
-Text: Here we go! Last Saturday i had tinker-day with my (link: http://der-zyklop.de/blog/raspberry-pi text: Raspberry Pi) and on sunday i gained the laurels. I woke up, made some (link: http://www.elishes.de/blog/fruehstueck text: fresh breakfast) with my girlfriend and turned on my TV/RasPi. ...and there it was! All the new Episodes of my favorite TV-Shows. Automatically. And even more – i fond some things there, that i wanted, but didn’t expact. I’ll come to that later.
+Text: Here we go! Last Saturday i had tinker-day with my (link: http://der-zyklop.de/blog/raspberry-pi text: Raspberry Pi) and on sunday i gained the laurels. I woke up, made some (link: http://www.elishes.de/blog/fruehstueck text: fresh breakfast) with my girlfriend and turned on my TV/RasPi. ...and there it was! All the new Episodes of my favorite (Creative Commons-) TV-Shows. Automatically. And even more – i fond some things there, that i wanted, but didn’t expact. I’ll come to that later.
 
 Now lets summerize what i did to make (link: http://der-zyklop.de/blog/raspberry-pi-plans text: my plans) work.
 
 ## XBMC on Raspberry Pi
+
+(image: xbmc.jpg link: https://secure.flickr.com/photos/45703688@N07/7216979800/ text: XBMC on Raspberry Pi by lespounder)
+
+<small>[(link: https://creativecommons.org/licenses/by-sa/2.0/deed.en text: cc-sa-by)] Photo by (link: https://secure.flickr.com/photos/45703688@N07/ text: lespounder)</small>
 
 Setting up a XBMC on my Raspberry Pi was pretty easy. The (link: http://www.raspberrypi.org/downloads/ text: the NOOBS Software) was already installed on the SD card that was included in the Pi set i bought. If you dont have it, just download it, and copy it to your SD card.
 
