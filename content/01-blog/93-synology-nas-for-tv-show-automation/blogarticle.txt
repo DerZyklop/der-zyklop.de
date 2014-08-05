@@ -1,0 +1,66 @@
+Title: Synology NAS for TV-Show automation
+----
+Date: 2014-08-05
+----
+Text: I (link: http://der-zyklop.de/blog/raspberry-pi text: bought a Raspberry Pi), i (link: http://der-zyklop.de/blog/raspberry-pi-plans text: outlined some plans) and i (link: http://der-zyklop.de/blog/xbmc-and-airplay-on-raspberry-pi text: set up a XBMC on the Pi).
+
+This article is about what i did with my NAS (Synology DS713+). It’s basically about SickBeard, BitTorrent and all the automation that you can do with these great tools. But not so much about how you can do it in detail, because the installation procedure depends a lot on the existing hardware.
+
+It becomes a bit difficult here. So i drew my plan into my sketchbook:
+
+###### <span>Legend</span>
+[(#)](http://internet-logo.org/) stands for "the internet".
+Files/Folders are on the right side.
+Running Software is on the left side.
+
+(image: tv-show-automation-sketch.jpg link: tv-show-automation-sketch.jpg title: BitTorrent, Sickbeard)
+
+### OpenVPN on Synology NAS
+
+All connections between my NAS and (#) should go through a anonymisation VPN tunnel. It was a bit hacky to set this up via OpenVPN, but i found a good (link: https://blog.ipredator.se/howto/synology/configuring-openvpn-on-a-synology-nas.html text: guide for iPredator users) that should also work for other VPN providers.
+
+### SickBeard on Synology NAS
+
+So back to the sketch... in my Synology NAS there is a software called (link: http://sickbeard.com/ text: SickBeard). It knows my favorite (creative commons-) tv-shows and watches the internet for new episodes. Impotent note here: SickBeard is primary build for Usenet users, but since i want so use it for torrenting, i installed a (link: https://github.com/bricky/Sick-Beard text: SickBeard fork by bricky). If it finds a new episode, it loads the `.torrent`-file to the `torrents/input` directory. 
+
+### Synology DownloadStation and SickBeard
+
+The directory `torrents/input` is observed by my Torrent-Client (»Synology DownloadStation«). So if a new `.torrent` file comes in, the requested episode will be loaded and then moved to to the directory `torrents/downloaded`.
+
+### SickBeard post-processing
+
+The directory `torrents/downloaded` is again watched by SickBeard. When a new media-file comes in, SickBeard renames it in a configurable pattern like 
+
+```
+[ShowName].[Season][EpisodeNumber].[EpisodeName].[ext]
+```
+
+Afterwards it moves it into the final directory like `media/tvshows/[ShowName]/`. And to top it all, SickBeard also sends a short notification to the Raspberry Pi, which says *»Hey there! You should take a look in the tvshows folder. [ShowName] has a new Episode!«*.
+
+### For the movies
+
+I installed (link: https://couchpota.to text: CouchPotato) on the Pi. It watches out for (creative commons-) movies i like and downloads them, if i want this and if they are available in my prefered quality.
+
+It also did some nice stuff that i didn't expact ((link: http://der-zyklop.de/blog/xbmc-and-airplay-on-raspberry-pi text: as i told you)). I found an option to connect CouchPotato with my (link: http://letterboxd.com/derzyklop text: Letterboxed account). Guess what CouchPotato does with the list called (link: http://letterboxd.com/derzyklop/watchlist/ text: movies DerZyklop wants to see).
+
+If you instruct CP to download Movies, you can also configure how and where the Movies should be stored. For example you could configure, that downloaded files should be stored as 
+
+```
+media/movies/[MovieName] ([PublishingDate])/[MovieName].[Quality].[ext]
+```
+
+### The End
+
+Thats it. I turn on my tv, and see what i want to see. 
+
+The only thing that i'm missing now, is a good payment-system, because i hate the idea that the great artists out there dont get my money. Something like a torrent-connected (link: https://flattr.com/ text: flattr)-system would be awesome. But untill this hat happens, a whole industrie has to die.
+
+---
+
+If you have any questions about the setup, please just ask me.
+----
+Tags: automation, raspberrypi, entertainment, opensource, sickbeard, couchpotato, torrent, synology
+----
+Language: English
+----
+Justforrss: 
