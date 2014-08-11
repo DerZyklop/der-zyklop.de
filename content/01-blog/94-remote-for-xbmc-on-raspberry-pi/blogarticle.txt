@@ -1,0 +1,26 @@
+Title: Remote for XBMC on Raspberry Pi
+----
+Date: 2014-08-11
+----
+Text: I (link: http://der-zyklop.de/blog/synology-nas-for-tv-show-automation text: have been asked) which remote i use for my (link: http://der-zyklop.de/blog/xbmc-and-airplay-on-raspberry-pi text: XBMC on my Raspberry Pi). Here is what you can do:
+
+### Solution 1
+
+It is very easy to set up a remote like a smartphone or tablet app. There are many of these. I have e.g. an iOS app for it. These apps do basically all the same: You can use it 
+
+1: like a remote with up/down/left/right/enter/play/pause... buttons, or 
+2: you can browse through your shows directly on your device. 
+
+### Solution 2
+
+If your TV supports the CEC protocol (remote-protocol via HDMI) you can also (link: http://wiki.xbmc.org/?title=CEC text: use your TV remote as the XBMC remote).
+
+### Solution 3 to ∞
+
+I haven’t done this yet, but you can setup a lot of different controllers for your Raspberry Pi. To do that, you usually have to go through the commandline. And you probably want to choose the OS **RaspBMC** since it has a full Linux running in background. So with RaspBMC you have more possibilities of customization than in a smaller OS like **OpenElec**.
+----
+Tags: raspberrypi, synology, entertainment
+----
+Language: English
+----
+Justforrss: 
