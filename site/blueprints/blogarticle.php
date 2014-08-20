@@ -8,8 +8,14 @@ fields:
     label: Title
     type: text
   date:
+    width: 3/4
     label: Date
     type:  date
+  justforrss:
+    width: 1/4
+    label: Just for RSS feed?
+    type: checkbox
+    default: off
   text:
     label: Text
     type:  textarea
@@ -23,19 +29,15 @@ fields:
       - email
       - link
   tags:
+    width: 1/2
     label: Tags
     type: tags
     index: all
   language:
+    width: 1/2
     label: Language
     type: radio
     options:
-      - key: Deutsch
-        value: deutsch
-      - key: English
-        value: english
+      deutsch: Deutsch
+      english: English
     default: deutsch
-  justforrss:
-    label: Just for RSS feed?
-    type: checkbox
-    default: off
