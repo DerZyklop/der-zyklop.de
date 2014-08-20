@@ -4,7 +4,6 @@ title: Blog
 pages:
   template: blogarticle
   sort: flip
-  limit: 2
 files: true
 fields:
   title:
