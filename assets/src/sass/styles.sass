@@ -605,6 +605,21 @@ $options-bar-space: 10px
 
 ul#comments
     +clear-list-styles()
+    .comment-anchor
+        display: block
+        position: relative
+        &:hover
+            &:before
+                position: absolute
+                left: -(1.4em + 1em)
+                bottom: 0.3em
+                display: block
+                content: ' '
+                background-image: url('../images/iconmonstr-anchor-5-icon.svg')
+                background-size: 1.4em
+                height: 1.4em
+                width: 1.4em
+
     .comment-date
         float: right
     .comment-name

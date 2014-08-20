@@ -1401,6 +1401,20 @@ ul#comments {
   list-style: none;
   padding: 0;
   margin-top: 0; }
+  ul#comments .comment-anchor {
+    display: block;
+    position: relative; }
+    ul#comments .comment-anchor:hover:before {
+      position: absolute;
+      left: -2.4em;
+      bottom: 0.3em;
+      display: block;
+      content: " ";
+      background-image: url("../images/iconmonstr-anchor-5-icon.svg");
+      -webkit-background-size: 1.4em;
+      background-size: 1.4em;
+      height: 1.4em;
+      width: 1.4em; }
   ul#comments .comment-date {
     float: right; }
   ul#comments .comment-name {

@@ -51,8 +51,14 @@ if (count($comments['data'])):
     <?php foreach ($comments['data'] as $comment):
       $index = $index+1;
       echo '<li class="'.(( $index % 2 == 0 ) ? 'odd' : 'even').'">';
-        echo '<div class="comment-name">'.$comment['name'].'</div>';
-        echo '<div class="comment-date">'.relative_time($comment['date']).'</div>';
+    ?>
+      <?php $anchor = date("Ymd_his",strtotime($comment['date'])) ?>
+      <a class="comment-anchor" href="#<?= $anchor ?>" id="<?= $anchor ?>">
+        <div class="comment-name"><?= $comment['name'] ?></div>
+        <div class="comment-date"><?= relative_time($comment['date']) ?></div>
+        <div class="clearit"></div>
+      </a>
+    <?php
         echo (c::get('comments.gravatar') ? '<div class="comment-gravatar"><div><a href="https://de.gravatar.com/">'.$comment['gravatar'].'</a></div></div>' : '');
         #echo '<div class="comment-date">'.date('H:m d.m.Y', strtotime($comment['date'])).'</div>';
 
