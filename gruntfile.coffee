@@ -140,16 +140,6 @@ module.exports = (grunt) ->
         options:
           livereload: true
 
-    # copy
-    # copy:
-    #   all:
-    #     files: [
-    #       expand: true
-    #       cwd: '<%= paths.src.dir %>'
-    #       src: ['**/*','!<%= paths.assets %>**','<%= paths.assets %>images/**/*']
-    #       dest: '<%= paths.build.dir %>'
-    #     ]
-
     # php
     php:
       all:
