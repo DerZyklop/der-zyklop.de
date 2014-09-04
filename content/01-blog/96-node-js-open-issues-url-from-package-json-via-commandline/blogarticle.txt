@@ -1,0 +1,98 @@
+Title: 
+
+node.js: Open issues-url from package.json via commandline
+
+----
+
+Date: 
+
+2014-08-05
+
+----
+
+Text: 
+
+When i want to work on one of my existing (node/grunt based) projects, i always do the same:
+
+- I open the terminal
+- navigate to my project
+- open the project in my code-editor from commandline per `subl .`
+- open the folder in finder from commandline per `open .`
+- start server and watch processes by `grunt`
+- And then i open my favorit todo-management-tool ((link: https://trello.com/ text: trello)) in my browser and navigate to the »board« with the specific project. 
+
+It was the last step in the list that always felt inconsistent. I want to open the page with bugs/issues/todos from the commandline. So i wrote a little script for that. 
+
+(image: bugs.gif title: node open bugs url from command line)
+
+But first things first...
+
+In a (link: https://www.npmjs.org/doc/files/package.json.html text: package.json) is a field called bugs, which has a defined url. If you‘re in a git(hub) project and you initially generate your package.json by `npm init`, it will automatically fill the bugs.url with the url of githubs issue-tracker like this: 
+
+	...
+	"bugs": {
+		"url": "https://github.com/[User]/[Project]/issues"
+	},
+	...
+
+I wrote a little node.js-script, which opens the bugs-url, when i type `bugs` in my terminal. If there is no bugs-url defined, it will ask me for a url and adds it to the package.json.
+
+The script is located in `[my bin folder]/bugs`. Now i can set up my trello-board-url in the package.json and i’m happy. 
+
+Here is the script:
+
+    #! /usr/bin/env node
+
+    try {
+      var filename = process.cwd()+'/package.json'
+    } catch (err) {
+      console.error("--------------------------------------");
+      console.error("---- Do you have a package.json?  ----");
+      console.error("--------------------------------------");
+    }
+
+
+    function addBugsUrl() {
+      console.error("--------------------------------------");
+      console.error("Couldn‘t find the bugs url for "+pkg.name);
+      console.error("--------------------------------------");
+
+      var prompt = require('prompt');
+      prompt.start();
+      prompt.get(['bugs_url'], function (err, result) {
+        pkg.bugs = {};
+        pkg.bugs.url = result.bugs_url;
+        require('fs').writeFileSync(filename, JSON.stringify(pkg, null, 2));
+      });
+    }
+
+    function openBugsUrlInBrowser() {
+      require('child_process').spawn('open', [pkg.bugs.url])
+    }
+
+
+    var pkg = JSON.parse(JSON.stringify(require(filename)));
+    if ( pkg.bugs && pkg.bugs.url ) {
+      openBugsUrlInBrowser();
+    } else {
+      addBugsUrl()
+    }
+
+Any questions? Ask.
+
+----
+
+Tags: 
+
+nodejs,automation,code,work,workflow,terminal,commandline
+
+----
+
+Language: 
+
+english
+
+----
+
+Justforrss: 
+

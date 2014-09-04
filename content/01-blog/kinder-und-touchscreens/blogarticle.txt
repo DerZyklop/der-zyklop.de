@@ -1,12 +1,22 @@
-Title: Kinder und Touchscreens
+Title: 
+
+Kinder und Touchscreens
+
 ----
-Date: 2014-06-08
+
+Date: 
+
+2014-08-29
+
 ----
-Text: Oft unterhalten sich Erwachsene darüber wie abgefahren das ist wie wahnsinnig schnell Babys und Kleinkinder mit der Bedienung eines Smartphones oder Tablets zurecht kommen. Diese Erwachsenen sind offensichtlich keine Nerds. Zumindest habe ich eine solche Reaktion noch nicht bei Technik-Begeisterten Eltern erlebt.
+
+Text: 
+
+Oft unterhalten sich Erwachsene darüber wie abgefahren das ist wie wahnsinnig schnell Babys und Kleinkinder mit der Bedienung eines Smartphones oder Tablets zurecht kommen. Wischgesten, blättern, Bilder zoomen mit der Pinch-Geste etc. Weniger überrascht zeigen sich die Erwachsenen Nerds und Technik-Begeisterten, aber so viele gibt es davon leider gar nicht.
 
 ### Was mich überrascht ist, ist folgendes:
 
-Diese Erwachsenen sind es, die eine viel absurdere Verknüpfung in ihrem Kopf schaffen, und diese für selbstverständlich halten.
+Diese Erwachsenen sind es, die eine viel absurdere Verknüpfung in ihrem Kopf schaffen, und diese für selbstverständlich halten. Überlegt euch mal folgendes...
 
 ### Ein Word-Dokument scrollen geht so:
 
@@ -31,9 +41,20 @@ Wundert euch nicht, wenn die Generation eurer Kinder mit einer Technik klarkomme
 tl;dr
 
 Fürchtet euch nicht vor neuer Technik. Ihr müsst nur hin und wieder mal vergessen wie kompliziert die Vergangenheit war.
+
 ----
-Tags: digitalisierung
+
+Tags: 
+
+digitalisierung
+
 ----
-Language: Deutsch
+
+Language: 
+
+deutsch
+
 ----
+
 Justforrss: 
+

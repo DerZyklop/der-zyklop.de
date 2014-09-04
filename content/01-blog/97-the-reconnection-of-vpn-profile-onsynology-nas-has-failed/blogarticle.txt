@@ -1,0 +1,101 @@
+Title: 
+
+The reconnection of VPN profile on Synology NAS has failed [Fixed on DSM5]
+
+----
+
+Date: 
+
+2014-08-29
+
+----
+
+Justforrss: 
+
+
+
+----
+
+Text: 
+
+I hate it. I always get these messages. But thats over now.
+
+(image: bildschirmfoto-2014-08-29-um-18-23.06.png title: The reconnection of VPN profile on Synology NAS has failed)
+
+I (link: http://der-zyklop.de/blog/synology-nas-for-tv-show-automation text: told you) that my NAS connects to the internet through a secure, encrypted, anonymous **openVPN**-tunnel. But it is hard to find pure non-filtered internet at german telecommunication providers. So they cut my payed wire everyday for a view minutes. You recognize that for example when you play a online-game with friends and around midnight all the germans are suddenly kicked out the game.
+
+### Why my VPN gets disconnected every day
+
+My internet gets disconnected, then my Synology NAS tries to reconnect the VPN-tunnel while there is no internet and then my NAS unfortunately surrenders. And then it has it's unsafe, easily "survailable" connection to the world till i fix it manually.
+
+#### The solution
+
+I installed a cron-job that checks every five minutes if the VPN is connected, and if it isn't, it tries to reconnect.
+
+### How to set up a VPN reconnect script
+
+Login to your NAS via ssh.
+You’ll need your `conf_id` and your `conf_name`. So read your VPN-configuration like this:
+
+    cat /usr/syno/etc/synovpnclient/openvpn/ovpnclient.conf
+
+Your `conf_id` is in the first line. It looks something like `o1234567890123`.
+
+Now create a new script and open it with the text-editor `vi`:
+
+    touch /usr/openVPNreconnect
+    chmod +x /usr/openVPNreconnect
+    vi /usr/openVPNreconnect
+
+Now hit `a` to start the editor mode and paste the following code block into it:
+
+    if echo `ifconfig tun0` | grep -q "00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00"
+    then
+            echo "VPN is running"
+    else
+            echo conf_id=YOURCONFID > /usr/syno/etc/synovpnclient/vpnc_connecting
+            echo conf_name=YOUR_VPN_NAME >> /usr/syno/etc/synovpnclient/vpnc_connecting
+            echo proto=openvpn >> /usr/syno/etc/synovpnclient/vpnc_connecting
+            synovpnc reconnect --protocol=openvpn --name=YOUR_VPN_NAME
+    fi
+    exit 0
+
+Replace YOURCONFID and YOUR_VPN_NAME with your stuff and save the file bei hitting ESC and then type `:wq` and hit ENTER.
+
+Thats it. Type the following into your command line and see whats happening.
+
+    /usr/openVPNreconnect
+
+### How to set up a cronjob for your VPN reconnect script
+
+Just backup your current cronjob-file:
+
+    cp /etc/crontab /root/crontab.bak
+
+open your active cronjob file
+
+    vi /etc/crontab
+
+hit `a` to edit your file. Add a new line to it with this: 
+
+    */5	*	*	*	*	root	/usr/openVPNreconnect
+
+Now hit ESC, type `:wq`, hit ENTER, and restart your cron-deamon by using this command:
+
+    /usr/syno/sbin/synoservicectl --restart crond
+
+**Your done!**
+
+Open your DSM5 admin panel, go to system settings, disconnect your VPN and let the magic happen.
+
+----
+
+Tags: 
+
+synology,surveillance,vpn
+
+----
+
+Language: 
+
+english
