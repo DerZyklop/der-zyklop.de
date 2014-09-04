@@ -6,7 +6,7 @@ Kinder und Touchscreens
 
 Date: 
 
-2014-08-29
+2014-09-04
 
 ----
 
@@ -34,6 +34,8 @@ Beim Touchscreen fasst man das Element an, welches man nach links schieben will,
 Abstraktionslayer: 0. 
 Oder vielleicht 1, denn man muss nun noch lernen, dass das was man bewegt hat nicht links aus dem Smartphone herausfällt. Und wer weiss... vielleicht ist das Problem in ein paar Jahren auch behoben.
 
+(image: kid-touchscreen.jpg title: [CC-BY-SA-2.0] caption: Foto by <a href="https://flic.kr/p/7QTrsq">Marcus Kwan</a> [CC-BY-SA-2.0])
+
 ### Was ich euch damit sagen will
 
 Wundert euch nicht, wenn die Generation eurer Kinder mit einer Technik klarkommen, bei der sie viel weniger nachdenken müssen als ihr, als ihr vor eurem ersten Röhrenmonitor saßt. Oft ist es schwer Menschen dazu zu bringen neue Technik / neue Software zu benutzen. Das liegt oft nicht daran, dass die Software schwer zu bedienen sei. Oft liegt es daran, dass uns die Vergangenheit verkorkst hat. Und während wir noch verzeifelt nach dem gewohnt komplizierten Weg suchen ein Programm auf dem Rechner zu installieren (Ja > Ja > Erlauben > Ok > Herunterladen > Ok > Ja > Installieren > Amen) hat der Computer das schon alles selbst erledigt. 
@@ -46,7 +48,7 @@ Fürchtet euch nicht vor neuer Technik. Ihr müsst nur hin und wieder mal verges
 
 Tags: 
 
-digitalisierung
+digitalisierung,future
 
 ----
 

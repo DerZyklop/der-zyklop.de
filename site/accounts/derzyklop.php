@@ -5,4 +5,8 @@ email: mail@der-zyklop.de
 password: >
   $2a$10$xfC0pznHQKVcxlnXiORG5.NV7w8mrOcmyG5Y/j6nctxMMELBsuhGW
 language: en
-token: d5438bfc302258c3df5602d0577b38a00772b9bb
+token: ae6c3b659bfccabae4b5a6930e3b898956b838b3
+history:
+  - blog/kinder-und-touchscreens
+  - >
+    blog/node-js-open-issues-url-from-package-json-via-commandline
