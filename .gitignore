@@ -1,6 +1,8 @@
 .DS_Store
 .gitignore
 
+*.sublime-workspace
+
 piwik/
 node_modules/
 tweetnest/
