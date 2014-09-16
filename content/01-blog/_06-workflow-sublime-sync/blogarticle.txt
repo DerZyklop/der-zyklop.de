@@ -1,20 +1,20 @@
 Title: Workflow #5 – Sublime in der Cloud
 
-----
+---- 
 
 Date: 2014-01-xx
 
-----
+---- 
 
 Text:
 
 Der Folgende Artikel richtet sich an diejenigen, die Sublime Text nutzen und an mindestens zwei verschiedenen Rechnern (z.B. Laptop & Büro) Arbeiten.
 
-Ich habe euch erklärt wie man den Sublime Text 2 einrichtet, und wie man Packages installiert. Nachdem ihr nun das ein oder andere Package installiert habt, ist es an der Zeit dafür zu sorgen, dass euer Sublime sich auf allen Rechnern gleich verhält und gleich aussieht.
+Ich habe euch erklärt wie man den ** Sublime Text** einrichtet, und wie man Packages installiert. Nachdem ihr nun das ein oder andere Package installiert habt, ist es an der Zeit dafür zu sorgen, dass euer Sublime sich auf allen Rechnern gleich verhält und gleich aussieht.
 
 ### Das Prinzip
 
-...ist eigentlich ganz einfach. Voraussetzung ist, dass ihr einen Cloud-Dienst wie zum Beispiel ownCloud, Dropbox oder ########## nutzt, und dessen Ordner dort liegt wo sich auch der Dokumente-, Musik- und Bilder-Ordner befindet. Alle Dateien, die definieren, wie Sublime aussieht und sich verhält, also alle Settings und Packages liegen in einem bestimmten Systemordner eures Beriebsystems.
+...ist eigentlich ganz einfach. Voraussetzung ist, dass ihr einen Cloud-Dienst wie zum Beispiel **ownCloud**, **Dropbox** oder **BittorrentSync** nutzt, und dessen Ordner dort liegt, wo sich auch der Dokumente-, Musik- und Bilder-Ordner befindet. Alle Dateien, die definieren, wie Sublime aussieht und sich verhält, also alle Settings und Packages liegen in einem bestimmten Systemordner eures Beriebsystems.
 
 #### Rechner Nr. 1
 
@@ -22,11 +22,11 @@ Ich kopiere mir die Dateien aus dem Systemordner in meinen Cloud-Ordner. Danach 
 
 #### Rechner Nr. 2
 
-Auf dem zweiten Rechner muss ich dann nur noch die Dateien im Sublime-Systemordner löschen, die selben Symlinks setzen und das wars.
+Mein Couls-Sync-Dienst hat den Cloud-Ordner auf den neusten stand gebracht. Hier muss ich dann nur noch die Dateien im Sublime-Systemordner löschen, die selben Symlinks setzen wie ich das auch schon bei Rechner 1 gemacht habe und das wars.
 
 ### Die Praxis
 
-Ich gehe jetzt mal davon aus, dass ihr einen Dropbox-Ordner habt. Solltet ihr einen anderen Dienst nutzen setzt einfach da wo ich Dropbox schreibe den Entsprechenden Namen ein.
+Ich gehe jetzt mal davon aus, dass ihr einen Dropbox-Ordner habt. Solltet ihr einen anderen Dienst nutzen setzt einfach da wo ich Dropbox schreibe den Entsprechenden Namen eures Ordners ein.
 
 #### Rechner Nr. 1
 
@@ -38,7 +38,7 @@ Wenn der Editor geschlossen wurde, dann kann es losgehen. Öffnet euer Terminal 
 zip -r ~/Desktop/sublime_backup.zip "Sublime Text 2"
 cd ~</code></pre>
 
-Nun liegt eine sublime_backup.zip auf eurem Desktop. Wenn alles geklappt hat, könnt ihr diese am ende wieder Löschen.
+Nun liegt eine sublime\_backup.zip auf eurem Desktop. Wenn alles geklappt hat, könnt ihr diese am ende wieder Löschen.
 
 Als nächstes führt ihr folgende Befehle im Terminal aus:
 
@@ -69,7 +69,7 @@ Das wars.
 
 #### Hat geklappt?
 
-Öffnet Sublime auf euren beiden Rechnern. Und? Sieht beides gleich aus? Dann hat's wohl geklappt! Ihr könnt nun das Backup (sublime_backup.zip) auf dem Desktop von Rechner Nr. 1 löschen oder verstauen, falls ihr noch unsicher seid.
+Öffnet Sublime auf euren beiden Rechnern. Und? Sieht beides gleich aus? Dann hat's wohl geklappt! Ihr könnt nun das Backup (sublime\_backup.zip) auf dem Desktop von Rechner Nr. 1 löschen oder verstauen, falls ihr noch unsicher seid.
 
 #### Nicht geklappt?
 
@@ -93,6 +93,6 @@ rm -r "Settings"
 ln -s ~/Dropbox/Sublime/"Settings" ~/Library/"Application Support"/"Sublime Text 2"/</code></pre>
 
 
-----
+---- 
 
 Tags: code, workflow, work, sublime
