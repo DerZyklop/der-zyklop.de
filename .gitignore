@@ -15,4 +15,5 @@ site/config/config.php
 bower_components/
 
 .Ulysses-Group.plist
+.UlyssesRoot
 keybase.txt
