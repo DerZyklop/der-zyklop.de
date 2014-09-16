@@ -1,6 +1,6 @@
 .DS_Store
 .gitignore
-keybase.txt
+
 *.sublime-workspace
 
 piwik/
@@ -13,3 +13,6 @@ site/config/config.php
 .sass-cache
 
 bower_components/
+
+.Ulysses-Group.plist
+keybase.txt
