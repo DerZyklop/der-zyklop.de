@@ -34,7 +34,7 @@ Beim Touchscreen fasst man das Element an, welches man nach links schieben will,
 Abstraktionslayer: 0. 
 Oder vielleicht 1, denn man muss nun noch lernen, dass das was man bewegt hat nicht links aus dem Smartphone herausfällt. Und wer weiss... vielleicht ist das Problem in ein paar Jahren auch behoben.
 
-(image: kid-touchscreen.jpg title: [CC-BY-SA-2.0] caption: Foto by <a href="https://flic.kr/p/7QTrsq">Marcus Kwan</a> [CC-BY-SA-2.0])
+(image: kid-touchscreen.jpg title: [CC-BY-SA-2.0] caption: Foto by Marcus Kwan [CC-BY-SA-2.0] link: https://flic.kr/p/7QTrsq)
 
 ### Was ich euch damit sagen will
 
