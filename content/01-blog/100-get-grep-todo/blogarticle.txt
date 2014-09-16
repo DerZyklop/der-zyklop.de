@@ -1,0 +1,59 @@
+Title: 
+
+Get all TODO’s of my git project
+
+----
+
+Date: 
+
+2014-09-13
+
+----
+
+Justforrss: 
+
+
+
+----
+
+Text: 
+
+As the headline says: I just found a way to get a list of all my TODO’s inside my git project in terminal.
+
+(image: screen-shot-2014-09-13-at-15-05.07.png)
+
+Or, lets say i found a way to get all code-lines beginning with the string `# TODO` or `# TODO`:
+
+    git grep -E "# TODO|// TODO"
+
+Do you want to get a list of only the todo’s that belong to you('re git username)? Try this:
+
+    git grep -El '# TODO|// TODO' | xargs -n1 git blame | grep $(git config user.name) | grep TODO
+
+I wrote an alias for it into my `.bashrc`:
+
+    alias todo='git grep -El '# TODO|// TODO' | xargs -n1 git blame | grep $(git config user.name) | grep TODO'
+
+So now i can type the command `todo` into my command line and i know what to do :)
+
+Have fun!
+
+---
+
+PS: If you want to do the same without git you could do something like 
+
+    grep -rEI "# TODO|// TODO" . 2>/dev/null
+
+But then you probably need to exclude a list of library-folders and sudmodules.
+
+----
+
+Tags: 
+
+git,workflow
+
+----
+
+Language: 
+
+english
