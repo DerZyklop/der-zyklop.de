@@ -1,0 +1,49 @@
+Title: 
+
+Wie man daran scheitert einen GMX-Account zu löschen
+
+----
+
+Date: 
+
+2014-09-28
+
+----
+
+Justforrss: 
+
+
+
+----
+
+Text: 
+
+Ich gestehe: Ich hatte mal einen Email-Account bei AOL. Das war noch in den Zeiten in denen man monatlich eine CD von denen im Briefkasten hatte. Später, als ich verstanden hatte das man Internet auch ohne dieses AOL-Fenster haben kann, habe ich mal eine Email-Adresse bei GMX eingerichtet. Warum GMX weiß ich heute nicht mehr. Heute ist mir das peinlich, aber hey.. jeder fängt mal klein an.
+
+Heute habe ich eine echte Email-Adresse, ohne Werbung, ohne Schlagzeilen, ohne Fotos von Brüsten, ohne ein Unternehmen dahinter, das alles tut um den Leuten den Spaß am Internet zu verderben. Ich habe die GMX-Adresse noch jahre lang weiter betrieben. Vielleicht versucht ja doch nochmal eine Gesammtschul-Freundin mich darüber zu erreichen. Oder vielleicht brauche ich sie noch für einen der unzähligen Web-Dienste bei denen ich diese Email-Adresse für meinen Account angegeben habe.
+
+Bei letzterem hat mir (link: https://agilebits.com/onepassword  text: 1Passwort) sehr geholfen. Da kann man im Suchfeld die hässliche Email-Adresse eingeben und weiß dann ob es wichtige Dienste gibt, die diese Adresse noch kennen.
+
+Heute wollte ich meinen GMX-Account löschen. Und siehe da: ** Ich darf nicht.** Es gibt keine option dafür. Alles was sie mir erlauben ist »Account Stilllegen«. Sie verraten mir nicht was genau passiert wenn ich »stilllege«, aber ich kann mir schon denken warum sie nicht das Wort »Löschen« verwenden. Meine Daten auf ihren Servern bleiben dort. 
+
+So ist es auch bei Facebook. Da löscht man seinen Account, und wenn man sich später mal dafür entscheidet sich wieder anzumelden, wundert man sich, dass Facebook sich doch noch an so viele Details erinnern kann. 
+
+Ich darf bei meinem crappy Email-Anbieter aber auch niemanden fragen, solange ich nicht Geld bezahle. Ich kann z.B. Geld für einen Support-Anruf ausgeben, oder mir einen Pro-Account zulegen und sie dann möglicherweise umsonst anrufen um meinen Account löschen zu lassen. Vielleicht geht das aber auch dort nicht. 
+
+Als konsument habe ich natürlich immer die möglichkeit den (link: https://gist.github.com/DerZyklop/9111828 text: Rechtlichen Weg) zu gehen, und ich werde recht bekommen, denn Online-Dienste müssen meine Daten löschen, wenn ich das verlange; so steht’s im Gesetz-Buch. Aber mache ich das jetzt, oder bin ich genau so faul wie beim Anlegen dieses Accounts und hoffe darauf, dass die Informationen, die über mich gesammelt wurden, mich nicht irgendwann mal in Schwierigkeiten bringen? GMX ist nicht gerade dafür bekannt besonderen wert auf die Sicherheit meiner Daten zu legen.
+
+##### tl;dr
+
+GMX ist scheisse. Account löschen geht nicht. (link: https://gist.github.com/DerZyklop/9111828 text: Rechtsweg) geht immer. (link: https://agilebits.com/onepassword  text: 1Passwort) ist hilfreich. (link: https://posteo.de/ text: Posteo) ist okay.
+
+----
+
+Tags: 
+
+email,law,facebook,alltagstechnik
+
+----
+
+Language: 
+
+deutsch
