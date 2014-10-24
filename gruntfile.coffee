@@ -110,14 +110,14 @@ module.exports = (grunt) ->
       # watch coffee
       coffee:
         files: ['<%= paths.src.coffee %>*.coffee']
-        tasks: ['newer:coffee', 'newer:eslint', 'concat:js', 'uglify']
+        tasks: ['blink1:bad', 'newer:coffee', 'newer:eslint', 'concat:js', 'uglify', 'blink1:good']
         options:
           livereload: true
       # watch sass
       sass:
         files: ['<%= paths.src.sass %>*.sass']
         #tasks: ['newer:sass', 'newer:autoprefixer', 'concat:css', 'newer:imageEmbed', 'newer:cssmin']
-        tasks: ['newer:sass', 'newer:autoprefixer', 'concat:css', 'newer:cssmin']
+        tasks: ['blink1:bad', 'newer:sass', 'newer:autoprefixer', 'concat:css', 'newer:cssmin', 'blink1:good']
         options:
           livereload: true
 
@@ -164,9 +164,29 @@ module.exports = (grunt) ->
           title: 'Yo'
           message: 'Server läuft auf <%= php.all.options.hostname %>:<%= php.all.options.port %>'
 
+    # blink1
+    color:
+      process: '#660'
+      good: '#086'
+      bad: '#900'
+
+    blink1:
+      good:
+        colors: ['<%= color.good %>']
+        options:
+          #turnOff: true
+          ledIndex: 1
+          fadeMillis: 500
+      bad:
+        colors: ['<%= color.bad %>']
+        options:
+          ledIndex: 1
+          fadeMillis: 500
+
 
   # Default task(s)
   grunt.registerTask('scripts', ['coffee', 'eslint', 'concat', 'uglify'])
   #grunt.registerTask('styles', ['sass', 'autoprefixer', 'imageEmbed', 'concat:css', 'cssmin'])
   grunt.registerTask('styles', ['sass', 'autoprefixer', 'concat:css', 'cssmin'])
   grunt.registerTask('default', ['scripts', 'styles', 'concurrent'])
+
