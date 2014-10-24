@@ -1,0 +1,65 @@
+Title: Besseres JavaScript mit linting und/oder CoffeeScript
+
+----
+
+Date: 2014-10-21
+
+----
+
+Justforrss: 
+
+----
+
+Text: Ich habe mich mit JavaScript linting tools beschäftigt. Ich erkläre hier was das ist, wer das braucht, was es da u.A. für Möglichkeiten gibt und warum mich das bisher nie beschäftigen musste.
+
+## Das Problem
+
+JavaScript kann man gut und hässlich schreiben. Beides kann im Browser zum gewünschten Ergebnis führen. Der Unterschied ist, dass die hässliche Variante vom Arbeitskollegen und manchmal von einem selbst nicht mehr (oder nur mit viel Zeitaufwand) entziffert werden kann, und so bei Aktualisierungen und Fehlerbehebungen eine menge Kosten verursacht.
+
+Da mussten sich meine Kollegen, die Client-Seitig programmieren und nun immer mehr mit JS in Berührung kommen erstmal dran gewöhnen. Bei ihren Sprachen muss man Code eben erstmal von einem Compiler abnicken lassen, bevor man ihn überhaupt ausführen kann. Bei JS liegt die Verantwortung beim Programmierer selbst. Also lernt man entweder die best practices, oder man sucht sich eine Art der Automatisierung. Da gibt es zwei Wege. 
+
+Ein Weg ist, dass man sich ein Linting-tool einrichtet. Das tool überprüft z.B. in Form von einem Code-Editor-Plugin ob das gut ist was man macht oder ob man es besser ändern sollte, bevor man das Monster auf Browser und Kollegen loslässt. 
+
+(image: jshint.png text: JSHint-Beispiel in Sublime Text)
+
+Regeln sind beispielsweise: 
+
+- (link: http://der-zyklop.de/blog/tabs-vs-spaces text: Tabs und Spaces) dürfen bei den Code-Einrückungen nicht vermischt werden
+- Variablen werden immer in camelCase geschrieben
+- Variablen die man nicht nutzt sollten garnicht erst definiert werden (sind meistens vergessene Relikte)
+
+Linting kommt eigentlich aus genau den anderen, den Compiler-Sprachen. Aus einer Zeit in der Compiler es nicht so genau genommen haben. Eine zusätzliche Lint-Software hat sich dann den Code angeschaut bevor der Compiler ihn gesehen hat, und war dabei strenger was die Beurteilung des Codes anging. Eine Lint-Software hat also die schwächen der Compiler ausgeglichen.
+
+Es gibt drei relevante Linting-Tools für JavaScript. 
+
+#### (link: http://www.jslint.com/ text: JSLint)
+
+Das tool ist sehr streng. Es ist geschrieben von (link:  text: Doug Crockford). Den Namen kennt man wenn man sich ein bisschen mit Javascript beschäftigt. Er ist der Autor des Buches (link: http://www.amazon.com/exec/obidos/ASIN/0596517742/wrrrldwideweb text: JavaScript – The Good Parts) und er hat den passenden (link: https://www.youtube.com/watch?v=hQVTIJBZook  text: den Talk) dazu gehalten den ich mir (link: https://twitter.com/DerZyklop/statuses/489311476302495744 text: ein mal im Jahr anschaue).
+
+#### (link: http://www.jshint.com/ text: JSHint)
+
+Hier wirds ein wenig freundlicher/weniger streng. Ausserdem hat man eine config-datei. Die sieht in ihrer längsten Ausführung (link: https://github.com/jshint/jshint/blob/master/examples/.jshintrc  text: so aus). Das ist für die Arbeit im Team super praktisch, denn so kann man die regeln sehr einfach unter den kollegen synchron halten.
+
+#### (link: http://eslint.org/ text: ESLint)
+
+Hierbei handelt es sich um die Weiterentwicklung von JSHint. Bei ESLint gibt es einen Ordner mit Regeln. D.h. (link: http://eslint.org/docs/developer-guide/working-with-rules.html text: zwei Dateien pro Regel) – eine Regel-Definition und ein Regel-Test. So ist es einfach eigene Regeln für sein Team oder sich selbst du definieren. JSHint lässt sich leider nicht so schön erweitern. 
+
+ESLint ist aber das jüngste der drei tools. Das merkt man z.B. daran, dass es trotzt der sehr (link: https://github.com/eslint/eslint/graphs/contributors text: aktiven ESLint community) für JSHint (link: http://www.jshint.com/install/ text: ein paar mehr plugins) gibt (link: http://eslint.org/docs/integrations/ text: als für ESLint). Die Meisten wird das nicht stören, es sei denn man arbeitet gerne in Eclipse.
+
+#### Alternative: CoffeeScript
+
+Eine andere Lösung ist, dass man z.B. (link: http://coffeescript.org/ text: CoffeeScript) schreibt. Das ist eine Pre-Compiler-Sprache. Das bedeutet dass man in einer neuen Syntax (CoffeeScript) schreibt, die durch einen pre-compiler (z.b. durch einen im hintergrund laufenden taskrunner) erst in JavaScript umgewandelt wird. Der Browser könnte mit dem CoffeeScript in seiner reinen form nichts anfangen.
+
+(image: coffeescript-sublime.png text: CoffeeScript in Sublime Text)
+
+So hat man dann also den aus Client-Seitigen sprachen gewohnten Compiler zurück. Je nach dem von welchen Sprachen man kommt, kann das whitespace-sensitive CoffeeScript sehr gewöhnungsbedürftig sein. Die Java-Freunde haben da manchmal ihre Probleme. JavaScript-, Phython- oder Ruby-Programmierer finden schneller einen Einstieg. Aber der große Vorteil ist, dass man sich das ganze linting im prinzip sparen kann. Denn der CoffeeScript-Compiler ist sehr streng, wenn es um Variablen-Deklarationen und Scopes und Ordnung geht. CoffeeScript ist der Grund warum mich Linting nie interessiert hat.
+
+Ich empfehle jedem CoffeeScript, der schon einmal ein größeres Projekt in JavaScript umgesetzt hat. Denn es erspart vieles, stiftet aber auch Verwirrung, wenn man nicht schon ein Verständnis für JS hat.
+
+----
+
+Tags: javascript,code,team,automation,frontend
+
+----
+
+Language: deutsch
