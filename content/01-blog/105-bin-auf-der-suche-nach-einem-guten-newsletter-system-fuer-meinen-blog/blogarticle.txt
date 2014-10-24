@@ -1,0 +1,31 @@
+Title: Bin auf der Suche nach einem guten Newsletter-System für meinen Blog
+
+----
+
+Date: 2014-10-17
+
+----
+
+Justforrss: 
+
+----
+
+Text: #### Long story short
+
+Ich will wissen ob einer derjenigen, die das hier lesen und selbst Blogger sind, einen vernünftigen RSS-to-Newsletter dienst kennen.
+
+#### Short story long
+
+Ich bin unglücklich mit meinem Newsletter. Leute die sich innerhalb der letzten Monate versucht haben anzumelden haben keine Newsletter bekommen. Weil ich seit dem FeedPress eingesetzt habe, und das tut nicht was es soll.
+
+Die meisten meiner Newsletter-Abonennten bekommen Mails von (link: http://mailchimp.com/ text: MailChimp). Für's Verständnis: MailChimp ist ein Dienst, der den RSS-Feed meines Blogs einließt und daraus einmal im Monat einen Email-Newsletter baut. So können auch diejenigen die (link: http://der-zyklop.de/blog/wie-kann-ich-blogs-abonnieren text: nicht verstehen was ein Feed ist) meinen Blog abonnieren.
+
+Was MailChimp wiederum schlecht macht, ist dass man sehr eingeschränkt in der Auswahl der Email-Layouts ist. So sieht mein Newsletter eben oft aus wie sau, weil Bilder nicht richtig skalieren, aber darüber habe ich keine Kontrolle. Vielleicht hätte ich Kontrolle wenn ich mir die mühe machen würde die Jahrzehnte alten Outlooks, Thunderbirds und sonstigen Email-Programme dieser Welt zu verstehen, aber ich habe immer Zuckungen im Gesicht bekommen wenn ich das versucht habe. Also was soll ich tun? Ich bin ratlos. Gibt es einen Dienst der seinen Job gut macht? Oder verzichte ich komplett darauf und verliere möglicherweise ein paar Leser, die ich eigentlich sehr mag? Oder stelle ich alles auf reine Text-Emails um?
+
+----
+
+Tags: blog,newsletter,feedreader
+
+----
+
+Language: deutsch
