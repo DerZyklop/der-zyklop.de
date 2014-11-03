@@ -1,0 +1,71 @@
+Title: Über den #uxday14 und den Charakter von klassischen Konferenzen
+
+----
+
+Date: 2014-11-03
+
+----
+
+Justforrss: 
+
+----
+
+Text: Ich war auf dem UX-Day 2014 in Mannheim.
+
+(image: ux-day.jpg link: ux-day.jpg)
+
+Eine eintägige Konferenz zu Themen wie Argumented Reality, Mobile Shopping, User-Centered Design. Viele englische Schlagworte die man vor allem aus den Marketing-Abteilungen von IT-Nahen Unternehmen kennt. Aber leider werden solche Schlagworte oft eingesetzt um zu verschleiern, dass man gar nicht soo viel zu erzählen hat.
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>"Kennen Sie den Kunden, dann ownen Sie die experience" ok.
+<a href="https://twitter.com/hashtag/uxday14?src=hash">#uxday14</a></p>— Lennart Czienskowski (@czienskowski) <a href="https://twitter.com/czienskowski/status/525282717379076096">October 23, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Ich will den UX-Day nicht generell schlechtreden. Es ist gut, dass es ihn gibt. Aber als ich mir die Talks noch einmal durch den Kopf gehen ließ und die Veranstaltung reflektierte stellte ich fest, dass ich mehr über den Charakter von Konferenzen als über das Thema User Experience gelernt habe.
+
+### Über den Charakter von Konferenzen
+
+Es gibt zwei Typen von solchen Veranstaltungen, die man in meiner Branche kennen muss:
+
+- Typ 1: **Klassische Konferenzen** bei denen man Eintritt zahlt. Das eingenommene Geld wird auf die bezahlten SprecherInnen, Miete der Location, Miete der Technik, Verpflegung der BesucherInnen und ggf. Gewinne für die VeranstalterInnen aufgeteilt. Der UX-Day fällt in diese Kategorie.
+- Typ 2: **Barcamps**. Da zahlt man üblicherweise keinen Eintritt. SpeakerInnen melden sich freiwillig am ersten Morgen des ersten Barcamp-Tages. SpeakerInnen werden nicht bezahlt. Finanziert wird das ganze hauptsächlich durch Sponsoren und Ehrenamt. Ich habe da auch mal (link: http://www.der-zyklop.de/blog/pathcamp text: ausführlicher drüber geschrieben).
+
+Und jetzt ratet mal wo meiner Meinung nach die besseren Talks gehalten werden? Ich bin ein Freund des Internet und dessen Unperfektheit. Ich bin ein Freund davon, dass da jeder reinschreiben darf und selbstverständlich führt das dazu, dass das auch die größten Deppen machen. Aber insgesamt ist das alles irgendwie spannender und scheint mir oft ehrlicher als das was mir diejenigen erzählen, die dafür bezahlt werden mir etwas bestimmtes zu erzählen. 
+
+Und natürlich ist es manchmal erschreckend zu hören wie diejenigen, die unsere Daten sammeln über die Vorteile von Daten-Silos und über 
+effektivere Auswertung der Daten sprechen, ohne das auch nur in einem Nebensatz kritisch zu hinterfragen. Aber was habe ich erwartet? Ich war auf einer Business-Veranstaltung und nicht auf der (link: http://re-publica.de/ text: re:publica).
+
+Wie gesagt, es war nicht alles schlecht. Es gab auch tolle, inspirierende Talks und es gibt auch tolle Klassische Konferenzen. Aber ich persönlich bin auf Barcamps vermutlich besser aufgehoben. Soviel zu meiner Haupterkenntnis.
+
+### Über den UX-Day 2014 in Mannheim
+
+So… und was habe ich nun inhaltlich mitgenommen? Ich meine zwischen den vielen Marketing-Floskeln und UX-Grundsätzen wie »Ein Chart sagt mehr als tausend Excel-Tabellen« oder »Nicht nur Designer sondern auch Developer und andere Kollegen sollten immer ganz viel Sketchen«?
+
+SAP hat beispielsweise darüber gesprochen, wie sie versuchen ihr UX-Debakel in den Griff zu bekommen. Ich darf das übrigens UX-Debakel nennen – sobald SAP das Biest unter Kontrolle hat, das sie mit unfassbar vielen Programmierern und sehr wenigen Designern erschaffen haben, dann bin ich meinen jetzigen Job los ;) Mit den Details will ich euch nicht länger langweilen, aber was sie erzählen klingt vielversprechend. 
+Kurzgefasst: Interne UX-Guidelines und Vereinheitlichung/Verschmelzung der unzähligen SAP-Tools.
+
+Sehr inspirierend waren auch Talks über User-Testing und Qualitäts-Management. Vieles davon ist nicht neu, aber manchmal tut es gut sich nochmal klar zu machen, dass der User schon von den ersten Momenten der App-Konzeption eine der Wichtigsten rollen spielen sollte und das die sogenannten »Entscheider« eigentlich viel weniger entscheiden dürften. Leider ist das noch nicht Standard. Es gibt tatsächlich viele Teams die Apps entwerfen in denen kein End-Anwender sitzt. Aus meiner UX’ler-Perspektive muss mein Kunde immer der Nutzer bleiben, auch wenn der mich nicht bezahlt. Wenn ich meine Einstellung dazu ändere, dann mache ich klassische, hässliche »Business to business«-Apps. 
+
+Auch spannend: (link: https://twitter.com/UweThimel/status/525280193041412096/photo/1 text: Christian Reschke) vom Veranstalter »kuehlhaus AG« unterscheidet nicht mehr in B2C (Business to customer) und B2B. Für ihn gibt es nur noch H2H (Human to human). Punkt.
+
+Dr. Marcus Trapp vom Frauenhofer-Institut hat sehr schön klar gemacht, wie bei guter User Experience das genutzte Produkt, oder der Dienst völlig in den Hintergrund rückt, und am besten kaum mehr wahrgenommen wird. Vor allem wenn man bei den Entscheidungen in der Weiterentwicklung seiner Produkte konsistent bleibt. Wenn ich eine neue Version einer Software entwickle, mache ich das Interface dann lieber intuitiver für die Einsteiger und verärgere damit langjährige Nutzer, oder bleibe ich beim alten und stelle Neulingen eine Hürde? Oder versuche ich es allen recht zu machen und verkompliziere dadurch am ende doch wieder alles? Wenn ich meinen Job gut mache, dann denkt keiner mehr über die Nutzung der Werkzeuge nach, die ich erschaffe. Man nutzt sie unterbewusst, wie die (link: https://twitter.com/dwarv/status/525225362427756544/photo/1 text: die Pedale eines Autos). 
+
+Auch er hat an sich nicht viel neues erzählt, aber anhand von tollen Beispielen und einer sehr schönen Sprache viele Assoziationen in mir geweckt, die bestimmt mal Einfluss in meine Arbeitsweise, meine Projekte und / oder Blogposts nehmen werden.
+
+### Fazit
+
+Der hier zuletzt erwähnte Vortrag war mein persönliches Highlight, neben der Tatsache, dass ich Zeit mit Menschen verbracht habe, die ich teilweise schon Jahre lang kenne und umbedingt mal im Real Life treffen wollte :)
+
+Für mich hat es sich also gelohnt, auch wenn ich diese Konferenz nächstes Jahr wohl nicht mehr besuchen werde.
+
+###### <span>PS</span>
+
+Jeder Mensch nimmt Dinge unterschiedlich wahr. Die UX’ler unter euch wissen das am besten. Das hängt mit den vorher gemachten Erfahrungen, der Denkweise, der Erwartung, den Interessen und den Assoziationen die sich daraus ergeben zusammen. Wollt ihr ein Beispiel? Dann lest mal [hier drüben](http://blog.mandarin-medien.de/aus-der-agentur/auf-dem-ux-day-in-mannheim "hier drüben") :P 
+FYI: Ich habe meinen Artikel geschrieben, bevor ich seinen gelesen habe.
+
+----
+
+Tags: ux,work,conference
+
+----
+
+Language: deutsch
