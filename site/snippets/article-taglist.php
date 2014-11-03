@@ -11,7 +11,11 @@
     ) );
 
   foreach ($taglist as $tag) {
-    $taglist[$tag->name()]->results = $tagcloud[$tag->name()]['results'];
+    if (isset($tagcloud[$tag->name()])) {
+      $taglist[$tag->name()]->results = $tagcloud[$tag->name()]['results'];
+    } else {
+      $taglist[$tag->name()]->results = 1;
+    };
   }
 
 ?>
@@ -20,7 +24,9 @@
   <h6><span>Mehr Artikel zum Thema...</span></h6>
   <ul>
     <?php foreach($taglist as $tag): ?>
-    <li><a href="<?= $tag->url() ?>"><?= $tag->name() ?> <span class="result-counter"><?= $tag->results ?></span></a></li>
+      <?php if ($tag->results > 1) : ?>
+        <li><a href="<?= $tag->url() ?>"><?= $tag->name() ?> <span class="result-counter"><?= $tag->results ?></span></a></li>
+      <?php endif; ?>
     <?php endforeach ?>
   </ul>
 </div>
