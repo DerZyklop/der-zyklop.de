@@ -10,11 +10,11 @@ Justforrss:
 
 ----
 
-Text: Apples neues Betriebsystem OSX-Yesomite hat nun auch überall diese fancy-schmancy Halbtransparenzen. Das ist der neue Stil, den sie schon in iOS 7 begonnen haben. Und das war einer der Gründe warum ich mein iOS 6 Gerät lange Zeit nicht aktualisiert habe. Und das hat nichts mit Geschmack zu tun – das hat logische Gründe.
+Text: Apples neues Betriebsystem hat nun auch überall diese fancy-schmancy Halbtransparenzen. Das ist der neue Stil, den sie schon in iOS 7 begonnen haben. Und das war einer der Gründe warum ich mein iOS 6 Gerät lange Zeit nicht aktualisiert habe. Und das hat nichts mit Geschmack zu tun – das hat logische Gründe.
 
 Manchmal finde auch ich das ganz schick, wenn es passt... und genau hier hat Apple das Problem. **Man kann nicht kontrollieren ob es passt.** Bei einer ungünstigen Kombination aus weisser Schrift auf einer halbtransparenten abdunkelnden Ebene unter der wiederum ein sehr helles Bild liegt, hat der Text den man lesen will dann einen Kontrastwert von nullkommanix. Und so etwas versucht man dann auf dem Weg vom Supermarkt zur Bushaltestelle in der prallen Sonne schnell zu erfassen.
 
-So. Und nun haben wir den Quatsch auch auf dem Desktop. **Aber zum Glück kann man das abschalten.** Das habe ich natürlich gleich mal gemacht. Hier seht ihr im Hintergrund meine Musik-App und im Vordergrund einen Text-Editor. Achtet mal auf den markierten Text »Markdown« im Editor.
+So. Und nun haben wir den Quatsch auch auf dem Desktop (OS X Yosemite). **Aber zum Glück kann man das abschalten.** Das habe ich natürlich gleich mal gemacht. Hier seht ihr im Hintergrund meine Musik-App und im Vordergrund einen Text-Editor. Achtet mal auf den markierten Text »Markdown« im Editor.
 
 (image: apple-os-transparency.png link: apple-os-transparency.png)
 
