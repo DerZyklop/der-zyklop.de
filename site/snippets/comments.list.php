@@ -29,8 +29,8 @@ function relative_time($date, $postfix = ' ago', $fallback = 'F Y')
 
 require 'comments.read.php';
 ?>
-<?php if (count($comments['data']) != 0) : ?>
-<section class="width-wrap">
+<?php if (isset($comments['data']) && count($comments['data']) != 0) : ?>
+  <section class="width-wrap">
   <div class="comments-list">
     <?php if (count($comments['data']) != 0) : ?>
       <h6><span><?php
@@ -71,6 +71,6 @@ require 'comments.read.php';
     </ul>
   <?php endif; ?>
   </div>
+  </section>
 <?php endif; ?>
-</section>
 <?php

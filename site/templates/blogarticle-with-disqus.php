@@ -20,7 +20,7 @@
 
 </section>
 
-<?php #snippet('article-nav') ?>
+<?php snippet('article-nav') ?>
 
 </div>
 

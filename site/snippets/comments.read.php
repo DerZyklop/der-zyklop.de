@@ -41,7 +41,7 @@ if (c::get('comments.enabled')):
 	endif;
 
 	// prepare HTML for gravatars
-	if (c::get('comments.gravatar') && $comments['data']):
+	if (c::get('comments.gravatar') && isset($comments['data']) && $comments['data']):
 		foreach ($comments['data'] as $i => $comment):
 			$gravatar_hash = md5(strtolower(trim($comment['email'])));
 			$comments['data'][$i]['gravatar'] = '<img src="http://www.gravatar.com/avatar/'.$gravatar_hash.'.jpg?d=http%3A%2F%2Fder-zyklop.de%2Fassets%2Fimages%2Fno_avatar-'.substr($i, -1).'.jpg&s='.c::get('comments.gravatar').'" width="'.c::get('comments.gravatar').'" height="'.c::get('comments.gravatar').'">';

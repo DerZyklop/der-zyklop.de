@@ -23,16 +23,14 @@
 </div>
 
 <div class="comments bg-tertiary">
-  <section class="width-wrap">
       <?php snippet('comments.list') ?>
-      <?php snippet('comments.add.form') ?>
-  </section>
+      <?php #snippet('comments.add.form') ?>
 </div>
 
 <div class="meta">
   <section class="width-wrap">
     <?php snippet('article-suggestion') ?>
-    <?php #snippet('article-nav') ?>
+    <?php snippet('article-nav') ?>
     <?php snippet('article-taglist') ?>
   </section>
 
