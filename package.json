@@ -34,5 +34,30 @@
   },
   "bugs": {
     "url": "https://github.com/DerZyklop/der-zyklop.de/issues"
+  },
+  "paths": {
+    "root":     "",
+    "src": {
+      "dir":      "assets/src/",
+      "coffee":   "assets/src/coffee/",
+      "js":       "assets/src/js/",
+      "js_concat": [
+          "bower_components/jquery/dist/jquery.min.js",
+          "bower_components/fancybox/source/jquery.fancybox.js",
+          "bower_components/prism/prism.js",
+          "bower_components/jquery-autosize/jquery.autosize.min.js",
+          "assets/smart-submit/smart-submit.js",
+          "assets/pre_js/*.js"
+      ],
+      "sass":     "assets/src/sass/",
+      "css":      "assets/src/styles/",
+      "css_concat": [
+        "assets/pre_css/*.css"
+      ]
+    },
+    "build": {
+      "js":       "assets/js/",
+      "css":      "assets/styles/"
+    }
   }
 }

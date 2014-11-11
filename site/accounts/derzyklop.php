@@ -5,7 +5,7 @@ email: mail@der-zyklop.de
 password: >
   $2a$10$xfC0pznHQKVcxlnXiORG5.NV7w8mrOcmyG5Y/j6nctxMMELBsuhGW
 language: en
-token: ae6c3b659bfccabae4b5a6930e3b898956b838b3
+token: ac3de47cb4d59549a7158d15f222bc94da8d0ccb
 history:
   - blog/kinder-und-touchscreens
   - >

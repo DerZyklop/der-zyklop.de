@@ -130,6 +130,12 @@ hr
 img
     display: block
 
+figure
+    figcaption
+        font-weight: bold
+        color: #4C3431
+        text-align: center
+
 p
     img
         margin-top: 0.5em
@@ -579,77 +585,6 @@ $options-bar-space: 10px
     max-width: 100%
 
 /* Instagram [END] */
-
-/* Comments-Pluin */
-
-.add-comment-form
-    .hidden
-        color: transparent
-        transition: color 0.5s
-    &:hover .hidden
-        color: $secondary
-
-.comment-add-form
-    margin: 2em 0
-    h6
-        background-color: $secondary
-    p
-        margin-bottom: 0
-    input, textarea
-        box-sizing: border-box
-    textarea
-        height: 10em
-    &.hide-form
-        form .visible
-            display: none
-
-ul#comments
-    +clear-list-styles()
-    .comment-anchor
-        display: block
-        position: relative
-        &:hover
-            &:before
-                position: absolute
-                left: -(1.4em + 1em)
-                bottom: 0.3em
-                display: block
-                content: ' '
-                background-image: url('../images/iconmonstr-anchor-5-icon.svg')
-                background-size: 1.4em
-                height: 1.4em
-                width: 1.4em
-
-    .comment-date
-        float: right
-    .comment-name
-        float: left
-    .comment-name,
-    .comment-date
-        color: $border-color
-        color: $secondary
-        color: $primary + #222
-        font-size: 1.1em
-        padding-top: 20px
-    .comment-gravatar
-        text-align: center
-        background: url('../images/57B0BD.png') bottom 20px center repeat-x
-        > div
-            width: 80px + 18px*2
-            margin: 0 auto
-            padding: 0 $space-t-b
-            background: $dark-bg
-            img
-                border-radius: 100px
-        margin-bottom: -1em
-    .comment-text
-        clear: both
-    > li
-        margin: $space-t-b*2 0
-        // &.even
-        //     //background: #f8f8f8
-        // &.odd
-        //     color: #000
 
 /* Misc [BEGIN] */
 

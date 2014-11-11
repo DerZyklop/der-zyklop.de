@@ -12,7 +12,7 @@
 
   <!-- Piwik -->
   <script type="text/javascript">
-  var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.der-zyklop.de/piwik/" : "http://www.der-zyklop.de/piwik/");
+  var pkBaseURL = (("https:" === document.location.protocol) ? "https://www.der-zyklop.de/piwik/" : "http://www.der-zyklop.de/piwik/");
   document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
   </script><script type="text/javascript">
   try {
@@ -24,5 +24,17 @@
   <!-- End Piwik Tracking Code -->
 
   </div>
+<!--   <style>
+    #tags {
+      display: block;
+      height: 10px;
+      width: 20%;
+      box-sizing: border-box;
+      background: red;
+      position: absolute;
+      right: 0
+    }
+  </style>
+  <aside id="tags">foofo</aside> -->
 </body>
 </html>

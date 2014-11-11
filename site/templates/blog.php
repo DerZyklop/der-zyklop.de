@@ -9,7 +9,8 @@
 
 <script type="text/javascript">
     jQuery(document).ready(function(){
-        $('body').addClass('blog');
+       'use strict';
+       $('body').addClass('blog');
     });
 </script>
 
@@ -24,6 +25,5 @@
     <?php snippet('pagination', array( 'articles' => $articles )); ?>
 
 </section>
-
 
 <?php snippet('footer') ?>

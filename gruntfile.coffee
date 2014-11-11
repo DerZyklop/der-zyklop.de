@@ -9,7 +9,6 @@ module.exports = (grunt) ->
 
     # Collect data about the project
     pkg: grunt.file.readJSON('package.json')
-    paths: grunt.file.readJSON('paths.json')
 
     # Set Banner for some generated files
     banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' + '<%= grunt.template.today("yyyy-mm-dd") %> */\n'
@@ -19,9 +18,9 @@ module.exports = (grunt) ->
       all:
         files: [
           expand: true
-          cwd: '<%= paths.src.coffee %>'
+          cwd: '<%= pkg.paths.src.coffee %>'
           src: ['*.coffee']
-          dest: '<%= paths.src.js %>'
+          dest: '<%= pkg.paths.src.js %>'
           ext: '.js'
         ]
 
@@ -34,38 +33,32 @@ module.exports = (grunt) ->
           'bower_components/prism/prism.js'
           'bower_components/jquery-autosize/jquery.autosize.min.js'
           'assets/smart-submit/smart-submit.js'
-          '<%= paths.src.js %>*.js'
+          '<%= pkg.paths.src.js %>*.js'
         ]
-        dest: '<%= paths.build.js %>script.js'
+        dest: '<%= pkg.paths.build.js %>script.js'
       css:
         src: [
           'bower_components/prism/themes/prism.css'
           'bower_components/prism/themes/prism-twilight.css'
           'bower_components/fancybox/source/jquery.fancybox.css'
-          '<%= paths.src.css %>*.css'
+          '<%= pkg.paths.src.css %>*.css'
         ]
-        dest: '<%= paths.src.css %>styles.css'
-
-    uglify:
-      all:
-        files:
-          '<%= paths.build.js %>script.min.js': ['<%= paths.build.js %>script.js']
-
+        dest: '<%= pkg.paths.src.css %>styles.css'
 
     # eslint
     eslint:
       options:
         config: 'eslint.json'
-      all: ['<%= paths.src.js %>*.js']
+      all: ['<%= pkg.paths.src.js %>*.js']
 
     # sass
     sass:
       all:
         files: [
           expand: true
-          cwd: '<%= paths.src.sass %>'
-          src: ['styles.sass']
-          dest: '<%= paths.src.css %>'
+          cwd: '<%= pkg.paths.src.sass %>'
+          src: ['*.sass','!_*.sass']
+          dest: '<%= pkg.paths.src.css %>'
           ext: '.css'
         ]
 
@@ -74,9 +67,9 @@ module.exports = (grunt) ->
       all:
         files: [
           expand: true
-          cwd: '<%= paths.src.css %>'
+          cwd: '<%= pkg.paths.src.css %>'
           src: ['*.css']
-          dest: '<%= paths.src.css %>'
+          dest: '<%= pkg.paths.src.css %>'
           ext: '.css'
         ]
 
@@ -87,9 +80,9 @@ module.exports = (grunt) ->
       all:
         files: [
           expand: true
-          cwd: '<%= paths.src.css %>'
+          cwd: '<%= pkg.paths.src.css %>'
           src: ['*.css']
-          dest: '<%= paths.src.css %>'
+          dest: '<%= pkg.paths.src.css %>'
         ]
 
     # cssmin
@@ -99,9 +92,9 @@ module.exports = (grunt) ->
       all:
         files: [
           expand: true
-          cwd: '<%= paths.src.css %>'
+          cwd: '<%= pkg.paths.src.css %>'
           src: ['*.css']
-          dest: '<%= paths.build.css %>'
+          dest: '<%= pkg.paths.build.css %>'
           ext: '.css'
         ]
 
@@ -109,36 +102,46 @@ module.exports = (grunt) ->
     watch:
       # watch coffee
       coffee:
-        files: ['<%= paths.src.coffee %>*.coffee']
-        tasks: ['blink1:bad', 'newer:coffee', 'newer:eslint', 'concat:js', 'uglify', 'blink1:good']
+        files: ['<%= pkg.paths.src.coffee %>*.coffee']
+        tasks: ['blink1:bad', 'newer:coffee', 'newer:eslint', 'concat:js', 'blink1:good']
         options:
           livereload: true
       # watch sass
       sass:
-        files: ['<%= paths.src.sass %>*.sass']
-        #tasks: ['newer:sass', 'newer:autoprefixer', 'concat:css', 'newer:imageEmbed', 'newer:cssmin']
-        tasks: ['blink1:bad', 'newer:sass', 'newer:autoprefixer', 'concat:css', 'newer:cssmin', 'blink1:good']
+        files: ['<%= pkg.paths.src.sass %>*.sass']
+        tasks: ['blink1:bad', 'newer:sass', 'newer:autoprefixer', 'concat:css', 'newer:imageEmbed', 'newer:cssmin', 'blink1:good']
         options:
           livereload: true
 
-      # watch templates
-      templates:
+      # watch copy
+      copy:
         files: [
-          '<%= paths.src.dir %>*'
-          '<%= paths.src.dir %>site/**/*'
+          '<%= pkg.paths.src.dir %>*'
+          '<%= pkg.paths.src.dir %>site/**/*'
+          '<%= pkg.paths.src.dir %>images/**/*'
         ]
-        #tasks: ['newer:copy']
+        tasks: ['newer:copy']
         options:
           livereload: true
 
       # watch content
       content:
         files: [
-          '<%= paths.src.dir %>content/**/*'
+          '<%= pkg.paths.src.dir %>content/**/*'
         ]
-        #tasks: ['newer:copy']
+        tasks: ['newer:copy']
         options:
           livereload: true
+
+    # copy
+    copy:
+      all:
+        files: [
+          expand: true
+          cwd: '<%= pkg.paths.src.dir %>'
+          src: ['**/*','!<%= pkg.paths.src.dir %>**','<%= pkg.paths.src.dir %>images/**/*']
+          dest: '<%= pkg.paths.build.dir %>'
+        ]
 
     # php
     php:
@@ -146,14 +149,14 @@ module.exports = (grunt) ->
         options:
           port: 1337
           hostname: 'localhost'
-          base: '<%= paths.root %>'
+          base: '<%= pkg.paths.root %>'
           keepalive: true
           open: true
 
     # concurrent
     concurrent:
       all:
-        tasks: ['php','watch','notify']
+        tasks: ['php','watch','notify', 'blink1:good']
       options:
         logConcurrentOutput: true
 
@@ -174,18 +177,17 @@ module.exports = (grunt) ->
       good:
         colors: ['<%= color.good %>']
         options:
-          #turnOff: true
-          ledIndex: 1
+          ledIndex: 2
           fadeMillis: 500
       bad:
         colors: ['<%= color.bad %>']
         options:
-          ledIndex: 1
+          ledIndex: 2
           fadeMillis: 500
 
 
   # Default task(s)
-  grunt.registerTask('scripts', ['coffee', 'eslint', 'concat', 'uglify'])
+  grunt.registerTask('scripts', ['coffee', 'eslint', 'concat'])
   #grunt.registerTask('styles', ['sass', 'autoprefixer', 'imageEmbed', 'concat:css', 'cssmin'])
   grunt.registerTask('styles', ['sass', 'autoprefixer', 'concat:css', 'cssmin'])
   grunt.registerTask('default', ['scripts', 'styles', 'concurrent'])
