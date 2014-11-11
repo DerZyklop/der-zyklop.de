@@ -1,0 +1,33 @@
+Title: Apples Systemschrift umstellen
+
+----
+
+Date: 2014-11-11
+
+----
+
+Justforrss: 
+
+----
+
+Text: Viele Menschen die sich mit Design, Interfaces und Schriften beschäftigen, ärgern sich über Apples Entscheidung nach 14 Jahren **Lucida Grande** nun die **Helvetica Neue** als Systemschrift einzusetzen. Wieder so eine [schlechte Entscheidung](http://der-zyklop.de/blog/apples-new-transparent-backgrounds), die sie auf iOS angefangen haben und nun auf dem Desktop übernehmen. Solange man auf ein neues hochauflösendes Retina-Display schaut ist das okay. Aber es gibt nicht viele Menschen die an Retina-Displays arbeiten.
+
+Immer wieder las ich von Leuten, die die neue Systemschrift durch die von (twitter: espiekermann text: Erik Spiekermann) für das Firefox OS entworfene (link: https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/ text: **Fira Sans**) ersetzt haben und sehr glücklich damit sind.
+
+Ich bin ja (link: http://der-zyklop.de/blog/frontend-schriften text: schon länger) ein Fan der Fira Mono. Die Schrift mit dem coolsten (link: https://twitter.com/DerZyklop/status/448055029296271360 text: @-Zeichen). Seit dem ich sie entdeckt habe lässt sie Code-Editor und Commandline nicht nur gut aussehen, sondern erleichtert mir durch die Lesbarkeit tatsächlich die Arbeit.
+
+(image: fira-mono.png link: fira-mono.png)
+
+Ich habe meine Systemschrift umgestellt obwohl ich keine spürbaren Probleme mit der Helvetica hatte. Aber ich kann es nur empfehlen! Dank (twitter: jenskutilek text: jenskutilek) ist das auch (link: https://github.com/jenskutilek/FiraSystemFontReplacement text: super einfach) und in ein paar Sekunden gemacht.
+
+(image: helvetica-neue-yosemite.png link: helvetica-neue-yosemite.png caption: Helvetica Neue)
+(image: fira-sans-yosemite.png link: fira-sans-yosemite.png caption: Fira Sans)
+Wenn ihr euch unsicher seid in welchen Ordner die Schrift-Dateien kopiert werden müssen, dann öffnet das Terminal und schreibt `open /Library/Fonts`.
+
+----
+
+Tags: typography,ux,design,alltagstechnik
+
+----
+
+Language: deutsch
