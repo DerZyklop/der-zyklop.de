@@ -14,6 +14,8 @@ Text: Ich war auf dem UX-Day 2014 in Mannheim.
 
 (image: ux-day.jpg link: ux-day.jpg)
 
+[Photo by (link: http://enesuenal.com/ text: Enes)]
+
 Eine eintägige Konferenz zu Themen wie Argumented Reality, Mobile Shopping, User-Centered Design. Viele englische Schlagworte die man vor allem aus den Marketing-Abteilungen von IT-Nahen Unternehmen kennt. Aber leider werden solche Schlagworte oft eingesetzt um zu verschleiern, dass man gar nicht soo viel zu erzählen hat.
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p>"Kennen Sie den Kunden, dann ownen Sie die experience" ok.
