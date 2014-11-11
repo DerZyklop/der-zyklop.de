@@ -1,0 +1,33 @@
+Title: Change tabs in Terminal like in a Browser
+
+----
+
+Date: 2014-11-03
+
+----
+
+Justforrss: 
+
+----
+
+Text: Did you now that you can open and close tabs in OSX’s command line app **Terminal**. You can open them by pressing `⌘t`, and close them by `⌘w`. 
+
+What i don’t unterstand is why i can’t switch tabs by `⌃⇥` and `⌃⇧⇥` like i used to in browsers and other tab-based apps. But it’s possible to fix this in the system settings.
+
+At first you need to look up the exact name of the menu item:
+
+(image: screen-shot-2014-11-03-at-21-38.58.png link: screen-shot-2014-11-03-at-21-38.58.png)
+
+And then you can add a new shortcut in **System Preferences** > **Keyboard** > **Shortcuts** > **App Shortcuts** like this:
+
+(image: screen-shot-2014-11-03-at-21-39.24.png link:  screen-shot-2014-11-03-at-21-39.24.png)
+
+Have fun!
+
+----
+
+Tags: terminal,workflow
+
+----
+
+Language: english
