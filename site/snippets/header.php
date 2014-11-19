@@ -32,7 +32,7 @@
   <![endif]-->
 
 </head>
-<body>
+<body class="<?php if ($page->targetgroup() == 'small') { echo "invert";} ?>">
 <?php snippet('menu') ?>
 
 <div class="page-wrap">

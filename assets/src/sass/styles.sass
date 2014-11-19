@@ -19,14 +19,20 @@ $dark-bg: #{$tertiary} url('../images/pattern/dark/irongrip.png')
     overflow: hidden
     padding: 0.5em
     margin: $space-t-b/2 0
-    background: $quadrary - #050505
     transition: 0.3s
+    background: $quadrary - #050505
     border: $border-width $border-style $quadrary - #101010
+    .invert &
+        background: $tertiary + #050505
+        border: $border-width $border-style $tertiary + #101010
     text-decoration: none
     &:hover
         background: $secondary - #222
         color: $quadrary
         border-color: $secondary - #222
+        .invert &
+            background: $primary + #222
+            border-color: $primary + #222
 
 @mixin clear-list-styles()
     list-style: none
@@ -58,6 +64,9 @@ body
     margin: 0
 
     background: $quadrary
+    &.invert
+        color: $quadrary - #222
+        background: $tertiary
     @media screen and (max-width: $page-width)
         padding: 0
         .width-wrap
@@ -67,15 +76,20 @@ body
 a
     color: $secondary
 
+
 h1, h2, h3, h4, h5, h6
     font-family: $font-highlight
     line-height: 1.6em
     font-weight: bold
     text-align: center
     color: $primary - #222
+    .invert &
+        color: $quadrary
     a
         color: $secondary
         text-decoration: none
+        .invert &
+            color: $primary + #222
         &:hover
             text-decoration: underline
 
@@ -98,6 +112,8 @@ h1
 
 h1, h2, h3
     color: $primary - #222
+    .invert &
+        color: $quadrary
 
 h4, h5
     font-weight: normal
@@ -105,9 +121,13 @@ h4, h5
 h6
     background: url('../images/ccc.png') center center repeat-x
     margin: 2em 0
+    .invert &
+        background: none
     span
         background: $quadrary
         padding: 0 1em
+        .invert &
+            background: none
 
 h3
     border-bottom: $border-width $border-style $border-color
@@ -130,10 +150,15 @@ hr
 img
     display: block
 
+code
+    color: $tertiary
+
 figure
     figcaption
         font-weight: bold
         color: #4C3431
+        .invert &
+            color: $quadrary - #222
         text-align: center
 
 p
@@ -148,7 +173,9 @@ p, ul, ol
 
 blockquote
     margin: $space-t-b 0
-    background: #F4F4F4
+    background: $quadrary - #050505
+    .invert &
+        background: $tertiary + #050505
     padding:
         left: 30px
         right: 30px
@@ -161,6 +188,8 @@ blockquote
 legend
     color: $border-color - #444
     font-weight: bold
+    .invert &
+        color: $border-color
 
 // NN UI [END]
 
@@ -206,6 +235,10 @@ section
             border:
                 bottom-color: $primary - #333
             color: $primary
+            .invert &
+                color: $secondary
+                border:
+                    bottom-color: $secondary - #333
 
 
 .img-outer-wrap
@@ -225,12 +258,16 @@ section
             opacity: 1
         &:hover .description
             color: $primary
+            .invert &
+                color: $secondary
         &:hover
             background-position: center center
             border-color: $border-color - #333
             img
                 opacity: 0.3
                 background: $quadrary
+                .invert &
+                    color: $tertiary
 
     .description,
     .image-likes
@@ -303,26 +340,35 @@ section
     h1, h2, h3, h4, h5, h6
         span
             background: $quadrary - #050505
+            .invert &
+                color: $tertiary
             //background: $quadrary - #050505 url('../images/noise.png')
 
 a span.result-counter
     background: $secondary - #222
+    .invert &
+        background: $primary - #050505
     padding: 0.2em 0.4em
     border-radius: $radius
 
 .bg-tertiary
     background: $tertiary
-    background: $dark-bg
     //background: $tertiary url('../images/pattern/dark/px_by_Gre3g.png')
 
 
     color: $quadrary - #222
+    .invert &
+        background: $quadrary
+        color: $tertiary + #222
     h1, h2, h3, h4, h5, h6
         color: $quadrary - #222
         font-weight: bold
+        .invert &
+            color: $tertiary + #222
         span
             background: $tertiary
-            background: $dark-bg
+            .invert &
+                background: $quadrary
             //background: $tertiary url('../images/pattern/dark/px_by_Gre3g.png')
 
 .flattr-wrap
@@ -606,6 +652,8 @@ button, .button, a.button, input[type="button"], input[type="submit"], input[typ
         color: $quadrary !important
     &.passiv-btn
         background: $border-color
+    .invert &
+        color: $quadrary
 
 .button-wrap
     padding: $space-t-b
@@ -690,8 +738,12 @@ iframe.twitter-tweet-rendered
     width: 0
     height: 100%
     background: $tertiary
+    .invert &
+        background: $tertiary
     overflow-y: auto
     color: $quadrary
+    .invert &
+        color: $tertiary
     ul
         // TODO: Needs a better solution for min-width here
         min-width: 220px

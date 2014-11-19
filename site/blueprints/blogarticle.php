@@ -16,6 +16,14 @@ fields:
     label: Just for RSS feed?
     type: checkbox
     default: off
+  targetgroup:
+    width: 1
+    label: Das versteht
+    type: radio
+    options:
+      big: auch der Mainstream
+      small: nur die Nerds und Designer
+    default: deutsch
   text:
     label: Text
     type:  textarea
