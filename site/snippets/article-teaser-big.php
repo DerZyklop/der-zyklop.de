@@ -1,4 +1,6 @@
-<article class="article-teaser-big">
+<article class="article-teaser-big <?php if ($item->targetgroup() == 'small') {
+  //echo "invert";
+} ?>">
   <div class="entry-date">
     <a href="<?php echo $item->url() ?>">
       <?php echo html($item->date('d').'·'.$item->date('m').'·'.$item->date('Y')) ?>
