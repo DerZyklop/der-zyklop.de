@@ -1084,6 +1084,8 @@ section {
 .meta {
   background: #f7f7f7;
   border-top: 1px solid #ccc; }
+  .invert .meta {
+    color: #333; }
   .meta .taglist li a {
     background-color: #bd6457;
     color: #fcfcfc;
