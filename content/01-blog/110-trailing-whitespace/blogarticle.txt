@@ -10,7 +10,7 @@ Justforrss:
 
 ----
 
-Text: Tabs and spaces at the end of a line of Code is unnecessary. It makes no sense. At least i don’t know a single programming language where it is a good thing. Code is love and a file with trailing whitespace is a love letter written with a dripping fountain pen.
+Text: Tabs and spaces at the end of a line of Code is (link: https://programmers.stackexchange.com/questions/121555/why-is-trailing-whitespace-a-big-deal text: unnecessary and sometimes bad). It makes no sense. At least i don’t know a single programming language where it is a good thing. Code is love and a file with trailing whitespace is a love letter written with a dripping fountain pen.
 
 (image: trailing-whitespace.png)
 
