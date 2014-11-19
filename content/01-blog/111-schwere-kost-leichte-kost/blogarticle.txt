@@ -1,0 +1,40 @@
+Title: Schwere Kost, leichte Kost
+
+----
+
+Date: 2014-11-19
+
+----
+
+Justforrss: 
+
+----
+
+Targetgroup: big
+
+----
+
+Text: Hallo meine allerliebsten Leser!
+
+Immer wieder kommen ein paar von euch auf mich zu und sagen, dass meine Artikel manchmal voll kompliziert klingen, und sie kein Wort verstehen.
+
+Das liegt daran, dass mein Blog zwei recht unterschiedliche Zielgruppen hat. Die einen sind Leute die einen ähnlichen Beruf haben wie ich – die dürften jeden Artikel verstehen. Die anderen sind Freunde und Familie. Die verstehen nur eine kleinere Anzahl an Artikeln, weil sie z.B. mit dem Programmierer-Kram nichts am Hut haben.
+
+Ich zerbreche mir da schon lange den Kopf drüber wie ich damit umgehen soll. Eigentlich habe ich keine Lust zwei Blogs daraus zu machen, weil ich es schön finde wenn die Programmierer auch mal was Persönliches oder Politisches abbekommen. Oder auch, wenn Freunde und Familie sich mal für einen moment Gedanken über Design machen. Und gemessen daran, welche Zielgruppe welche Artikel kommentiert, funktioniert das mit den Nerds und Gestaltern auch ganz gut. Nur Freunde und Familie.. die kommen nicht klar ;)
+
+Apropos kommentieren: Wie ihr vielleicht bemerkt habt, kann man im Blog keine Kommentare mehr schreiben. Ihr kommentiert ja scheinbar eh lieber auf Twitter, FB oder im »Real Life«. 
+
+Zurück zum Thema... ich probiere jetzt mal was Neues aus. Ich werde zukünftig die Nerd-Artikel invertieren. Ich habe beim (link: http://der-zyklop.de/blog/trailing-whitespace text: vorherigen Artikel) schon mal angefangen. Die Programmierer lesen doch eh lieber auf hellen Text auf dunklem Hintergrund, wa? :P
+
+Cheers,
+DerZyklop
+
+PS: Das hier ist Artikel **nr. 111**. Yeah! \o/
+
+----
+
+Tags: blog
+
+----
+
+Language: deutsch
