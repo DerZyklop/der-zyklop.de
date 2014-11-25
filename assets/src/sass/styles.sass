@@ -151,14 +151,15 @@ img
     display: block
 
 code
-    color: $tertiary
-    .invert &
-        color: $quadrary
+    background: $tertiary - #111
+    color: $quadrary
+    border: 1px solid $tertiary + #111
 
 pre
-    background: $tertiary
+    background: $tertiary - #111
+    border: 1px solid $tertiary + #111
     code
-        color: $quadrary
+        border: none
 
 figure
     figcaption

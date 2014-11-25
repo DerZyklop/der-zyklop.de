@@ -908,14 +908,15 @@ img {
   display: block; }
 
 code {
-  color: #333; }
-  .invert code {
-    color: #fcfcfc; }
+  background: #222222;
+  color: #fcfcfc;
+  border: 1px solid #444444; }
 
 pre {
-  background: #333; }
+  background: #222222;
+  border: 1px solid #444444; }
   pre code {
-    color: #fcfcfc; }
+    border: none; }
 
 figure figcaption {
   font-weight: bold;
