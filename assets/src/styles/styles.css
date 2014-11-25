@@ -912,10 +912,12 @@ code {
   color: #fcfcfc;
   border: 1px solid #444444; }
 
-pre {
+pre,
+pre[class*=language-] {
   background: #222222;
   border: 1px solid #444444; }
-  pre code {
+  pre code,
+  pre[class*=language-] code {
     border: none; }
 
 figure figcaption {
