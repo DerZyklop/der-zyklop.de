@@ -1,4 +1,4 @@
-Title: Change tabs in Terminal like in a Browser
+Title: Change tabs in Terminal like you do in a Browser
 
 ----
 
