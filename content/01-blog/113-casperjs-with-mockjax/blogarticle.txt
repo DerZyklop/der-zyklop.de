@@ -1,0 +1,131 @@
+Title: How to hijack Ajax-calls with Mockjax and CasperJS
+
+----
+
+Date: 2014-11-25
+
+----
+
+Justforrss: 
+
+----
+
+Text: In my (link: https://en.wikipedia.org/wiki/Functional_testing text: functional tests) i needed to simulate a slow internet-connection and i wanted to have the ability to manipulate the responsedata of the ajax-calls. I used (link: http://casperjs.org/ text: CasperJS) and (link: https://github.com/jakerella/jquery-mockjax text: Mockjax) for this purpose. In this article i’ll describe how to get there.
+
+Required: **CasperJS** is already installed on your machine, and your familiar with the basics of **node.js**.
+
+So lets start with a fresh, clean project. In your command line run these commands:
+
+```
+// Create a new folder
+mkdir temp-mockjax-casper-project
+// Navigate into that new folder
+cd temp-mockjax-casper-project
+// Create a new js-file
+touch test.js
+```
+
+Open test.js and write the following:
+
+<pre class="language-javascript"><code>var casper = require("casper").create();
+
+casper.on('remote.message', function(msg) {
+  this.echo('remote message caught: ' + msg);
+})
+
+casper.start('http://der-zyklop.de/', function() {
+  this.evaluate(function () {
+    console.log($('h1 img').attr('alt'));
+  });
+});
+
+casper.run();</code></pre>
+
+Lets run it by `casperjs test.js`. You should see the title of my blog in your command line. Yes my dear professional SEO consultant, there is no text in my h1… get over it! :P
+
+But this was just a test to see if it’s working. Now replace the content of test.js with this:
+
+<pre class="language-javascript"><code>var casper = require("casper").create();
+
+casper.on('remote.message', function(msg) {
+  this.echo('remote message caught: ' + msg);
+})
+
+casper.start('http://der-zyklop.de/', function() {
+
+  this.evaluate(function () {
+    $.ajax({
+      async: false,
+      url: '/blog/feed',
+      success:function(data){
+        console.log(data);
+      },
+      error:function(data){
+        console.log('It doesn’t work that way :(');
+      }
+    });
+  });
+});
+
+casper.run();</code></pre>
+
+Now you should see that it isn’t possible to do a simple ajax-call on `/blog/feed`. It’s blocked for security reasons. But fortunately we can highjax the ajax-request to simulate some a valid mock data. So lets install mockjax:
+
+```
+npm install jquery-mockjax
+```
+
+And now we gonna include jquery-mockjax into our testing-environment:
+
+<pre class="language-javascript"><code>var casper = require("casper").create({
+  verbose: true,
+  logLevel: 'error',
+  clientScripts: ["node_modules/jquery-mockjax/jquery.mockjax.js"]
+});
+
+casper.on('remote.message', function(msg) {
+  this.echo('remote message caught: ' + msg);
+})
+
+casper.start('http://der-zyklop.de/', function() {
+  this.evaluate(function () {
+
+    $.mockjax({
+      url: "/blog/feed",
+      responseText: "Hi! I am mockjax!"
+    });
+
+    $.ajax({
+      async: false,
+      url: '/blog/feed',
+      success:function(data){
+        console.log(data);
+      },
+      error:function(data){
+        console.log('It doesn’t work that way :(');
+      }
+    });
+
+  });
+});
+
+casper.run();</code></pre>
+
+Now you should see something like this in your command line:
+
+(image: mockjax.png link: mockjax.png)
+
+Only thing that still doesn’t work is the responseTime simulation. I will update this blogpost, when i (link: https://stackoverflow.com/questions/27124056/mockjax-responsetime-not-working-for-me?noredirect=1 text: have a solution).
+Cheers!
+
+----
+
+Tags: casperjs,mockjax,code,work,testing
+
+----
+
+Language: english
+
+----
+
+Targetgroup: small
