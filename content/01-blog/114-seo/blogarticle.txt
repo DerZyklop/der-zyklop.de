@@ -1,0 +1,67 @@
+Title: Über den Sinn & Unsinn von Suchmaschienen-Optimierung.
+
+----
+
+Date: 2014-12-03
+
+----
+
+Justforrss: 
+
+----
+
+Targetgroup: big
+
+----
+
+Text: Die Webseite eines Bekannten wird regelmäßig »gehackt«. Er fragt sich (bzw. mich), wer denn ein Interesse daran haben könnte seine Webseite anzugreifen.
+
+Was bei ihm passiert ist: Regelmäßig erschienen Blogartikel auf seiner Seite, die nichts mit ihm zu tun haben und auch inhaltlich keinen Sinn machen. So einen Artikel habt ihr bestimmt schon mal gesehen. 
+
+Hier mal ein kleiner Ausschnitt:
+
+> ## roshi ralph lauren italia outlet Dennis genpo
+> 
+> Genpo roshi **ralph lauren italia outlet** Dennis genpo merzel roshi is a revolutionary in the tradition of the old zen masters who so embodied buddhist teaching that they were able to revitalize and transform it for their own day and age.As buddhism moved from india to china to japan and other asian cultures, it found unique expression in each culture that made its fundamental teachings resonate for a new time and place.
+> 
+> ...
+
+Im Artikel ist »ralph lauren italia outlet« auf einen entsprechenden Webshop verlinkt.
+
+### Warum wird er angegriffen?
+
+Das Interesse liegt vermutlich in der Suchmaschinen-Optimierung. Offizielle Abkürzung dafür ist SEO (Search Engine Optimisation). Das bedeutet, dass man mit technischen Mitteln versucht in den Suchmaschinen bei bestimmten Suchbegriffen weiter oben zu erscheinen. 
+
+Anders formuliert: Mitarbeiter von großen Suchmaschinen-Betreibern entwickeln Maschinen, die den ganzen Tag nichts anderes machen als das gesamte Internet durchzublättern und ein großes Verzeichnis darüber anzulegen/zu pflegen. Dazu gehört die automatisierte Bewertung der Qualität von Webseiten – um die Unterscheidung von Sinn und Unsinn. 
+
+Mit guter Qualität wird beispielsweise eine Webseite bewertet, die von vielen Menschen genutzt wird. Auch gut bewertet wird eine Webseite auf die von gut bewerteten Webseiten aus verlinkt wird. Die Maschinen haben aber nicht so einen Verstand wie es Menschen haben. Sie machen beispielsweise Annahmen wie "Wenn die Anzahl der verwendeten Nomen, Verben und Adjektive auf der Seite nicht zu weit vom durchschnitt abweicht, ist es vermutlich eine vom Menschen erstellte, gute, informative Webseite.". Aber ob die Sätze inhaltlich auch Sinn machen, ist für Maschinen (noch) schwer nachvollziehbar.
+
+Wenn man sich auf das SEO-Spiel einlässt, dann heißt das:
+Man richtet sich beim Inhalt und der Struktur der eigenen Webseite nach Maschinen, statt nach den Menschen, die die Webseite besuchen. Klingt absurd, ist aber gang und gäbe.
+
+### Was ist mit dem Webshop?
+
+Kommen wir zurück zum Beispiel. Der Text macht für uns keinen Sinn. Er ist wiederum von einer Maschine generiert worden oder von irgendwo kopiert, und dient als Füllmasse zwischen den Links. Die Suchmaschine wird trotzdem denken, dass der Artikel "echt" ist, denn die Quantität der verschiedenen Wortarten passt ungefähr. Und da die Webseite bisher auch nur guten Content geliefert hat (das stimmt ausnahmsweise wirklich), wird der verlinkte Ralph Lauren Webshop wohl auch was gutes sein... denkt sich die Suchmaschine.
+
+Der Angreifer missbraucht also fremder Leuts Webseiten um den Webshop bei Suchmaschinen besser dastehen zu lassen. Er nutzt dazu Schwachstellen von Menschen und den von ihnen geschaffenen digitalen Systemen.
+
+Und jetzt ist es entweder so, dass 
+1: der uns nicht bekannte Shop-Betreiber dem uns nicht bekannten Angreifer Geld dafür bezahlt, dass er in den Suchergebnissen der Mode-Bedürftigen weiter oben erscheint
+oder 
+2: der Internet-Kaputt-Macher nicht nur der Angreifer, sondern auch der Shop-Betreiber ist, womit er dann Geld-Überweisungen für Ware einsammeln kann, die niemals beim Käufer ankommt.
+
+Herzlich willkommen auf der Dunklen Seite des Interwebs.
+
+### Was haben wir daraus gelernt? 
+
+- Immer gute Passwörter und einen (link: http://heizdeckenradio.pxwrk.de/hdr005/#t=50:10 text: guten Passwort-Manager) verwenden, wenn man Verantwortung für solche Produkte trägt. 
+- Nachdenken bevor man sich auf SEO einlässt. 
+- Vorher das Impressum und sonstige Kontakt-Möglichkeiten checken, bevor man im vermeintlichen Webshop einkauft. (Im Beispiel gabs nur ein Kontakt-Formular und keine Namen/Adressen)
+
+----
+
+Tags: searchengine,alltagstechnik,advertisement,hacking
+
+----
+
+Language: deutsch
