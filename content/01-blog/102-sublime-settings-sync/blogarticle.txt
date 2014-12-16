@@ -1,18 +1,12 @@
-Title: 
-
-Sublime Settings in der Cloud
+Title: Sublime Settings in der Cloud
 
 ----
 
-Date: 
-
-2014-09-23
+Date: 2014-09-23
 
 ----
 
-Text: 
-
-Der Folgende Artikel richtet sich an diejenigen, die Sublime Text nutzen und an mindestens zwei verschiedenen Rechnern (z.B. Laptop & Büro) Arbeiten.
+Text: Der Folgende Artikel richtet sich an diejenigen, die Sublime Text nutzen und an mindestens zwei verschiedenen Rechnern (z.B. Laptop & Büro) Arbeiten.
 
 Ich habe euch erklärt wie man den ** Sublime Text** (link: http://der-zyklop.de/blog/workflow-sublime-text-2 text: einrichtet), und (link: http://der-zyklop.de/blog/workflow-sublime-packages text: wie man Packages installiert). Nachdem ihr nun das (link: http://der-zyklop.de/blog/workflow-emmet text: ein oder andere Package) installiert habt, ist es an der Zeit dafür zu sorgen, dass euer Sublime sich auf allen Rechnern gleich verhält und gleich aussieht.
 
@@ -81,9 +75,9 @@ Solltet ihr Fehlermeldungen bekommen, oder sonst irgendetwas nicht geklappt habe
 
 ### Fazit
 
-Egal welchen Editor ich genutzt habe, ich habe es gehasst, wenn ich zuhause ein Plugin wie z.B. Emmet ########## LINK installiert habe, und dann schreibe ich an der Arbeit Emmet-Code und es tut sich nix. Ich hasse es generell Aufgaben zu erledigen, dich ich in der Vergangenheit schon mal erledigt habe. Aber jetzt bin ich glücklich.
+Egal welchen Editor ich genutzt habe, ich habe es gehasst, wenn ich zuhause ein Plugin wie z.B. (link: http://emmet.io/ text: Emmet) installiert habe, und dann schreibe ich an der Arbeit Emmet-Code und es tut sich nix. Ich hasse es generell Aufgaben zu erledigen, dich ich in der Vergangenheit schon mal erledigt habe. Aber jetzt bin ich glücklich.
 
-Wie angekündigt ########LINK! werde ich in zukunft noch öfter über solche Automatisierungen schreiben. Also stay tuned!
+Wie angekündigt werde ich in Zukunft noch öfter über solche Automatisierungen schreiben. Also stay tuned!
 
 ### Nachtrag für Fortgeschrittene
 
@@ -98,12 +92,12 @@ ln -s ~/Dropbox/Sublime/"Settings" ~/Library/"Application Support"/"Sublime Text
 
 ----
 
-Tags: 
-
-code,workflow,work,sublime
+Tags: code,workflow,work,sublime
 
 ----
 
-Language: 
+Language: deutsch
 
-deutsch
+----
+
+Justforrss: 
