@@ -1,0 +1,95 @@
+Title: Was ist Fiori / SAPUI5 / OpenUI5? Erklärung für Menschen die SAP doof finden.
+
+----
+
+Date: 2014-12-18
+
+----
+
+Justforrss: 
+
+----
+
+Targetgroup: small
+
+----
+
+Text: 
+
+Fiori oder SAPUI5 oder OpenUI5 ist der neue Hoffnungsträger von SAP. SAP baut ständig Hoffnungsträger, denn Ihnen ist ihr eigenes Produkt aus dem Ruder geraten. Ich habe einige Zeit gebraucht um zu verstehen, worum es sich bei Fiori/SAPUI5/OpenUI5 handelt, denn SAP orientiert sich öfter mal neu und bleibt dabei ab und zu eine Erklärung schuldig. Erinnert ihr euch an das (link: http://www.designtagebuch.de/sap-stoppt-einfuehrung-des-neuen-logos-und-kehrt-zum-alten-zurueck/ text: neue SAP-Logo?) :P ..und statt sich konsequent umzuorientieren, lassen sie ihre eigenen Dokumentationen und Tutorials unter verschiedenen Namen weiter im Netz bestehen. Beim Recherchieren ist es also manchmal schwer herauszufinden, was man überhaupt sucht. Ich versuche das hier mal auseuinanderzuklamüsern.
+
+### Fiori
+
+Fiori ist die »Reinvented SAP User Experience«. D.h. Fiori ist der Überbegriff für neue UX Guidelines. Sie haben sogar für SAP-Verhältnisse eine [richtig schicke Webseite zu den Fiori-Guidelines](http://experience.sap.com/fiori-guidelines/index.html) gebaut.
+
+### SAPUI5
+
+Eine Unterkategorie von Fiori ist SAPUI5. SAPUI5 ist ein 15MB schweres MV\*-Framework das auf HTML5 basiert. Also quasi das selbe wie AngularJS oder Backbone.js, aber eben mit der Qualität und Community eines SAP-Werkzeuges. 
+
+(image: https://assets.github.com/images/icons/emoji/unicode/1f44e.png)
+
+Es wird von SAP immer betont, dass SAPUI5 auf HTML5 basiert. **HTML5** wird in der business-to-business Welt oft mit dem allgemeinen Begriff **Web-Developement** vermischt. So wie **UX** ist **HTML5** in diesem Kontext also mehr als Marketing-/Mode-Wort zu verstehen. Technisch gesehen heißt das nur, dass dieses Framework auf einer Spezifikation basiert, die seit 2014 Standard ist. Sollte also eigentlich selbstverständlich sein.
+
+### OpenUI5
+
+**SAPUI5** gibt es auch in der Open-Source Variante namens **OpenUI5**. Was da genau die Unterschiede sind, wird nicht verraten. Beides hat eigene Dokumentationen, die auf den ersten Blick identisch aussehen. Dazu später mehr.
+
+Für SAPUI5 muss man Geld bezahlen, für OpenUI5 nicht.
+
+Wenn man nach SAPUI5-Tutorials sucht, kann man diese also auch auf OpenUI5 anwenden. Wenn’s dann aber nicht läuft, weiss man erstmal nicht ob es sich um einen Bug im Framework oder um einen API Unterschied handelt.
+
+## Dokumentation
+
+SAP’s Informations-Politik ist bekanntlich verwirrend. Es gibt sehr sehr lange API-Dokumentationen, was aus meiner Perspektive nicht umbedingt für SAPUI5 spricht. Es gibt sogar mehrere Orte an denen man diese Finden kann. Ich bin mittlerweile auf drei verschiedene Dokumentationen gestoßen: 
+
+1. https://openui5.hana.ondemand.com/#docs/api/symbols/sap.ui.html
+2. https://sapui5.netweaver.ondemand.com/sdk/#docs/api/symbols/sap.m.html
+3. https://sapui5.hana.ondemand.com/sdk/#docs/api/symbols/sap.m.html
+
+Will ich ein Navigations-Element wie z.b. »API Reference« in einem neuen Tab öffnen, dann fehlt im neuen Tab auf einmal jegliche Navigations-Möglichkeit. Das passiert auch, wenn man von Google direkt in eine Doku-Seite kommt. Das mache ich oft, denn die Doku-Interne Suche ist kaputt. Der Grund für diesen Bug ist, dass die Doku im Stile der Neunziger auf iFrames setzt.
+
+Wenn euch das noch wir Kleinigkeiten vorkommt... ich könnte ewig weiter von Beispielen erzählen, in denen sich die »Reinvented SAP User Experience« selbst in’s Knie schiesst.
+
+### Der Unterschied zwischen SAPUI5 und OpenUI5
+
+Ich habe von SAP selbst keine Informationen finden können, die den Unterschied zwischen SAPUI5 und OpenUI5 klar machen. Es war immer nur die Rede von der Lizenz. Aber es gibt auch Inhaltliche unterschiede. Der einzige Weg diese sichtbar zu machen ist der Vergleich der drei Dokumentationen.
+
+Zwischen 2 und 3 besteht kein erkennbarer Unterschied.  Nr. 2 (SAPUI5) ist auf jeden Fall umfangreicher als Nr. 1 (OpenUI5).
+
+### Die bessere Dokumentation
+
+Der spannendere Teil der Dokumentationen findet sich hier:
+
+- https://openui5.hana.ondemand.com/explored.html
+
+Lasst euch von der schwarzen Fläche nicht weiter irritieren. Wenn ihr eine Weile wartet, dann erscheint dort eine Fancy Schmancy StarWars-mäßige Animation, die davon handelt, dass OpenUI5 cool ist, oder so.
+
+Zum eigentlichen Content: Da geht es nur um den Framework-Bereich unter `sap.m`. Viele weitere UI-Elemente finden sich unter `sap.ui`. Mir wurde allerdings von einem SAPUI5-Entwickler gesagt, dass `sap.ui` gewissermaßen »deprecated« ist. Oder zumindest nicht mehr »recommended«. Das sind jetzt schon insider-informationen. Wie man als Normalsterblicher da dran kommt, und warum das nicht in der Doku steht… keine Ahnung.
+
+## XML, JS, HTML oder JSON?
+
+Wenn ihr euch ein bisschen reingefunden habt und das ein oder andere ausprobiert, dann wisst ihr: Es gibt vier Wege, wie man eine SAPUI5 App bauen kann. 
+
+HTML und json habe ich mir nicht weiter angeschaut, da es auch die am schlechtesten dokumentierten Lösungen sind. Der von mir bevorzugte Weg ist reines JavaScript. Im (link: https://www.galileo-press.de/einfuhrung-in-sapui5\_3533/  text: SAPUI5-Buch) wird auch nur JavaScript geschrieben. Leider sind in SAP’s offiziellen Dokumentationen [nur Beispiele für den XML-Weg](https://openui5.hana.ondemand.com/explored.html) zu finden. Aber in JavaScript kenne ich mich aus. Ausserdem habe ich in StackOverflow und Blogs mehr JavaScript-Beispiele gesehen, und das sind oft die hilfreicheren Seiten als die offizielle Doku selbst.
+
+## Sublime-User?
+
+Wenn ihr Sublime zum Entwickeln nutzt, dann solltet ihr euch auf jeden Fall (link: https://github.com/qmacro/SublimeUI5 text: dieses Plugin) installieren. Da sind einige snippets für die gängigen `sap.m`-Elemente drin.
+
+Wenn ihr CoffeeScript schreibt, dann nehmt (link: https://github.com/DerZyklop/SublimeUI5 text: meinen Fork). Der ist auch aktueller und umfangreicher, was CoffeeScript betrifft. Zumindest solange meine Pull-Requests in das andere Repository noch nicht aufgenommen werden. Und wer weiß, ob das nach diesem Artikel hier jemals passiert :P
+
+## Problem? 
+
+Wenn ihr Probleme habt oder Bugs findet, dann könnt ihr die auf (link: https://github.com/SAP/openui5/issues text: GitHub), (link: https://stackoverflow.com/questions/tagged/sapui5 text: StackOverflow) oder in (link: http://scn.sap.com text: SAP’s eigener Support-Platform) posten. Bei letzterem ist eine Antwort allerdings am unwahrscheinlichsten…
+
+## Zurück an die Arbeit!
+
+Ich hoffe ich habe euch hiermit ein paar Stunden der Frustration erspart, die ich mit diesem Haufen Foo hatte. Den Rest müsst ihr euch jetzt selbst erkämpfen.
+
+----
+
+Tags: sap,work,code
+
+----
+
+Language: deutsch
