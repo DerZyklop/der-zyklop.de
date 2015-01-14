@@ -1,0 +1,59 @@
+Title: Basic git commands
+
+----
+
+Date: 2015-01-13
+
+----
+
+Justforrss: 
+
+----
+
+Targetgroup: small
+
+----
+
+Text: 
+
+(image: git-commands.png link: git-commands.png)
+
+Something new in the category »after the third person asked me about it, i have to write a blogpost«. So here are some of the most basic git commands.
+
+#### Get the newest stuff from a remote repository (e.g. github):
+
+    git clone  --recursive https://github.com/DerZyklop/der-zyklop.de.git
+
+#### Get the newest changes
+
+    git pull
+
+#### Check the status of your local git project
+
+    git status
+
+#### Forget that i just changed in my local files
+
+    git checkout -- .
+
+#### Reserve changes in a specific file for my next commit
+
+    git add app/views/documentsDetail.coffee
+
+#### Commit the reserved files with a commit message
+
+    git commit -m "Messed up everything."
+
+#### Push it back into the remote repo
+
+    git push
+
+Wanna dig deeper into git? Check out (link: https://rogerdudler.github.io/git-guide/ text: this awesome guide). ...its also (link: https://rogerdudler.github.io/git-guide/index.de.html text: available in german).
+
+----
+
+Tags: work,code,git
+
+----
+
+Language: english
