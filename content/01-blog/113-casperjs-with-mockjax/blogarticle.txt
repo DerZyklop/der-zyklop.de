@@ -10,7 +10,10 @@ Justforrss:
 
 ----
 
-Text: In my (link: https://en.wikipedia.org/wiki/Functional_testing text: functional tests) i needed to simulate a slow internet-connection and i wanted to have the ability to manipulate the responsedata of the ajax-calls. I used (link: http://casperjs.org/ text: CasperJS) and (link: https://github.com/jakerella/jquery-mockjax text: Mockjax) for this purpose. In this article i’ll describe how to get there.
+Text: 
+
+In my (link: https://en.wikipedia.org/wiki/Functional_testing text: functional tests) i needed to simulate a slow internet-connection and i wanted to have the ability to manipulate the responsedata of the ajax-calls. I used (link: http://casperjs.org/ text: CasperJS) and (link: https://github.com/jakerella/jquery-mockjax text: Mockjax) for this purpose. In this article i’ll describe how to get there.
+
 
 Required: **CasperJS** is already installed on your machine, and your familiar with the basics of **node.js**.
 
@@ -61,7 +64,7 @@ casper.start('http://der-zyklop.de/', function() {
         console.log(data);
       },
       error:function(data){
-        console.log('It doesn’t work that way :(');
+        console.log('It doesn’t work that way :');
       }
     });
   });
@@ -102,7 +105,7 @@ casper.start('http://der-zyklop.de/', function() {
         console.log(data);
       },
       error:function(data){
-        console.log('It doesn’t work that way :(');
+        console.log('It doesn’t work that way :');
       }
     });
 
