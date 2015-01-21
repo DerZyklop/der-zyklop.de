@@ -10,7 +10,9 @@ Justforrss:
 
 ----
 
-Text: Ich war auf dem UX-Day 2014 in Mannheim.
+Text: 
+
+Ich war auf dem UX-Day 2014 in Mannheim.
 
 (image: ux-day.jpg link: ux-day.jpg)
 
@@ -66,8 +68,12 @@ FYI: Ich habe meinen Artikel geschrieben, bevor ich seinen gelesen habe.
 
 ----
 
-Tags: ux,work,conference
+Tags: ux,work,conference,sap
 
 ----
 
 Language: deutsch
+
+----
+
+Targetgroup: big

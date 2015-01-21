@@ -1,8 +1,14 @@
 Title: So abonniert ihr eure Lieblingsserie in euren Kalender
+
 ----
+
 Date: 2014-06-17
+
 ----
-Text: Ihr schaut Serien und wollt informiert werden, wenn eine neue Folge erscheint? Ich auch. Ich habs so eingerichtet, dass Neuerscheinungen als Termin (mit Erinnerung) automatisch in meinem Kalender stehen. So erreicht mich die Erinnerung egal an welchem Gerät ich gerade sitze. Das geht so...
+
+Text: 
+
+Ihr schaut Serien und wollt informiert werden, wenn eine neue Folge erscheint? Ich auch. Ich habs so eingerichtet, dass Neuerscheinungen als Termin (mit Erinnerung) automatisch in meinem Kalender stehen. So erreicht mich die Erinnerung egal an welchem Gerät ich gerade sitze. Das geht so...
 
 ### Veröffentlichung der Original-Folgen
 
@@ -18,10 +24,12 @@ Das alles müsst ihr nur ein einziges mal machen. Wenn ihr in zukunft über eine
 
 ### Veröffentlichung der deutschen Übersetzungen
 
-Wenn ihr auf die deutschen Übersetzungen wartet, oder noch von der alten Schule seid und das Medium mit den vielen Werbeunterbrechngen nutzt, dann könnt ihr euch auch von (link: www.wunschliste.de/ text: wunschliste.de) per Email darüber informieren lassen, wann die deutschen Folgen im TV ausgestrahlt werden.
+Wenn ihr auf die deutschen Übersetzungen wartet, oder noch von der alten Schule seid und das Medium mit den vielen Werbeunterbrechngen nutzt, dann könnt ihr euch auch von (link: http://www.wunschliste.de/ text: wunschliste.de) per Email darüber informieren lassen, wann die deutschen Folgen im TV ausgestrahlt werden.
+
 ----
-Tags: feedreader, automation
+
+Tags: feedreader,automation
+
 ----
-Language: Deutsch
-----
+
 Justforrss: 
