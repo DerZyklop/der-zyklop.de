@@ -1,0 +1,25 @@
+Title: Command line: alias doch="sudo !!"
+
+----
+
+Date: 2015-01-20
+
+----
+
+Justforrss: 
+
+----
+
+Targetgroup: small
+
+----
+
+Text: alias doch="sudo !!"
+
+----
+
+Tags: 
+
+----
+
+Language: deutsch
