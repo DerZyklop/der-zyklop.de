@@ -1,0 +1,31 @@
+Title: Alle node package updates auf einmal machen
+
+----
+
+Date: 2015-01-20
+
+----
+
+Justforrss: 
+
+----
+
+Targetgroup: small
+
+----
+
+Text: 
+
+Wer mit Grunt, CoffeeScript, SASS, LESS etc. arbeitet, der hat regelmäßig mit Node.js zu tun. Viele Node.js plugins, die per npm installiert werden, sind sehr Beta. Also muss man sich immer wieder mal darum kümmern, dass die Packages auch von zeit zu zeit aktualisiert werden. Um ehrlich zu sein, habe ich das aus Faulheit bei den meisten Projekten einfach nicht gemacht. Ich habe am Anfang einmal die Packages installiert und updates nur gemacht, wenn ich auf einen Bug gestossen bin o.ä.
+
+(image: npm-check-updates.png link:  npm-check-updates.png)
+
+Der Michael hat erklärt (link: http://michael-kuehnel.de/npm/2015/01/20/check-updates-of-your-node-modules.html text: wie man alle updates auf einmal macht), bzw. wie man alle Einträge zu den Package-Versionen in der package.json auf einmal erneuert. Lest das und dann sagt »Danke Michael!« :)
+
+----
+
+Tags: code,nodejs,workflow
+
+----
+
+Language: deutsch
