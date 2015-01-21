@@ -1,0 +1,38 @@
+Title: Warum ich blogge
+
+----
+
+Date: 2015-01-16
+
+----
+
+Justforrss: 
+
+----
+
+Text: 
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>„Ich schreibe, um herauszufinden, was ich denke“ (Susan Sontag) Ich auch. <a href="https://twitter.com/hashtag/susansontag?src=hash">#susansontag</a> <a href="https://twitter.com/hashtag/schreiben?src=hash">#schreiben</a> <a href="https://twitter.com/hashtag/writing?src=hash">#writing</a> <a href="https://twitter.com/hashtag/denken?src=hash">#denken</a> <a href="https://twitter.com/hashtag/philosophie?src=hash">#philosophie</a></p>— Philipp Rhensius (@Phire_ntropy) <a href="https://twitter.com/Phire_ntropy/status/555714232386613248">January 15, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+...dieser Satz passt ziemlich gut auf meinen Blog und auch auf meine sonstigen Publikationen wie Podcasts, schriftliche Dokumentationen und sogar issue reports auf github (*Programmierer-Kram). Während ich schreibe, dokumentiere ich nicht einfach nur meine eigenen Gedanken, sondern — und das ist einer der wichtigsten Aspekte — ich betrachte sie aus der Aussenperspektive. Das bezieht sich nicht ausnahmslos auf jeden Blogpost, aber bei den meisten, und vor allem bei den längeren texten ist das so. Wenn man versucht die inneren Gedanken nach aussen sichtbar und verständlich zu machen muss man sich mehr Mühe geben als beim Denken alleine. Den selben Effekt hat man wenn man vor einem persönlichen Problem steht und nachdem man mit einem guten Freund/einer Freundin gesprochen hat, ist man sich viel sicherer, wie man es angehen sollte. Das hat meistens gar nicht viel damit zu tun, dass man neuen Input bekommt, sondern mehr damit, dass man seinen eigenen output ordentlich aufbereiten muss.
+
+Wenn man etwas publiziert, wie auch wenn man etwas designt muss man immer die Sicht der Zielgruppe bedenken. Wenn man das nicht macht, merkt man das den Ergebnissen an.
+
+Es gibt noch weitere Gründe warum man bloggen sollte, aber die Klarheit, die ich damit in meinem Kopf schaffe ist wohl eine der wichtigsten. Ich kann das regelmäßige schreiben jedem empfehlen. Bloggen auch, und generell ist es toll wenn ihr das offene Internet (nein, nicht Facebook) mit Inhalt füllt. Cheers!
+
+---
+
+Kennt ihr das Gefühl? Habt ihr eine andere Art euch Klarheit zu schaffen? Und vor allem: Habt ihr eine andere Art euch am Internet zu beteiligen, oder konsumiert ihr nur? Interessiert mich. Ihr wisst ja wo ihr mich erreicht.
+
+----
+
+Tags: life,blog
+
+----
+
+Language: deutsch
+
+----
+
+Targetgroup: big
