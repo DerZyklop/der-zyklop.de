@@ -1,0 +1,99 @@
+Title: Neue Top-Level-Domains
+
+----
+
+Date: 2015-02-06
+
+----
+
+Justforrss: 
+
+----
+
+Targetgroup: small
+
+----
+
+Text: 
+
+Es gibt eine ganze Reihe neuer Top-Level-Domains. Ich habe eine Liste der aus meiner Sicht interessantesten neuen TLD‘s zusammengetragen, die man für neue Projekte mal im Hinterkopf behalten sollte. Wer sich alle neuen TLD‘s druchlesen will, [schaut hier](http://newgtlds.icann.org/en/program-status/delegated-strings).
+
+## Was ist eine Top-Level-Domain?
+
+Eine Internetadresse endet immer mit einer Top-Level-Domain. Bei `der-zyklop.de` ist das das `.de`. Das steht in dem fall natürlich für Deutschland. Früher gabs TLD‘s nur für Länder und .org für Organisationen und 
+
+## Liste der interessanten neuen TLD‘s
+
+### Arbeit
+
+- .work
+- .works
+
+### Photografie
+
+- .photos
+- .photography
+
+### Design
+
+- .graphics
+- .ink
+- .design
+
+### Reise, Leben, Privat
+
+- .equipment
+- .land
+- .berlin
+- .paris
+- .london
+- .voyage
+- .life
+- .rip
+- .party
+
+### Computer & Nerd-Kram
+
+- .computer
+- .foo
+- .bar
+- .camp
+- .digital
+- .wtf
+- .fail
+- .codes
+- .software
+
+### Musik
+
+- .hiphop
+- .homes
+- .audio
+- .rocks
+
+### Wortspiel
+
+- .space
+
+### Sonstiges
+
+- .diamonds
+- .toys
+- .bio
+- .organic
+- .ngo
+- .help
+- .ooo
+- .pizza
+
+---
+
+Hab ich eine coole Domain vergessen? Dann sag (twitter: derzyklop text: mir) bescheid!
+
+----
+
+Tags: work
+
+----
+
+Language: deutsch
