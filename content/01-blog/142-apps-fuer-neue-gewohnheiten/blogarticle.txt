@@ -1,0 +1,65 @@
+Title: Habit Apps für neue Gewohnheiten
+
+----
+
+Date: 2015-02-16
+
+----
+
+Justforrss: 
+
+----
+
+Text: 
+
+In (link: http://der-zyklop.de/blog/wochenrueckblick-5 text: Wochenrückblick #5) habe ich erklärt, dass sich das Konzept meiner Wochenrückblicke ändert. Die regelmäßigen Fragen die ich mir stelle sind in eine App verlagert worden. Ich bin also auf der Suche nach einer App für mein iOS-Gerät, die mir regelmässig die selben Fragen stellt.
+
+### Aufgaben mit festem Zeitpunkt
+
+(link: https://www.coach.me/ text: coach.me) (hieß früher Lift) ist imo die beste App, wenn man tägliche todo‘s hat, bzw. sich neue Gewohnheiten zulegen will. Man kann auch pro Todo angeben, wie oft dieses innerhalb einer Woche zu erledigen ist. 
+
+(image: coach.me.jpg link: coach.me.jpg)
+
+### Reflektion durch regelmäßige Fragen
+
+Auch sehr interessant fand ich den Ansatz von (link: http://griddiaryapp.com/ text: Grid Diary). Dort definiert man sich fragen, wie »Was sind drei Dinge die dich heute glücklich gemacht haben?« oder »Was kannst du machen, damit morgen noch besser wird«. 
+
+(image: griddiary.png link: griddiary.png)
+
+Sowas eignet sich aber eher um sich Reflektion anzutrainieren anstatt neuer Gewohnheiten. Ausserdem hat der Interface-Designer vergessen auf Kontraste zu achten. Das sieht man leider oft bei Apps mit guten Konzepten.
+
+### Rollenspielerisch Gewohnheiten anlernen (die Nerd-Version der Habit-Apps)
+
+Für die Nerds unter euch, die auf Rollenspiele stehen, gibts auch was passendes. Eine (link: https://www.kickstarter.com/projects/lefnire/habitrpg-mobile text: Community-Finanzierte) OpenSource App, mit offener Daten-Schnittstelle, wodurch es die App mittlerweile für (link: http://habitrpg.wikia.com/wiki/Category:Apps text: alle möglichen Plattformen) gibt. 
+
+(image: habitrpg.png link: habitrpg.png)
+
+Das Projekt heißt (link: https://habitrpg.com/ text: HabitRPG) und basiert wie andere RPG‘s auf Lebens-Punkten, Erfahrungs-Punkten, Leveln etc. 
+
+---
+
+Was mir aber fehlt: Ich habe auch todo‘s, die ich nur alle paar Wochen oder Monate erledigen will. Und vor allem will ich, das meine App schlau genug ist, das wichtigste (oder am meisten vernachlässigte) Todo an den Anfang der Liste zu stellen. Und wie schon bei meinem Artikel über (link: http://der-zyklop.de/blog/samsara text: Apps für‘s Meditieren) gesagt, suche ich immer nach den Dingen die am wenigsten überladen sind. Also die möglichst exakt das, und NUR das, machen was ich gerade brauche.
+
+### In Balance bleiben ohne Zwänge
+
+Ich habe gefunden was ich suche. Die App namens (link: http://balancedapp.com/ text: Balanced) kümmert sich jetzt darum, dass ich das Wichtigste im Blick habe. Vor allem hilft sie mir aber auch das, was gerade nicht so wichtig ist, aus dem Blick verlieren zu dürfen. Manche Leute wundern sich, wie ich das mit dem Informations-Konsum auf die Reihe bekomme. Da habt ihr‘s – ich suche mir Technik, die mir hilft vergessen zu dürfen.
+
+<iframe width="100%" height="460" src="https://www.youtube.com/embed/vJ8vtvlhUpw" frameborder="0" allowfullscreen></iframe>
+
+Was ich daran besonders gut finde: Ich muss mich nicht schlecht fühlen, wenn ich mal einen Tag nichts davon erledigt habe. Die App sagt nur was sinnvollerweise als nächstes zu tun wäre. Wann ich das mache ist meine Sache. (link: http://www.der-zyklop.de/blog/keine-zeit text: Genaue Zeitangaben waren ja noch nie so mein Ding).
+
+---
+
+Ich fühle mich gerade sehr Balanced. Und ihr? Womit sorgt ihr dafür euch neue Gewohnheiten anzueignen? Sagt‘s mir – per (email: mail@der-zyklop.de text: Mail), oder (twitter: DerZyklop text: Twitter).
+
+----
+
+Tags: app,ios,habit
+
+----
+
+Language: deutsch
+
+----
+
+Targetgroup: big
