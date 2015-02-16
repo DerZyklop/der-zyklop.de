@@ -1,0 +1,39 @@
+Title: Apps für den Einstieg in Meditation (für iOS)
+
+----
+
+Date: 2015-02-11
+
+----
+
+Justforrss: 
+
+----
+
+Targetgroup: big
+
+----
+
+Text: 
+
+(link: https://twitter.com/niklas_jordan/status/565440413516189697 text: Ich wurde auf eine App hingewiesen), die einem den Einstieg in die Meditation erleichtern soll. »Sattva« heißt sie und behauptet von sich »The world’s first advanced meditation timer and tracker« zu sein. Das Prinzip ist das Selbe wie bei anderen Fitness trackern wie z.B. Runtastic. Es geht um Leistung. Möglichst viel Meditieren. Sich in der App mit seinen Freunden connecten und gegenseitig anspornen.
+
+**Es geht um Leistung.** Aber sollte es das, wenn es um Meditation geht? Ich habe die App nicht getestet und kann daher auch nichts negatives darüber sagen. Aber das Konzept sagt mir nicht zu. Ich will was einfaches. So einfach wie es nur geht. Keine Ablenkung durch fancy features. Anderen hilft’s vielleicht. Mir nicht. Aber ich habe trotzdem zwei App-Empfehlungen für's Meditieren.
+
+Ich habe damals mal (link: https://www.headspace.com/ text: Headspace) genutzt. Da gibt es 10 freie sessions. In den Sessions bekommt man bestimmte Techniken erklärt, von jemandem, der sich mit dem Thema auskennt. Danach kann man dann Geld bezahlen, wenn man weiter machen will. Man wird also beim Meditieren angeleitet. Ich fand das damals ganz gut, und kenne Menschen, die die App toll finden. Aber ich brauche was anderes. Also zur zweiten App-Empfehlung...
+
+(image: samsara-app.png link: samsara-app.png)
+
+(link: https://itunes.apple.com/app/id592333521 text: Samsara) ist die minimalistischste App, die ich auf meinem iOS-Gerät habe. Sie ist quasi eine Stoppuhr. Allerdings gibt sie einem beim drauf schauen nur ein ungefähres Gefühl dafür, wie viel Zeit vergangen ist und wie viel noch bleibt (genaue Zeitanzeige kann man ausblenden). Zu beginn und zum Ende gibt es einen Klangschalen-Gong, der die Meditation einleitet, oder sie sanft enden lässt. 
+
+Dazu kann man optional eine Warmup und/oder eine Cooldown-Phase einrichten. Ich nutze die App nicht nur für‘s meditieren. Wenn man z.b. 25 Min. »Meditation« und 5 Min. Cooldown einstellt, hat man eine Prima (link: https://de.wikipedia.org/wiki/Pomodoro-Technik text: Pomodoro)-App. Und obwohl es oft schwerer ist, etwas gut zu machen, wenn es minimalistisch sein soll, kostet diese App nur ungefähr so viel wie eineinhalb Kaffee.
+
+*Habt ihr Apps, die euch beruhigen oder euch bei Meditation/Konzentration helfen? Sagt’s mir per (twitter: @DerZyklop) oder (email: mail@der-zyklop.de text: Mail).*
+
+----
+
+Tags: app,ios,meditation
+
+----
+
+Language: deutsch
