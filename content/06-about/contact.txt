@@ -1,13 +1,15 @@
-﻿Title: About
+Title: About
 
 ----
 
-Text: ## Hi, ich bin DerZyklop.
+Text: 
+
+## Hi, ich bin DerZyklop.
 Ich lebe und arbeite in Mittelhessen. Ich bin UI/UX-Designer d.h. ich sorge dafür, dass Webseiten und Applikationen auf allen Geräten gut aussehen, intuitiv zu bedienen sind und aus sauberem, soliden Code gebaut sind.
 
 (image: escher-asciiart.jpg class: addshadow alt: M. C. Escher - Asciiart by DerZyklop title: M. C. Escher - Asciiart by DerZyklop )
 
-Nebenher beschäftige ich mich mit (link: /blog/tags:politik text: Politik), (link: /blog/tags:code text: Code) und (link: /blog/tags:weltretten text: Weltretten) und schreibe über das was mir gerade in den sinn kommt.
+Nebenher beschäftige ich mich mit (link: /blog/tags/tag:politik text: Politik), (link: /blog/tags/tag:code text: Code) und (link: /blog/tags/tag:weltretten text: Weltretten) und schreibe über das was mir gerade in den sinn kommt.
 
 Blogposts erscheinen seit 2012 ca. alle 14 Tage.
 
@@ -16,3 +18,15 @@ Ihr erreicht mich auf (link: http://www.twitter.com/DerZyklop text: Twitter) und
 Code gibts auf (link: https://github.com/DerZyklop text: github)
 
 Falls ihr mir Verschlüsselte Emails senden wollt, findet ihr meinen **PGP-Key** (link: https://gist.github.com/DerZyklop/60cfc7259934037a2bf9 text: hier). Falls ihr euch fragt warum ihr das tun solltet, (link: http://der-zyklop.de/pxwrk/keine-verschluesselung/ text: lest das).
+
+----
+
+Address: 
+
+----
+
+Email: 
+
+----
+
+Phone: 

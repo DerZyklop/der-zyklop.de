@@ -1,9 +1,17 @@
 Title: DerZyklop
+
 ----
+
 Author: DerZyklop
+
 ----
-Description: Code, User Experience Design und Weltretten
+
+Description: Code, Minimalismus und Weltretten
+
 ----
-Keywords: DerZyklop, Nils Neumann, kirby cms, weltretten, user experience
+
+Keywords: DerZyklop,Nils Neumann,kirby cms,weltretten,user experience
+
 ----
+
 Copyright: (link: impressum/ text: Impressum & Lizenz)

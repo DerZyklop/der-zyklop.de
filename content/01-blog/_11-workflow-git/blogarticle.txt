@@ -1,4 +1,4 @@
-Title: Tweetnest-Cronjob auf Uberspace
+Title: Workflow Git
 
 ----
 
@@ -93,4 +93,12 @@ Wenn dir dieser Artikel weitergeholfen hat, lass mir doch ein kurzes *»Danke«*
 
 ----
 
-Tags: code, workflow, work
+Tags: code,workflow,work
+
+----
+
+Justforrss: 
+
+----
+
+Language: deutsch
