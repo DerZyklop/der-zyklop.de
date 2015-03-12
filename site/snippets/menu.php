@@ -12,6 +12,7 @@
     <div class="button-wrap">
       <a href="/blog/subscribe" class="button">Blog abonnieren?</a>
     </div>
+    <a href="http://www.bloglovin.com/blog/4977721/?claim=2gxqf4984cs">Follow my blog with Bloglovin</a>
   </ul>
 
 </nav>
