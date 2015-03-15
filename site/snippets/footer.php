@@ -1,20 +1,12 @@
-  </div>
-
   </section>
 
   <?php snippet('sec-author') ?>
 
   <section class="width-wrap">
-
-    <div>
-      <div class="width-wrap">
-        <div class="right">
-          <?php echo kirbytext($site->copyright()) ?>
-        </div>
-        <div class="clearit"></div>
-      </div>
+    <div class="right">
+      <?php echo kirbytext($site->copyright()) ?>
     </div>
-
+    <div class="clearit"></div>
   </section>
 
 </div>

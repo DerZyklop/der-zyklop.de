@@ -1,29 +1,35 @@
-<?php snippet('header') ?>
+<?php snippet('header'); ?>
+<?php snippet('dz-banner') ?>
 
-<?php
-  $blog = $pages->find('blog');
-  $articles = $blog->children()->filterBy('justforrss','')->visible()->flip();
+<div class="page-wrap">
+  <div class="content">
 
-?>
-  <?php #var_dump(blogError()); ?>
+    <?php
+      $blog = $pages->find('blog');
+      $articles = $blog->children()->filterBy('justforrss','')->visible()->flip();
 
-<script type="text/javascript">
-    jQuery(document).ready(function(){
-       'use strict';
-       $('body').addClass('blog');
-    });
-</script>
+    ?>
+      <?php #var_dump(blogError()); ?>
 
-<section class="blog">
+    <script type="text/javascript">
+        jQuery(document).ready(function(){
+           'use strict';
+           $('body').addClass('blog');
+        });
+    </script>
 
-    <?php $articles = $articles->paginate(6); ?>
-    <div id="articles">
-      <?php foreach($articles as $article) : ?>
-        <?php snippet( 'article-teaser-big', array( 'item' => $article )); ?>
-      <?php endforeach; ?>
-    </div>
-    <?php snippet('pagination', array( 'articles' => $articles )); ?>
+    <section class="blog">
 
-</section>
+        <?php $articles = $articles->paginate(6); ?>
+        <div id="articles">
+          <?php foreach($articles as $article) : ?>
+            <?php snippet( 'article-teaser-big', array( 'item' => $article )); ?>
+          <?php endforeach; ?>
+        </div>
+        <?php snippet('pagination', array( 'articles' => $articles )); ?>
+
+    </section>
+
+  </div>
 
 <?php snippet('footer') ?>
