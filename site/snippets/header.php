@@ -33,13 +33,14 @@
 
 </head>
 <body class="<?php if ($page->targetgroup() == 'small') { echo "invert";} ?>">
-<?php snippet('menu') ?>
+<?php #snippet('menu') ?>
 
 <div class="page-wrap">
   <?php #snippet('tweets-placeholder') ?>
-  <a href="#nav" class="open-menu">
+<!--   <a href="#nav" class="open-menu">
     ☰
   </a>
+ -->
   <div class="content">
     <div class="header">
       <h1>

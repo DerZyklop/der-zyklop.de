@@ -20,6 +20,8 @@
 
 </section>
 
+</div>
+
 <?php snippet('article-nav') ?>
 
 <div class="comments bg-tertiary">
@@ -29,10 +31,11 @@
   </section>
 </div>
 
-<div class="meta">
-  <section class="width-wrap">
-    <?php snippet('article-suggestion') ?>
-    <?php snippet('article-taglist') ?>
-  </section>
+<div>
+  <div class="meta">
+    <section class="width-wrap">
+      <?php snippet('article-suggestion') ?>
+      <?php snippet('article-taglist') ?>
+    </section>
 
-<?php snippet('footer') ?>
+  <?php snippet('footer') ?>

@@ -61,8 +61,8 @@
     </ul>
 
   <?php else : ?>
-        <h3>Suchst du nach etwas bestimmten?</h3>
-        <p>Dann schau dir mal die folgenden Schlagwörter an, über die ich geschrieben habe – vielleicht interessiert dich ja eins davon:</p>
+        <h3>Nach was suchst du?</h3>
+        <p>Ich habe bisher <?= $pages->find('blog')->children()->count() ?> Artikel geschrieben. Willst du dich ein bisschen umschauen? Dann schau dir mal die folgenden Schlagwörter an:</p>
         <?php snippet('taglist', array('blog'=>$blog)) ?>
   <?php endif; ?>
 

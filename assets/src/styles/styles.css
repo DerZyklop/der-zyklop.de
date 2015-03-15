@@ -1152,7 +1152,6 @@ a span.result-counter {
       .taglist ul li a {
         font-weight: bold;
         display: block;
-        cursor: pointer;
         border-radius: 4px;
         overflow: hidden;
         padding: 0.5em;
@@ -1226,7 +1225,6 @@ a span.result-counter {
   .options-bar .supporters-btn {
     font-weight: bold;
     display: block;
-    cursor: pointer;
     border-radius: 4px;
     overflow: hidden;
     padding: 0.5em;
@@ -1318,7 +1316,6 @@ a span.result-counter {
     .blog article .headline a {
       font-weight: bold;
       display: block;
-      cursor: pointer;
       border-radius: 4px;
       overflow: hidden;
       padding: 0.5em;
@@ -1354,7 +1351,6 @@ a span.result-counter {
   #articles .article-teaser-small {
     font-weight: bold;
     display: block;
-    cursor: pointer;
     border-radius: 4px;
     overflow: hidden;
     padding: 0.5em;
