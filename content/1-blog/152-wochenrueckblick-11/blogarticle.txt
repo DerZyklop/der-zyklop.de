@@ -1,0 +1,51 @@
+Title: Wochenrückblick #11 - Mainz, CeBIT, Guitar Hero und viele Tiere
+
+----
+
+Date: 2015-03-22
+
+----
+
+Justforrss: 
+
+----
+
+Text: 
+
+### CeBIT
+
+Ich war zu einem Betriebsausflug auf der »(link: http://de.wikipedia.org/wiki/CeBIT text: weltweit größten Messe für Informationstechnik)«. Vermutlich war mein erstes auch gleich das letzte mal. Es ist einfach die falsche Veranstaltung für mich. Die OpenSource-Ecke war nur ein kleiner Teil in einer der vielen Hallen. Die Gamer-Halle gibt es gar nicht mehr. Ich hatte ein paar sehr schöne Gespräche mit Entwicklern von Software die ich nutze. Aber insgesamt war‘s eher mau. Die CeBIT soll wohl mal interessant gewesen sein, als sie noch groß war.
+
+Hier übrigens der Verlauf der Besucherzahlen: 
+
+(image: cebit-besucherzahlen.png link: cebit-besucherzahlen.png)
+
+### Krieg
+
+Auch mit Mitarbeitern vom BND habe ich gequatscht. Nein ich habe sie nicht gefragt, warum sie meine und eure Grundrechte brechen, uns angreifen und was das ganze soll. Das sind ja auch nur blasse Vertreter von diesem Scheißverein. Aber eine originale Enigma hatten sie dort stehen. 
+
+(image: 1-enigma.jpg link: 1-enigma.jpg)
+
+Eine »kleine« Rechenmaschine zur Veschlüsselung von Text-Nachrichten, die im zweiten Weltkrieg eingesetzt wurde. Manche Menschen vertreten die Meinung, dass die Amerikaner in dem Moment in die Situation kamen das Ruder rumzureißen als sie das Verschlüsselungsverfahren »geknackt« hatten. Also habe ich mir die Enigma erklären lassen. Das System ist nachvollziehbar. Ebenso nachvollziehbar ist mir nun, warum die Verschlüsselung nicht funktioniert hat, so wie sie von den Nazis genutzt wurde. Denn es gab bestimmte Elemente in einem Text, die immer gleich waren. Die letzten zwei Buchstaben eines Briefes aus der Kommandozentrale waren z.B. immer A und H. Bei Nachrichten von Schiffen waren die ersten Text-Abschnitte immer Geo-Koordinaten und Wetterberichte. Immer im selben Schema. Mit solchen festen Werten kann man dann »reverse ingeneeren«.
+
+### Happy Pev
+
+Ende der Woche war ich auf einer Geburtstagsfeierei...
+
+<iframe width="100%" height="460" src="https://www.youtube.com/embed/6lHNanSJETI" frameborder="0" allowfullscreen></iframe>
+
+### Mainz entdecken
+
+Heute habe ich, nachdem ich ein bisschen Zeit mit (link: http://fasanerie.net/ text: Bären, Wölfen und Fasanen) in Wiesbaden verbracht habe, ein super schönes Cafe/Restaurant mit (link: http://www.schwabbel.net/ text: furchtbarem Namen) entdeckt. Ihr wisst ja.. ich bin gerne (link: http://der-zyklop.de/blog/alles-glaenzt-so-schoen-neu text: nah) am (link: http://der-zyklop.de/blog/derzyklop-ist-jetzt-mainzer text: Wasser). Das Cafe ist in einem Hausboot auf der Wiesbadener Rheinseite. An der Mainzer Rheinseite gibt‘s leider kaum Möglichkeiten nah am Wasser zu essen/trinken. Oder ich muss sie noch entdecken. Jedenfalls schmeckt der Kaffee im Hausboot super und das Essen ist nicht zu teuer, und H. fühlte sich dort wie in Holland. Ich kann das bestätigen.
+
+----
+
+Tags: work,mainz,vacation
+
+----
+
+Language: deutsch
+
+----
+
+Targetgroup: big
