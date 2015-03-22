@@ -18,7 +18,7 @@
         });
     </script>
 
-    <section class="blog">
+    <section>
 
         <?php $articles = $articles->paginate(6); ?>
         <div id="articles">
