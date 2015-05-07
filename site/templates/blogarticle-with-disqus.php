@@ -4,7 +4,6 @@
 <div class="page-wrap">
   <div class="content">
 
-
     <section class="blogarticle">
       <article>
         <div class="img-border">
@@ -25,23 +24,19 @@
 
     </section>
 
-    </div>
+  </div>
 
-<div class="comments bg-tertiary">
-  <section class="width-wrap">
-    <?php snippet('disqus', array('disqus_shortname' => 'derzyklop', 'disqus_developer' => true)) ?>
+  <div class="comments bg-tertiary">
+    <section class="width-wrap">
+      <?php snippet('disqus', array('disqus_shortname' => 'derzyklop', 'disqus_developer' => true)) ?>
+    </section>
+  </div>
 
-  </section>
-</div>
-
-<div>
   <div class="meta">
     <section class="width-wrap">
       <?php snippet('article-suggestion') ?>
       <?php snippet('article-taglist') ?>
     </section>
-</div>
-</div>
+  </div>
 
-</div>
-<?php snippet('footer') ?>
+  <?php snippet('footer') ?>

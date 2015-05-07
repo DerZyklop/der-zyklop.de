@@ -24,9 +24,9 @@ if ( $suggestedArticle ) : ?>
       <a href="<?php echo $suggestedArticle->images()->first()->url(); ?>">
         <?php
           echo thumb( $suggestedArticle->images()->first(), array(
-            'width' => 270,
-            'quality' => 70,
-            'crop' => false
+           'width' => 270,
+           'quality' => 70,
+           'crop' => false
           ));
         ?>
       </a>

@@ -24,23 +24,23 @@
 
     </section>
 
-    </div>
-    <div class="bg-tertiary">
-      <section class="width-wrap">
-        <?php snippet('options-bar') ?>
-      </section>
-    </div>
-
-    <div class="comments bg-tertiary">
-      <?php snippet('comments.list') ?>
-      <?php #snippet('comments.add.form') ?>
-    </div>
-
-    <div class="meta">
-      <section class="width-wrap">
-        <?php snippet('article-suggestion') ?>
-        <?php snippet('article-taglist') ?>
-      </section>
-
   </div>
+  <div class="bg-tertiary">
+    <section class="width-wrap">
+      <?php snippet('options-bar') ?>
+    </section>
+  </div>
+
+  <div class="comments bg-tertiary">
+    <?php snippet('comments.list') ?>
+    <?php #snippet('comments.add.form') ?>
+  </div>
+
+  <div class="meta">
+    <section class="width-wrap">
+      <?php snippet('article-suggestion') ?>
+      <?php snippet('article-taglist') ?>
+    </section>
+  </div>
+
   <?php snippet('footer') ?>

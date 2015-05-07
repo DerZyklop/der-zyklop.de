@@ -9,7 +9,7 @@
     <div class="clearit"></div>
   </section>
 
-</div>
+</div> <!-- .page-wrap -->
 
 <!-- Piwik -->
 <script type="text/javascript">
@@ -24,7 +24,6 @@ piwikTracker.enableLinkTracking();
 </script><noscript><p><img src="http://www.der-zyklop.de/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
 <!-- End Piwik Tracking Code -->
 
-</div>
 <!--   <style>
   #tags {
     display: block;
@@ -37,5 +36,6 @@ piwikTracker.enableLinkTracking();
   }
 </style>
 <aside id="tags">foofo</aside> -->
+
 </body>
 </html>
