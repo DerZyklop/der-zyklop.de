@@ -19,12 +19,12 @@ $dark-bg: #{$tertiary} url('../images/pattern/dark/irongrip.png')
     overflow: hidden
     padding: 0.5em
     margin: $space-t-b/2 0
-    transition: 0.3s
     background: $quadrary - #050505
-    border: $border-width $border-style $quadrary - #101010
+    border: $border-width $border-style $quadrary - #202020
+    transition: background 0.3s//, border 0.3s
     .invert &
         background: $tertiary + #050505
-        border: $border-width $border-style $tertiary + #101010
+        border: $border-width $border-style $tertiary + #202020
     text-decoration: none
     &:hover
         background: $secondary - #222
@@ -332,7 +332,8 @@ section
         font-size: $font-size - 4px
 
 .meta
-    background: $quadrary - #050505
+    //background: $quadrary - #050505
+    background: url('../images/pattern/bright/cubes.png') fixed
     .invert &
         color: $tertiary
     border-top: 1px solid $border-color
@@ -535,6 +536,7 @@ $options-bar-space: 10px
 /* Blog [BEGIN] */
 
 .blog
+    background: url('../images/pattern/bright/cubes.png') fixed
     position: relative
     .article-text a
         border-bottom: none
@@ -549,6 +551,7 @@ $options-bar-space: 10px
             +likeadiv()
         .headline a
             +btn()
+            //transition: 0
         // &.invert .headline a
         //     background: $tertiary + #050505
         //     background: $quadrary
