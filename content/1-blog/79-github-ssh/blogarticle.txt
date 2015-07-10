@@ -1,4 +1,4 @@
-﻿Title: GitHub per ssh statt https
+Title: GitHub per ssh statt https
 
 ----
 
@@ -6,7 +6,9 @@ Date: 2014-05-26
 
 ----
 
-Text: ### Warum SSH?
+Text: 
+
+### Warum SSH?
 
 Weil wenn ich mir ein repo per `https` auf meinen Rechner clone muss ich bei jedem push meine Zugangsdaten erneut eingeben. Wenn ich einen `ssh` Zugang verwende, ist die Verbindung ende-zu-ende-verschlüsselt. Ich generiere also einen privaten und einen öffentlichen Schlüssel auf meinem Rechner, hinterlege den Öffentlichen bei Github und clone meine Projekte anschließend per
 
@@ -50,7 +52,7 @@ Und anschließend füge ich ihn in meinen (link: https://github.com/settings/ssh
 Nun muss man noch eine config-Datei anlegen, in der man erklärt welche Schlüssel-Dateien zu meiner Identität gehören.
 
 ```
-echo 'IdentityFile ~/.ssh/github' > ~/.ssh/config
+echo 'IdentityFile ~/.ssh/github' >> ~/.ssh/config
 ```
 
 Fertig. Ab jetzt kann man seine eigenen GitHub-Projekte per `ssh` clonen, pullen, pushen etc.:
@@ -67,4 +69,4 @@ Language: deutsch
 
 ----
 
-Justforrss:
+Justforrss: 
