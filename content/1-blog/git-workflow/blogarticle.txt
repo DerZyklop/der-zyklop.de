@@ -1,4 +1,4 @@
-Title: Workflow Git
+Title: Kleine Git Workflow Verbesserungen
 
 ----
 
@@ -8,7 +8,7 @@ Date: 2014-01-21
 
 Text: 
 
-Ich werde jetzt hier nicht die grundsätzliche Funktionsweise von Git erklären. Das meißte habe ich bei #########LINK gelernt. Denjenigen die sich mit git (vor allem in der Command-Line) schon etwas auskennen, möchte ich hier ein paar Kniffe zeigen, die einem die Arbeit erleichtern können.
+Ich werde jetzt hier **nicht** die grundsätzliche Funktionsweise von Git erklären. Das meißte habe ich bei #########LINK gelernt. Denjenigen die sich mit git (vor allem in der Command-Line) schon etwas auskennen, möchte ich hier ein paar Kniffe zeigen, die einem die Arbeit erleichtern können.
 
 Ich habe in meinem Artikel ".....#######" ###LINK erklärt, wie man sich sogenannte Aliase und Funktionen in die `.profile` schreiben kann. So kann man sich z.B. die Befehle, die man immer wieder braucht sehr verkürzen. Das hat nicht nur den Grund, dass man den Befehl schneller eingetippt hat, sondern auch, dass man weniger Tippfehler macht, und keine ggf. nötigen Parameter vergisst. Im folgenden stelle ich euch ein paar der Zeilen meiner **.profile** vor, die sich auf Git beziehen.
 
