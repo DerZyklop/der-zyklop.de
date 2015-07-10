@@ -15,9 +15,7 @@ Nebenher mache ich einige Sachen im Internet. Auch davon erfährst du auf meinem
 
 Blogposts erscheinen seit 2012 mindestens alle 14 Tage.
 
-Ihr erreicht mich auf (link: http://www.twitter.com/DerZyklop text: Twitter) und per (email: mail@der-zyklop.de text: Email).
-
-Falls ihr mir Verschlüsselte Emails senden wollt, findet ihr meinen **PGP-Key** (link: https://gist.github.com/DerZyklop/60cfc7259934037a2bf9 text: hier). Falls ihr euch fragt warum ihr das tun solltet, (link: http://der-zyklop.de/pxwrk/keine-verschluesselung/ text: lest das).
+Ihr erreicht mich auf (link: http://www.twitter.com/DerZyklop text: Twitter) und per (email: mail@der-zyklop.de text: Email) [(link: https://gist.github.com/DerZyklop/60cfc7259934037a2bf9 text: PGP-Key)].
 
 ----
 
