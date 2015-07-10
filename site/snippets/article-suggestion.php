@@ -14,7 +14,7 @@ if ( $suggestedArticle ) : ?>
 
 <aside class="article-suggestion">
 
-    <h6><span>Das könnte dich auch interessieren</span></h6>
+    <h6><span>Das könnte dich interessieren</span></h6>
     <h4>
       <a class="title" href="<?php echo $suggestedArticle->url(); ?>">
         <?php echo $suggestedArticle->title(); ?>
