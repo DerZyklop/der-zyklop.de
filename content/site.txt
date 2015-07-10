@@ -2,15 +2,13 @@ Title: DerZyklop
 
 ----
 
-Author: Nils Neumann (aka. DerZyklop)
-
-----
-
 Twitter: DerZyklop
 
 ----
 
-Authordescription: Minimalistisch lebender Programmierer, Designer und Longboard fahrer. Gebürtig aus Gießen. Mag seine Wahl-Heimat Mainz. Schreibt ohne Rücksicht auf Deutsch-Lehrer. Ist auf der Suche nach einem besseren Leben.
+Authordescription: 
+
+Minimalistisch lebender Programmierer, Designer und Longboard fahrer. Gebürtig aus Gießen. Mag seine Wahl-Heimat Mainz. Schreibt ohne Rücksicht auf Deutsch-Lehrer. Ist auf der Suche nach einem besseren Leben.
 
 Mehr über mich: (link: /about text: hier)
 Mehr Artikel: Im (link: /blog/tags/ text: Schlagwort-Archiv).
@@ -18,7 +16,7 @@ Diesen Blog abonnieren kannst du (link: /blog/subscribe text: hier).
 
 ----
 
-Description: Code, Minimalismus und Weltretten
+Description: Code, Minimalismus und Kladderadatsch
 
 ----
 
