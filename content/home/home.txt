@@ -4,3 +4,6 @@ Author: <a href="/about" class="autorlink">Autor: DerZyklop | UX-Designer</a>
 ----
 AuthorDescription: Pixelworker, Digital Native und Nachdenker
 ----
+Title: Hi. Ich bin Nils.
+----
+Text: Ich Lebe und Arbeite mit Pixeln.

@@ -3,19 +3,24 @@
 title: Contact
 subpages: false
 fields:
-  title: 
+  title:
     label: Title
     type:  text
-  text: 
+  text:
     label: Text
     type:  textarea
-  address: 
+  tags:
+    width: 1/1
+    label: Tags
+    type: tags
+    index: all
+  address:
     label: Address
     type:  textarea
-  email: 
+  email:
     label: Email
     type:  text
-  phone: 
+  phone:
     label: Phone
     type:  text
 
