@@ -3,18 +3,21 @@
 title: Site
 subpages: true
 fields:
-  title: 
+  title:
     label: Title
     type:  text
-  author: 
-    label: Author
+  twitter:
+    label: Twitter
     type:  text
-  keywords: 
+  authordescription:
+    label: Author
+    type:  textarea
+  keywords:
     label: Keywords
     type:  tags
-  description: 
+  description:
     label: Description
     type:  textarea
-  copyright: 
+  copyright:
     label: Copyright
     type:  text
