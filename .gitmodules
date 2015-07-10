@@ -4,3 +4,6 @@
 [submodule "panel"]
 	path = panel
 	url = https://github.com/getkirby/panel.git
+[submodule "sass-boilerplate"]
+	path = temp_submodules/sass-boilerplate
+	url = https://github.com/DerZyklop/sass-boilerplate.git
