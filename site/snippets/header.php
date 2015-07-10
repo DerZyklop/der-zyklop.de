@@ -31,6 +31,8 @@
     </script>
   <![endif]-->
 
+  <meta name="google-site-verification" content="JFTin9xnictxV3Ehnii_6UPaeb_eV0zjZk3Riq6SoJQ" />
+
 </head>
 <body class="<?php if ($page->targetgroup() == 'small') { echo "invert";} ?>">
 <?php #snippet('menu') ?>
