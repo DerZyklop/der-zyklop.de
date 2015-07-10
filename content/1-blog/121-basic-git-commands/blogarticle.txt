@@ -22,7 +22,7 @@ Something new in the category »after the third person asked me about it, i have
 
 #### Get the newest stuff from a remote repository (e.g. github):
 
-    git clone  --recursive https://github.com/DerZyklop/der-zyklop.de.git
+    git clone --recursive https://github.com/DerZyklop/der-zyklop.de.git
 
 #### Get the newest changes
 
@@ -32,7 +32,7 @@ Something new in the category »after the third person asked me about it, i have
 
     git status
 
-#### Forget that i just changed in my local files
+#### Forget the recent changes of my local files
 
     git checkout -- .
 
