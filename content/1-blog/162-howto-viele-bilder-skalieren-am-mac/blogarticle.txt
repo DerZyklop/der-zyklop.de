@@ -1,0 +1,45 @@
+Title: HowTo: Viele Bilder skalieren am Mac
+
+----
+
+Date: 2015-06-27
+
+----
+
+Justforrss: 
+
+----
+
+Targetgroup: small
+
+----
+
+Text: 
+
+Hin und Wieder muss ich an der Arbeit viele Fotos auf eine bestimmte Größe herunter-skalieren. Das will ich natürlich nicht alles einzeln per Hand machen. Ich will eine Software der ich eine Maximal-Größe und den Bilder-Ordner-Namen sage.
+
+Ich wusste gerade den Namen der Software nicht mehr, die ich sonst dafür genommen habe und bin bei der Recherche auf eine neue, viel einfachere Lösung gestoßen.
+
+Der Terminal-Befehl für's Kleinskalieren von Bildern lautet:
+
+    sips -Z [maximale größe in px] [datei]
+
+Wenn ich einen »Beispiel«-Ordner auf dem Desktop liegen habe in dem meine Fotos liegen, und ich will alle auf maximal 300px haben (breite oder höhe – je nach dem was länger ist), dann lautet der Befehl:
+
+    sips -Z 300 ~/Desktop/Beispiel/*.jpg
+
+Ich freu mich.
+
+---
+
+PS: Die Default-Compression der jpg's ist sehr schlecht. Die kann man aber einstellen: 
+
+    sips -s formatOptions 96 -Z 300 ~/Desktop/Beispiel/*jpg
+
+----
+
+Tags: terminal,work
+
+----
+
+Language: deutsch

@@ -1,0 +1,37 @@
+Title: OpenUI5 / SAPUI5 kleiner machen (von 60MB auf 30MB)
+
+----
+
+Date: 2015-07-07
+
+----
+
+Justforrss: 
+
+----
+
+Targetgroup: small
+
+----
+
+Text: 
+
+OpenUI5 enthält ganz viel code den keiner braucht. So verbraucht SAP‘s library ganze 60MB wovon aber nur ein Bruchteil tatsächlich in die App geladen wird. Die App wird also dadurch nicht langsamer, aber das deployen oder ggf. pre-kompilieren kann gebremst werden und ausserdem verschwendet die App Platz auf den Endgeräten.
+
+Auch Dateien mit debug-Informationen finden sich in den Ordnern. Ein Trick wie man wenigstens ein bisschen Ballast los werden kann ist also der Terminal-Befehl:
+
+    find . -type f -name "*-dbg.js" -delete
+
+SAPUI5 schrumpft somit immerhin um ~50% von 60MB auf 30MB. 
+
+---
+
+Danke an meinen Kollegen Giuliano für den Hinweis.
+
+----
+
+Tags: code,sap
+
+----
+
+Language: deutsch
