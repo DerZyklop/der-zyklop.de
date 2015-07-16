@@ -16,8 +16,8 @@
   <link rel="icon" href="<?= url('assets/images/favicon.png') ?>" type="image/png" />
   <link rel="apple-touch-icon" href="<?= u('assets/images/apple-touch-icon.png') ?>" />
 
-  <?= js('assets/js/script.min.js') ?>
   <?= css('assets/styles/styles.css') ?>
+
 
   <link rel="alternate" type="application/rss+xml" href="<?= url('blog/feed') ?>" title="<?= html($site->title()) ?> Blog Feed" />
 
