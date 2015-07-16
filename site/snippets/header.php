@@ -7,9 +7,7 @@
   <title><?= html($page->title()) ?> - <?= html($site->title()) ?></title>
 
   <meta name="description" content="<?= html($site->description()) ?>" />
-  <?php if ($page->template() == 'blogarticle') : ?>
-    <meta property="og:description" content="<?= excerpt($page->text(), 250) ?>"/>
-  <?php endif; ?>
+  <?php snippet('opengraph') ?>
 
   <meta name="keywords" content="<?= html($site->keywords()) ?>" />
   <meta name="robots" content="index, follow" />
