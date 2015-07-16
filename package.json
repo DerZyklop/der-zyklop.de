@@ -8,7 +8,7 @@
     "bower": "^1.3.3",
     "grunt": "~0.4.4",
     "grunt-autoprefixer": "0.6.x",
-    "grunt-blink1": "^0.2.0",
+    "grunt-blink1": "^0.3.0",
     "grunt-concurrent": "^0.5.0",
     "grunt-contrib-coffee": "0.7.x",
     "grunt-contrib-concat": "^0.4.0",
@@ -36,28 +36,28 @@
     "url": "https://github.com/DerZyklop/der-zyklop.de/issues"
   },
   "paths": {
-    "root":     "",
+    "root": "",
     "src": {
-      "dir":      "assets/src/",
-      "coffee":   "assets/src/coffee/",
-      "js":       "assets/src/js/",
+      "dir": "assets/src/",
+      "coffee": "assets/src/coffee/",
+      "js": "assets/src/js/",
       "js_concat": [
-          "bower_components/jquery/dist/jquery.min.js",
-          "bower_components/fancybox/source/jquery.fancybox.js",
-          "bower_components/prism/prism.js",
-          "bower_components/jquery-autosize/jquery.autosize.min.js",
-          "assets/smart-submit/smart-submit.js",
-          "assets/pre_js/*.js"
+        "bower_components/jquery/dist/jquery.min.js",
+        "bower_components/fancybox/source/jquery.fancybox.js",
+        "bower_components/prism/prism.js",
+        "bower_components/jquery-autosize/jquery.autosize.min.js",
+        "assets/smart-submit/smart-submit.js",
+        "assets/pre_js/*.js"
       ],
-      "sass":     "assets/src/sass/",
-      "css":      "assets/src/styles/",
+      "sass": "assets/src/sass/",
+      "css": "assets/src/styles/",
       "css_concat": [
         "assets/pre_css/*.css"
       ]
     },
     "build": {
-      "js":       "assets/js/",
-      "css":      "assets/styles/"
+      "js": "assets/js/",
+      "css": "assets/styles/"
     }
   }
 }
