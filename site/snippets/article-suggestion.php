@@ -23,12 +23,22 @@ if ( $suggestedArticle ) : ?>
     <?php if ($suggestedArticle->hasImages()) : ?>
       <a href="<?php echo $suggestedArticle->images()->first()->url(); ?>">
         <?php
-          echo thumb( $suggestedArticle->images()->first(), array(
-           'width' => 270,
-           'quality' => 70,
-           'crop' => false
-          ));
-        ?>
+          $whitelist = array(
+            '127.0.0.1',
+            'localhost'
+          );
+          # i need to do this for developing, because http://stackoverflow.com/questions/26493762/yosemite-php-gd-mcrypt-installation/26505558#26505558
+          if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist)) : ?>
+            <img src="<?= $suggestedArticle->images()->first()->url() ?>">
+          <?php else : ?>
+          <?php
+            echo thumb( $suggestedArticle->images()->first(), array(
+             'width' => 270,
+             'quality' => 70,
+             'crop' => false
+            ));
+            ?>
+          <?php endif; ?>
       </a>
     <?php endif; ?>
     <?php echo excerpt($suggestedArticle->text(),220); ?> <a href="<?php echo $suggestedArticle->url(); ?>">weiterlesen</a>
