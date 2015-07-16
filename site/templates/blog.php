@@ -2,9 +2,8 @@
 <?php snippet('dz-banner') ?>
 
 <div class="page-wrap">
-  <div>
-<!--   <div class="content">
- -->
+  <div class="content">
+
     <?php
       $blog = $pages->find('blog');
       $articles = $blog->children()->filterBy('justforrss','')->visible()->flip();
@@ -26,11 +25,8 @@
           <?php foreach($articles as $article) : ?>
             <?php snippet( 'article-teaser-big', array( 'item' => $article )); ?>
           <?php endforeach; ?>
-          <div class="clearit"></div>
         </div>
-        <div class="width-wrap">
-          <?php snippet('pagination', array( 'articles' => $articles )); ?>
-        </div>
+        <?php snippet('pagination', array( 'articles' => $articles )); ?>
 
     </section>
 
