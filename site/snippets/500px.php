@@ -1,6 +1,3 @@
-<?php snippet('header') ?>
-<?php snippet('submenu') ?>
-
 <section>
 
 <?php
@@ -46,6 +43,3 @@ $images     = $contentfrom500px->photos;
 </section>
 
 <a class="button" href="http://www.500px.com/<?php echo $contentfrom500px->user->name; ?>/">Mehr Fotos auf 500px</a>
-
-<?php snippet('piwik') ?>
-<?php snippet('footer') ?>
