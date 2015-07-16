@@ -67,7 +67,5 @@ piwikTracker.enableLinkTracking();
 
   <script async type="text/javascript" src='assets/js/script.min.js'></script>
 
-  <?= css('assets/styles/styles.css') ?>
-
 </body>
 </html>
