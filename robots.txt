@@ -1,0 +1,4 @@
+# Info: http://tools.seobook.com/robots-txt/
+
+User-agent: *
+Disallow: 
