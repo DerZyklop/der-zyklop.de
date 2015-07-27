@@ -1,0 +1,35 @@
+Title: Schnell mal ein Video irgendwo hochladen
+
+----
+
+Date: 2015-07-23
+
+----
+
+Justforrss: 
+
+----
+
+Targetgroup: big
+
+----
+
+Text: 
+
+(image: upload.png)
+
+Manchmal will man schnell mal ein Video irgendwo hochladen um es jemand anderem zu zeigen, oder es irgendwo öffentlich zu posten. Wie mein Kollege, der einem anderen Programmierer einen Fehler in der Bedienung einer Smartphone-App zeigen wollte. In so einem Fall will man vielleicht nicht den eigenen Privaten YouTube Account preisgeben. 
+
+Für Texte, Code oder »geheime« Dokumente (aka. »Leaks«) ist an dieser Stelle (link: http://pastebin.com/ text: PasteBin) geeignet. Für Videos gibt es so etwas auch:
+
+(link: https://videobin.org/ text: VideoBin)
+
+Was ich besonders cool daran finde: Es wird zu dem hochgeladenen Video auch gleich ein Torrent-Link generiert.
+
+----
+
+Tags: surveillance,video,torrent,tools
+
+----
+
+Language: deutsch
