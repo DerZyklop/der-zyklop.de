@@ -6,9 +6,9 @@ pages:
   sort: flip
 files: true
 fields:
-  title: 
+  title:
     label: Title
     type:  text
-  author: 
+  author:
     label: Autor
     type:  text
