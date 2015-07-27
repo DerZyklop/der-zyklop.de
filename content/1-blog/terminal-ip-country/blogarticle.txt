@@ -1,0 +1,48 @@
+Title: In welchem Land befinde ich mich? / IP-Country per Terminal auslesen
+
+----
+
+Date: 2015-07-23
+
+----
+
+Justforrss: 
+
+----
+
+Targetgroup: small
+
+----
+
+Text: 
+
+Manchmal möchte ich bewirken, dass das Internet denkt ich sei nicht Deutsch oder zumindest nicht in Deutschland. Zum Beispiel um Inhalte anschauen zu können, die im Deutschen Internet zensiert werden. Ich leite meinen Datenverkehr dann erst in andere Länder und von dort aus in‘s World Wide Web.
+
+Manchmal bin ich mir nicht sicher ob das richtig klappt und dann frage ich das Internet was es denn denkt wo ich mich befinde. 
+
+Was das Internet von euch denkt, seht ihr z.B. hier: https://ipinfo.io/
+
+Mit der Terminal App kann man sich diese Informationen etwas gezielter und automatisierbar abrufen: 
+
+    curl http://ipinfo.io/country
+
+Damit geht auch noch mehr. Wie z.B. die IP oder die Stadt abfragen:
+
+    curl http://ipinfo.io/ip
+    curl http://ipinfo.io/city
+
+Oder auf welche Organisation eine andere IP angemeldet ist:
+
+    curl http://ipinfo.io/1.2.3.4/org
+
+Mehr Infos:
+
+http://ipinfo.io/developers
+
+----
+
+Tags: surveillance,terminal,commandline,hacking
+
+----
+
+Language: deutsch

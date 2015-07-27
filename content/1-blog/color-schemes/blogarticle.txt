@@ -1,0 +1,33 @@
+Title: Color Schemes generieren
+
+----
+
+Date: 2015-07-23
+
+----
+
+Justforrss: 
+
+----
+
+Targetgroup: small
+
+----
+
+Text: 
+
+Manchmal brauche ich für einen Vorentwurf des Designs eines User Interfaces oder als Inspiration für die Gestaltung irgendeines digitalen Produktes ein sogenanntes Color Scheme. Also eine stimmige Farbkombination. 
+
+Hier kann man sich tolle Color Schemes generieren lassen: http://coolors.co/app (Leertaste drücken!)
+
+Man kann auch z.B. zwei Farben festlegen und weitere passende Farben werden von der App gesucht. Das basiert dann teilweise auf uralten gestalterischen Gesetzten (Stichwort Triadie, Tetrade, Analog-Komplementär etc.) oder auf (link: http://coolors.co/browser text: User Generated Content). 
+
+Mehr infos: http://coolors.co/
+
+----
+
+Tags: work,design,tools
+
+----
+
+Language: deutsch

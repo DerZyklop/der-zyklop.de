@@ -1,0 +1,31 @@
+Title: Skypen ohne Skype, umsonst und mit mehreren Teilnehmern
+
+----
+
+Date: 2015-07-23
+
+----
+
+Justforrss: 
+
+----
+
+Targetgroup: big
+
+----
+
+Text: 
+
+Manchmal will ich Skypen oder auch Video-Chatten
+
+https://talky.io/
+
+für die developer: WebRTC
+
+----
+
+Tags: 
+
+----
+
+Language: deutsch
