@@ -7,7 +7,7 @@
   <meta name="DC.Language" content="de_DE" />
   <meta property="og:title" content="<?php echo html($page->title()) ?> | <?php echo html($site->title()) ?>" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="<?php echo html($site->url()) ?>" />
+  <meta property="og:url" content="<?php echo html($page->url()) ?>" />
   <?php $image = $page->images()->first() ?>
   <?php if(isset($image)) { ?>
     <meta property="og:image" content="<?php echo $image->url() ?>" />
