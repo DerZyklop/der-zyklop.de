@@ -1,0 +1,46 @@
+Title: Cloud-Service nicht erreichbar? Status abfragen.
+
+----
+
+Date: 2015-08-04
+
+----
+
+Justforrss: 
+
+----
+
+Targetgroup: small
+
+----
+
+Text: 
+
+(image: bf24dafe14.jpg)
+
+Manchmal ist irgend win Online-Dienst den ich nutze/brauche (wie Twitter, Google, GitHub) »Down« (nicht erreichbar). Dann weiß ich erstmal nicht ob es tatsächlich an »denen« liegt oder ob in meinem eigenen Netzwerk etwas kaputt ist, oder ob die Regierung sich gegen‘s Volk stellt und mir etwas weg-zensiert ;)
+
+In sehr vielen Fällen findet man zum jeweiligen Dienst eine technisch gesehen unabhängige Status-Seite, die auch dann noch läuft wenn der Dienst Down ist. 
+
+Oft funktioniert status.[domain.tld] so wie bei:
+
+http://status.twitter.com/
+http://status.github.com/
+http://status.bitbucket.org/
+
+Manchmal findet man die Information aber auch woanders:
+
+http://www.google.com/appsstatus#hl=de&v=status
+http://imsoftware.de/uberspace/
+
+Es ist natürlich immer am besten die Status-Info vom Betreiber selbst zu erfahren, aber wenn dieser keine eigene Status-Seite hat, dann gibts auch noch so etwas hier:
+
+https://allestörungen.de/unternehmen
+
+----
+
+Tags: work,tools
+
+----
+
+Language: deutsch
