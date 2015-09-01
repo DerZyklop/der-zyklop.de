@@ -1,0 +1,25 @@
+Title: Fix bluetooth issues after sleep (MBP)
+
+----
+
+Date: 
+
+----
+
+Justforrss: 
+
+----
+
+Text: 
+
+sudo kextunload -b com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport;
+sudo kextload -b com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport;
+echo "TURN ON BLUETOOTH AGAIN!"
+
+----
+
+Tags: 
+
+----
+
+Language: deutsch
