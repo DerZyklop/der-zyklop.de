@@ -1,0 +1,43 @@
+Title: SVN commands that i look up often
+
+----
+
+Date: 2015-09-03
+
+----
+
+Justforrss: 
+
+----
+
+Text: 
+
+Here are some SVN commands that i have to look up often.
+
+Edit the list of ignore files and folders:
+
+    svn propedit svn:ignore .
+
+The ip/domain has changed. I needed to teach my working copy the new URL: 
+
+    svn relocate https://new_domain/project/version/trunk
+
+Yosemite has svn 1.7. Up to date is 1.8. So i needed to update lately. I just use (link: http://brew.sh/ text: brew) for it:
+
+    brew install svn
+
+---
+
+This post is supposed to be extended from time to time when i need it ;)
+
+----
+
+Tags: terminal,svn,brew,work
+
+----
+
+Language: english
+
+----
+
+Targetgroup: small

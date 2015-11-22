@@ -1,0 +1,39 @@
+Title: git commands that i look up often
+
+----
+
+Date: 
+
+----
+
+Justforrss: 
+
+----
+
+Text: 
+
+branch z.b. master **mergen**:
+
+git checkout master
+git pull
+git checkout [eigener_branch]
+git merge master
+
+Wenn ich mal einen **commit** im falschen branch gemacht habe:
+
+git reset --soft HEAD~1
+git checkout [anderer_branch]
+git add .
+git commit -m "[commit message]"
+
+Wenn ich mal quatsch in einen Kommentar geschrieben habe:
+
+git checkout --amend
+
+----
+
+Tags: 
+
+----
+
+Language: deutsch
