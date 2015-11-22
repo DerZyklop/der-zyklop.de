@@ -8,7 +8,7 @@ Twitter: DerZyklop
 
 Authordescription: 
 
-Minimalistisch lebender Programmierer, Designer und Longboard fahrer. Gebürtig aus Gießen. Mag seine Wahl-Heimat Mainz. Schreibt ohne Rücksicht auf Deutsch-Lehrer. Ist auf der Suche nach einem besseren Leben.
+Minimalistisch lebender Programmierer, Designer und Longboard fahrer. Gebürtig aus Gießen. Mag seine Wahl-Heimat Mainz. Schreibt ohne Rücksicht auf Deutsch-Lehrer.
 
 Mehr über mich: (link: /about text: hier)
 Mehr Artikel: Im (link: /blog/tags/ text: Schlagwort-Archiv).
