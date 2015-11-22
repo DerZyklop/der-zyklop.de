@@ -73,6 +73,7 @@ RewriteRule ^main/musik/(.*) musik/$1 [R=301,L]
 RewriteRule ^main/pxwrk/instragram/(.*) snapshots/$1 [R=301,L]
 RewriteRule ^main/cult-of-less/(.*) pxwrk/tags/tag:cultofless/$1 [R=301,L]
 
+RewriteRule ^blog/facebook-hat-meinen-account-gesperrt$ blog/facebook-hat-meinen-account-gesperrt-nils-kladderadatsch/ [R=301,L]
 
 # Diese Regel ist super wichtig! Weil früher hieß der Blog "pxwrk"
 RewriteRule ^pxwrk/(.*) blog/$1 [R=301,L]
