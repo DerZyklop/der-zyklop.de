@@ -1,8 +1,8 @@
 (function() {
   "use strict";
 
-  /* global jQuery, document, setTimeout, window */
-  jQuery(document).ready(function() {
+  /* global jQuery, window */
+  jQuery(window.document).ready(function() {
     var sweetComments;
     jQuery(".nolink").click(function(event) {
       return event.preventDefault();
@@ -22,7 +22,7 @@
       });
     };
     jQuery(".comment-add-form").find("input:submit").attr("disabled", "disabled");
-    setTimeout(function() {
+    window.setTimeout(function() {
       return sweetComments();
     }, 1000);
     return jQuery("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.png'],a[href$='.gif']").attr("rel", "gallery").fancybox();
