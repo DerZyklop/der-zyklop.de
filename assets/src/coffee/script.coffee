@@ -1,7 +1,7 @@
 "use strict"
-### global jQuery, document, setTimeout, window ###
+### global jQuery, window ###
 
-jQuery(document).ready ->
+jQuery(window.document).ready ->
 
   jQuery(".nolink").click (event) ->
     event.preventDefault()
@@ -21,7 +21,7 @@ jQuery(document).ready ->
 
   # SPAM-Protection
   jQuery(".comment-add-form").find("input:submit").attr("disabled","disabled")
-  setTimeout ->
+  window.setTimeout ->
     sweetComments()
   , 1000
 
