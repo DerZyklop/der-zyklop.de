@@ -7,31 +7,31 @@
   "devDependencies": {
     "bower": "^1.3.3",
     "grunt": "~0.4.4",
-    "grunt-autoprefixer": "0.6.x",
+    "grunt-autoprefixer": "3.0.x",
     "grunt-blink1": "^0.3.0",
-    "grunt-concurrent": "^0.5.0",
-    "grunt-contrib-coffee": "0.7.x",
-    "grunt-contrib-compress": "^0.13.0",
-    "grunt-contrib-concat": "^0.4.0",
-    "grunt-contrib-copy": "0.4.x",
-    "grunt-contrib-cssmin": "0.6.x",
-    "grunt-contrib-imagemin": "0.5.x",
-    "grunt-contrib-sass": "0.4.x",
-    "grunt-contrib-uglify": "0.2.x",
-    "grunt-contrib-watch": "0.5.x",
-    "grunt-eslint": "~0.3.2",
+    "grunt-concurrent": "^2.1.0",
+    "grunt-contrib-coffee": "0.13.x",
+    "grunt-contrib-compress": "^0.14.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "0.8.x",
+    "grunt-contrib-cssmin": "0.14.x",
+    "grunt-contrib-imagemin": "1.0.x",
+    "grunt-contrib-sass": "0.9.x",
+    "grunt-contrib-uglify": "0.11.x",
+    "grunt-contrib-watch": "0.6.x",
+    "grunt-eslint": "~17.3.1",
     "grunt-image-embed": "~0.3.1",
-    "grunt-newer": "~0.6.1",
-    "grunt-notify": "^0.3.0",
-    "grunt-php": "0.2.x",
-    "grunt-shell": "~0.6.1",
-    "matchdep": "0.1.x"
+    "grunt-newer": "~1.1.1",
+    "grunt-notify": "^0.4.3",
+    "grunt-php": "1.5.x",
+    "grunt-shell": "~1.1.2",
+    "matchdep": "1.0.x"
   },
   "scripts": {
     "postinstall": "bower install"
   },
   "dependencies": {
-    "time-grunt": "~0.2.10"
+    "time-grunt": "~1.3.0"
   },
   "bugs": {
     "url": "https://github.com/DerZyklop/der-zyklop.de/issues"
