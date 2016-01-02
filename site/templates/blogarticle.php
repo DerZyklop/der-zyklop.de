@@ -4,7 +4,6 @@
 <div class="page-wrap">
   <div class="content">
 
-
     <section class="blogarticle">
       <article>
         <div class="img-border">
