@@ -38,7 +38,7 @@ piwikTracker.enableLinkTracking();
 <aside id="tags">foofo</aside> -->
 
 
-  <script async type="text/javascript" src='assets/js/script.min.js'></script>
+  <script async type="text/javascript" src='assets/js/script.js'></script>
 
 </body>
 </html>

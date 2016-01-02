@@ -26,13 +26,17 @@ module.exports = (grunt) ->
 
     # concat
     concat:
-      js:
+      jsLibs:
         src: [
           'bower_components/jquery/dist/jquery.min.js'
           'bower_components/fancybox/source/jquery.fancybox.js'
           'bower_components/prism/prism.js'
           'bower_components/jquery-autosize/jquery.autosize.min.js'
           'assets/smart-submit/smart-submit.js'
+        ]
+        dest: '<%= pkg.paths.build.js %>libs.js'
+      js:
+        src: [
           '<%= pkg.paths.src.js %>*.js'
         ]
         dest: '<%= pkg.paths.build.js %>script.js'
@@ -103,7 +107,7 @@ module.exports = (grunt) ->
       # watch coffee
       coffee:
         files: ['<%= pkg.paths.src.coffee %>*.coffee']
-        tasks: ['blink1:bad', 'newer:coffee', 'newer:eslint', 'concat:js', 'blink1:good']
+        tasks: ['blink1:bad', 'newer:coffee', 'newer:eslint', 'concat:jsLibs', 'concat:js', 'blink1:good']
         options:
           livereload: true
       # watch sass

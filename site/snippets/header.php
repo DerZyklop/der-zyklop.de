@@ -30,6 +30,7 @@
 
   <meta name="google-site-verification" content="JFTin9xnictxV3Ehnii_6UPaeb_eV0zjZk3Riq6SoJQ" />
 
+  <script type="text/javascript" src='assets/js/libs.js'></script>
 </head>
 <body class="<?php if ($page->targetgroup() == 'small') { echo "invert";} ?>">
 <?php #snippet('menu') ?>

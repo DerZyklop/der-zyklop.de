@@ -1,7 +1,7 @@
 (function() {
   "use strict";
-  /* global jQuery, document, setTimeout, window*/
 
+  /* global jQuery, document, setTimeout, window */
   jQuery(document).ready(function() {
     var sweetComments;
     jQuery(".nolink").click(function(event) {
