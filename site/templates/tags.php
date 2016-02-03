@@ -68,7 +68,7 @@
 
     <?php else : ?>
           <h3>Nach was suchst du?</h3>
-          <p>Ich habe bisher <?= $pages->find('blog')->children()->count() ?> Artikel geschrieben. Willst du dich ein bisschen umschauen? Dann schau dir mal die folgenden Schlagwörter an:</p>
+          <p>Das hier ist mein Schlagwort-Archiv. Schau dich hier um oder lasse die alle <a href="<?= url('blog/archiv') ?>"><?= $pages->find('blog')->children()->visible()->count() ?> Artikel nach Datum sortiert</a> anzeigen.</p>
           <?php snippet('taglist', array('blog'=>$blog)) ?>
     <?php endif; ?>
 
