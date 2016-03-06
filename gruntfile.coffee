@@ -13,17 +13,6 @@ module.exports = (grunt) ->
     # Set Banner for some generated files
     banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' + '<%= grunt.template.today("yyyy-mm-dd") %> */\n'
 
-    # coffee
-    coffee:
-      all:
-        files: [
-          expand: true
-          cwd: '<%= pkg.paths.src.coffee %>'
-          src: ['*.coffee']
-          dest: '<%= pkg.paths.src.js %>'
-          ext: '.js'
-        ]
-
     # concat
     concat:
       jsLibs:
@@ -104,10 +93,10 @@ module.exports = (grunt) ->
 
     # watch
     watch:
-      # watch coffee
-      coffee:
-        files: ['<%= pkg.paths.src.coffee %>*.coffee']
-        tasks: ['blink1:bad', 'newer:coffee', 'newer:eslint', 'concat:jsLibs', 'concat:js', 'blink1:good']
+      # watch js
+      js:
+        files: ['<%= pkg.paths.src.js %>*.js']
+        tasks: ['blink1:bad', 'newer:eslint', 'concat:jsLibs', 'concat:js', 'blink1:good']
         options:
           livereload: true
       # watch sass
@@ -151,7 +140,7 @@ module.exports = (grunt) ->
     php:
       all:
         options:
-          port: 1337
+          port: 1389
           hostname: 'localhost'
           base: '<%= pkg.paths.root %>'
           keepalive: true
@@ -191,7 +180,7 @@ module.exports = (grunt) ->
 
 
   # Default task(s)
-  grunt.registerTask('scripts', ['coffee', 'eslint', 'concat'])
+  grunt.registerTask('scripts', ['eslint', 'concat'])
   #grunt.registerTask('styles', ['sass', 'autoprefixer', 'imageEmbed', 'concat:css', 'cssmin'])
   grunt.registerTask('styles', ['sass', 'autoprefixer', 'concat:css', 'cssmin'])
   grunt.registerTask('default', ['scripts', 'styles', 'concurrent'])
