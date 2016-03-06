@@ -7,21 +7,21 @@
     jQuery(".nolink").click(function(event) {
       return event.preventDefault();
     });
-    jQuery(".comment-add-form textarea").autosize();
-    jQuery(".comment-add-form").addClass("hide-form");
+    jQuery(".comment-form textarea").autosize();
+    jQuery(".comment-form").addClass("hide-form");
     sweetComments = function() {
-      return jQuery(".comment-add-form textarea").on("keyup", function() {
+      return jQuery(".comment-form textarea").on("keyup", function() {
         if (this.value.length) {
-          jQuery(".comment-add-form").find(".visible").slideDown(300);
-          return jQuery(".comment-add-form").find("input:submit").removeAttr("disabled");
+          jQuery(".comment-form").find(".visible").slideDown(300);
+          return jQuery(".comment-form").find("input:submit").removeAttr("disabled");
         } else {
-          jQuery(".comment-add-form").find(".visible").slideUp(300);
-          jQuery(".comment-add-form .button").addClass("passive");
-          return jQuery(".comment-add-form").find("input:submit").attr("disabled", "disabled");
+          jQuery(".comment-form").find(".visible").slideUp(300);
+          jQuery(".comment-form .button").addClass("passive");
+          return jQuery(".comment-form").find("input:submit").attr("disabled", "disabled");
         }
       });
     };
-    jQuery(".comment-add-form").find("input:submit").attr("disabled", "disabled");
+    jQuery(".comment-form").find("input:submit").attr("disabled", "disabled");
     window.setTimeout(function() {
       return sweetComments();
     }, 1000);
