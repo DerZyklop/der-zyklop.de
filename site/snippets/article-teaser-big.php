@@ -13,7 +13,7 @@
     <?php if($item->hasImages()): ?>
       <a href="<?php echo $item->url() ?>">
         <?php $image = $item->images()->first(); ?>
-        <img class="img-border" src="<?= $image->url(); ?>" alt="<?= $image->name() ?>" />
+        <?= thumb($image, array('width' => 808)) ?>
       </a>
     <?php endif; ?>
     <?php echo '<p class="article-text">'.excerpt($item->text(), 300).'<a href="'.$item->url().'">weiterlesen</a></p>' ?>
