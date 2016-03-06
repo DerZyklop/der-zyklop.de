@@ -49,3 +49,6 @@ fields:
       deutsch: Deutsch
       english: English
     default: deutsch
+  comments:
+    label: Comments
+    type: comments

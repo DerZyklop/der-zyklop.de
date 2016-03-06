@@ -19,6 +19,12 @@
             <span><?php echo html($page->date('d').'·'.$page->date('m').'·'.$page->date('Y')) ?></span>
           </h6>
         </div>
+
+        <footer>
+          <?php commentForm(); ?>
+          <?php comments(); ?>
+        </footer>
+
       </article>
 
     </section>
