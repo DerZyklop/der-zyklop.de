@@ -1523,6 +1523,9 @@ iframe.twitter-tweet-rendered {
       .tagcloud li > a:hover .label {
         background: #ccc; }
 
+footer {
+  margin: 2em 0; }
+
 .form .field {
   margin-bottom: 1em; }
 
