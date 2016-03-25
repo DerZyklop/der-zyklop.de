@@ -20,10 +20,14 @@
           </h6>
         </div>
 
-        <footer>
-          <?php commentForm(); ?>
-          <?php comments(); ?>
-        </footer>
+        <?php if ($page->comments() != "1"): ?>
+
+          <footer>
+            <?php commentForm(); ?>
+            <?php comments(); ?>
+          </footer>
+
+        <?php endif ?>
 
       </article>
 
