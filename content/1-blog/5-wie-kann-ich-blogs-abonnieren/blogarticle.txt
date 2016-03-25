@@ -1,10 +1,14 @@
 Title: Wie kann ich mir Blogs abonnieren?
+
 ----
-Date: 22.03.2012
+
+Date: 2012-03-22
+
 ----
-Kategory: personalstuff, nerdstuff
-----
-Text: Viele Leute da draussen haben zwar schon mal davon gehört, aber ihnen ist nicht klar wie's funktioniert. Blogs (und andere Daten) können via (link: pxwrk/feed text: RSS-Feed) abonniert werden. Wie das geht ist leider nicht selbsterklärend, aber es ist dennoch einfach, und macht sich schnell bezahlt. Ich könnte mir nicht mehr vorstellen regelmäßig die immer gleichen Blogs zu durchforsten. Ich habe ein Programm in dem mir sehr übersichtlich dargestellt wird, wo's was neues gibt was mich interessiert.
+
+Text: 
+
+Viele Leute da draussen haben zwar schon mal davon gehört, aber ihnen ist nicht klar wie's funktioniert. Blogs (und andere Daten) können via (link: pxwrk/feed text: RSS-Feed) abonniert werden. Wie das geht ist leider nicht selbsterklärend, aber es ist dennoch einfach, und macht sich schnell bezahlt. Ich könnte mir nicht mehr vorstellen regelmäßig die immer gleichen Blogs zu durchforsten. Ich habe ein Programm in dem mir sehr übersichtlich dargestellt wird, wo's was neues gibt was mich interessiert.
 
 (image: reeder.png class:addshadow)
 
@@ -50,9 +54,15 @@ Wenn ihr noch Empfehlungen habt, welcher Reader für Windows und/oder Linux brau
 
 <h4>Die richtigen Blogs:</h4>Das müsst ihr natürlich am besten selbst wissen. Ein paar meiner momentanen Favoriten sind:
 <ul><li>(link:http://www.designmadeingermany.de/ text: Design made in Germany) (Für Designer)</li><li>(link: http://littlebigdetails.com/ text: Little Big Details) (Für Screendesigner und Frontend-Entwickler)</li><li>(link: http://www.lilligreen.de/ text: Lilli Green) (Für umweltbewusste)</li><li>(link: http://www.elmastudio.de/ text: Elmastudio) (Für Web-Entwickler und Freelencer)</li></ul> Und zu guter letzt: Auch mein Blog ist (link: pxwrk/feed text: abonnierbar) ;)
+
 ----
-Tags: blog, feedreader, app
+
+Tags: blog,feedreader,app
+
 ----
-Language: Deutsch
-----
+
 Justforrss: 
+
+----
+
+Comments: 1
