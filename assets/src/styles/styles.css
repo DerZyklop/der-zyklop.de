@@ -582,6 +582,7 @@ pre[data-line] {
 	}
 }
 
+@charset "UTF-8";
 @font-face {
   font-family: "Merriweather";
   src: url("../fonts/Merriweather-Regular.ttf") format("truetype");
@@ -894,8 +895,19 @@ input {
 hr {
   height: 1px;
   border: none;
-  background: #ccc;
-  margin: 3rem 0; }
+  border: 1px dashed #ccc;
+  background: #fff;
+  margin: 3rem 0;
+  position: relative; }
+  hr:after {
+    content: "✂";
+    position: absolute;
+    left: 50%;
+    top: -0.8em;
+    font-size: 1em;
+    padding: 0 0.2em;
+    background: #fff;
+    color: #ccc; }
 
 img {
   display: block; }

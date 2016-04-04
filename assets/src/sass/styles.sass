@@ -146,8 +146,19 @@ input
 hr
     height: 1px
     border: none
-    background: $border-color
+    border: 1px dashed $border-color
+    background: #fff
     margin: $space-t-b*1.5 0
+    position: relative
+    &:after
+        content: '✂'
+        position: absolute
+        left: 50%
+        top: -0.8em
+        font-size: 1em
+        padding: 0 0.2em
+        background: #fff
+        color: $border-color
 
 img
     display: block
