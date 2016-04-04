@@ -431,11 +431,14 @@ a span.result-counter
         flex-flow: row wrap
         align-items: center
         > *
-            flex: 1 1 auto
+            flex-grow: 1
+            flex-shrink: 1
+            flex-basis: auto
             text-align: center
         li
             position: relative
             a
+                padding: 0 1em
                 display: block
 
 #nav
