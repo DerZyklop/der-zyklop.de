@@ -6,7 +6,7 @@ Text:
 
 ## Hi, ich bin Nils.
 
-Ich bin gebürtiger Gießener und lebe heute in (link: http://der-zyklop.de/blog/derzyklop-ist-jetzt-mainzer text: Mainz). Ich mache viel digitales und diese Webseite ist die Sammelstelle all dessen. Los gehts..
+Ich bin gebürtiger Gießener und verbringe häufig Zeit in (link: http://der-zyklop.de/blog/derzyklop-ist-jetzt-mainzer text: Mainz), habe aber (link: http://der-zyklop.de/blog/tags/tag:nomad text: keinen festen Wohnsitz). Ich mache viel digitales und diese Webseite ist die Sammelstelle all dessen. Los gehts..
 
 ### Mein Internet-Kram 
 
@@ -32,8 +32,6 @@ Geld verdiene ich hauptsächlich als UI/UX-Designer. D.h. ich sorge dafür, dass
 ### Mein Blog
 
 Auf (link: /blog text: meinem Blog) erzähle ich z.B. von meinen Gedanken rund um (m)ein minimalistisches Leben, (link: http://der-zyklop.de/blog/tags/tag:design text: gutem Design), (link: /blog/tags/tag:politik text: Politik), (link: /blog/tags/tag:code text: Programmierer-Themen), meinem geliebten Hobby (link: http://der-zyklop.de/blog/langbrett text: Longboard fahren) und der Frage wie man diese (link: http://der-zyklop.de/blog/tags/tag:weltretten text: Welt besser machen) kann. Ich schreibe dort übrigens ohne Rücksicht auf Deutsch-Lehrer. Schau doch mal in meinem Archiv nach den (link: http://der-zyklop.de/blog/tags/ text: Schlagworten).
-
-Blogposts erscheinen seit 2012 ca. alle 14 Tage.
 
 ----
 

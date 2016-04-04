@@ -57,4 +57,7 @@ foreach ($shots as $shot): ?>
 <a class="button" href="http://www.dribbble.com/<?php echo $dribbble->username; ?>/">Mehr Grafiken auf dribbble</a>
 
 <?php snippet('piwik') ?>
+</section>
+
+<?php snippet('sec-author') ?>
 <?php snippet('footer') ?>

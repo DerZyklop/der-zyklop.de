@@ -1,5 +1,5 @@
 <?php snippet('header'); ?>
-<?php snippet('dz-banner-small') ?>
+<?php snippet('dz-banner') ?>
 
 <div class="page-wrap">
   <div class="content">
@@ -21,4 +21,7 @@
 
   </div>
 
+</section>
+
+<?php snippet('sec-author') ?>
 <?php snippet('footer') ?>

@@ -4,7 +4,6 @@
 <div class="page-wrap">
   <div class="content">
 
-
   <section class="<?= $site->template() ?>">
   <?php
     $blog = $pages->find('blog');

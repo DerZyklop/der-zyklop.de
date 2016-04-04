@@ -32,4 +32,7 @@
 
   </div>
 
+</section>
+
+<?php snippet('sec-author') ?>
 <?php snippet('footer') ?>

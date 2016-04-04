@@ -25,14 +25,14 @@
 </ul>
 
 <script type="text/javascript">
-  $('.tagcloud').css({
-    "overflow": "hidden",
-    "height": "33em"
-  }).append('<button class="more">&#9662; Alle Schlagwörter anzeigen &#9662;</button>').find('button').click(function() {
-    $(this).remove();
-    $('.tagcloud').css({
-      "overflow": "hidden",
-      "height": "auto"
-    });
-  });
+  // $('.tagcloud').css({
+  //   "overflow": "hidden",
+  //   "height": "33em"
+  // }).append('<button class="more">&#9662; Alle Schlagwörter anzeigen &#9662;</button>').find('button').click(function() {
+  //   $(this).remove();
+  //   $('.tagcloud').css({
+  //     "overflow": "hidden",
+  //     "height": "auto"
+  //   });
+  // });
 </script>

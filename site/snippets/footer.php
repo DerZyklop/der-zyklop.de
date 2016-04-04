@@ -1,14 +1,11 @@
-  </section>
-
-  <?php snippet('sec-author') ?>
-
-  <section>
-    <div class="right">
-      <?php echo kirbytextRaw($site->copyright()) ?>
-    </div>
-    <div class="clearit"></div>
-  </section>
-
+  <div class="meta">
+    <section>
+      <div class="right">
+        <?php echo kirbytextRaw($site->copyright()) ?>
+      </div>
+      <div class="clearit"></div>
+    </section>
+  </div>
 </div> <!-- .page-wrap -->
 
 <!-- Piwik -->

@@ -321,9 +321,6 @@ section
     @media screen and (max-width: $breakpoint)
         padding: $space-t-b/2 8%
 
-.header
-    padding: 0 $space-l-r
-
 
 @media screen and (max-width: $breakpoint)
     body
@@ -402,6 +399,60 @@ a span.result-counter
                 margin: 0.5em
 
 /* Nav [BEGIN] */
+
+.dz-banner section
+    padding-bottom: 0
+.dz-banner-small a
+    // display: flex
+    // flex-direction: column
+    // justify-content: flex-end
+    // flex-flow: row wrap
+    // align-items: center
+    // > *
+    //     flex: 1 1 auto
+    // .arrow
+    //     flex: 0 1 auto
+    // img
+    //     width: 40px
+    color: $primary
+    .arrow
+        float: left
+        line-height: 40px
+    img
+        width: 40px
+
+#nav
+    ul
+        +clear-list-styles()
+        margin: 0
+        display: flex
+        flex-direction: column
+        justify-content: flex-end
+        flex-flow: row wrap
+        align-items: center
+        > *
+            flex: 1 1 auto
+            text-align: center
+        li
+            position: relative
+            a
+                display: block
+
+#nav
+    ul
+        li
+            a
+                font-size: 0.8em
+                font-weight: bold
+                color: $quadrary
+                text-decoration: none
+                border-top: 1px solid $quadrary
+                line-height: 3em
+                &.active
+                    color: $primary
+                    background: $tertiary - #111
+                    border-top-color: $primary
+
 
 #pagination-nav
     margin: $space-t-b 0
@@ -509,10 +560,12 @@ a span.result-counter
 /* Header [BEGIN] */
 
 .header
-    margin-bottom: 1em
-    margin-top: 2em
+    padding: 0 $space-l-r
+    margin: 0 0 2em 0
+    @media screen and (max-width: $breakpoint)
+        padding: 0
+        margin: 0 auto 1em 0
     a
-        display: block
         margin: 8px auto
     h1
         padding: 0
@@ -521,13 +574,15 @@ a span.result-counter
             width: 100%
         img
             margin: 0 auto
-            @media screen and (max-width: 320px)
-                margin: 40px auto 0px
 
     .claim
         text-align: center
         color: $primary + #222
         font-size: 0.9em
+        display: none
+    @media screen and (min-width: $breakpoint)
+        .claim
+            display: block
 
 /* Header [END] */
 
@@ -759,8 +814,7 @@ footer
             clear: both
 
 
-.page-wrap,
-.main-nav
+.page-wrap
     transition: all 0.3s cubic-bezier(1.000, -0.530, 0.405, 1.000)
 
 .page-wrap
@@ -768,73 +822,6 @@ footer
     float: left
     width: 100%
     padding: 0
-
-.main-nav
-    position: fixed
-    z-index: 20
-    top: 0
-    width: 0
-    height: 100%
-    background: $tertiary
-    .invert &
-        background: $tertiary
-    overflow-y: auto
-    color: $quadrary
-    .invert &
-        color: $tertiary
-    ul
-        // TODO: Needs a better solution for min-width here
-        min-width: 220px
-        padding: 0
-        margin: 0
-        li
-            border-bottom: $border-width dotted rgba(255,255,255,0.2)
-            a
-                display: block
-                padding: $space-t-b/2 $space-t-b
-                color: $quadrary
-                text-decoration: none
-                &:hover
-                    background: $quadrary
-                    color: $tertiary
-                &.close-menu
-                    padding: $space-t-b
-                    color: #f99
-
-a.close-menu
-    font-size: 50px
-    line-height: 50px
-a.open-menu
-    font-size: 30px
-    line-height: 50px
-    transition: 0.5s
-
-a.close-menu
-    display: none
-
-a.open-menu
-    text-decoration: none
-    display: block
-    position: absolute
-    top: 0
-    left: 0
-    z-index: 10
-    padding: $space-t-b
-
-$main-nav-percentage: 30
-
-#nav
-    &:target
-        //width: percentage($main-nav-percentage/100)
-        min-width: 360px
-    &:target + .page-wrap
-        //width: percentage((100-$main-nav-percentage)/100)
-        //left: 400px
-        margin-left: 360px
-        .open-menu
-            display: none
-        .close-menu
-            display: block
 
 .tweets
     background: $tertiary

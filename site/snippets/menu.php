@@ -1,18 +1,25 @@
-<nav class="main-nav" id="nav">
+<nav id="nav">
   <ul>
-    <li>
-        <a href="#close" class="close-menu">&#215;</a>
-    </li>
-    <?php foreach($site->children()->visible() as $p): ?>
+<!--     <?php foreach($site->children()->visible() as $p): ?>
         <li>
-            <a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a>
+            <a <?php e(page() == $p || (page() == "home" && $p == "blog"), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a>
         </li>
-
-    <?php endforeach ?>
-    <div class="button-wrap">
-      <a href="/blog/subscribe" class="button">Blog abonnieren?</a>
-    </div>
-    <a href="http://www.bloglovin.com/blog/4977721/?claim=2gxqf4984cs">Follow my blog with Bloglovin</a>
+    <?php endforeach ?> -->
+    <li>
+        <a <?php e(page() == "blog", ' class="active"') ?> href="/home">Blog</a>
+    </li>
+    <li>
+        <a <?php e((page() == "blog/tags"), ' class="active"') ?> href="/blog/tags/">Themen</a>
+    </li>
+    <li>
+        <a <?php e((page() == "blog/archiv"), ' class="active"') ?> href="/blog/archiv/">Archiv</a>
+    </li>
+    <li>
+        <a <?php e(page() == "about", ' class="active"') ?> href="/about">About</a>
+    </li>
+    <li>
+        <a <?php e((page() == "blog/subscribe"), ' class="active"') ?> href="/blog/subscribe">Blog abonnieren</a>
+    </li>
   </ul>
 
 </nav>

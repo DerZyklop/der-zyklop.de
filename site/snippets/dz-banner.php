@@ -1,8 +1,11 @@
-<div class="page-wrap bg-tertiary">
-  <div class="header" style="margin:2em auto">
-    <?php snippet('schemaorg_logo') ?>
-    <div class="claim">
-      <span><?= h($site->description()) ?></span>
+<div class="page-wrap dz-banner bg-tertiary">
+  <section>
+    <div class="header">
+      <?php snippet('schemaorg_logo') ?>
+      <div class="claim">
+        <span><?= h($site->description()) ?></span>
+      </div>
     </div>
-  </div>
+    <?php snippet('menu') ?>
+  </section>
 </div>

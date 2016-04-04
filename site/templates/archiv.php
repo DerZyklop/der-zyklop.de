@@ -37,8 +37,8 @@
 
    ?>
 
-    <h3>Das Archiv</h3>
-    <p>Hier findest du alle <?= $pages->find('blog')->children()->visible()->count() ?> Artikel, die ich jemals veröffentlicht habe, nach Datum sortiert. Falls dir das zu chaotisch ist, schau im <a href="<?= url('blog/tags') ?>">Schlagwort-Archiv</a>.</p>
+    <h2>Das Archiv</h2>
+    <p>Hier findest du alle <code><?= $pages->find('blog')->children()->filterBy('justforrss','')->visible()->count() ?></code> Artikel, die ich jemals veröffentlicht habe, nach <code>Datum</code> sortiert. <!-- Falls dir das zu chaotisch ist, schau im <a href="<?= url('blog/tags') ?>">Schlagwort-Archiv</a>. --></p>
 
     <ul id="articles">
       <?php foreach($articles as $article) : ?>
@@ -52,4 +52,7 @@
 
   </section>
 </div>
+</section>
+
+<?php #snippet('sec-author') ?>
 <?php snippet('footer') ?>

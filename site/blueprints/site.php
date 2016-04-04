@@ -12,6 +12,9 @@ fields:
   authordescription:
     label: Author
     type:  textarea
+  author:
+    label: Author
+    type:  textarea
   keywords:
     label: Keywords
     type:  tags

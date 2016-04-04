@@ -39,4 +39,7 @@
     </section>
   </div>
 
-  <?php snippet('footer') ?>
+</section>
+
+<?php snippet('sec-author') ?>
+<?php snippet('footer') ?>

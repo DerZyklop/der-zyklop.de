@@ -16,7 +16,7 @@
             <?php echo kirbytext($page->text()); ?>
           </div>
           <h6 style="text-align: right" class="entry-date">
-            <span><?php echo html($page->date('d').'·'.$page->date('m').'·'.$page->date('Y')) ?></span>
+            <span>Published on <?php echo html($page->date('d').'·'.$page->date('M').'·'.$page->date('Y')) ?></span>
           </h6>
         </div>
 
@@ -48,4 +48,7 @@
     </section>
   </div>
 
-  <?php snippet('footer') ?>
+</section>
+
+<?php snippet('sec-author') ?>
+<?php snippet('footer') ?>

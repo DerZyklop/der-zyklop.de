@@ -1,9 +1,12 @@
-<div class="page-wrap bg-tertiary">
-  <div class="header" style="margin:0.8em auto">
+<div class="page-wrap dz-banner-small bg-tertiary">
+  <section style="padding-top: 0.5em;padding-bottom: 0.5em;">
     <h1>
       <a href="<?= url() ?>">
-        <img src="<?= url('assets/images/dz.png'); ?>" alt="<?= h($site->title()) ?>" width="40px" />
+        <div class="arrow">&#8668;</div>
+        <div class="small-logo">
+          <img src="<?= url('assets/images/dz.png'); ?>" alt="<?= h($site->title()) ?>" width="40px" />
+        </div>
       </a>
     </h1>
-  </div>
+  </section>
 </div>
