@@ -1533,6 +1533,9 @@ iframe.twitter-tweet-rendered {
       .tagcloud li > a:hover .label {
         background: #ccc; }
 
+.author img {
+  border-radius: 200px; }
+
 footer {
   margin: 2em 0; }
 
