@@ -28,11 +28,9 @@
   <?php #snippet('options-bar') ?>
 
   <div class="comments bg-tertiary">
-    <?php snippet('comments.list') ?>
-    <?php #snippet('comments.add.form') ?>
-
     <?php if ($page->comments() != "1"): ?>
       <section>
+        <h6><span>Comments</span></h6>
         <?php commentForm(); ?>
         <?php comments(); ?>
       </section>
