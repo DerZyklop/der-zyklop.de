@@ -7,7 +7,9 @@
         ".sass-cache",
         "node_modules",
         "kirbycms",
-        "2014_backup"
+        "2014_backup",
+        "assets/styles",
+        "bower_components"
       ]
     }
   ]

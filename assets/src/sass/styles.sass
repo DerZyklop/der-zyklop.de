@@ -69,7 +69,7 @@ body
         background: $tertiary
     @media screen and (max-width: $page-width)
         padding: 0
-        .width-wrap
+        section
             margin-top: 0px
             margin-bottom: 0px
 
@@ -211,9 +211,6 @@ iframe.video
     @media screen and (max-width: $breakpoint)
         height: 400px
 
-section
-    padding: 1em 0
-
 #beispiel:target
     background: #fff
     border: 4px solid #aa0000
@@ -310,23 +307,23 @@ section
         opacity: 1
         color: #fff
 
-.header,
-.content,
-.width-wrap
+section
     max-width: $page-width
     position: relative
     margin:
         left: auto
         right: auto
-    padding:
-        left: $space-l-r
-        right: $space-l-r
+    padding: $space-t-b*2 $space-l-r
     img
         max-width: 100%
         margin: 0 auto
         border-radius: $radius
     @media screen and (max-width: $breakpoint)
         padding: $space-t-b/2 8%
+
+.header
+    padding: 0 $space-l-r
+
 
 @media screen and (max-width: $breakpoint)
     body
@@ -450,7 +447,7 @@ a span.result-counter
 $options-bar-space: 10px
 
 .options-bar
-    margin: $space-t-b 0
+    // margin: $space-t-b 0
     .right
         position: relative
         // &:before

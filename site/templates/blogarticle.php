@@ -20,22 +20,13 @@
           </h6>
         </div>
 
-        <?php if ($page->comments() != "1"): ?>
-
-          <footer>
-            <?php commentForm(); ?>
-            <?php comments(); ?>
-          </footer>
-
-        <?php endif ?>
-
       </article>
 
     </section>
 
   </div>
   <div class="bg-tertiary">
-    <section class="width-wrap">
+    <section>
       <?php snippet('options-bar') ?>
     </section>
   </div>
@@ -43,10 +34,19 @@
   <div class="comments bg-tertiary">
     <?php snippet('comments.list') ?>
     <?php #snippet('comments.add.form') ?>
+
+    <?php if ($page->comments() != "1"): ?>
+      <section>
+        <?php commentForm(); ?>
+        <?php comments(); ?>
+      </section>
+    <?php endif ?>
+
   </div>
 
+
   <div class="meta">
-    <section class="width-wrap">
+    <section>
       <?php snippet('article-suggestion') ?>
       <?php snippet('article-taglist') ?>
     </section>

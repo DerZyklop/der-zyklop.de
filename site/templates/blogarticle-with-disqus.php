@@ -27,13 +27,13 @@
   </div>
 
   <div class="comments bg-tertiary">
-    <section class="width-wrap">
+    <section>
       <?php snippet('disqus', array('disqus_shortname' => 'derzyklop', 'disqus_developer' => true)) ?>
     </section>
   </div>
 
   <div class="meta">
-    <section class="width-wrap">
+    <section>
       <?php snippet('article-suggestion') ?>
       <?php snippet('article-taglist') ?>
     </section>

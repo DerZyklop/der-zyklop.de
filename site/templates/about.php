@@ -22,7 +22,7 @@
   </div>
 
   <div class="meta">
-    <section class="width-wrap">
+    <section>
       <?php snippet('article-suggestion') ?>
       <?php snippet('article-taglist') ?>
     </section>
@@ -30,7 +30,7 @@
 
   </section>
 
-  <section class="width-wrap">
+  <section>
     <div class="right">
       <?php echo kirbytext($site->copyright()) ?>
     </div>
