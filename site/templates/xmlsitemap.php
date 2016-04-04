@@ -1,6 +1,6 @@
 <?php
 
-$ignore = array('sitemap', 'error', 'smart-submit');
+$ignore = array('sitemap', 'error');
 
 foreach ($pages->find('blog')->children()->invisible() as $value) {
   array_push($ignore, $value->uri());

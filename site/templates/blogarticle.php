@@ -25,11 +25,7 @@
     </section>
 
   </div>
-  <div class="bg-tertiary">
-    <section>
-      <?php snippet('options-bar') ?>
-    </section>
-  </div>
+  <?php #snippet('options-bar') ?>
 
   <div class="comments bg-tertiary">
     <?php snippet('comments.list') ?>
