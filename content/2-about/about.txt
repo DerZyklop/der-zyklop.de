@@ -8,6 +8,8 @@ Text:
 
 Ich bin gebürtiger Gießener und verbringe häufig Zeit in (link: http://der-zyklop.de/blog/derzyklop-ist-jetzt-mainzer text: Mainz), habe aber (link: http://der-zyklop.de/blog/tags/tag:nomad text: keinen festen Wohnsitz). Ich mache viel digitales und diese Webseite ist die Sammelstelle all dessen. Los gehts..
 
+(image: assets/images/500pxch2015tie_full.jpg title: Nils Neumann)
+
 ### Mein Internet-Kram 
 
 Artikel auf (link: http://der-zyklop.de/blog text: meinem Blog)

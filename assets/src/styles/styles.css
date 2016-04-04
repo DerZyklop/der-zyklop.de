@@ -925,12 +925,14 @@ pre[class*=language-] {
   pre[class*=language-] code {
     border: none; }
 
-figure figcaption {
-  font-weight: bold;
-  color: #4C3431;
-  text-align: center; }
-  .invert figure figcaption {
-    color: #dadada; }
+figure {
+  margin: 0 auto; }
+  figure figcaption {
+    font-weight: bold;
+    color: #4C3431;
+    text-align: center; }
+    .invert figure figcaption {
+      color: #dadada; }
 
 p img {
   margin-top: 0.5em; }
