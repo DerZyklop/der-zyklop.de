@@ -2,9 +2,9 @@
 
   <?php snippet('sec-author') ?>
 
-  <section class="width-wrap">
+  <section>
     <div class="right">
-      <?php echo kirbytext($site->copyright()) ?>
+      <?php echo kirbytextRaw($site->copyright()) ?>
     </div>
     <div class="clearit"></div>
   </section>
