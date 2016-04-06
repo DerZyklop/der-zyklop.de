@@ -809,8 +809,23 @@ iframe.twitter-tweet-rendered
                 .label
                     background: #ccc
 
-.author img
-    border-radius: 200px
+.author
+    .flex
+        margin: 0
+        display: flex
+        flex-direction: column
+        justify-content: flex-end
+        flex-flow: row wrap
+        align-items: center
+        > *
+            flex: 1
+            text-align: left
+        img
+            flex-grow: 0
+            flex-shrink: 1
+            flex-basis: auto
+            margin-right: 2em
+            border-radius: 200px
 
 footer
     margin: 2em 0
