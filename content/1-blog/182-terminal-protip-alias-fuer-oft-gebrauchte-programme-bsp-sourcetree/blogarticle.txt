@@ -1,4 +1,4 @@
-Title: Terminal Protip: Alias für oft gebrauchte Programme (Bsp: SourceTree)
+Title: Terminal Protip: Alias für oft genutzte Programme (Bsp: SourceTree)
 
 ----
 
