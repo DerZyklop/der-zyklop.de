@@ -1,0 +1,45 @@
+Title: Terminal Protip: Alias für oft gebrauchte Programme (Bsp: SourceTree)
+
+----
+
+Date: 2016-04-22
+
+----
+
+Justforrss: 
+
+----
+
+Targetgroup: small
+
+----
+
+Text: 
+
+Für diejenigen, die beim Programmieren das Terminal offen haben hier ein kleiner Tipp für gute aliasses. 
+
+Ich arbeite viel mit Git. Und wenn ich mal ein GUI dafür brauche, dann mache ich das im Git-Client (link: https://www.sourcetreeapp.com/ text: SourceTree). Ich habe mein Terminal gerade so eingerichtet, dass ich das Projekt in dem ich mich befinde in SourceTree öffnen kann. ...egal ob ich das in SourceTree jemals eingerichtet habe oder nicht. 
+
+Ich tippe in meinem Terminal nur 
+
+    sourceTree
+
+und das Programm zeigt mir den aktuellen stand meiner Branches und Commits und Merges etc.
+
+Um das so machen zu können muss man nur einen Shortcut für einen Commandline-Befehl einrichten. Also einen sogenannten `alias`. Wenn ihr Ordnung in euren Dotfiles habt, dann schreibt ihr die in die Datei `~/.aliases`. Wenn nicht, dann in `~/.bash_profile` oder `~/.profile`. Welche da richtig ist, findet ihr ganz einfach heraus indem ihr in die jeweiligen Dateien einfach mal ein `echo "Foo"` rein schreibt und schaut was passiert, wenn ihr ein neues Terminal-Fenster öffnet. Wenn ihr die Stelle gefunden habt wo der alias hin muss, dann schreibt das hier:
+
+    alias sourceTree="open -a SourceTree ./"
+
+Viel Spaß!
+
+----
+
+Tags: terminal,code,work,workflow,git
+
+----
+
+Language: deutsch
+
+----
+
+Comments: 
