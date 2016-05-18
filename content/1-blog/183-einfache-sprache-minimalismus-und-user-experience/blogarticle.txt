@@ -1,0 +1,106 @@
+Title: »Einfache Sprache«, Minimalismus und User Experience
+
+----
+
+Date: 2016-05-14
+
+----
+
+Justforrss: 
+
+----
+
+Text: 
+
+Dies ist ein Blogartikel über »Einfache Sprache«.
+Und über »Leichte Sprache«.
+Und über »User Experience«.
+Der Blogartikel ist in einfacher Sprache geschrieben.
+
+### Was ist »Einfache Sprache«?
+
+Wir sprechen normalerweise »Alltagssprache«.
+Einfache Sprache hat kürzere Sätze.
+Einfache Sprache hat eine Aussage pro Satz.
+Und wenn möglich keine Kommas.
+Und weniger Framdwörter. 
+Wenn Fremdwörter oder Abkürzungen verwendet werden, dann werden sie erklärt.
+Einfache Sprache hat i.d.R. maximal 15 Wörter pro Satz.
+i.d.R. steht für »in der Regel«.
+Das sind nur ein paar der Richtlinien für »Einfache Sprache«.
+Es gibt noch mehr.
+
+Einfache Sprache richtet sich vor allem an Menschen mit Leseschwierigkeiten.
+Zum Beispiel »funktionale Analphabeten« oder Menschen mit geringer Bildung.
+Etwa 7,5 Millionen Menschen in Deutschland gelten als »funktionale Analphabeten«.
+Diese Menschen können einzelne
+Wörter und Buchstaben lesen und schreiben.
+Sie können aber keine zusammenhängenden Texte lesen und schreiben.
+Weitere 13,3 Millionen Menschen haben große Schwierigkeiten mit dem Lesen und Schreiben. 
+Also wendet »Einfache Sprache« sich an 21 Millionen Deutsche.
+
+Darunter fallen Menschen mit einer Leseschwäche aufgrund fehlender Bildung.
+Oder Menschen mit Legasthenie.
+Und Menschen mit Sozialer Beeinträchtigung.
+Oder Ältere Menschen deren Lesefähigkeit abgenommen hat.
+(link: https://twitter.com/niklas_jordan/status/732507626114809856 text: Und auch an diejenigen die noch nicht lange in Deutschland leben.)
+
+Auch ich habe Legasthenie.
+Ist aber nicht mehr so ausgeprägt.
+In der Schule hatte ich damit viele Probleme.
+
+Barrierefreiheit ist eine wichtige Voraussetzung für Inklusion.
+Inklusion ist die gleichberechtigte Teilhabe aller Menschen an der Gesellschaft.
+
+### Leichte Sprache
+
+Neben der »Einfachen Sprache« gibt es auch »Leichte Sprache«.
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck" style="margin: 0 auto"><p lang="de" dir="ltr"><a href="https://twitter.com/DerZyklop">@derzyklop</a> Leichte Sprache ist nicht Einfache Sprache. Infos von <a href="https://twitter.com/aktion_mensch">@aktion_mensch</a>  <a href="https://t.co/e5ULErJXSL">https://t.co/e5ULErJXSL</a> /cc <a href="https://twitter.com/zwitscherjoe">@zwitscherjoe</a> <a href="https://twitter.com/goldgraeberin">@goldgraeberin</a></p>— Daniel Wiegand (@wiegimania) <a href="https://twitter.com/wiegimania/status/731397033710526464">May 14, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<style> .twitter-tweet {margin-left: auto;margin-right: auto;}</style>
+
+Der Begriff Leichte Sprache kommt aus der Behindertenselbsthilfe.
+Manche Menschen können fast gar nicht lesen.
+An die wendet sich »Leichte Sprache«.
+Die Satzlänge ist beschränkt auf acht Wörter.
+Leichte Sprache verwendet kein Passiv.
+Auch kein Genitiv.
+Und kein Konjunktiv.
+
+### Leichte Sprache im Netz
+
+(file: aktionmensch_faktenblatt_einfachesprache_050213-3.pdf text: Die Arbeiter-Wohlfahrt hat eine ganze Webseite in »Leichter Sprache«.)
+Ich finde das toll.
+
+Wer etwas mehr über Einfache und Leichte Sprache wissen will, ließt (link: https://www.aktion-mensch.de/presse/div/download.php?id=96 text: dieses Dokument von »Aktion Mensch«).
+Ich höre jetzt auf in einfacher Sprache zu schreiben.
+Das Folgende richtet sich nur an 60 Millionen Menschen in Deutschland ;)
+
+### UX im Konjunktiv
+
+Was wäre wenn? Man stelle sich mal vor, das ganze Internet sähe so aus. Zugegeben, die einfache und leichte Sprache ließt sich für mich holprig. Aber ich habe es auch genossen. 
+
+Einfache Sprache ist Reduktion auf das Wesentliche. **Einfache Sprache ist Minimalismus.**
+
+Okay. Zugegeben. Wenn man sich über Unterschiede der gängigen Model-View-Controller-Artigen JavaScript-Frameworks unterhalten möchte, ist leichte Sprache unangemessen. Wenn man eine märchenhafte Geschichte erzählen möchte, dann passt sie auch nicht. Aber wenn ich mich darüber informieren will, welches Smartphone das richtige für mich ist... wäre es da nicht toll, wenn die Marketing-Strategen und Werbe-Texter zu Freunden der Inklusion werden würden?
+
+Beispiel: Mir war wirklich nicht klar was die AWO so macht. Ich habe meine Antwort erhalten. Ohne umschweife. Ohne »aufgehübschte« Texte.
+
+**Ich bin begeistert von dieser User Experience!**
+
+----
+
+Tags: minimalism,ux
+
+----
+
+Language: deutsch
+
+----
+
+Comments: 
+
+----
+
+Targetgroup: big
