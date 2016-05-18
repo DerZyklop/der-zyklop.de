@@ -26,6 +26,8 @@ Ich tippe in meinem Terminal nur
 
 und das Programm zeigt mir den aktuellen stand meiner Branches und Commits und Merges etc.
 
+(image: screen-shot-2016-04-22-at-13.20.48.png)
+
 Um das so machen zu können muss man nur einen Shortcut für einen Commandline-Befehl einrichten. Also einen sogenannten `alias`. Wenn ihr Ordnung in euren Dotfiles habt, dann schreibt ihr die in die Datei `~/.aliases`. Wenn nicht, dann in `~/.bash_profile` oder `~/.profile`. Welche da richtig ist, findet ihr ganz einfach heraus indem ihr in die jeweiligen Dateien einfach mal ein `echo "Foo"` rein schreibt und schaut was passiert, wenn ihr ein neues Terminal-Fenster öffnet. Wenn ihr die Stelle gefunden habt wo der alias hin muss, dann schreibt das hier:
 
     alias sourceTree="open -a SourceTree ./"
