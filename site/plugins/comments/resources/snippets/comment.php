@@ -1,5 +1,4 @@
 <article class="comment comment--<?php echo $comment->id(); ?>">
-
   <div class="comment-meta">
 
     <div class="comment-author vcard">

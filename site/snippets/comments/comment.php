@@ -1,5 +1,4 @@
 <article class="comment comment--<?php echo $comment->id(); ?>">
-
   <div class="comment-meta">
 
     <time datetime="<?php echo $comment->date('c'); ?>">
@@ -13,9 +12,16 @@
     <div class="comment-author vcard">
       <?php echo $comment->gravatar(); ?>
       <h5>
-        <a href="mailto:<?php echo $comment->authorEmail()->obfuscate(); ?>" class="fn">
+
+        <?php if ($comment->authorUrl()): ?>
+          <a href="<?php echo $comment->authorUrl()->obfuscate(); ?>" class="fn">
+        <?php endif ?>
+<!--         <a href="mailto:<?php echo $comment->authorEmail()->obfuscate(); ?>" class="fn"> -->
           <?php echo $comment->author(); ?>
-        </a>
+<!--         </a> -->
+        <?php if ($comment->authorUrl()): ?>
+          </a>
+        <?php endif ?>
       </h5>
     </div>
 

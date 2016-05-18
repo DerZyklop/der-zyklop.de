@@ -45,7 +45,6 @@ $groups = array(
     <div class="modal-content modal-content-wide">
 
       <form class="form comment-form" method="post" action="<?php echo url('api/pages'); ?>/{{hash}}/comments/{{comment.id}}" data-method="put">
-
         <h2 class="hgroup hgroup-single-line hgroup-compressed cf">
           <span class="hgroup-title">
             <?php _l('comment.singular', 'Comment'); ?> (ID: {{comment.id}})
