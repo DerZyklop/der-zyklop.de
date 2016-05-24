@@ -8,18 +8,15 @@
         </span>
       </h6>
     </time>
-
     <div class="comment-author vcard">
       <?php echo $comment->gravatar(); ?>
       <h5>
 
-        <?php if ($comment->authorUrl()): ?>
+        <?php if (strlen($comment->authorUrl())): ?>
           <a href="<?php echo $comment->authorUrl()->obfuscate(); ?>" class="fn">
         <?php endif ?>
-<!--         <a href="mailto:<?php echo $comment->authorEmail()->obfuscate(); ?>" class="fn"> -->
           <?php echo $comment->author(); ?>
-<!--         </a> -->
-        <?php if ($comment->authorUrl()): ?>
+        <?php if (strlen($comment->authorUrl())): ?>
           </a>
         <?php endif ?>
       </h5>
