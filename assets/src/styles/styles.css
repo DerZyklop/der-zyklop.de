@@ -626,9 +626,6 @@ pre[data-line] {
 * {
   box-sizing: border-box; }
 
-:focus {
-  outline: 0; }
-
 ::-moz-selection {
   background: #358e9b;
   color: #fcfcfc; }
