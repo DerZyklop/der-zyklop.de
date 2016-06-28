@@ -33,15 +33,13 @@ RewriteEngine on
 #
 RewriteBase /
 
-RewriteCond %{HTTP_HOST} !^www. [NC]
-RewriteRule ^(.*) http://www.%{HTTP_HOST}/$1 [R=301,L]
+# Remove www.
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1%{REQUEST_URI} [R=301,QSA,NC,L]
 
-#RewriteCond %{HTTP_HOST} !^www\. [NC]
-#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [L,R=301]
-
-
-#RewriteCond %{HTTP_HOST} !^www\.der-zyklop\.de$
-#RewriteRule ^(.*)$ http://www.der-zyklop.de/$1 [L,R=301]
+# Add www.
+#RewriteCond %{HTTP_HOST} !^www. [NC]
+#RewriteRule ^(.*) http://www.%{HTTP_HOST}/$1 [R=301,L]
 
 # block text files in the content folder from being accessed directly
 RewriteRule ^content/(.*)\.(txt|md|mdown)$ error [R=301,L]
