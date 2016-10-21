@@ -2508,12 +2508,7 @@ if (script) {
 	_.filename = script.src;
 
 	if (document.addEventListener && !script.hasAttribute('data-manual')) {
-		if(document.readyState !== "loading") {
-			requestAnimationFrame(_.highlightAll, 0);
-		}
-		else {
-			document.addEventListener('DOMContentLoaded', _.highlightAll);
-		}
+		document.addEventListener('DOMContentLoaded', _.highlightAll);
 	}
 }
 
@@ -2690,7 +2685,7 @@ Prism.languages.insertBefore('javascript', 'keyword', {
 	}
 });
 
-Prism.languages.insertBefore('javascript', 'string', {
+Prism.languages.insertBefore('javascript', 'class-name', {
 	'template-string': {
 		pattern: /`(?:\\\\|\\?[^\\])*?`/,
 		greedy: true,
