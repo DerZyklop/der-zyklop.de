@@ -9,7 +9,6 @@ tweetnest/
 thumbs/
 
 site/cache/
-site/config/config.php
 .sass-cache
 
 bower_components/
