@@ -68,6 +68,9 @@ Thats it. Type the following into your command line and see whats happening.
 
 ### How to set up a cronjob for your VPN reconnect script
 
+<div class="edit" id="edit1"><h6><span>EDIT 10.2016</span></h6>
+<p>As Anon pointed out: There seems to be a GUI-way to do this. If you prefer command line then just continue. If you prefer a GUI, check his link in the comments.</p></div>
+
 Just backup your current cronjob-file:
 
     cp /etc/crontab /root/crontab.bak
@@ -78,7 +81,7 @@ open your active cronjob file
 
 hit `a` to edit your file. Add a new line to it with this: 
 
-    */5	*	*	*	*	root	/usr/openVPNreconnect
+    */5 *   *   *   *   root    /usr/openVPNreconnect
 
 Now hit ESC, type `:wq`, hit ENTER, and restart your cron-deamon by using this command:
 
