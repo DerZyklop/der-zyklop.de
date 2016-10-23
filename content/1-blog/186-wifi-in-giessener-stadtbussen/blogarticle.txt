@@ -1,0 +1,44 @@
+Title: WiFi in Gießener Stadtbussen
+
+----
+
+Date: 2016-10-20
+
+----
+
+Justforrss: 
+
+----
+
+Text: 
+
+Gerade erreichte mich dieser (link: http://m.giessener-allgemeine.de/rubriken/ressorts/lokales/giessen_Artikel,-Test-auf-drei-Linien-Gratis-WLAN-im-Stadtbus-_arid,674769.html text: Zeitungsartikel). Da seht, dass die ersten Giessener Stadtbusse mit WiFi versehen werden. Super! Das dürfte dann auch weniger Strahlung bedeuten, wenn die Geräte nicht mehr alle versuchen umliegende Masten aus einer großen sich bewegenden Metallkiste heraus anzufunken. Nur das mit der Anonymisierung auf den Smartphones — das muss besser werden. Denn wenn ich mein Gerät so nutze wie es mir verkauft wird, weiß der Stadtbus-Betreiber auch gleich wieder wann ich wo bin. Geht ihn das was an? Nope.
+
+Den Text bis hier schrieb ich in Linie 5 – ohne WiFi. Schade, dass keiner meiner Busse im Artikel gelistet ist ...dachte ich, stieg in Linie 1 ein und siehe da: WiFi Plakat!
+
+(image: img_0213.png)
+
+Also gleich mal rein und dann gedacht: Wie konnte ich überhaupt auf die Idee kommen, dass wenn jemand **kostenlos** sagt auch **kostenlos** gemeint ist. Das alte Lied – ich zahle ganz offensichtlich mit Daten. Ich gebe in das hässliche Formular, das sich im Fullscreen auf meinen Bildschirm drängt meine standard Fake-Email-Adresse ein und bin anschließend um so enttäuschter, denn ich muss erkennen, dass man nicht nur nach der Adresse fragt, sondern auch gleich die Echtheit überprüft. Wozu? Technisch gesehen gibt es zumindest keinen Grund. Und aus Marketing-Sicht? Die meisten Menschen, die mich umgeben sehen es als Hürde an sich irgendwo einen Account anzulegen. Da muss schon ein gesteigertes Markencommitment vorliegen.
+
+(image: img_0214.png)
+
+Hach.. wär das schön? Internet für alle? Einfach weil‘s Grundrecht ist, fast nix kostet und unheimlich viel bewegt? Aber da sind wir heute noch nicht. Das baucht noch Zeit, weil.. ..eh... 
+weil... 
+
+ah.. hier muss ich raus.  👋
+
+----
+
+Tags: freifunk,gießen,alltagstechnik
+
+----
+
+Language: deutsch
+
+----
+
+Comments: 
+
+----
+
+Targetgroup: big
