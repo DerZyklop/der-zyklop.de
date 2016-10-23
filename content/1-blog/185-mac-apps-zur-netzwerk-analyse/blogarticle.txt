@@ -1,0 +1,51 @@
+Title: Mac Apps zur Netzwerk Analyse
+
+----
+
+Date: 2016-09-17
+
+----
+
+Justforrss: 
+
+----
+
+Targetgroup: small
+
+----
+
+Text: 
+
+Kleine Blogartikel sind besser als keine Blogartikel, richtig? Gut. 
+
+Ich lebe mittlerweile in einem wunderschönen Wohnprojekt. Jeder kennt sich und die Gemeinschaft der Bewohner verwaltet das Haus. Wenn Interesse besteht, erzähle ich ich gerne mal was es mit dem Projekt auf sich hat. Bis dahin drücke ich es in Nerd-Sprache so aus: 
+
+Es gibt ein einziges Gateway für ~10 im Haus verteilte Access-Points.
+
+Und da gibt es immer mal Probleme. Mal kommt einer nicht in‘s Netz, bei dem anderen ist manchmal für ein paar Minuten der Router garnicht mehr connected und hier und da überschneiden sich Kanäle. Ich tappte im dunkeln. Und was macht der Material-Minimalist wenn er Lösungen für Probleme sucht? Er geht am sonnigen Nachmittag erstmal Software shoppen. Dabei habe ich folgende Goldstücke gefunden:
+
+[NetworkRadar](https://witt-software.com/networkradar/)
+
+Hiermit kann man sehen welche Geräte sich alle im eigenen Netzwerk befinden, welche IP‘s die Geräte haben und vor allem welche Ports dort offen sind. Das was Network Radar auf dem Mac sehr schön mac ht, das macht [Fing](https://itunes.apple.com/de/app/fing-network-scanner/id430921107?mt=8) auf iOS (und Android)
+
+[WiFi Explorer](https://www.adriangranados.com/apps/wifi-explorer)
+
+Hiermit kann man sehen was sich sonst noch für Netzwerke in der Umgebung befinden und welche Frequenzen/Kanäle genutzt werden oder sich ungünstig überlagern.
+
+Und zu guter letzt eine furchtbar teure aber auch sehr aufschlussreiche Software zum erstellen von Heatmaps für‘s WiFi: 
+
+(image: netspot-2-trouble-snr.jpg)
+
+[NetSpot](https://www.netspotapp.com/)
+
+----
+
+Tags: network
+
+----
+
+Language: deutsch
+
+----
+
+Comments: 

@@ -6,9 +6,9 @@ Text:
 
 ## Hi, ich bin Nils.
 
-Ich bin gebürtiger Gießener und verbringe häufig Zeit in (link: http://der-zyklop.de/blog/derzyklop-ist-jetzt-mainzer text: Mainz), habe aber (link: http://der-zyklop.de/blog/tags/tag:nomad text: keinen festen Wohnsitz). Ich mache viel digitales und diese Webseite ist die Sammelstelle all dessen. Los gehts..
-
 (image: assets/images/500pxch2015tie_full.jpg title: Nils Neumann)
+
+Ich bin gebürtiger Gießener, lebte u.a. in (link: http://der-zyklop.de/blog/derzyklop-ist-jetzt-mainzer text: Mainz), und auch mal (link: http://der-zyklop.de/blog/tags/tag:nomad text: keinen festen Wohnsitz). Bin wieder zurück in meiner Heimat. Ich mache viel digitales und diese Webseite ist die Sammelstelle all dessen. Los gehts..
 
 ### Mein Internet-Kram 
 
@@ -27,7 +27,7 @@ Immer noch nicht genug info? Na gut... Dann weiter...
 
 ### Mein Job
 
-Geld verdiene ich hauptsächlich als UI/UX-Designer. D.h. ich sorge dafür, dass (link: http://portfolio.pxwrk.de/ text: Webseiten und Apps) gut aussehen, intuitiv zu bedienen sind und aus sauberem, soliden (link: https://github.com/DerZyklop text: Code) gebaut sind.
+Geld verdiene ich hauptsächlich als UI/UX-Designer. D.h. ich sorge dafür, dass (link: http://portfolio.pxwrk.de/ text: Webseiten und Apps) intuitiv zu bedienen sind und aus sauberem, soliden (link: https://github.com/DerZyklop text: Code) gebaut sind.
 
 (image: escher-asciiart.jpg class: addshadow alt: M. C. Escher - Asciiart by DerZyklop title: M. C. Escher - Asciiart by DerZyklop)
 
