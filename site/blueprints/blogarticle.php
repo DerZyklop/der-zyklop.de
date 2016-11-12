@@ -51,4 +51,4 @@ fields:
     default: deutsch
   comments:
     label: Comments
-    type: comments
+    type: checkbox
