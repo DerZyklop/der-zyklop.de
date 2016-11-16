@@ -50,5 +50,5 @@ fields:
       english: English
     default: deutsch
   comments:
-    label: Comments
+    label: Comments disabled
     type: checkbox
