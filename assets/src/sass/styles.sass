@@ -150,7 +150,11 @@ hr
     background: #fff
     margin: $space-t-b*1.5 0
     position: relative
+    .invert &
+        background: $tertiary
     &:after
+        .invert &
+            background: $tertiary
         content: '✂'
         position: absolute
         left: 50%
@@ -390,6 +394,8 @@ a span.result-counter
             .invert &
                 background: $quadrary
             //background: $tertiary url('../images/pattern/dark/px_by_Gre3g.png')
+
+
 
 .flattr-wrap
     margin: 6px
