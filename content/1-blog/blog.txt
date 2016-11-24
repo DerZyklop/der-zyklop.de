@@ -1,6 +1,9 @@
-Title: Blog
+Title: Blog von Nils Neumann
+
 ----
+
 Author: <a href="/about" class="autorlink">Autor: DerZyklop | UX-Designer</a>
+
 ----
-AuthorDescription: Pixelworker, Digital Native und Nachdenker
-----
+
+Authordescription: Pixelworker, Digital Native und Nachdenker
