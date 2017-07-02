@@ -1,0 +1,110 @@
+Title: Best self hosted open source filesharing apps
+
+----
+
+Date: 2016-11-16
+
+----
+
+Justforrss: 0
+
+----
+
+Targetgroup: small
+
+----
+
+Text: 
+
+I searched for self hosted filesharing solutions. I wanted a quick way for me and my workmates to generate sharable, optionally password protected download links for files no matter if its `*.zip`, `*.jpg`, `*.apk` or whatever. We need this when we send large files to our clients like high quality photos, new versions of our apps, layout/design stuff etc.
+
+I already have an awesome app for my personal, not work related files, but its not self-hosted and not free or open source. With the [CloudApp](https://www.getcloudapp.com) i see a little cloud in my task bar.
+
+(image: owncloud.png)
+
+I can throw any file on it, and voila... there is a link in my clipboard.
+
+(image: owncloud-uploaded.png)
+
+(twitter: @mkuehnel) showed me [this link](https://github.com/Kickball/awesome-selfhosted#single-clickdrag-n-drop-upload). I took a look at all listed solutions plus the current OwnCloud version. Here is my personal top 3 list of the open source and self hosted file sharing apps.
+
+---
+
+## Linx
+
+Demo: <https://linx.li>
+Website: <https://github.com/andreimarcu/linx-server>
+
+##### Pro
+
+- Drag‘n‘Drop in browser
+- Generated Torrent link
+- Commandline Uploads possible (`curl -T foo.zip https://linx.li/upload/`)
+
+##### Contra
+
+- No password protected links
+- No temporarily available links
+- No overview UI of uploaded files
+- Browser only / no Drag‘n‘Drop on OSX task bar
+- It looks crappy (but it shouldn't be too hard to fix this)
+- No links for shared folders / multiple files
+
+---
+
+## Nimbus
+
+Demo: –
+Website: <https://github.com/ethanal/Nimbus>
+
+##### Pro
+
+- OSX App / Drag‘n‘Drop on OSX task bar (looks and works like CloudApp)
+- Nice UI
+- Backend-Login with file overview
+
+##### Contra
+
+- No password protected links
+- No temporarily available links
+- No links for shared folders / multiple files
+
+---
+
+## OwnCloud
+
+Demo: <http://demo.owncloud.org>
+Website: <https://owncloud.org>
+
+##### Pro
+
+- Drag‘n‘Drop in browser
+- Somewhat nice UI
+- Links for shared folders / multiple files
+- Password protected links 
+- Temporary available links
+- Backend-Login with file overview
+
+##### Contra
+
+- No Drag‘n‘Drop on OSX app (but synced folder like DropBox)
+- Does a lot of other stuff that i don't need (Calendar, Contacts, File-Sync, Media Player etc.)
+
+---
+
+## My decision
+
+I will set up a OwnCloud instance on my server for this. If you know any other good apps to solve this, please let me know!   
+Thanks! ✌
+
+----
+
+Tags: opensource,code,work,workflow,automation
+
+----
+
+Language: english
+
+----
+
+Comments: 0
