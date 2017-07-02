@@ -6,8 +6,7 @@
 
     <?php
       $blog = $pages->find('blog');
-      $articles = $blog->children()->filterBy('justforrss','')->visible()->flip();
-
+      $articles = $blog->children()->filterBy('justforrss','in',['','0'])->visible()->flip();
     ?>
       <?php #var_dump(blogError()); ?>
 
@@ -19,7 +18,6 @@
     </script>
 
     <section>
-
         <?php $articles = $articles->paginate(6); ?>
         <div id="articles">
           <?php foreach($articles as $article) : ?>
