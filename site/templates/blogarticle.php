@@ -27,16 +27,16 @@
   </div>
   <?php #snippet('options-bar') ?>
 
-  <div class="comments bg-tertiary">
-    <?php if ($page->comments() != "1"): ?>
+  <!-- <div class="comments bg-tertiary">
+    <?php #if ($page->comments() != "1"): ?>
       <section>
         <h6><span>Comments</span></h6>
-        <?php commentForm(); ?>
-        <?php comments(); ?>
+        <?php #commentForm(); ?>
+        <?php #comments(); ?>
       </section>
-    <?php endif ?>
+    <?php #endif ?>
 
-  </div>
+  </div> -->
 
 
   <div class="meta">
