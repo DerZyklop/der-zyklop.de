@@ -18,7 +18,7 @@ Keywords: DerZyklop,Nils Neumann,kirby cms,weltretten,user experience
 
 ----
 
-Copyright: (link: impressum/ text: Impressum & Lizenz)
+Copyright: (link: impressum/ text: Impressum | Lizenz | Datenschutzerklärung)
 
 ----
 
