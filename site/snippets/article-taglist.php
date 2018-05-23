@@ -1,14 +1,14 @@
-<?php
+<!-- <?php
   $taglist = taglist($page->tags(), url('blog/tags'));
 
   $blog = $pages->find('blog');
 
   $tagcloud = tagcloud($blog, array(
-      'limit'=>50,
-      'field'=>'tags',
-      'param' => 'tag',
-      'baseurl'=>url('blog/tags')
-    ) );
+    'limit'=>50,
+    'field'=>'tags',
+    'param' => 'tag',
+    'baseurl'=>url('blog/tags')
+  ) );
 
   foreach ($taglist as $tag) {
     if ($tagcloud->contains($tag->name())) {
@@ -29,4 +29,4 @@
       <?php endif; ?>
     <?php endforeach ?>
   </ul>
-</div>
+</div> -->
