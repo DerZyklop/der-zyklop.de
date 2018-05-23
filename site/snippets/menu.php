@@ -8,9 +8,9 @@
     <li>
         <a <?php e(page() == "blog", ' class="active"') ?> href="/home">Blog</a>
     </li>
-    <li>
+    <!-- <li>
         <a <?php e((page() == "blog/tags"), ' class="active"') ?> href="/blog/tags/">Themen</a>
-    </li>
+    </li> -->
     <li>
         <a <?php e((page() == "blog/archiv"), ' class="active"') ?> href="/blog/archiv/">Archiv</a>
     </li>
@@ -23,5 +23,3 @@
   </ul>
 
 </nav>
-
-

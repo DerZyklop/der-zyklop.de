@@ -4,7 +4,7 @@
     'field'=>'tags',
     'param' => 'tag',
     'baseurl'=>url('blog/tags')
-  ) );
+  ) )->toArray();
 ?>
 
 <ul class="tagcloud">
