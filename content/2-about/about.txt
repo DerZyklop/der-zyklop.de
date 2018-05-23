@@ -4,7 +4,7 @@ Title: About
 
 Text: 
 
-## Hi, ich bin Nils.
+## Hi, ich bin Nils ✌
 
 (image: assets/images/500pxch2015tie_full.jpg title: Nils Neumann)
 
@@ -16,11 +16,12 @@ Artikel auf (link: http://der-zyklop.de/blog text: meinem Blog)
 Fotos auf (link: https://500px.com/derzyklop text: 500px)
 Videos auf (link: https://www.youtube.com/channel/UCQIOOb1bQ9Q655Tu3b3N0Iw text: YouTube)
 Code auf (link: https://github.com/DerZyklop text: GitHub)
+Code-Fragen und Antworten auf (link: http://stackoverflow.com/story/derzyklop text: Stack Overflow)
 Design auf (link: https://dribbble.com/derzyklop text: Dribbble)
 Schnickschnack auf (link: http://www.twitter.com/DerZyklop text: Twitter)
 Podcasts auf (link: http://heizdeckenradio.pxwrk.de/ text: HeizdeckenRadio)
 DJ-Mixes auf (link: http://mixcloud.com/derzyklop text: MixCloud)
-Briefe per (email: mail@der-zyklop.de text: Email) [(link: https://gist.github.com/DerZyklop/60cfc7259934037a2bf9 text: PGP-Key)]
+Briefe per **hallo@der-zyklop.de** [(link: https://gist.github.com/DerZyklop/60cfc7259934037a2bf9 text: PGP-Key)]
 Hab ich was vergessen? ...dann sag.
 
 Immer noch nicht genug info? Na gut... Dann weiter... 

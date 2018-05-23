@@ -6,7 +6,7 @@ Date: 2015-01-27
 
 ----
 
-Justforrss: 
+Justforrss: 0
 
 ----
 
@@ -38,8 +38,12 @@ Wie siehts aus? Interessiert euch das? Fasziniert euch das? Macht ihr das auch? 
 
 ----
 
-Tags: cultofless,blog,possession,minimalism
+Tags: minimalism,blog
 
 ----
 
 Language: deutsch
+
+----
+
+Comments: 0

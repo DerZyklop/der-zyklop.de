@@ -6,7 +6,7 @@ Date: 2015-02-02
 
 ----
 
-Justforrss: 
+Justforrss: 0
 
 ----
 
@@ -26,8 +26,12 @@ Ich fange nochmal mit Meditation an. Es ist ein guter Zeitpunkt.
 
 ----
 
-Tags: cultofless,minimalism,simplelife
+Tags: minimalism
 
 ----
 
 Language: deutsch
+
+----
+
+Comments: 0

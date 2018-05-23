@@ -1,0 +1,46 @@
+Title: Verschlüsselte Zip-Datei erstellen (OSX, Command line / Terminal)
+
+----
+
+Date: 2016-11-26
+
+----
+
+Justforrss: 0
+
+----
+
+Targetgroup: small
+
+----
+
+Text: 
+
+Manchmal muss man Dinge verschlüsseln bevor man sie z.B. durch DropBox synchronisieren lässt oder per Email durch‘s Internet sendet. Vor allem bei letzterem brauche ich eine Lösung, die der Empfänger versteht und entschlüsseln kann auch wenn‘s kein Nerd ist. Ich erstelle in dem Falle eine verschlüsselte Zip-Datei. Wenn der Empfänger die öffnen will sieht das so aus: 
+
+(image: geheim_zip.png)
+
+Das geht so: Ich öffne die app Terminal, tippe folgendes rein:
+
+      zip --encrypt [name der zip datei].zip [dateien die rein sollen]
+
+Das sieht im Terminal dann z.B. so aus:
+
+(image: geheim_zip_terminal.png)
+
+Dort gebe ich das gewünschte Passwort an und das wars.
+
+Anschließend kann ich z.B. die erstellte Zip-Datei per Email versenden und auf einem Anderen Kommunikationsweg wie z.B. SMS mitteilen: 
+> Das Passwort ist der Name des Buches von dem ich dir gestern erzählt hab.
+
+----
+
+Tags: verschlüsselung,terminal,commandline
+
+----
+
+Language: deutsch
+
+----
+
+Comments: 0

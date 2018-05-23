@@ -1,13 +1,15 @@
 Title: Contact
+
 ----
-Text:
+
+Text: 
 
 #### Verantwortlicher im Sinne von irgend nem Gesetz
 
 Nils Neumann
 Holzweg 11
 35447 Reiskirchen<br />
-(email: mail@der-zyklop.de text: mail@der-zyklop.de )
+**hallo[at]der-zyklop.de**
 (link: https://gist.github.com/DerZyklop/60cfc7259934037a2bf9 text: PGP-Key)
 
 #### Lizenz für alle Inhalte
@@ -26,5 +28,3 @@ Diese Webseite basiert auf dem CMS (link: http://getkirby.com/ text: Kirby).
 ---
 
 (image: uberspace.png alt: der-zyklop.de is hosted on asteroids title: der-zyklop.de is hosted on asteroids link: https://uberspace.de/)
-
-
