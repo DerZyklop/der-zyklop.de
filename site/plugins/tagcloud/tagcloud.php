@@ -1,8 +1,12 @@
 <?php
 
-function tagcloud($parent, $options=array()) {
-
-  global $site;
+/**
+ * Tagcloud plugin
+ *
+ * @author Bastian Allgeier <bastian@getkirby.com>
+ * @version 2.0.0
+ */
+function tagcloud($parent, $options = array()) {
 
   // default values
   $defaults = array(
@@ -30,33 +34,27 @@ function tagcloud($parent, $options=array()) {
       break;
   }
 
+  $tags  = $children->pluck($options['field'], ',');
+  $tags  = array_count_values($tags);
   $cloud = array();
+  $ds    = DS == '/' ? ':' : ';';
 
-  foreach($children as $p) {
+  foreach($tags as $tag => $count) {
 
-    $tags = str::split($p->$options['field']());
-
-    foreach($tags as $t) {
-
-      if(isset($cloud[$t])) {
-        $cloud[$t]['results']++;
-      } else {
-        $cloud[$t] = array(
-          'results'  => 1,
-          'name'     => $t,
-          'url'      => $options['baseurl'] . '/' . $options['param'] . ':' . $t,
-          'isActive' => (param($options['param']) == $t) ? true : false,
-        );
-      }
-
-    }
+    $cloud[$tag] = new Obj(array(
+      'results'  => $count,
+      'name'     => $tag,
+      'url'      => $options['baseurl'] . '/' . $options['param'] . $ds . urlencode($tag),
+      'isActive' => urldecode(param($options['param'])) == $tag
+    ));
 
   }
 
-  $cloud = a::sort($cloud, $options['sort'], $options['sortdir']);
+  $cloud = new Collection($cloud);
+  $cloud = $cloud->sortBy($options['sort'], $options['sortdir']);
 
   if($options['limit']) {
-    $cloud = array_slice($cloud, 0, $options['limit']);
+    $cloud = $cloud->limit($options['limit']);
   }
 
   return $cloud;

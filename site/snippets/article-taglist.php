@@ -11,7 +11,7 @@
     ) );
 
   foreach ($taglist as $tag) {
-    if (isset($tagcloud[$tag->name()])) {
+    if ($tagcloud->contains($tag->name())) {
       $taglist[$tag->name()]->results = $tagcloud[$tag->name()]['results'];
     } else {
       $taglist[$tag->name()]->results = 1;
