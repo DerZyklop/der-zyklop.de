@@ -1,7 +1,5 @@
-# Kirby .htaccess
-
-
-
+# Kirby .htaccess for Projects by DerZyklop
+# Source: https://gist.github.com/DerZyklop/609d1e0245c798ceccec7c7fba660041
 
 # Deflate Compression by MimeType
 <IfModule mod_deflate.c>
@@ -11,9 +9,6 @@
   SetOutputFilter DEFLATE
  </FilesMatch>
 </IfModule>
-
-
-
 
 # rewrite rules
 <IfModule mod_rewrite.c>
@@ -33,15 +28,17 @@ RewriteEngine on
 #
 RewriteBase /
 
+# Redirect to https
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L]
+
+# Remove www.
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1%{REQUEST_URI} [R=301,QSA,NC,L]
+
+# Add www.
 #RewriteCond %{HTTP_HOST} !^www. [NC]
 #RewriteRule ^(.*) http://www.%{HTTP_HOST}/$1 [R=301,L]
-
-#RewriteCond %{HTTP_HOST} !^www\. [NC]
-#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [L,R=301]
-
-
-#RewriteCond %{HTTP_HOST} !^www\.der-zyklop\.de$
-#RewriteRule ^(.*)$ http://www.der-zyklop.de/$1 [L,R=301]
 
 # block text files in the content folder from being accessed directly
 RewriteRule ^content/(.*)\.(txt|md|mdown)$ error [R=301,L]
@@ -52,34 +49,6 @@ RewriteRule ^site/(.*) error [R=301,L]
 # block all files in the kirby folder from being accessed directly
 RewriteRule ^kirby/(.*) error [R=301,L]
 
-
-
-# 404-Fixes
-#RewriteCond %{REQUEST_FILENAME} !-f
-#RewriteCond %{REQUEST_URI} !example.php
-#RewriteCond %{REQUEST_URI} !(.*)/$
-#RewriteRule ^(.*)$ $1/ [L,R=301]
-
-RewriteRule ^bilder/(.*) photos/$1 [R=301,L]
-
-RewriteRule ^cultofless/(.*) pxwrk/tags/tag:cultofless/$1 [R=301,L]
-RewriteRule ^cult-of-less/(.*) pxwrk/tags/tag:cultofless/$1 [R=301,L]
-RewriteRule ^cult-of-less/warum-das-ganze/(.*) pxwrk/tags/tag:cultofless/$1 [R=301,L]
-
-RewriteRule ^kontakt/(.*) about/$1 [R=301,L]
-
-RewriteRule ^main/kontakt/(.*) about/$1 [R=301,L]
-RewriteRule ^main/musik/(.*) musik/$1 [R=301,L]
-RewriteRule ^main/pxwrk/instragram/(.*) snapshots/$1 [R=301,L]
-RewriteRule ^main/cult-of-less/(.*) pxwrk/tags/tag:cultofless/$1 [R=301,L]
-
-RewriteRule ^blog/facebook-hat-meinen-account-gesperrt$ blog/facebook-hat-meinen-account-gesperrt-nils-kladderadatsch/ [R=301,L]
-
-# Diese Regel ist super wichtig! Weil früher hieß der Blog "pxwrk"
-RewriteRule ^pxwrk/(.*) blog/$1 [R=301,L]
-
-
-
 # make panel links work
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -89,6 +58,29 @@ RewriteRule ^panel/(.*) panel/index.php [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*) index.php [L]
+
+
+
+# 404-Fixes
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_URI} !example.php
+#RewriteCond %{REQUEST_URI} !(.*)/$
+#RewriteRule ^(.*)$ $1/ [L,R=301]
+
+RewriteRule ^bilder/(.*) photos/$1 [R=301,L]
+RewriteRule ^cultofless/(.*) pxwrk/tags/tag:cultofless/$1 [R=301,L]
+RewriteRule ^cult-of-less/(.*) pxwrk/tags/tag:cultofless/$1 [R=301,L]
+RewriteRule ^cult-of-less/warum-das-ganze/(.*) pxwrk/tags/tag:cultofless/$1 [R=301,L]
+RewriteRule ^kontakt/(.*) about/$1 [R=301,L]
+RewriteRule ^main/kontakt/(.*) about/$1 [R=301,L]
+RewriteRule ^main/musik/(.*) musik/$1 [R=301,L]
+RewriteRule ^main/pxwrk/instragram/(.*) snapshots/$1 [R=301,L]
+RewriteRule ^main/cult-of-less/(.*) pxwrk/tags/tag:cultofless/$1 [R=301,L]
+RewriteRule ^blog/facebook-hat-meinen-account-gesperrt$ blog/facebook-hat-meinen-account-gesperrt-nils-kladderadatsch/ [R=301,L]
+
+# Diese Regel ist super wichtig! Weil früher hieß der Blog "pxwrk"
+RewriteRule ^pxwrk/(.*) blog/$1 [R=301,L]
+
 
 
 </IfModule>
